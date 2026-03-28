@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 950" style="background:#fafafa">
+  <text x="350" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Panel Exploded View — 1.0 m × 2.5 m</text>
+  <text x="350" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Components separated vertically · Numbers correspond to assembly order</text>
+
+  <!-- Layer 1: T-bar Frame -->
+  <g transform="translate(200, 60)">
+    <rect x="0" y="0" width="160" height="100" fill="none" stroke="#c0392b" stroke-width="3" rx="1"/>
+    <rect x="0" y="0" width="160" height="4" fill="#c0392b" opacity="0.7"/>
+    <rect x="0" y="96" width="160" height="4" fill="#c0392b" opacity="0.7"/>
+    <rect x="0" y="0" width="4" height="100" fill="#c0392b" opacity="0.7"/>
+    <rect x="156" y="0" width="4" height="100" fill="#c0392b" opacity="0.7"/>
+    <circle cx="-18" cy="50" r="12" fill="#c0392b" opacity="0.15" stroke="#c0392b" stroke-width="1"/>
+    <text x="-18" y="54" text-anchor="middle" font-size="11" fill="#c0392b" font-weight="bold" font-family="Helvetica,Arial,sans-serif">1</text>
+    <text x="180" y="50" font-size="9" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">T-bar frame</text>
+    <text x="180" y="62" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">30×30×3 mm galvanized steel</text>
+  </g>
+
+  <!-- Connecting lines -->
+  <line x1="280" y1="165" x2="280" y2="175" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 2: HDPE Blocks -->
+  <g transform="translate(200, 180)">
+    <rect x="4" y="0" width="152" height="10" fill="#4a90a8" opacity="0.4" stroke="#2a7088" stroke-width="1" rx="2"/>
+    <rect x="4" y="30" width="152" height="10" fill="#4a90a8" opacity="0.4" stroke="#2a7088" stroke-width="1" rx="2"/>
+    <!-- Notches -->
+    <rect x="4" y="0" width="6" height="6" fill="#fafafa" stroke="#2a7088" stroke-width="0.5"/>
+    <rect x="150" y="0" width="6" height="6" fill="#fafafa" stroke="#2a7088" stroke-width="0.5"/>
+    <rect x="4" y="34" width="6" height="6" fill="#fafafa" stroke="#2a7088" stroke-width="0.5"/>
+    <rect x="150" y="34" width="6" height="6" fill="#fafafa" stroke="#2a7088" stroke-width="0.5"/>
+    <circle cx="-18" cy="20" r="12" fill="#4a90a8" opacity="0.15" stroke="#4a90a8" stroke-width="1"/>
+    <text x="-18" y="24" text-anchor="middle" font-size="11" fill="#4a90a8" font-weight="bold" font-family="Helvetica,Arial,sans-serif">2</text>
+    <text x="180" y="15" font-size="9" fill="#4a90a8" font-family="Helvetica,Arial,sans-serif">HDPE spacer blocks</text>
+    <text x="180" y="27" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">30×30 mm, corner notches for diagonals</text>
+  </g>
+
+  <line x1="280" y1="225" x2="280" y2="235" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 3: Vertical Bamboo Strips -->
+  <g transform="translate(200, 240)">
+    <g fill="#8B5A2B" opacity="0.5">
+      <rect x="15" y="0" width="4" height="95"/>
+      <rect x="27" y="0" width="4" height="95"/>
+      <rect x="39" y="0" width="4" height="95"/>
+      <rect x="51" y="0" width="4" height="95"/>
+      <rect x="63" y="0" width="4" height="95"/>
+      <rect x="75" y="0" width="4" height="95"/>
+      <rect x="87" y="0" width="4" height="95"/>
+      <rect x="99" y="0" width="4" height="95"/>
+      <rect x="111" y="0" width="4" height="95"/>
+      <rect x="123" y="0" width="4" height="95"/>
+      <rect x="135" y="0" width="4" height="95"/>
+      <rect x="147" y="0" width="4" height="95"/>
+    </g>
+    <circle cx="-18" cy="48" r="12" fill="#8B5A2B" opacity="0.15" stroke="#8B5A2B" stroke-width="1"/>
+    <text x="-18" y="52" text-anchor="middle" font-size="11" fill="#8B5A2B" font-weight="bold" font-family="Helvetica,Arial,sans-serif">3</text>
+    <text x="180" y="40" font-size="9" fill="#8B5A2B" font-family="Helvetica,Arial,sans-serif">Bamboo vertical strips</text>
+    <text x="180" y="52" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">~20 mm wide, gaps for mortar</text>
+    <text x="180" y="63" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">~27 per side, both sides</text>
+  </g>
+
+  <line x1="280" y1="340" x2="280" y2="350" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 4: Diagonal Bamboo -->
+  <g transform="translate(200, 355)">
+    <line x1="4" y1="90" x2="156" y2="5" stroke="#8B5A2B" stroke-width="4" opacity="0.7"/>
+    <line x1="4" y1="5" x2="156" y2="90" stroke="#8B5A2B" stroke-width="4" opacity="0.3" stroke-dasharray="6,3"/>
+    <circle cx="-18" cy="48" r="12" fill="#8B5A2B" opacity="0.15" stroke="#8B5A2B" stroke-width="1"/>
+    <text x="-18" y="52" text-anchor="middle" font-size="11" fill="#8B5A2B" font-weight="bold" font-family="Helvetica,Arial,sans-serif">4</text>
+    <text x="180" y="40" font-size="9" fill="#8B5A2B" font-family="Helvetica,Arial,sans-serif">Diagonal bracing</text>
+    <text x="180" y="52" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">1 per side, opposing corners = X</text>
+    <text x="180" y="63" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Solid = front · Dashed = rear</text>
+  </g>
+
+  <line x1="280" y1="450" x2="280" y2="460" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 5: Wire Ties -->
+  <g transform="translate(200, 465)">
+    <circle cx="30" cy="15" r="3" fill="none" stroke="#888" stroke-width="1.5"/>
+    <circle cx="55" cy="25" r="3" fill="none" stroke="#888" stroke-width="1.5"/>
+    <circle cx="80" cy="35" r="3" fill="none" stroke="#888" stroke-width="1.5"/>
+    <circle cx="105" cy="45" r="3" fill="none" stroke="#888" stroke-width="1.5"/>
+    <circle cx="130" cy="55" r="3" fill="none" stroke="#888" stroke-width="1.5"/>
+    <circle cx="-18" cy="30" r="12" fill="#888" opacity="0.15" stroke="#888" stroke-width="1"/>
+    <text x="-18" y="34" text-anchor="middle" font-size="11" fill="#888" font-weight="bold" font-family="Helvetica,Arial,sans-serif">5</text>
+    <text x="180" y="30" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Wire ties</text>
+    <text x="180" y="42" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">At every diagonal-vertical crossing</text>
+  </g>
+
+  <line x1="280" y1="530" x2="280" y2="540" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 6: Clamping Strips -->
+  <g transform="translate(200, 545)">
+    <rect x="4" y="0" width="152" height="3" fill="#555" stroke="#333" stroke-width="0.5"/>
+    <rect x="4" y="25" width="152" height="3" fill="#555" stroke="#333" stroke-width="0.5"/>
+    <!-- Screw dots -->
+    <g fill="#333">
+      <circle cx="20" cy="1" r="2"/><circle cx="40" cy="1" r="2"/><circle cx="60" cy="1" r="2"/>
+      <circle cx="80" cy="1" r="2"/><circle cx="100" cy="1" r="2"/><circle cx="120" cy="1" r="2"/>
+      <circle cx="140" cy="1" r="2"/>
+    </g>
+    <circle cx="-18" cy="14" r="12" fill="#555" opacity="0.15" stroke="#555" stroke-width="1"/>
+    <text x="-18" y="18" text-anchor="middle" font-size="11" fill="#555" font-weight="bold" font-family="Helvetica,Arial,sans-serif">6</text>
+    <text x="180" y="10" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">Clamping strips + screws</text>
+    <text x="180" y="22" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">2 mm steel, screw every 100 mm</text>
+  </g>
+
+  <line x1="280" y1="580" x2="280" y2="590" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 7: PVC Conduit + Cables -->
+  <g transform="translate(200, 595)">
+    <line x1="10" y1="10" x2="10" y2="50" stroke="#ccc" stroke-width="4"/>
+    <line x1="150" y1="10" x2="150" y2="50" stroke="#ccc" stroke-width="4"/>
+    <line x1="10" y1="10" x2="10" y2="50" stroke="#d4a017" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <line x1="150" y1="10" x2="150" y2="50" stroke="#2980b9" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <circle cx="-18" cy="30" r="12" fill="#ccc" opacity="0.25" stroke="#888" stroke-width="1"/>
+    <text x="-18" y="34" text-anchor="middle" font-size="11" fill="#666" font-weight="bold" font-family="Helvetica,Arial,sans-serif">7</text>
+    <text x="180" y="25" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">PVC conduit + cables</text>
+    <text x="180" y="37" font-size="7" fill="#d4a017" font-family="Helvetica,Arial,sans-serif">12V lighting (gold)</text>
+    <text x="180" y="48" font-size="7" fill="#2980b9" font-family="Helvetica,Arial,sans-serif">120V mains (blue)</text>
+  </g>
+
+  <line x1="280" y1="655" x2="280" y2="665" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 8: Chicken Wire Mesh -->
+  <g transform="translate(200, 670)">
+    <rect x="0" y="0" width="160" height="50" fill="none" stroke="#888" stroke-width="0.5"/>
+    <!-- Hex mesh pattern -->
+    <g stroke="#888" stroke-width="0.3" fill="none">
+      <path d="M10,10 L18,5 L26,10 L26,20 L18,25 L10,20Z"/>
+      <path d="M26,10 L34,5 L42,10 L42,20 L34,25 L26,20Z"/>
+      <path d="M42,10 L50,5 L58,10 L58,20 L50,25 L42,20Z"/>
+      <path d="M58,10 L66,5 L74,10 L74,20 L66,25 L58,20Z"/>
+      <path d="M74,10 L82,5 L90,10 L90,20 L82,25 L74,20Z"/>
+      <path d="M90,10 L98,5 L106,10 L106,20 L98,25 L90,20Z"/>
+      <path d="M106,10 L114,5 L122,10 L122,20 L114,25 L106,20Z"/>
+      <path d="M122,10 L130,5 L138,10 L138,20 L130,25 L122,20Z"/>
+      <path d="M18,25 L26,20 L34,25 L34,35 L26,40 L18,35Z"/>
+      <path d="M34,25 L42,20 L50,25 L50,35 L42,40 L34,35Z"/>
+      <path d="M50,25 L58,20 L66,25 L66,35 L58,40 L50,35Z"/>
+      <path d="M66,25 L74,20 L82,25 L82,35 L74,40 L66,35Z"/>
+      <path d="M82,25 L90,20 L98,25 L98,35 L90,40 L82,35Z"/>
+      <path d="M98,25 L106,20 L114,25 L114,35 L106,40 L98,35Z"/>
+      <path d="M114,25 L122,20 L130,25 L130,35 L122,40 L114,35Z"/>
+      <path d="M130,25 L138,20 L146,25 L146,35 L138,40 L130,35Z"/>
+    </g>
+    <circle cx="-18" cy="25" r="12" fill="#888" opacity="0.1" stroke="#888" stroke-width="1"/>
+    <text x="-18" y="29" text-anchor="middle" font-size="11" fill="#888" font-weight="bold" font-family="Helvetica,Arial,sans-serif">8</text>
+    <text x="180" y="20" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Chicken wire mesh</text>
+    <text x="180" y="32" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Galvanized hex, both faces</text>
+  </g>
+
+  <line x1="280" y1="725" x2="280" y2="735" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 9: Mortar -->
+  <g transform="translate(200, 740)">
+    <rect x="0" y="0" width="160" height="55" fill="#d4c4a8" opacity="0.4" stroke="#bbb" stroke-width="1" rx="1"/>
+    <circle cx="-18" cy="28" r="12" fill="#d4c4a8" opacity="0.3" stroke="#bbb" stroke-width="1"/>
+    <text x="-18" y="32" text-anchor="middle" font-size="11" fill="#999" font-weight="bold" font-family="Helvetica,Arial,sans-serif">9</text>
+    <text x="180" y="20" font-size="9" fill="#999" font-family="Helvetica,Arial,sans-serif">Cement mortar</text>
+    <text x="180" y="32" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">1:4 cement:sand + pozzolan</text>
+    <text x="180" y="43" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Vibration table pour, ~85 mm total</text>
+  </g>
+
+  <line x1="280" y1="800" x2="280" y2="810" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 10: Lime Plaster + Wash -->
+  <g transform="translate(200, 815)">
+    <rect x="0" y="0" width="160" height="50" fill="#f5f0e0" stroke="#ddd" stroke-width="1" rx="1"/>
+    <text x="80" y="30" text-anchor="middle" font-size="8" fill="#aaa" font-family="Helvetica,Arial,sans-serif">hand-troweled surface</text>
+    <circle cx="-18" cy="25" r="12" fill="#f5f0e0" stroke="#ddd" stroke-width="1"/>
+    <text x="-18" y="29" text-anchor="middle" font-size="11" fill="#aaa" font-weight="bold" font-family="Helvetica,Arial,sans-serif">10</text>
+    <text x="180" y="20" font-size="9" fill="#aaa" font-family="Helvetica,Arial,sans-serif">Lime plaster + wash</text>
+    <text x="180" y="32" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">3–5 mm, applied on-site</text>
+    <text x="180" y="43" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Breathable, antifungal, self-healing</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(50, 890)" font-family="Helvetica,Arial,sans-serif">
+    <rect x="0" y="0" width="600" height="45" fill="white" stroke="#ddd" stroke-width="0.5" rx="4"/>
+    <text x="300" y="14" text-anchor="middle" font-size="8" fill="#555" font-weight="bold">Color Key</text>
+    <rect x="15" y="22" width="12" height="8" fill="#c0392b" opacity="0.7"/><text x="32" y="29" font-size="7" fill="#555">Steel</text>
+    <rect x="75" y="22" width="12" height="8" fill="#4a90a8" opacity="0.4"/><text x="92" y="29" font-size="7" fill="#555">HDPE</text>
+    <rect x="135" y="22" width="12" height="8" fill="#8B5A2B" opacity="0.5"/><text x="152" y="29" font-size="7" fill="#555">Bamboo</text>
+    <rect x="210" y="22" width="12" height="8" fill="#555" opacity="0.7"/><text x="227" y="29" font-size="7" fill="#555">Clamps</text>
+    <rect x="285" y="22" width="12" height="8" fill="#ccc"/><text x="302" y="29" font-size="7" fill="#555">Conduit</text>
+    <rect x="360" y="22" width="12" height="8" fill="#888" opacity="0.3"/><text x="377" y="29" font-size="7" fill="#555">Wire/Mesh</text>
+    <rect x="445" y="22" width="12" height="8" fill="#d4c4a8" opacity="0.5"/><text x="462" y="29" font-size="7" fill="#555">Mortar</text>
+    <rect x="520" y="22" width="12" height="8" fill="#f5f0e0" stroke="#ddd" stroke-width="0.5"/><text x="537" y="29" font-size="7" fill="#555">Plaster</text>
+  </g>
+</svg>

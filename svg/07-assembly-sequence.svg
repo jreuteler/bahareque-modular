@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" style="background:#fafafa">
+  <text x="350" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Assembly Sequence</text>
+  <text x="350" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">4 production stages · Each panel follows the same process</text>
+
+  <!-- Stage 1: Empty Frame -->
+  <g transform="translate(30, 55)">
+    <rect x="10" y="10" width="100" height="200" fill="none" stroke="#c0392b" stroke-width="2.5" rx="1"/>
+    <text x="60" y="6" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">1</text>
+    <text x="60" y="228" text-anchor="middle" font-size="7" fill="#555" font-family="Helvetica,Arial,sans-serif">Frame</text>
+    <text x="60" y="240" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">T-bar welded + galvanized</text>
+    <text x="60" y="250" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">Holes drilled</text>
+  </g>
+
+  <!-- Arrow -->
+  <g transform="translate(150, 150)">
+    <line x1="0" y1="0" x2="25" y2="0" stroke="#aaa" stroke-width="1.5"/>
+    <polygon points="25,-4 33,0 25,4" fill="#aaa"/>
+  </g>
+
+  <!-- Stage 2: Frame + Bamboo + Diagonals -->
+  <g transform="translate(195, 55)">
+    <rect x="10" y="10" width="100" height="200" fill="none" stroke="#c0392b" stroke-width="2.5" rx="1"/>
+    <!-- HDPE blocks -->
+    <rect x="12" y="12" width="96" height="8" fill="#4a90a8" opacity="0.3"/>
+    <rect x="12" y="200" width="96" height="8" fill="#4a90a8" opacity="0.3"/>
+    <!-- Vertical strips -->
+    <g fill="#8B5A2B" opacity="0.4">
+      <rect x="22" y="20" width="3" height="188"/>
+      <rect x="33" y="20" width="3" height="188"/>
+      <rect x="44" y="20" width="3" height="188"/>
+      <rect x="55" y="20" width="3" height="188"/>
+      <rect x="66" y="20" width="3" height="188"/>
+      <rect x="77" y="20" width="3" height="188"/>
+      <rect x="88" y="20" width="3" height="188"/>
+      <rect x="99" y="20" width="3" height="188"/>
+    </g>
+    <!-- Diagonal -->
+    <line x1="13" y1="207" x2="107" y2="13" stroke="#8B5A2B" stroke-width="2.5" opacity="0.6"/>
+    <!-- Clamping strip -->
+    <rect x="12" y="15" width="96" height="2" fill="#555" opacity="0.5"/>
+    <rect x="12" y="202" width="96" height="2" fill="#555" opacity="0.5"/>
+    <text x="60" y="6" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">2</text>
+    <text x="60" y="228" text-anchor="middle" font-size="7" fill="#555" font-family="Helvetica,Arial,sans-serif">Infill</text>
+    <text x="60" y="240" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">Bamboo + diagonals</text>
+    <text x="60" y="250" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">Clamped + wired</text>
+    <text x="60" y="260" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">Cables in conduit</text>
+  </g>
+
+  <!-- Arrow -->
+  <g transform="translate(315, 150)">
+    <line x1="0" y1="0" x2="25" y2="0" stroke="#aaa" stroke-width="1.5"/>
+    <polygon points="25,-4 33,0 25,4" fill="#aaa"/>
+  </g>
+
+  <!-- Stage 3: Mesh + Ready for mortar -->
+  <g transform="translate(360, 55)">
+    <rect x="10" y="10" width="100" height="200" fill="#888" opacity="0.06" stroke="#c0392b" stroke-width="2.5" rx="1"/>
+    <!-- Hex mesh pattern overlay -->
+    <g stroke="#888" stroke-width="0.3" fill="none" opacity="0.4">
+      <path d="M20,30 L28,25 L36,30 L36,40 L28,45 L20,40Z"/>
+      <path d="M36,30 L44,25 L52,30 L52,40 L44,45 L36,40Z"/>
+      <path d="M52,30 L60,25 L68,30 L68,40 L60,45 L52,40Z"/>
+      <path d="M68,30 L76,25 L84,30 L84,40 L76,45 L68,40Z"/>
+      <path d="M84,30 L92,25 L100,30 L100,40 L92,45 L84,40Z"/>
+      <path d="M28,45 L36,40 L44,45 L44,55 L36,60 L28,55Z"/>
+      <path d="M44,45 L52,40 L60,45 L60,55 L52,60 L44,55Z"/>
+      <path d="M60,45 L68,40 L76,45 L76,55 L68,60 L60,55Z"/>
+      <path d="M76,45 L84,40 L92,45 L92,55 L84,60 L76,55Z"/>
+      <path d="M20,60 L28,55 L36,60 L36,70 L28,75 L20,70Z"/>
+      <path d="M36,60 L44,55 L52,60 L52,70 L44,75 L36,70Z"/>
+      <path d="M52,60 L60,55 L68,60 L68,70 L60,75 L52,70Z"/>
+      <path d="M68,60 L76,55 L84,60 L84,70 L76,75 L68,70Z"/>
+      <path d="M84,60 L92,55 L100,60 L100,70 L92,75 L84,70Z"/>
+    </g>
+    <text x="60" y="6" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">3</text>
+    <text x="60" y="228" text-anchor="middle" font-size="7" fill="#555" font-family="Helvetica,Arial,sans-serif">Mesh</text>
+    <text x="60" y="240" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">Chicken wire both sides</text>
+    <text x="60" y="250" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">(+ optional Al mesh)</text>
+    <text x="60" y="260" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">Ready for mortar</text>
+  </g>
+
+  <!-- Arrow -->
+  <g transform="translate(480, 150)">
+    <line x1="0" y1="0" x2="25" y2="0" stroke="#aaa" stroke-width="1.5"/>
+    <polygon points="25,-4 33,0 25,4" fill="#aaa"/>
+  </g>
+
+  <!-- Stage 4: Finished panel -->
+  <g transform="translate(525, 55)">
+    <rect x="10" y="10" width="100" height="200" fill="#f5f0e0" stroke="#ddd" stroke-width="1.5" rx="2"/>
+    <!-- Subtle mortar texture -->
+    <rect x="10" y="10" width="100" height="200" fill="#d4c4a8" opacity="0.15" rx="2"/>
+    <text x="60" y="115" text-anchor="middle" font-size="7" fill="#bbb" font-family="Helvetica,Arial,sans-serif">lime plaster</text>
+    <text x="60" y="127" text-anchor="middle" font-size="7" fill="#bbb" font-family="Helvetica,Arial,sans-serif">surface</text>
+    <text x="60" y="6" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">4</text>
+    <text x="60" y="228" text-anchor="middle" font-size="7" fill="#555" font-family="Helvetica,Arial,sans-serif">Finished</text>
+    <text x="60" y="240" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">Mortar poured + cured</text>
+    <text x="60" y="250" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">Lime plaster + wash</text>
+    <text x="60" y="260" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">~155 kg, ready to install</text>
+  </g>
+
+  <!-- Timeline -->
+  <g transform="translate(30, 290)" font-family="Helvetica,Arial,sans-serif">
+    <rect x="0" y="0" width="640" height="35" fill="white" stroke="#ddd" stroke-width="0.5" rx="4"/>
+    <text x="320" y="13" text-anchor="middle" font-size="8" fill="#333" font-weight="bold">Production time per panel</text>
+    <text x="60" y="27" text-anchor="middle" font-size="7" fill="#888">Frame: workshop</text>
+    <text x="225" y="27" text-anchor="middle" font-size="7" fill="#888">Infill: ~15 min</text>
+    <text x="390" y="27" text-anchor="middle" font-size="7" fill="#888">Mesh: ~5 min</text>
+    <text x="555" y="27" text-anchor="middle" font-size="7" fill="#888">Mortar + cure: 7 days</text>
+  </g>
+</svg>

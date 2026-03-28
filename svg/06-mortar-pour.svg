@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" style="background:#fafafa">
+  <text x="350" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Mortar Pour — Vibration Table Method</text>
+  <text x="350" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Side view · Panel face-down on sand bed · Mortar poured from above</text>
+
+  <!-- Vibration table platform -->
+  <rect x="80" y="260" width="540" height="15" fill="#666" stroke="#444" stroke-width="1.5" rx="2"/>
+
+  <!-- Table legs -->
+  <rect x="100" y="275" width="15" height="60" fill="#888" stroke="#666" stroke-width="1"/>
+  <rect x="590" y="275" width="15" height="60" fill="#888" stroke="#666" stroke-width="1"/>
+  <rect x="340" y="275" width="15" height="60" fill="#888" stroke="#666" stroke-width="1"/>
+
+  <!-- Vibration motor -->
+  <ellipse cx="350" cy="288" rx="25" ry="10" fill="#555" stroke="#333" stroke-width="1"/>
+  <text x="350" y="292" text-anchor="middle" font-size="6" fill="#ddd" font-family="Helvetica,Arial,sans-serif">MOTOR</text>
+
+  <!-- Vibration waves -->
+  <g stroke="#888" stroke-width="0.8" fill="none" opacity="0.5">
+    <path d="M120,310 Q140,305 160,310 Q180,315 200,310"/>
+    <path d="M220,310 Q240,305 260,310 Q280,315 300,310"/>
+    <path d="M400,310 Q420,305 440,310 Q460,315 480,310"/>
+    <path d="M500,310 Q520,305 540,310 Q560,315 580,310"/>
+  </g>
+  <text x="350" y="325" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">vibration eliminates voids</text>
+
+  <!-- Sand bed -->
+  <rect x="100" y="240" width="500" height="20" fill="#e8d8a0" opacity="0.6" stroke="#c8b880" stroke-width="0.5"/>
+  <text x="350" y="253" text-anchor="middle" font-size="7" fill="#a89060" font-family="Helvetica,Arial,sans-serif">Sand bed (~30 mm) — conforms to panel face</text>
+
+  <!-- Panel lying face-down -->
+  <!-- Frame outline -->
+  <rect x="120" y="140" width="460" height="100" fill="none" stroke="#c0392b" stroke-width="2"/>
+
+  <!-- Chicken wire (face down, touching sand) -->
+  <rect x="120" y="230" width="460" height="8" fill="#888" opacity="0.15"/>
+  <g stroke="#888" stroke-width="0.3" opacity="0.3">
+    <line x1="140" y1="232" x2="148" y2="237"/><line x1="148" y1="232" x2="140" y2="237"/>
+    <line x1="160" y1="232" x2="168" y2="237"/><line x1="168" y1="232" x2="160" y2="237"/>
+    <line x1="180" y1="232" x2="188" y2="237"/><line x1="188" y1="232" x2="180" y2="237"/>
+    <line x1="200" y1="232" x2="208" y2="237"/><line x1="208" y1="232" x2="200" y2="237"/>
+    <line x1="220" y1="232" x2="228" y2="237"/><line x1="228" y1="232" x2="220" y2="237"/>
+    <line x1="450" y1="232" x2="458" y2="237"/><line x1="458" y1="232" x2="450" y2="237"/>
+    <line x1="470" y1="232" x2="478" y2="237"/><line x1="478" y1="232" x2="470" y2="237"/>
+    <line x1="490" y1="232" x2="498" y2="237"/><line x1="498" y1="232" x2="490" y2="237"/>
+    <line x1="510" y1="232" x2="518" y2="237"/><line x1="518" y1="232" x2="510" y2="237"/>
+    <line x1="530" y1="232" x2="538" y2="237"/><line x1="538" y1="232" x2="530" y2="237"/>
+  </g>
+
+  <!-- Bamboo strips (cross-section, vertical orientation visible as lines) -->
+  <g stroke="#8B5A2B" stroke-width="2" opacity="0.5">
+    <line x1="150" y1="155" x2="150" y2="225"/>
+    <line x1="170" y1="155" x2="170" y2="225"/>
+    <line x1="190" y1="155" x2="190" y2="225"/>
+    <line x1="210" y1="155" x2="210" y2="225"/>
+    <line x1="230" y1="155" x2="230" y2="225"/>
+    <line x1="250" y1="155" x2="250" y2="225"/>
+    <line x1="270" y1="155" x2="270" y2="225"/>
+    <line x1="290" y1="155" x2="290" y2="225"/>
+    <line x1="310" y1="155" x2="310" y2="225"/>
+    <line x1="330" y1="155" x2="330" y2="225"/>
+    <line x1="350" y1="155" x2="350" y2="225"/>
+    <line x1="370" y1="155" x2="370" y2="225"/>
+    <line x1="390" y1="155" x2="390" y2="225"/>
+    <line x1="410" y1="155" x2="410" y2="225"/>
+    <line x1="430" y1="155" x2="430" y2="225"/>
+    <line x1="450" y1="155" x2="450" y2="225"/>
+    <line x1="470" y1="155" x2="470" y2="225"/>
+    <line x1="490" y1="155" x2="490" y2="225"/>
+    <line x1="510" y1="155" x2="510" y2="225"/>
+    <line x1="530" y1="155" x2="530" y2="225"/>
+    <line x1="550" y1="155" x2="550" y2="225"/>
+  </g>
+
+  <!-- T-bar web (horizontal line in cross-section) -->
+  <line x1="120" y1="190" x2="580" y2="190" stroke="#c0392b" stroke-width="2" opacity="0.6"/>
+
+  <!-- Mortar already poured (filling the back) -->
+  <rect x="122" y="142" width="456" height="48" fill="#d4c4a8" opacity="0.35"/>
+  <text x="350" y="170" text-anchor="middle" font-size="8" fill="#999" font-family="Helvetica,Arial,sans-serif">mortar fills from above...</text>
+
+  <!-- Mortar flowing through gaps -->
+  <g fill="#d4c4a8" opacity="0.2">
+    <rect x="155" y="190" width="10" height="40"/>
+    <rect x="195" y="190" width="10" height="40"/>
+    <rect x="235" y="190" width="10" height="40"/>
+    <rect x="275" y="190" width="10" height="40"/>
+    <rect x="315" y="190" width="10" height="40"/>
+    <rect x="355" y="190" width="10" height="40"/>
+    <rect x="395" y="190" width="10" height="40"/>
+    <rect x="435" y="190" width="10" height="40"/>
+    <rect x="475" y="190" width="10" height="40"/>
+    <rect x="515" y="190" width="10" height="40"/>
+  </g>
+
+  <!-- Mortar pour from above -->
+  <g fill="#d4c4a8" opacity="0.6">
+    <rect x="300" y="70" width="40" height="72" rx="3"/>
+    <rect x="380" y="85" width="40" height="57" rx="3"/>
+  </g>
+  <text x="340" y="65" text-anchor="middle" font-size="8" fill="#999" font-family="Helvetica,Arial,sans-serif">pour mortar</text>
+
+  <!-- Flow arrows -->
+  <g stroke="#999" stroke-width="1" fill="none">
+    <path d="M320,142 L320,165 Q320,175 310,185 L300,195" marker-end="url(#arrowhead)"/>
+    <path d="M400,142 L400,165 Q400,175 410,185 L420,195" marker-end="url(#arrowhead)"/>
+  </g>
+  <text x="350" y="210" text-anchor="middle" font-size="7" fill="#999" font-family="Helvetica,Arial,sans-serif">...flows through gaps between strips</text>
+
+  <!-- Annotations -->
+  <g font-family="Helvetica,Arial,sans-serif">
+    <line x1="580" y1="190" x2="630" y2="170" stroke="#c0392b" stroke-width="0.5"/>
+    <text x="635" y="168" font-size="7" fill="#c0392b">T-bar web</text>
+
+    <line x1="580" y1="235" x2="630" y2="235" stroke="#888" stroke-width="0.5"/>
+    <text x="635" y="238" font-size="7" fill="#888">chicken wire</text>
+    <text x="635" y="248" font-size="6" fill="#888">(face down)</text>
+
+    <line x1="600" y1="250" x2="630" y2="255" stroke="#a89060" stroke-width="0.5"/>
+    <text x="635" y="258" font-size="7" fill="#a89060">sand bed</text>
+
+    <line x1="620" y1="268" x2="640" y2="268" stroke="#666" stroke-width="0.5"/>
+    <text x="645" y="271" font-size="7" fill="#666">table</text>
+  </g>
+
+  <!-- Key advantages -->
+  <rect x="80" y="350" width="540" height="55" fill="#e8f0e6" stroke="#2d5a27" stroke-width="0.5" rx="4"/>
+  <g font-size="8" fill="#555" font-family="Helvetica,Arial,sans-serif">
+    <text x="100" y="368" font-weight="bold" fill="#333">Why vibration table on sand bed:</text>
+    <text x="100" y="382">• Gravity + vibration = complete fill, zero voids</text>
+    <text x="100" y="394">• Sand conforms to panel — no mold needed</text>
+    <text x="380" y="382">• No spray equipment (cheaper)</text>
+    <text x="380" y="394">• One-sided pour fills both sides</text>
+  </g>
+</svg>

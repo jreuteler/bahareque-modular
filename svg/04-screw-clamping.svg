@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" style="background:#fafafa">
+  <text x="300" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Screw-Clamping System</text>
+  <text x="300" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Cross-section looking down at 1 m width · bamboo strips clamped between web and steel strip</text>
+
+  <!-- Center of T-bar web at x=280 -->
+
+  <!-- FLANGE (mortar face) -->
+  <rect x="235" y="70" width="90" height="10" fill="#c0392b" stroke="#911" stroke-width="1"/>
+  <text x="280" y="62" text-anchor="middle" font-size="8" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">Flange (30 mm) — mortar face</text>
+
+  <!-- WEB with drilled holes -->
+  <rect x="276" y="80" width="9" height="180" fill="#c0392b" stroke="#911" stroke-width="1"/>
+  <!-- Drill holes -->
+  <circle cx="280" cy="110" r="4" fill="#fafafa" stroke="#911" stroke-width="0.5"/>
+  <circle cx="280" cy="150" r="4" fill="#fafafa" stroke="#911" stroke-width="0.5"/>
+  <circle cx="280" cy="190" r="4" fill="#fafafa" stroke="#911" stroke-width="0.5"/>
+  <circle cx="280" cy="230" r="4" fill="#fafafa" stroke="#911" stroke-width="0.5"/>
+
+  <!-- ===== EXTERIOR SIDE (left of web) ===== -->
+  <text x="200" y="85" text-anchor="end" font-size="8" fill="#555" font-family="Helvetica,Arial,sans-serif">EXTERIOR</text>
+
+  <!-- Bamboo strips against web -->
+  <g fill="#8B5A2B" opacity="0.5" stroke="#6a4020" stroke-width="0.5">
+    <rect x="258" y="95" width="16" height="8"/>
+    <rect x="258" y="108" width="16" height="8"/>
+    <rect x="258" y="121" width="16" height="8"/>
+    <rect x="258" y="134" width="16" height="8"/>
+    <rect x="258" y="147" width="16" height="8"/>
+    <rect x="258" y="160" width="16" height="8"/>
+    <rect x="258" y="173" width="16" height="8"/>
+    <rect x="258" y="186" width="16" height="8"/>
+    <rect x="258" y="199" width="16" height="8"/>
+    <rect x="258" y="212" width="16" height="8"/>
+    <rect x="258" y="225" width="16" height="8"/>
+    <rect x="258" y="238" width="16" height="8"/>
+  </g>
+
+  <!-- PVC conduit between strips -->
+  <circle cx="266" cy="131" r="5" fill="#ccc" opacity="0.5" stroke="#888" stroke-width="0.5"/>
+  <circle cx="266" cy="170" r="5" fill="#ccc" opacity="0.5" stroke="#888" stroke-width="0.5"/>
+
+  <!-- Cable inside conduit -->
+  <circle cx="266" cy="131" r="2" fill="#d4a017"/>
+  <circle cx="266" cy="170" r="2" fill="#2980b9"/>
+
+  <!-- Clamping strip (exterior) -->
+  <rect x="254" y="92" width="4" height="160" fill="#555" opacity="0.7" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Screws through clamping strip → web -->
+  <g stroke="#333" stroke-width="1.5">
+    <line x1="256" y1="110" x2="276" y2="110"/>
+    <line x1="256" y1="150" x2="276" y2="150"/>
+    <line x1="256" y1="190" x2="276" y2="190"/>
+    <line x1="256" y1="230" x2="276" y2="230"/>
+  </g>
+  <g fill="#333">
+    <circle cx="256" cy="110" r="3"/>
+    <circle cx="256" cy="150" r="3"/>
+    <circle cx="256" cy="190" r="3"/>
+    <circle cx="256" cy="230" r="3"/>
+  </g>
+
+  <!-- ===== INTERIOR SIDE (right of web) ===== -->
+  <text x="360" y="85" font-size="8" fill="#555" font-family="Helvetica,Arial,sans-serif">INTERIOR</text>
+
+  <!-- Bamboo strips -->
+  <g fill="#8B5A2B" opacity="0.5" stroke="#6a4020" stroke-width="0.5">
+    <rect x="287" y="95" width="16" height="8"/>
+    <rect x="287" y="108" width="16" height="8"/>
+    <rect x="287" y="121" width="16" height="8"/>
+    <rect x="287" y="134" width="16" height="8"/>
+    <rect x="287" y="147" width="16" height="8"/>
+    <rect x="287" y="160" width="16" height="8"/>
+    <rect x="287" y="173" width="16" height="8"/>
+    <rect x="287" y="186" width="16" height="8"/>
+    <rect x="287" y="199" width="16" height="8"/>
+    <rect x="287" y="212" width="16" height="8"/>
+    <rect x="287" y="225" width="16" height="8"/>
+    <rect x="287" y="238" width="16" height="8"/>
+  </g>
+
+  <!-- Interior clamping strip -->
+  <rect x="303" y="92" width="4" height="160" fill="#555" opacity="0.7" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Interior screws -->
+  <g stroke="#333" stroke-width="1.5">
+    <line x1="285" y1="110" x2="305" y2="110"/>
+    <line x1="285" y1="150" x2="305" y2="150"/>
+    <line x1="285" y1="190" x2="305" y2="190"/>
+    <line x1="285" y1="230" x2="305" y2="230"/>
+  </g>
+  <g fill="#333">
+    <circle cx="305" cy="110" r="3"/>
+    <circle cx="305" cy="150" r="3"/>
+    <circle cx="305" cy="190" r="3"/>
+    <circle cx="305" cy="230" r="3"/>
+  </g>
+
+  <!-- Mortar fill indication -->
+  <rect x="235" y="70" width="19" height="192" fill="#d4c4a8" opacity="0.15"/>
+  <rect x="307" y="70" width="18" height="192" fill="#d4c4a8" opacity="0.15"/>
+  <rect x="274" y="92" width="14" height="160" fill="#d4c4a8" opacity="0.1"/>
+  <text x="280" y="270" text-anchor="middle" font-size="7" fill="#999" font-family="Helvetica,Arial,sans-serif">mortar fills center</text>
+  <text x="280" y="280" text-anchor="middle" font-size="6" fill="#aaa" font-family="Helvetica,Arial,sans-serif">through gaps between strips</text>
+
+  <!-- Annotations -->
+  <g font-family="Helvetica,Arial,sans-serif">
+    <!-- Clamping strip annotation -->
+    <line x1="250" y1="92" x2="130" y2="92" stroke="#555" stroke-width="0.5"/>
+    <text x="125" y="90" text-anchor="end" font-size="8" fill="#555">Clamping strip (2 mm steel)</text>
+    <text x="125" y="102" text-anchor="end" font-size="7" fill="#888">holes match web, flexes for</text>
+    <text x="125" y="112" text-anchor="end" font-size="7" fill="#888">thickness variation</text>
+
+    <!-- Screw annotation -->
+    <line x1="256" y1="110" x2="130" y2="135" stroke="#555" stroke-width="0.5"/>
+    <text x="125" y="133" text-anchor="end" font-size="8" fill="#333" font-weight="bold">Screws (SS, every 100 mm)</text>
+    <text x="125" y="145" text-anchor="end" font-size="7" fill="#888">through: clamp → bamboo → web</text>
+
+    <!-- Bamboo strip annotation -->
+    <line x1="266" y1="200" x2="130" y2="180" stroke="#555" stroke-width="0.5"/>
+    <text x="125" y="175" text-anchor="end" font-size="8" fill="#8B5A2B">Bamboo strips (~20 mm wide)</text>
+    <text x="125" y="187" text-anchor="end" font-size="7" fill="#888">vertical, with gaps for mortar</text>
+
+    <!-- PVC conduit annotation -->
+    <line x1="266" y1="131" x2="130" y2="215" stroke="#555" stroke-width="0.5"/>
+    <text x="125" y="213" text-anchor="end" font-size="8" fill="#888">PVC conduit (16 mm)</text>
+    <text x="125" y="225" text-anchor="end" font-size="7" fill="#d4a017">12V ●</text>
+    <text x="125" y="237" text-anchor="end" font-size="7" fill="#2980b9">120V ●</text>
+  </g>
+
+  <!-- Pressure arrows -->
+  <text x="240" y="115" text-anchor="end" font-size="7" fill="#333" font-family="Helvetica,Arial,sans-serif">→</text>
+  <text x="320" y="115" font-size="7" fill="#333" font-family="Helvetica,Arial,sans-serif">←</text>
+
+  <!-- Assembly steps -->
+  <rect x="360" y="110" width="220" height="170" fill="#e8f0e6" stroke="#2d5a27" stroke-width="0.5" rx="4"/>
+  <text x="370" y="130" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Assembly (per side):</text>
+  <g font-size="7" fill="#555" font-family="Helvetica,Arial,sans-serif">
+    <text x="370" y="150">1. Lay panel flat</text>
+    <text x="370" y="165">2. Place bamboo strips against web</text>
+    <text x="370" y="180">3. Route cables in PVC conduit</text>
+    <text x="370" y="195">4. Thread diagonal through notches</text>
+    <text x="370" y="210">5. Place clamping strip, align holes</text>
+    <text x="370" y="225">6. Drive screws (self-adjusting)</text>
+    <text x="370" y="240">7. Wire-tie diagonal at crossings</text>
+    <text x="370" y="260" fill="#2d5a27" font-weight="bold">~8 min per side</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(50, 430)" font-family="Helvetica,Arial,sans-serif">
+    <rect x="0" y="0" width="500" height="50" fill="white" stroke="#ddd" stroke-width="0.5" rx="4"/>
+    <rect x="15" y="10" width="12" height="8" fill="#c0392b" opacity="0.7"/><text x="32" y="17" font-size="7" fill="#555">T-bar (galvanized)</text>
+    <rect x="135" y="10" width="12" height="8" fill="#555" opacity="0.7"/><text x="152" y="17" font-size="7" fill="#555">Clamping strip</text>
+    <rect x="240" y="10" width="12" height="8" fill="#8B5A2B" opacity="0.5"/><text x="257" y="17" font-size="7" fill="#555">Bamboo</text>
+    <circle cx="325" cy="14" r="4" fill="#333"/><text x="335" y="17" font-size="7" fill="#555">Screws</text>
+    <circle cx="395" cy="14" r="4" fill="#ccc" stroke="#888" stroke-width="0.5"/><text x="405" y="17" font-size="7" fill="#555">Conduit</text>
+    <rect x="15" y="28" width="12" height="8" fill="#d4c4a8" opacity="0.3"/><text x="32" y="35" font-size="7" fill="#555">Mortar (fills all gaps + center cavity)</text>
+  </g>
+</svg>
