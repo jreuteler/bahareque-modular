@@ -53,18 +53,18 @@
 
   <!-- Wire ties at crossings (where front diagonal crosses each vertical strip) -->
   <g fill="none" stroke="#888" stroke-width="1.5">
-    <circle cx="118" cy="645" r="4"/>
-    <circle cx="136" cy="620" r="4"/>
-    <circle cx="154" cy="593" r="4"/>
-    <circle cx="172" cy="566" r="4"/>
-    <circle cx="190" cy="539" r="4"/>
-    <circle cx="208" cy="512" r="4"/>
-    <circle cx="226" cy="485" r="4"/>
-    <circle cx="244" cy="458" r="4"/>
-    <circle cx="262" cy="431" r="4"/>
-    <circle cx="280" cy="404" r="4"/>
-    <circle cx="298" cy="377" r="4"/>
-    <circle cx="316" cy="350" r="4"/>
+    <circle cx="117" cy="619" r="4"/>
+    <circle cx="135" cy="573" r="4"/>
+    <circle cx="153" cy="527" r="4"/>
+    <circle cx="171" cy="481" r="4"/>
+    <circle cx="189" cy="434" r="4"/>
+    <circle cx="207" cy="388" r="4"/>
+    <circle cx="225" cy="342" r="4"/>
+    <circle cx="243" cy="296" r="4"/>
+    <circle cx="261" cy="249" r="4"/>
+    <circle cx="279" cy="203" r="4"/>
+    <circle cx="297" cy="157" r="4"/>
+    <circle cx="315" cy="111" r="4"/>
   </g>
 
   <!-- Annotations (right side) -->

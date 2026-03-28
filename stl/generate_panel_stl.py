@@ -21,7 +21,7 @@ import struct
 import math
 import os
 
-OUTPUT_DIR = "/home/reuteler/jardin/3d-panel-model"
+OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
 SCALE = 0.0733  # 7.33%
 
 # Real dimensions (mm) — these get scaled
@@ -199,27 +199,28 @@ def gen_frame():
     ft = FRAME_FLANGE_T
     fw = FRAME_FLANGE_W
     wt = FRAME_WEB_T
-    wv = FRAME_WEB_VERT
-    wh = FRAME_WEB_HORIZ
+    wh = FRAME_WEB_HORIZ  # full wall depth for ALL webs
     wc = (fw - wt) / 2  # web centered on flange
 
-    # Left vertical: flange + web
-    t += box(0, 0, 0, fw, PH, ft)
-    t += box(wc, 0, ft, wt, PH, max(wv - ft, 0.5))
+    hw = wh / 2  # half wall depth — each print is one half
 
-    # Right vertical: flange + web
+    # Left vertical: flange + web to half depth
+    t += box(0, 0, 0, fw, PH, ft)
+    t += box(wc, 0, ft, wt, PH, max(hw - ft, 0.5))
+
+    # Right vertical: flange + web to half depth
     rx = PW - fw
     t += box(rx, 0, 0, fw, PH, ft)
-    t += box(rx + wc, 0, ft, wt, PH, max(wv - ft, 0.5))
+    t += box(rx + wc, 0, ft, wt, PH, max(hw - ft, 0.5))
 
-    # Bottom horizontal: flange (along X, thin in Y) + deep web
+    # Bottom horizontal: flange + web to half depth
     t += box(0, 0, 0, PW, ft, fw)
-    t += box(0, 0, fw, PW, ft, max(wh - fw, 0.5))
+    t += box(0, 0, fw, PW, ft, max(hw - fw, 0.5))
 
     # Top horizontal
     ty = PH - ft
     t += box(0, ty, 0, PW, ft, fw)
-    t += box(0, ty, fw, PW, ft, max(wh - fw, 0.5))
+    t += box(0, ty, fw, PW, ft, max(hw - fw, 0.5))
 
     write_binary_stl("01_frame.stl", t, "frame")
 
@@ -329,7 +330,7 @@ if __name__ == "__main__":
     print()
     print("Printable dimensions:")
     print(f"  T-bar flange: {FRAME_FLANGE_W:.1f}mm wide × {FRAME_FLANGE_T}mm thick")
-    print(f"  T-bar web: {FRAME_WEB_T}mm thick × {FRAME_WEB_VERT:.1f}mm (vert) / {FRAME_WEB_HORIZ:.1f}mm (horiz)")
+    print(f"  T-bar web: {FRAME_WEB_T}mm thick × {FRAME_WEB_HORIZ/2:.1f}mm deep (half-panel, print 2× and glue back-to-back)")
     print(f"  Guadua strip: {GV_W:.1f}mm wide × {GV_T}mm thick, gap {GV_GAP:.1f}mm")
     print(f"  Diagonal: {GD_W:.1f}mm wide × {GD_T}mm thick")
     print(f"  Clamping strip: {CL_W:.1f}mm × {CL_T}mm")
@@ -355,5 +356,6 @@ if __name__ == "__main__":
     print("  08_cable_12v      → Red")
     print("  09_cable_120v     → Yellow")
     print()
-    print("Tip: Print frame lying flat (73mm × 220mm footprint, 6.2mm tall)")
+    print("Tip: Print frame lying flat — no supports needed")
+    print("     Print 2× frame, glue back-to-back with components sandwiched between")
     print("     Diagonals are properly rotated — no stepping artifacts")
