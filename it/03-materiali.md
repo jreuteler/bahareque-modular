@@ -6,7 +6,7 @@
 |-----------|-----------|----------|------|
 | Acciaio profilo a T | 30×30×3 mm, zincato a caldo | 2× 1,0 m + 2× 2,5 m = 7,0 m | Una dima di saldatura per tutti i pannelli |
 | Barre di serraggio | Piatto di acciaio 2 mm, zincato, fori corrispondenti | 4× 1,0 m = 4,0 m | Superiore + inferiore, entrambi i lati |
-| Viti | Acciaio inossidabile, autoperforanti | ~40 per pannello | Attraverso barra di serraggio → guadua → anima |
+| Viti | Acciaio inossidabile, autoperforanti | ~28 per pannello | Attraverso barra di serraggio → bambù → HDPE → anima (ogni ~70 mm, una ogni due listelli) |
 | Distanziatori in HDPE | Sezione 30×30 mm, riciclati | 2× 1,0 m = 2,0 m | Profili a T superiore + inferiore |
 | Listelli di bambù (verticali) | Trattati con borato, ~20 mm di larghezza | ~54 listelli × 2,5 m | ~27 per lato |
 | Listello di bambù (diagonale) | Trattato con borato, 60×20 mm | 2× ~2,69 m | 1 per lato, angoli opposti |

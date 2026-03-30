@@ -6,7 +6,7 @@
 |----------|---------------|----------|-------|
 | Perfil T de acero | 30×30×3 mm, galvanizado en caliente | 2× 1,0 m + 2× 2,5 m = 7,0 m | Una sola plantilla de soldadura para todos los paneles |
 | Tiras de sujeción | Platina de acero de 2 mm, galvanizada, agujeros coincidentes | 4× 1,0 m = 4,0 m | Superior + inferior, ambos lados |
-| Tornillos | Acero inoxidable, autorroscantes | ~40 por panel | A través de tira de sujeción → guadua → alma |
+| Tornillos | Acero inoxidable, autorroscantes | ~28 por panel | A través de tira de sujeción → bambú → HDPE → alma (cada ~70 mm, uno por cada dos tiras) |
 | Bloques de HDPE | Sección transversal de 30×30 mm, reciclado | 2× 1,0 m = 2,0 m | Perfiles T superior + inferior |
 | Tiras de bambú (verticales) | Tratadas con borato, ~20 mm de ancho | ~54 tiras × 2,5 m | ~27 por lado |
 | Tiras de bambú (diagonal) | Tratadas con borato, 60×20 mm | 2× ~2,69 m | 1 por lado, esquinas opuestas |

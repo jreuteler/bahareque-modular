@@ -12,7 +12,7 @@ Todos los paneles se construyen en un taller cubierto — independiente del clim
 - Mezcladora de mortero (eléctrica o manual)
 - Herramientas manuales básicas: destornilladores, cortafrío, alicates, grapadora
 
-![Secuencia de Ensamble](../svg/07-assembly-sequence.svg)
+![Secuencia de Ensamble](svg/07-assembly-sequence.svg)
 
 ## Pasos de Producción
 
@@ -20,7 +20,7 @@ Todos los paneles se construyen en un taller cubierto — independiente del clim
 
 1. Cortar perfil T a longitud: 2× 1,0 m (superior/inferior, alma de 85 mm) + 2× 2,5 m (laterales, alma de 30 mm)
 2. Soldar esquinas en una plantilla — todos los marcos son idénticos
-3. Perforar agujeros de sujeción cada 100 mm a lo largo de las almas de los perfiles T superior e inferior (10 agujeros por barra, 20 en total)
+3. Perforar agujeros de sujeción cada ~70 mm a lo largo de las almas de los perfiles T superior e inferior (uno por cada dos tiras de bambú, ~14 agujeros por barra, ~28 en total)
 4. Galvanizar en caliente el marco completo (proceso por lotes — enviar 20–50 marcos a la vez)
 
 **Todos los marcos son idénticos sin importar la variante del panel.** La plantilla asegura dimensiones consistentes. Una plantilla, un marco, para siempre.
@@ -50,7 +50,7 @@ Todos los paneles se construyen en un taller cubierto — independiente del clim
 5. Pasar la tira diagonal por la muesca inferior izquierda del HDPE, cruzando hacia la muesca superior derecha (a nivel del alma)
 6. Pre-tensionar la diagonal y asegurar en ambos extremos
 
-![Sistema de Sujeción con Tornillos](../svg/04-screw-clamping.svg)
+![Sistema de Sujeción con Tornillos](svg/04-screw-clamping.svg)
 
 ### Paso 5: Sujeción con Tornillos (Lado 1)
 
@@ -78,7 +78,7 @@ Todos los paneles se construyen en un taller cubierto — independiente del clim
 
 ### Paso 8: Vertido de Mortero
 
-![Proceso de Vertido de Mortero](../svg/06-mortar-pour.svg)
+![Proceso de Vertido de Mortero](svg/06-mortar-pour.svg)
 
 Esta es la innovación clave en el método de aplicación:
 

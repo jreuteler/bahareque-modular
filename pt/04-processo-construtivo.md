@@ -12,7 +12,7 @@ Todos os painéis são construídos em uma oficina coberta — independente do c
 - Betoneira (elétrica ou manual)
 - Ferramentas manuais básicas: chaves de fenda, alicates de corte, alicates, grampeador
 
-![Sequência de Montagem](../svg/07-assembly-sequence.svg)
+![Sequência de Montagem](svg/07-assembly-sequence.svg)
 
 ## Etapas de Produção
 
@@ -20,7 +20,7 @@ Todos os painéis são construídos em uma oficina coberta — independente do c
 
 1. Cortar o perfil T no comprimento: 2× 1,0 m (superior/inferior, alma de 85 mm) + 2× 2,5 m (laterais, alma de 30 mm)
 2. Soldar os cantos em gabarito — todas as estruturas idênticas
-3. Furar os orifícios de fixação a cada 100 mm ao longo das almas dos perfis T superior e inferior (10 furos por barra, 20 no total)
+3. Furar os orifícios de fixação a cada ~70 mm ao longo das almas dos perfis T superior e inferior (um para cada duas tiras de bambu, ~14 furos por barra, ~28 no total)
 4. Galvanizar a quente a estrutura completa (processo em lote — enviar 20–50 estruturas de uma vez)
 
 **Todas as estruturas são idênticas independentemente da variante do painel.** O gabarito garante dimensões consistentes. Um gabarito, uma estrutura, para sempre.
@@ -50,7 +50,7 @@ Todos os painéis são construídos em uma oficina coberta — independente do c
 5. Passar a tira diagonal pelo entalhe inferior esquerdo do PEAD, cruzando até o entalhe superior direito (no nível da alma)
 6. Pré-tensionar a diagonal e fixar em ambas as extremidades
 
-![Sistema de Fixação por Parafusos](../svg/04-screw-clamping.svg)
+![Sistema de Fixação por Parafusos](svg/04-screw-clamping.svg)
 
 ### Etapa 5: Fixação por Parafusos (Lado 1)
 
@@ -78,7 +78,7 @@ Todos os painéis são construídos em uma oficina coberta — independente do c
 
 ### Etapa 8: Vertimento da Argamassa
 
-![Processo de Vertimento da Argamassa](../svg/06-mortar-pour.svg)
+![Processo de Vertimento da Argamassa](svg/06-mortar-pour.svg)
 
 Esta é a inovação principal no método de aplicação:
 

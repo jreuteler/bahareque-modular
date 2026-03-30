@@ -1,6 +1,6 @@
 # Integrazione nell'Edificio
 
-![Integrazione nell'Edificio](../svg/08-building-integration.svg)
+![Integrazione nell'Edificio](svg/08-building-integration.svg)
 
 ## Due Configurazioni
 

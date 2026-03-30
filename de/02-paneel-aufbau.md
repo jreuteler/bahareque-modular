@@ -1,6 +1,6 @@
 # Paneelaufbau
 
-![Paneel Explosionsdarstellung](../svg/01-panel-exploded.svg)
+![Paneel Explosionsdarstellung](svg/01-panel-exploded.svg)
 
 ## Übersicht
 
@@ -10,7 +10,7 @@ Jedes Wandpaneel ist **1,0 m breit × 2,5 m hoch** (Hochformat), wiegt ungefähr
 
 ## Rahmen: T-bar 30×30×3 mm
 
-![T-bar-Profil](../svg/02-tbar-profile.svg)
+![T-bar-Profil](svg/02-tbar-profile.svg)
 
 Der Paneelrahmen ist aus feuerverzinktem T-bar-Stahlprofil:
 
@@ -19,7 +19,7 @@ Der Paneelrahmen ist aus feuerverzinktem T-bar-Stahlprofil:
 - **Obere/untere T-bars:** 85 mm Steghöhe (bietet horizontale strukturelle Tiefe)
 - **Seitliche T-bars:** 30 mm Steghöhe
 - **Ecken:** In einer Lehre geschweisst — alle Rahmen identisch
-- **Klemmlöcher:** Alle 10 cm entlang der oberen und unteren Stege gebohrt
+- **Klemmlöcher:** Alle ~70 mm entlang der oberen und unteren Stege gebohrt (ein Loch pro zwei Bambusstreifen)
 
 Der Rahmen ist das strukturelle Rückgrat. Alles andere wird daran befestigt.
 
@@ -39,7 +39,7 @@ Der Rahmen ist das strukturelle Rückgrat. Alles andere wird daran befestigt.
 - **Menge:** ~27 Streifen pro Seite, ~54 total pro Paneel
 - **Befestigung:** Schraubgeklemmt an den T-bar-Steg oben und unten über Klemmleisten
 
-![Diagonalverstrebung](../svg/05-diagonal-bracing.svg)
+![Diagonalverstrebung](svg/05-diagonal-bracing.svg)
 
 ### Das )( Profil
 
@@ -101,7 +101,7 @@ Alle Varianten teilen denselben Rahmen, dieselbe Bambus-Ausfachung, denselben M�
 - **Gesamte Wanddicke:** ~85 mm (Mörtel + Guadua + Mörtel)
 - **Das Puzzolan** reduziert den Mörtel-pH-Wert über die Zeit und verlangsamt den Abbau des eingebetteten Bambus
 
-![Paneel-Querschnitt](../svg/03-panel-cross-section.svg)
+![Paneel-Querschnitt](svg/03-panel-cross-section.svg)
 
 ## Deckschichten (auf der Baustelle nach der Installation aufgetragen)
 

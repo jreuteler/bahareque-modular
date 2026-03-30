@@ -12,7 +12,7 @@ Alle Paneele werden in einer überdachten Werkstatt gebaut — wetterunabhängig
 - Mörtelmischer (elektrisch oder von Hand)
 - Einfaches Handwerkzeug: Schraubenzieher, Drahtschneider, Zangen, Klammergerät
 
-![Montagesequenz](../svg/07-assembly-sequence.svg)
+![Montagesequenz](svg/07-assembly-sequence.svg)
 
 ## Produktionsschritte
 
@@ -20,7 +20,7 @@ Alle Paneele werden in einer überdachten Werkstatt gebaut — wetterunabhängig
 
 1. T-bar auf Länge schneiden: 2× 1,0 m (oben/unten, 85 mm Steg) + 2× 2,5 m (Seiten, 30 mm Steg)
 2. Ecken in einer Lehre schweissen — alle Rahmen identisch
-3. Klemmlöcher alle 100 mm entlang der oberen und unteren T-bar-Stege bohren (10 Löcher pro Leiste, 20 total)
+3. Klemmlöcher alle ~70 mm entlang der oberen und unteren T-bar-Stege bohren (eines pro zwei Bambusstreifen, ~14 Löcher pro Leiste, ~28 total)
 4. Den fertigen Rahmen feuerverzinken (Chargenprozess — 20–50 Rahmen auf einmal versenden)
 
 **Alle Rahmen sind identisch, unabhängig von der Paneelvariante.** Die Lehre gewährleistet konsistente Masse. Eine Lehre, ein Rahmen, für immer.
@@ -50,7 +50,7 @@ Alle Paneele werden in einer überdachten Werkstatt gebaut — wetterunabhängig
 5. Diagonalstreifen durch die untere linke HDPE-Kerbe fädeln, quer zur oberen rechten Kerbe (auf Steghöhe)
 6. Diagonale vorspannen und an beiden Enden sichern
 
-![Schraubklemmsystem](../svg/04-screw-clamping.svg)
+![Schraubklemmsystem](svg/04-screw-clamping.svg)
 
 ### Schritt 5: Schraubklemmung (Seite 1)
 
@@ -78,7 +78,7 @@ Alle Paneele werden in einer überdachten Werkstatt gebaut — wetterunabhängig
 
 ### Schritt 8: Mörtelverguss
 
-![Mörtelverguss-Prozess](../svg/06-mortar-pour.svg)
+![Mörtelverguss-Prozess](svg/06-mortar-pour.svg)
 
 Dies ist die zentrale Innovation in der Anwendungsmethode:
 

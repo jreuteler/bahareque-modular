@@ -19,7 +19,7 @@ The panel frame is hot-dip galvanized steel T-bar profile:
 - **Top/bottom T-bars:** 85 mm web height (provides horizontal structural depth)
 - **Side T-bars:** 30 mm web height
 - **Corners:** Welded in a jig — all frames identical
-- **Clamping holes:** Drilled every 10 cm along the top and bottom webs
+- **Clamping holes:** Drilled every ~70 mm along the top and bottom webs (one hole per two bamboo strips)
 
 The frame is the structural backbone. Everything else attaches to it.
 

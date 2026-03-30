@@ -310,25 +310,33 @@ def build_toc(lang):
     """
 
 
-def read_svg(filename):
-    """Read an SVG file and return its content for inline embedding."""
+def read_svg(filename, lang="en"):
+    """Read an SVG file and return its content for inline embedding.
+    Tries language-specific SVG first, falls back to English master."""
+    if lang != "en":
+        lang_path = os.path.join(BASE_DIR, lang, "svg", filename)
+        if os.path.exists(lang_path):
+            with open(lang_path, "r") as f:
+                content = f.read()
+            content = re.sub(r'<\?xml[^?]*\?>\s*', '', content)
+            return content
+    # Fallback to English master
     path = os.path.join(SVG_DIR, filename)
     if os.path.exists(path):
         with open(path, "r") as f:
             content = f.read()
-        # Remove any XML declaration
         content = re.sub(r'<\?xml[^?]*\?>\s*', '', content)
         return content
     return f"<!-- SVG not found: {filename} -->"
 
 
-def resolve_svg_references(html_content):
+def resolve_svg_references(html_content, lang="en"):
     """Replace markdown image references to SVGs with inline SVG content."""
     def replace_svg_img(match):
         src = match.group(1)
-        if src.startswith("../svg/") and src.endswith(".svg"):
+        if src.endswith(".svg") and ("svg/" in src):
             filename = os.path.basename(src)
-            svg_content = read_svg(filename)
+            svg_content = read_svg(filename, lang)
             return f'<div style="margin: 12px 0;">{svg_content}</div>'
         return match.group(0)
 
@@ -394,7 +402,7 @@ def generate_pdf(lang):
     body = cover + toc + "\n".join(chapters)
 
     # Resolve SVG references to inline SVGs
-    body = resolve_svg_references(body)
+    body = resolve_svg_references(body, lang)
 
     # Full HTML document
     full_html = f"""<!DOCTYPE html>

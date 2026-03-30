@@ -6,7 +6,7 @@
 |----------|--------------|-------|-------------|
 | T-bar-Stahl | 30×30×3 mm, feuerverzinkt | 2× 1,0 m + 2× 2,5 m = 7,0 m | Eine Schweisslehre für alle Paneele |
 | Klemmleisten | 2 mm Flachstahl, verzinkt, passende Löcher | 4× 1,0 m = 4,0 m | Oben + unten, beide Seiten |
-| Schrauben | Edelstahl, selbstschneidend | ~40 pro Paneel | Durch Klemmleiste → Guadua → Steg |
+| Schrauben | Edelstahl, selbstschneidend | ~28 pro Paneel | Durch Klemmleiste → Bambus → HDPE → Steg (alle ~70 mm, eine pro zwei Streifen) |
 | HDPE-Blöcke | 30×30 mm Querschnitt, recycelt | 2× 1,0 m = 2,0 m | Obere + untere T-bars |
 | Bambusstreifen (vertikal) | Borat-behandelt, ~20 mm breit | ~54 Streifen × 2,5 m | ~27 pro Seite |
 | Bambusstreifen (diagonal) | Borat-behandelt, 60×20 mm | 2× ~2,69 m | 1 pro Seite, gegenüberliegende Ecken |

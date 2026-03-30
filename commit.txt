@@ -1,0 +1,30 @@
+Correct technical SVGs for assembly accuracy and update screw spacing                                                                                           
+                                                                                                                                                                
+SVGs were initial rough drafts with several inaccuracies. This commit corrects the panel cross-section diagrams to accurately represent the assembly order (web → HDPE → bamboo → clamping strip → screw), fixes proportions to scale (85mm wall thickness, 30mm flange), adds HDPE blocks to all relevant views, and updates screw spacing from every 100mm to every ~70mm (one per two bamboo strips, ~28 screws per panel).                                                                                         
+
+
+
+v0.1.0 — First publication with corrected technical drawings   
+
+
+
+Correct SVG technical drawings and sync all translations                                                                                                        
+________________________________________________
+
+                                                                                         
+The initial SVG diagrams were rough drafts with various inaccuracies in perspective, assembly order, component placement, and proportions. 
+
+This commit corrects:                                                                                            
+                                                                                                                                                                  
+- Assembly order: web → HDPE block → bamboo strips → clamping strip                                                                                           
+- HDPE blocks added to all cross-section and clamping system diagrams                                                                                           
+- Screw spacing updated from 100mm to ~70mm (one per two strips, ~28/panel)                                                                                     
+- Wall thickness shown to scale (85mm) with correct 30mm flange proportion                                                                                      
+- Mortar shown as background encasing all components for some views                                                                                                            
+- Diagonal notch position corrected (web-side of HDPE, corners only)                                                                                            
+- White backgrounds added to all SVGs for consistent rendering                                                                                                  
+                                                                                                                                                                
+Translated SVGs created for all 5 languages (de, es, pt, it, fr).
+
+All translated documentation synced with current English master.
+PDFs regenerated with corrected diagrams.   

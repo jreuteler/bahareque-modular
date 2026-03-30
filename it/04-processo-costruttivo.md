@@ -12,7 +12,7 @@ Tutti i pannelli vengono costruiti in un laboratorio coperto — indipendente da
 - Betoniera (elettrica o manuale)
 - Utensili manuali di base: cacciaviti, tronchesi, pinze, spillatrice
 
-![Sequenza di Assemblaggio](../svg/07-assembly-sequence.svg)
+![Sequenza di Assemblaggio](svg/07-assembly-sequence.svg)
 
 ## Fasi di Produzione
 
@@ -20,7 +20,7 @@ Tutti i pannelli vengono costruiti in un laboratorio coperto — indipendente da
 
 1. Tagliare il profilo a T a misura: 2× 1,0 m (superiore/inferiore, anima 85 mm) + 2× 2,5 m (laterali, anima 30 mm)
 2. Saldare gli angoli in una dima — tutti i telai identici
-3. Forare i fori di serraggio ogni 100 mm lungo le anime superiore e inferiore del profilo a T (10 fori per barra, 20 totali)
+3. Forare i fori di serraggio ogni ~70 mm lungo le anime superiore e inferiore del profilo a T (uno ogni due listelli di bambù, ~14 fori per barra, ~28 totali)
 4. Zincare a caldo il telaio completato (processo a lotti — inviare 20–50 telai alla volta)
 
 **Tutti i telai sono identici indipendentemente dalla variante del pannello.** La dima garantisce dimensioni costanti. Una dima, un telaio, per sempre.
@@ -50,7 +50,7 @@ Tutti i pannelli vengono costruiti in un laboratorio coperto — indipendente da
 5. Infilare il listello diagonale attraverso l'intaglio in HDPE in basso a sinistra, fino all'intaglio in alto a destra (a livello dell'anima)
 6. Pre-tensionare la diagonale e fissare ad entrambe le estremità
 
-![Sistema di Serraggio a Vite](../svg/04-screw-clamping.svg)
+![Sistema di Serraggio a Vite](svg/04-screw-clamping.svg)
 
 ### Fase 5: Serraggio a Vite (Lato 1)
 
@@ -78,7 +78,7 @@ Tutti i pannelli vengono costruiti in un laboratorio coperto — indipendente da
 
 ### Fase 8: Getto della Malta
 
-![Processo di Getto della Malta](../svg/06-mortar-pour.svg)
+![Processo di Getto della Malta](svg/06-mortar-pour.svg)
 
 Questa è l'innovazione chiave nel metodo di applicazione:
 

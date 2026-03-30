@@ -6,7 +6,7 @@
 |----------|---------------|------------|-------------|
 | Perfil T de aço | 30×30×3 mm, galvanizado a quente | 2× 1,0 m + 2× 2,5 m = 7,0 m | Um gabarito de soldagem para todos os painéis |
 | Tiras de fixação | Aço plano de 2 mm, galvanizado, furos correspondentes | 4× 1,0 m = 4,0 m | Superior + inferior, ambos os lados |
-| Parafusos | Aço inoxidável, autoperfurantes | ~40 por painel | Através da tira de fixação → guadua → alma |
+| Parafusos | Aço inoxidável, autoperfurantes | ~28 por painel | Através da tira de fixação → bambu → PEAD → alma (a cada ~70 mm, um para cada duas tiras) |
 | Blocos de PEAD | Seção de 30×30 mm, reciclado | 2× 1,0 m = 2,0 m | Perfis T superior + inferior |
 | Tiras de bambu (verticais) | Tratadas com borato, ~20 mm de largura | ~54 tiras × 2,5 m | ~27 por lado |
 | Tira de bambu (diagonal) | Tratada com borato, 60×20 mm | 2× ~2,69 m | 1 por lado, cantos opostos |

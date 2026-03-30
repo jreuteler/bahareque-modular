@@ -6,7 +6,7 @@
 |----------|--------------|----------|-------|
 | T-bar steel | 30×30×3 mm, hot-dip galvanized | 2× 1.0 m + 2× 2.5 m = 7.0 m | One welding jig for all panels |
 | Clamping strips | 2 mm flat steel, galvanized, matching holes | 4× 1.0 m = 4.0 m | Top + bottom, both sides |
-| Screws | Stainless steel, self-tapping | ~40 per panel | Through clamping strip → guadua → web |
+| Screws | Stainless steel, self-tapping | ~28 per panel | Through clamping strip → bamboo → HDPE → web (every ~70 mm, one per two strips) |
 | HDPE blocks | 30×30 mm cross-section, recycled | 2× 1.0 m = 2.0 m | Top + bottom T-bars |
 | Bamboo strips (vertical) | Borate-treated, ~20 mm wide | ~54 strips × 2.5 m | ~27 per side |
 | Bamboo strip (diagonal) | Borate-treated, 60×20 mm | 2× ~2.69 m | 1 per side, opposing corners |

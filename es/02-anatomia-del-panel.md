@@ -1,6 +1,6 @@
 # Anatomía del Panel
 
-![Vista Explosionada del Panel](../svg/01-panel-exploded.svg)
+![Vista Explosionada del Panel](svg/01-panel-exploded.svg)
 
 ## Resumen
 
@@ -10,7 +10,7 @@ Cada panel de muro es de **1,0 m de ancho × 2,5 m de alto** (orientación verti
 
 ## Marco: Perfil T 30×30×3 mm
 
-![Perfil del Perfil T](../svg/02-tbar-profile.svg)
+![Perfil del Perfil T](svg/02-tbar-profile.svg)
 
 El marco del panel es de perfil T de acero galvanizado en caliente:
 
@@ -19,7 +19,7 @@ El marco del panel es de perfil T de acero galvanizado en caliente:
 - **Perfiles T superior/inferior:** 85 mm de altura de alma (proporciona profundidad estructural horizontal)
 - **Perfiles T laterales:** 30 mm de altura de alma
 - **Esquinas:** Soldadas en una plantilla — todos los marcos son idénticos
-- **Agujeros de sujeción:** Perforados cada 10 cm a lo largo de las almas superior e inferior
+- **Agujeros de sujeción:** Perforados cada ~70 mm a lo largo de las almas superior e inferior (un agujero por cada dos tiras de bambú)
 
 El marco es la columna vertebral estructural. Todo lo demás se fija a él.
 
@@ -39,7 +39,7 @@ El marco es la columna vertebral estructural. Todo lo demás se fija a él.
 - **Cantidad:** ~27 tiras por lado, ~54 en total por panel
 - **Fijación:** Sujetas con tornillos al alma del perfil T en la parte superior e inferior mediante tiras de sujeción
 
-![Arriostramiento Diagonal](../svg/05-diagonal-bracing.svg)
+![Arriostramiento Diagonal](svg/05-diagonal-bracing.svg)
 
 ### El Perfil )(
 
@@ -101,7 +101,7 @@ Todas las variantes comparten el mismo marco, el mismo relleno de bambú, el mis
 - **Espesor total del muro:** ~85 mm (mortero + guadua + mortero)
 - **La puzolana** reduce el pH del mortero con el tiempo, retardando la degradación del bambú embebido
 
-![Sección Transversal del Panel](../svg/03-panel-cross-section.svg)
+![Sección Transversal del Panel](svg/03-panel-cross-section.svg)
 
 ## Capas de Acabado (aplicadas en obra después de la instalación)
 

@@ -1,6 +1,6 @@
 # Integração com a Edificação
 
-![Integração com a Edificação](../svg/08-building-integration.svg)
+![Integração com a Edificação](svg/08-building-integration.svg)
 
 ## Duas Configurações
 

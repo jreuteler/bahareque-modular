@@ -1,6 +1,6 @@
 # Anatomie du panneau
 
-![Vue eclatee du panneau](../svg/01-panel-exploded.svg)
+![Vue eclatee du panneau](svg/01-panel-exploded.svg)
 
 ## Vue d'ensemble
 
@@ -10,7 +10,7 @@ Chaque panneau mural mesure **1,0 m de large x 2,5 m de haut** (orientation vert
 
 ## Cadre : profile en T 30x30x3 mm
 
-![Profil en T](../svg/02-tbar-profile.svg)
+![Profil en T](svg/02-tbar-profile.svg)
 
 Le cadre du panneau est un profile en T en acier galvanise a chaud :
 
@@ -19,7 +19,7 @@ Le cadre du panneau est un profile en T en acier galvanise a chaud :
 - **Profiles en T haut/bas :** ame de 85 mm de hauteur (profondeur structurelle horizontale)
 - **Profiles en T lateraux :** ame de 30 mm de hauteur
 - **Angles :** Soudes dans un gabarit -- tous les cadres sont identiques
-- **Trous de serrage :** Perces tous les 10 cm le long des ames superieure et inferieure
+- **Trous de serrage :** Perces tous les ~70 mm le long des ames superieure et inferieure (un trou pour deux lattes de bambou)
 
 Le cadre est l'epine dorsale structurelle. Tout le reste s'y fixe.
 
@@ -39,7 +39,7 @@ Le cadre est l'epine dorsale structurelle. Tout le reste s'y fixe.
 - **Quantite :** ~27 lattes par face, ~54 au total par panneau
 - **Fixation :** Serrees par vis sur l'ame du profile en T en haut et en bas via des bandes de serrage
 
-![Contreventement diagonal](../svg/05-diagonal-bracing.svg)
+![Contreventement diagonal](svg/05-diagonal-bracing.svg)
 
 ### Le profil )(
 
@@ -101,7 +101,7 @@ Toutes les variantes partagent le meme cadre, le meme remplissage en bambou, le 
 - **Epaisseur totale du mur :** ~85 mm (mortier + guadua + mortier)
 - **La pouzzolane** reduit le pH du mortier au fil du temps, ralentissant la degradation du bambou enrobe
 
-![Section transversale du panneau](../svg/03-panel-cross-section.svg)
+![Section transversale du panneau](svg/03-panel-cross-section.svg)
 
 ## Couches de finition (appliquees sur site apres installation)
 

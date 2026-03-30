@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 1100" style="background:#ffffff">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="375" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Vue Éclatée du Panneau — 1.0 m × 2.5 m</text>
+  <text x="375" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Composants séparés verticalement · Les numéros correspondent à l.ordre de montage</text>
+
+  <!-- Each layer: portrait panel shape (60px wide × 150px tall = 1:2.5 ratio) -->
+  <!-- Centered at x=300, labels at x=400+ -->
+
+  <!-- Layer 1: T-bar Frame -->
+  <g transform="translate(270, 55)">
+    <!-- Frame outline -->
+    <rect x="0" y="0" width="60" height="150" fill="none" stroke="#c0392b" stroke-width="2.5" rx="1"/>
+    <!-- Aile bars (thickened edges) -->
+    <rect x="0" y="0" width="60" height="3" fill="#c0392b" opacity="0.7"/>
+    <rect x="0" y="147" width="60" height="3" fill="#c0392b" opacity="0.7"/>
+    <rect x="0" y="0" width="3" height="150" fill="#c0392b" opacity="0.7"/>
+    <rect x="57" y="0" width="3" height="150" fill="#c0392b" opacity="0.7"/>
+    <!-- Web ridges (visible depth) -->
+    <rect x="1" y="0" width="1.5" height="150" fill="#c0392b" opacity="0.3"/>
+    <rect x="57.5" y="0" width="1.5" height="150" fill="#c0392b" opacity="0.3"/>
+    <rect x="0" y="1" width="60" height="1.5" fill="#c0392b" opacity="0.3"/>
+    <rect x="0" y="147.5" width="60" height="1.5" fill="#c0392b" opacity="0.3"/>
+    <!-- Number badge -->
+    <circle cx="-25" cy="75" r="14" fill="#c0392b" opacity="0.12" stroke="#c0392b" stroke-width="1"/>
+    <text x="-25" y="79" text-anchor="middle" font-size="12" fill="#c0392b" font-weight="bold" font-family="Helvetica,Arial,sans-serif">1</text>
+    <!-- Label -->
+    <text x="80" y="68" font-size="10" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">Cadre profilé T</text>
+    <text x="80" y="82" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">30×30×3 mm galvanized steel</text>
+    <text x="80" y="94" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Welded corners, drilled clamping holes</text>
+  </g>
+
+  <!-- Connecting line -->
+  <line x1="300" y1="210" x2="300" y2="222" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 2: HDPE Blocks -->
+  <g transform="translate(270, 225)">
+    <!-- Top block -->
+    <rect x="3" y="5" width="54" height="8" fill="#4a90a8" opacity="0.4" stroke="#2a7088" stroke-width="1" rx="1"/>
+    <!-- Bottom block -->
+    <rect x="3" y="42" width="54" height="8" fill="#4a90a8" opacity="0.4" stroke="#2a7088" stroke-width="1" rx="1"/>
+    <!-- Corner encochees -->
+    <rect x="3" y="5" width="5" height="5" fill="#fafafa" stroke="#2a7088" stroke-width="0.5"/>
+    <rect x="52" y="5" width="5" height="5" fill="#fafafa" stroke="#2a7088" stroke-width="0.5"/>
+    <rect x="3" y="45" width="5" height="5" fill="#fafafa" stroke="#2a7088" stroke-width="0.5"/>
+    <rect x="52" y="45" width="5" height="5" fill="#fafafa" stroke="#2a7088" stroke-width="0.5"/>
+    <!-- Number badge -->
+    <circle cx="-25" cy="27" r="14" fill="#4a90a8" opacity="0.12" stroke="#4a90a8" stroke-width="1"/>
+    <text x="-25" y="31" text-anchor="middle" font-size="12" fill="#4a90a8" font-weight="bold" font-family="Helvetica,Arial,sans-serif">2</text>
+    <!-- Label -->
+    <text x="80" y="22" font-size="10" fill="#4a90a8" font-family="Helvetica,Arial,sans-serif">HDPE spacer blocks</text>
+    <text x="80" y="36" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">30×30 mm full width, corner encochees</text>
+    <text x="80" y="48" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Space strips 30 mm from web at top/bottom</text>
+  </g>
+
+  <line x1="300" y1="280" x2="300" y2="292" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 3: Vertical Bambou Strips -->
+  <g transform="translate(270, 295)">
+    <g fill="#8B5A2B" opacity="0.5">
+      <rect x="8" y="0" width="3" height="140"/>
+      <rect x="16" y="0" width="3" height="140"/>
+      <rect x="24" y="0" width="3" height="140"/>
+      <rect x="32" y="0" width="3" height="140"/>
+      <rect x="40" y="0" width="3" height="140"/>
+      <rect x="48" y="0" width="3" height="140"/>
+    </g>
+    <!-- Number badge -->
+    <circle cx="-25" cy="70" r="14" fill="#8B5A2B" opacity="0.12" stroke="#8B5A2B" stroke-width="1"/>
+    <text x="-25" y="74" text-anchor="middle" font-size="12" fill="#8B5A2B" font-weight="bold" font-family="Helvetica,Arial,sans-serif">3</text>
+    <!-- Label -->
+    <text x="80" y="55" font-size="10" fill="#8B5A2B" font-family="Helvetica,Arial,sans-serif">Lattes verticales de bambou</text>
+    <text x="80" y="69" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">~20 mm wide, gaps for mortier penetration</text>
+    <text x="80" y="81" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">~27 per side, screw-clamped to web</text>
+    <text x="80" y="93" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Borate-treated for insect/fungal protection</text>
+  </g>
+
+  <line x1="300" y1="440" x2="300" y2="452" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 4: Diagonal Bambou Strips -->
+  <g transform="translate(270, 455)">
+    <!-- Front diagonal (solid) -->
+    <line x1="3" y1="137" x2="57" y2="3" stroke="#8B5A2B" stroke-width="3.5" opacity="0.7" stroke-linecap="round"/>
+    <!-- Rear diagonal (dashed) -->
+    <line x1="3" y1="3" x2="57" y2="137" stroke="#8B5A2B" stroke-width="3.5" opacity="0.25" stroke-dasharray="6,3" stroke-linecap="round"/>
+    <!-- Number badge -->
+    <circle cx="-25" cy="70" r="14" fill="#8B5A2B" opacity="0.12" stroke="#8B5A2B" stroke-width="1"/>
+    <text x="-25" y="74" text-anchor="middle" font-size="12" fill="#8B5A2B" font-weight="bold" font-family="Helvetica,Arial,sans-serif">4</text>
+    <!-- Label -->
+    <text x="80" y="55" font-size="10" fill="#8B5A2B" font-family="Helvetica,Arial,sans-serif">Diagonal bracing</text>
+    <text x="80" y="69" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">60×20 mm, 1 per side from opposing corners</text>
+    <text x="80" y="81" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Forms X pattern · 3–5× seismic improvement</text>
+    <text x="80" y="93" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Solid = front · Dashed = rear side</text>
+  </g>
+
+  <line x1="300" y1="598" x2="300" y2="608" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 5: Fil Ties + Serrageing Strips -->
+  <g transform="translate(270, 611)">
+    <!-- Bandes de serrage (horizontal bars at top and bottom) -->
+    <rect x="3" y="2" width="54" height="2" fill="#555" stroke="#333" stroke-width="0.5"/>
+    <rect x="3" y="36" width="54" height="2" fill="#555" stroke="#333" stroke-width="0.5"/>
+    <!-- Vis dots -->
+    <g fill="#333">
+      <circle cx="12" cy="3" r="1.5"/><circle cx="22" cy="3" r="1.5"/><circle cx="32" cy="3" r="1.5"/>
+      <circle cx="42" cy="3" r="1.5"/><circle cx="52" cy="3" r="1.5"/>
+    </g>
+    <!-- Fil tie circles -->
+    <circle cx="15" cy="18" r="3" fill="none" stroke="#888" stroke-width="1.2"/>
+    <circle cx="30" cy="18" r="3" fill="none" stroke="#888" stroke-width="1.2"/>
+    <circle cx="45" cy="18" r="3" fill="none" stroke="#888" stroke-width="1.2"/>
+    <!-- Number badge -->
+    <circle cx="-25" cy="20" r="14" fill="#555" opacity="0.12" stroke="#555" stroke-width="1"/>
+    <text x="-25" y="24" text-anchor="middle" font-size="12" fill="#555" font-weight="bold" font-family="Helvetica,Arial,sans-serif">5</text>
+    <!-- Label -->
+    <text x="80" y="12" font-size="10" fill="#555" font-family="Helvetica,Arial,sans-serif">Bandes de serrage + wire ties</text>
+    <text x="80" y="26" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">2 mm steel strips, vis every ~70 mm</text>
+    <text x="80" y="38" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Ligatures en fil at every diagonal-vertical crossing</text>
+  </g>
+
+  <line x1="300" y1="654" x2="300" y2="664" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 6: PVC Gaine + Cables -->
+  <g transform="translate(270, 667)">
+    <!-- Gaine lines -->
+    <line x1="15" y1="5" x2="15" y2="35" stroke="#ccc" stroke-width="3.5"/>
+    <line x1="45" y1="5" x2="45" y2="35" stroke="#ccc" stroke-width="3.5"/>
+    <!-- Cables inside -->
+    <line x1="15" y1="5" x2="15" y2="35" stroke="#d4a017" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <line x1="45" y1="5" x2="45" y2="35" stroke="#2980b9" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <!-- Number badge -->
+    <circle cx="-25" cy="20" r="14" fill="#888" opacity="0.12" stroke="#888" stroke-width="1"/>
+    <text x="-25" y="24" text-anchor="middle" font-size="12" fill="#666" font-weight="bold" font-family="Helvetica,Arial,sans-serif">6</text>
+    <!-- Label -->
+    <text x="80" y="14" font-size="10" fill="#888" font-family="Helvetica,Arial,sans-serif">PVC conduit + cables</text>
+    <text x="80" y="28" font-size="7" fill="#d4a017" font-family="Helvetica,Arial,sans-serif">12V lighting (gold) — 6× E10 sockets</text>
+    <text x="80" y="40" font-size="7" fill="#2980b9" font-family="Helvetica,Arial,sans-serif">120V mains (blue) — snap connectors</text>
+  </g>
+
+  <line x1="300" y1="710" x2="300" y2="720" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 7: Chicken Fil Mesh -->
+  <g transform="translate(270, 723)">
+    <rect x="0" y="0" width="60" height="55" fill="none" stroke="#888" stroke-width="0.5"/>
+    <!-- Hex mesh pattern -->
+    <g stroke="#888" stroke-width="0.3" fill="none">
+      <path d="M5,8 L11,4 L17,8 L17,16 L11,20 L5,16Z"/>
+      <path d="M17,8 L23,4 L29,8 L29,16 L23,20 L17,16Z"/>
+      <path d="M29,8 L35,4 L41,8 L41,16 L35,20 L29,16Z"/>
+      <path d="M41,8 L47,4 L53,8 L53,16 L47,20 L41,16Z"/>
+      <path d="M11,20 L17,16 L23,20 L23,28 L17,32 L11,28Z"/>
+      <path d="M23,20 L29,16 L35,20 L35,28 L29,32 L23,28Z"/>
+      <path d="M35,20 L41,16 L47,20 L47,28 L41,32 L35,28Z"/>
+      <path d="M5,32 L11,28 L17,32 L17,40 L11,44 L5,40Z"/>
+      <path d="M17,32 L23,28 L29,32 L29,40 L23,44 L17,40Z"/>
+      <path d="M29,32 L35,28 L41,32 L41,40 L35,44 L29,40Z"/>
+      <path d="M41,32 L47,28 L53,32 L53,40 L47,44 L41,40Z"/>
+    </g>
+    <!-- Number badge -->
+    <circle cx="-25" cy="28" r="14" fill="#888" opacity="0.08" stroke="#888" stroke-width="1"/>
+    <text x="-25" y="32" text-anchor="middle" font-size="12" fill="#888" font-weight="bold" font-family="Helvetica,Arial,sans-serif">7</text>
+    <!-- Label -->
+    <text x="80" y="22" font-size="10" fill="#888" font-family="Helvetica,Arial,sans-serif">Grillage à poule</text>
+    <text x="80" y="36" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Galvanized hex 25 mm, both faces</text>
+    <text x="80" y="48" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">+ optional aluminum insect mesh beneath</text>
+  </g>
+
+  <line x1="300" y1="783" x2="300" y2="793" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 8: Mortier -->
+  <g transform="translate(270, 796)">
+    <rect x="0" y="0" width="60" height="70" fill="#d4c4a8" opacity="0.4" stroke="#bbb" stroke-width="1" rx="1"/>
+    <!-- Texture dots -->
+    <g fill="#c4b498" opacity="0.3">
+      <circle cx="12" cy="15" r="1"/><circle cx="35" cy="10" r="1.2"/><circle cx="50" cy="25" r="0.8"/>
+      <circle cx="20" cy="40" r="1"/><circle cx="42" cy="50" r="1.1"/><circle cx="8" cy="55" r="0.9"/>
+      <circle cx="30" cy="30" r="1.3"/><circle cx="15" cy="60" r="0.8"/><circle cx="48" cy="42" r="1"/>
+    </g>
+    <!-- Number badge -->
+    <circle cx="-25" cy="35" r="14" fill="#d4c4a8" opacity="0.2" stroke="#bbb" stroke-width="1"/>
+    <text x="-25" y="39" text-anchor="middle" font-size="12" fill="#999" font-weight="bold" font-family="Helvetica,Arial,sans-serif">8</text>
+    <!-- Label -->
+    <text x="80" y="25" font-size="10" fill="#999" font-family="Helvetica,Arial,sans-serif">Cement mortier</text>
+    <text x="80" y="39" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">1:4 cement:sand + pozzolanic admixture</text>
+    <text x="80" y="51" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Vibration table pour · ~85 mm total thickness</text>
+    <text x="80" y="63" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Fills center completely through strip gaps</text>
+  </g>
+
+  <line x1="300" y1="871" x2="300" y2="881" stroke="#ddd" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Layer 9: Lime Enduit + Wash -->
+  <g transform="translate(270, 884)">
+    <rect x="0" y="0" width="60" height="70" fill="#f5f0e0" stroke="#ddd" stroke-width="1" rx="1"/>
+    <!-- Subtle hand-troweled texture lines -->
+    <g stroke="#e8e0d0" stroke-width="0.5" opacity="0.6">
+      <path d="M5,15 Q20,12 35,16 Q50,18 55,14"/>
+      <path d="M3,30 Q15,28 30,32 Q45,34 57,29"/>
+      <path d="M5,45 Q25,42 40,47 Q52,49 57,44"/>
+      <path d="M3,58 Q18,55 35,60 Q48,62 55,57"/>
+    </g>
+    <!-- Number badge -->
+    <circle cx="-25" cy="35" r="14" fill="#f5f0e0" stroke="#ddd" stroke-width="1"/>
+    <text x="-25" y="39" text-anchor="middle" font-size="12" fill="#aaa" font-weight="bold" font-family="Helvetica,Arial,sans-serif">9</text>
+    <!-- Label -->
+    <text x="80" y="25" font-size="10" fill="#aaa" font-family="Helvetica,Arial,sans-serif">Enduit à la chaux + lime wash</text>
+    <text x="80" y="39" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">3–5 mm hand-troweled, both faces (on-site)</text>
+    <text x="80" y="51" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Breathable, antifungal, self-healing</text>
+    <text x="80" y="63" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Lime wash: soft matte finish, each stroke unique</text>
+  </g>
+
+  <!-- Dimension annotation on left side -->
+  <line x1="235" y1="55" x2="235" y2="205" stroke="#555" stroke-width="0.5"/>
+  <line x1="230" y1="55" x2="240" y2="55" stroke="#555" stroke-width="0.5"/>
+  <line x1="230" y1="205" x2="240" y2="205" stroke="#555" stroke-width="0.5"/>
+  <text x="225" y="135" text-anchor="end" font-size="7" fill="#555" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,225,135)">1.0 m × 2.5 m</text>
+
+  <!-- Legend -->
+  <g transform="translate(50, 1020)" font-family="Helvetica,Arial,sans-serif">
+    <rect x="0" y="0" width="650" height="55" fill="white" stroke="#ddd" stroke-width="0.5" rx="4"/>
+    <text x="325" y="15" text-anchor="middle" font-size="9" fill="#555" font-weight="bold">Légende des Couleurs</text>
+    <rect x="15" y="26" width="14" height="8" fill="#c0392b" opacity="0.7"/><text x="35" y="33" font-size="7" fill="#555">Acier</text>
+    <rect x="100" y="26" width="14" height="8" fill="#4a90a8" opacity="0.4"/><text x="120" y="33" font-size="7" fill="#555">HDPE</text>
+    <rect x="165" y="26" width="14" height="8" fill="#8B5A2B" opacity="0.5"/><text x="185" y="33" font-size="7" fill="#555">Bambou</text>
+    <rect x="240" y="26" width="14" height="8" fill="#555" opacity="0.7"/><text x="260" y="33" font-size="7" fill="#555">Serrages/wire</text>
+    <rect x="330" y="26" width="14" height="8" fill="#ccc"/><text x="350" y="33" font-size="7" fill="#555">Gaine</text>
+    <rect x="405" y="26" width="14" height="8" fill="#888" opacity="0.3"/><text x="425" y="33" font-size="7" fill="#555">Mesh</text>
+    <rect x="470" y="26" width="14" height="8" fill="#d4c4a8" opacity="0.5"/><text x="490" y="33" font-size="7" fill="#555">Mortier</text>
+    <rect x="545" y="26" width="14" height="8" fill="#f5f0e0" stroke="#ddd" stroke-width="0.5"/><text x="565" y="33" font-size="7" fill="#555">Enduit</text>
+    <text x="325" y="48" text-anchor="middle" font-size="7" fill="#888">Panel weight: ~155 kg (2.5 m) / ~183 kg (3.0 m) · Carried by 3–5 people</text>
+  </g>
+</svg>

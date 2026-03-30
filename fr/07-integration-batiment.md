@@ -1,6 +1,6 @@
 # Integration au batiment
 
-![Integration au batiment](../svg/08-building-integration.svg)
+![Integration au batiment](svg/08-building-integration.svg)
 
 ## Deux configurations
 

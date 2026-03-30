@@ -12,7 +12,7 @@ Tous les panneaux sont fabriques dans un atelier couvert -- independant de la me
 - Malaxeur a mortier (electrique ou manuel)
 - Outils a main de base : tournevis, pinces coupantes, pinces, agrafeuse
 
-![Sequence d'assemblage](../svg/07-assembly-sequence.svg)
+![Sequence d'assemblage](svg/07-assembly-sequence.svg)
 
 ## Etapes de production
 
@@ -20,7 +20,7 @@ Tous les panneaux sont fabriques dans un atelier couvert -- independant de la me
 
 1. Couper le profile en T aux longueurs : 2x 1,0 m (haut/bas, ame de 85 mm) + 2x 2,5 m (cotes, ame de 30 mm)
 2. Souder les angles dans un gabarit -- tous les cadres sont identiques
-3. Percer les trous de serrage tous les 100 mm le long des ames superieures et inferieures (10 trous par barre, 20 au total)
+3. Percer les trous de serrage tous les ~70 mm le long des ames superieures et inferieures (un pour deux lattes de bambou, ~14 trous par barre, ~28 au total)
 4. Galvaniser a chaud les cadres finis (processus par lot -- envoyer 20-50 cadres a la fois)
 
 **Tous les cadres sont identiques quelle que soit la variante de panneau.** Le gabarit garantit des dimensions constantes. Un gabarit, un cadre, pour toujours.
@@ -50,7 +50,7 @@ Tous les panneaux sont fabriques dans un atelier couvert -- independant de la me
 5. Passer la latte diagonale a travers l'encoche inferieure gauche du bloc PEHD, en travers jusqu'a l'encoche superieure droite (au niveau de l'ame)
 6. Pre-tendre la diagonale et la fixer aux deux extremites
 
-![Systeme de serrage par vis](../svg/04-screw-clamping.svg)
+![Systeme de serrage par vis](svg/04-screw-clamping.svg)
 
 ### Etape 5 : Serrage par vis (face 1)
 
@@ -78,7 +78,7 @@ Tous les panneaux sont fabriques dans un atelier couvert -- independant de la me
 
 ### Etape 8 : Coulage du mortier
 
-![Processus de coulage du mortier](../svg/06-mortar-pour.svg)
+![Processus de coulage du mortier](svg/06-mortar-pour.svg)
 
 C'est l'innovation cle en matiere de methode d'application :
 

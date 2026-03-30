@@ -1,6 +1,6 @@
 # Anatomia del Pannello
 
-![Vista Esplosa del Pannello](../svg/01-panel-exploded.svg)
+![Vista Esplosa del Pannello](svg/01-panel-exploded.svg)
 
 ## Panoramica
 
@@ -10,7 +10,7 @@ Ogni pannello di parete misura **1,0 m di larghezza × 2,5 m di altezza** (orien
 
 ## Telaio: Profilo a T 30×30×3 mm
 
-![Profilo a T](../svg/02-tbar-profile.svg)
+![Profilo a T](svg/02-tbar-profile.svg)
 
 Il telaio del pannello è un profilo a T in acciaio zincato a caldo:
 
@@ -19,7 +19,7 @@ Il telaio del pannello è un profilo a T in acciaio zincato a caldo:
 - **Profili a T superiore/inferiore:** anima di 85 mm di altezza (fornisce profondità strutturale orizzontale)
 - **Profili a T laterali:** anima di 30 mm di altezza
 - **Angoli:** Saldati in una dima — tutti i telai identici
-- **Fori di serraggio:** Forati ogni 10 cm lungo le anime superiore e inferiore
+- **Fori di serraggio:** Forati ogni ~70 mm lungo le anime superiore e inferiore (un foro ogni due listelli di bambù)
 
 Il telaio è la spina dorsale strutturale. Tutto il resto vi si aggancia.
 
@@ -39,7 +39,7 @@ Il telaio è la spina dorsale strutturale. Tutto il resto vi si aggancia.
 - **Quantità:** ~27 listelli per lato, ~54 totali per pannello
 - **Fissaggio:** Serrati a vite all'anima del profilo a T in alto e in basso tramite barre di serraggio
 
-![Controventatura Diagonale](../svg/05-diagonal-bracing.svg)
+![Controventatura Diagonale](svg/05-diagonal-bracing.svg)
 
 ### Il Profilo )(
 
@@ -101,7 +101,7 @@ Tutte le varianti condividono lo stesso telaio, lo stesso tamponamento in bambù
 - **Spessore totale della parete:** ~85 mm (malta + guadua + malta)
 - **La pozzolana** riduce il pH della malta nel tempo, rallentando il degrado del bambù incorporato
 
-![Sezione Trasversale del Pannello](../svg/03-panel-cross-section.svg)
+![Sezione Trasversale del Pannello](svg/03-panel-cross-section.svg)
 
 ## Strati di Finitura (applicati in cantiere dopo l'installazione)
 

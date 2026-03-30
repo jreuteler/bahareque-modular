@@ -20,7 +20,7 @@ All panels are built in a covered workshop — weather-independent, quality-cont
 
 1. Cut T-bar to length: 2× 1.0 m (top/bottom, 85 mm web) + 2× 2.5 m (sides, 30 mm web)
 2. Weld corners in a jig — all frames identical
-3. Drill clamping holes every 100 mm along the top and bottom T-bar webs (10 holes per bar, 20 total)
+3. Drill clamping holes every ~70 mm along the top and bottom T-bar webs (one per two bamboo strips, ~14 holes per bar, ~28 total)
 4. Hot-dip galvanize the completed frame (batch process — send 20–50 frames at once)
 
 **All frames are identical regardless of panel variant.** The jig ensures consistent dimensions. One jig, one frame, forever.

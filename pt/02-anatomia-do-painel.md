@@ -1,6 +1,6 @@
 # Anatomia do Painel
 
-![Vista Explodida do Painel](../svg/01-panel-exploded.svg)
+![Vista Explodida do Painel](svg/01-panel-exploded.svg)
 
 ## Visão Geral
 
@@ -10,7 +10,7 @@ Todo painel de parede tem **1,0 m de largura × 2,5 m de altura** (orientação 
 
 ## Estrutura: Perfil T 30×30×3 mm
 
-![Perfil T](../svg/02-tbar-profile.svg)
+![Perfil T](svg/02-tbar-profile.svg)
 
 A estrutura do painel é de aço galvanizado a quente, perfil T:
 
@@ -19,7 +19,7 @@ A estrutura do painel é de aço galvanizado a quente, perfil T:
 - **Perfis T superior/inferior:** Alma de 85 mm de altura (proporciona profundidade estrutural horizontal)
 - **Perfis T laterais:** Alma de 30 mm de altura
 - **Cantos:** Soldados em gabarito — todas as estruturas são idênticas
-- **Furos de fixação:** Perfurados a cada 10 cm ao longo das almas superior e inferior
+- **Furos de fixação:** Perfurados a cada ~70 mm ao longo das almas superior e inferior (um furo por cada duas tiras de bambu)
 
 A estrutura é a espinha dorsal do painel. Tudo mais se fixa nela.
 
@@ -39,7 +39,7 @@ A estrutura é a espinha dorsal do painel. Tudo mais se fixa nela.
 - **Quantidade:** ~27 tiras por lado, ~54 no total por painel
 - **Fixação:** Fixadas por parafusos à alma do perfil T nas partes superior e inferior via tiras de fixação
 
-![Contraventamento Diagonal](../svg/05-diagonal-bracing.svg)
+![Contraventamento Diagonal](svg/05-diagonal-bracing.svg)
 
 ### O Perfil )(
 
@@ -101,7 +101,7 @@ Todas as variantes compartilham a mesma estrutura, mesmo preenchimento de bambu,
 - **Espessura total da parede:** ~85 mm (argamassa + guadua + argamassa)
 - **A pozolana** reduz o pH da argamassa ao longo do tempo, retardando a degradação do bambu incorporado
 
-![Seção Transversal do Painel](../svg/03-panel-cross-section.svg)
+![Seção Transversal do Painel](svg/03-panel-cross-section.svg)
 
 ## Camadas de Acabamento (aplicadas no local após a instalação)
 

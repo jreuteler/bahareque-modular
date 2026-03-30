@@ -1,6 +1,6 @@
 # Gebäudeintegration
 
-![Gebäudeintegration](../svg/08-building-integration.svg)
+![Gebäudeintegration](svg/08-building-integration.svg)
 
 ## Zwei Konfigurationen
 

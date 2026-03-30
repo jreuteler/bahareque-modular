@@ -6,7 +6,7 @@
 |----------|--------------|----------|-------|
 | Profile en T en acier | 30x30x3 mm, galvanise a chaud | 2x 1,0 m + 2x 2,5 m = 7,0 m | Un seul gabarit de soudure pour tous les panneaux |
 | Bandes de serrage | Acier plat de 2 mm, galvanise, trous correspondants | 4x 1,0 m = 4,0 m | Haut + bas, les deux faces |
-| Vis | Acier inoxydable, autotaraudeuses | ~40 par panneau | A travers bande de serrage, guadua, ame |
+| Vis | Acier inoxydable, autotaraudeuses | ~28 par panneau | A travers bande de serrage → bambou → PEHD → ame (tous les ~70 mm, une pour deux lattes) |
 | Blocs en PEHD | Section 30x30 mm, recycle | 2x 1,0 m = 2,0 m | Profiles en T haut + bas |
 | Lattes de bambou (verticales) | Traitees au borate, ~20 mm de large | ~54 lattes x 2,5 m | ~27 par face |
 | Latte de bambou (diagonale) | Traitee au borate, 60x20 mm | 2x ~2,69 m | 1 par face, coins opposes |

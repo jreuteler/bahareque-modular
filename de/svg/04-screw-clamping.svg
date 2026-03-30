@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" style="background:#ffffff">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="300" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Schraubklemmsystem</text>
+  <text x="300" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Querschnitt Draufsicht auf 1 m Breite · Bambusstreifen zwischen Steg und Stahlstreifen geklemmt</text>
+
+  <!-- Center of T-bar web at x=280 -->
+
+  <!-- FLANGE (mortar face) -->
+  <rect x="235" y="70" width="90" height="10" fill="#c0392b" stroke="#911" stroke-width="1"/>
+  <text x="280" y="62" text-anchor="middle" font-size="8" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">Flansch (30 mm) — Moertelseite</text>
+
+  <!-- WEB with drilled holes -->
+  <rect x="276" y="80" width="9" height="180" fill="#c0392b" stroke="#911" stroke-width="1"/>
+  <!-- Drill holes -->
+  <circle cx="280" cy="110" r="4" fill="#fafafa" stroke="#911" stroke-width="0.5"/>
+  <circle cx="280" cy="150" r="4" fill="#fafafa" stroke="#911" stroke-width="0.5"/>
+  <circle cx="280" cy="190" r="4" fill="#fafafa" stroke="#911" stroke-width="0.5"/>
+  <circle cx="280" cy="230" r="4" fill="#fafafa" stroke="#911" stroke-width="0.5"/>
+
+  <!-- ===== EXTERIOR SIDE (left of web) ===== -->
+  <text x="200" y="85" text-anchor="end" font-size="8" fill="#555" font-family="Helvetica,Arial,sans-serif">AUSSEN</text>
+
+  <!-- HDPE block (against web, exterior side) -->
+  <rect x="258" y="90" width="16" height="162" fill="#4a90a8" opacity="0.25" stroke="#2a7088" stroke-width="0.8"/>
+
+  <!-- Bamboo strips (flush against HDPE) -->
+  <g fill="#8B5A2B" opacity="0.5" stroke="#6a4020" stroke-width="0.5">
+    <rect x="242" y="95" width="16" height="8"/>
+    <rect x="242" y="108" width="16" height="8"/>
+    <rect x="242" y="121" width="16" height="8"/>
+    <rect x="242" y="134" width="16" height="8"/>
+    <rect x="242" y="147" width="16" height="8"/>
+    <rect x="242" y="160" width="16" height="8"/>
+    <rect x="242" y="173" width="16" height="8"/>
+    <rect x="242" y="186" width="16" height="8"/>
+    <rect x="242" y="199" width="16" height="8"/>
+    <rect x="242" y="212" width="16" height="8"/>
+    <rect x="242" y="225" width="16" height="8"/>
+    <rect x="242" y="238" width="16" height="8"/>
+  </g>
+
+  <!-- PVC conduit between strips -->
+  <circle cx="246" cy="131" r="5" fill="#ccc" opacity="0.5" stroke="#888" stroke-width="0.5"/>
+  <circle cx="246" cy="170" r="5" fill="#ccc" opacity="0.5" stroke="#888" stroke-width="0.5"/>
+
+  <!-- Cable inside conduit -->
+  <circle cx="246" cy="131" r="2" fill="#d4a017"/>
+  <circle cx="246" cy="170" r="2" fill="#2980b9"/>
+
+  <!-- Clamping strip (exterior, outermost, flush with bamboo) -->
+  <rect x="238" y="92" width="4" height="160" fill="#555" opacity="0.7" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Screws: clamp → bamboo → HDPE → web (every 2 strips, ~70mm) -->
+  <g stroke="#333" stroke-width="1.2">
+    <line x1="240" y1="103" x2="276" y2="103"/>
+    <line x1="240" y1="129" x2="276" y2="129"/>
+    <line x1="240" y1="155" x2="276" y2="155"/>
+    <line x1="240" y1="181" x2="276" y2="181"/>
+    <line x1="240" y1="207" x2="276" y2="207"/>
+    <line x1="240" y1="233" x2="276" y2="233"/>
+  </g>
+  <g fill="#333">
+    <circle cx="240" cy="103" r="2.5"/>
+    <circle cx="240" cy="129" r="2.5"/>
+    <circle cx="240" cy="155" r="2.5"/>
+    <circle cx="240" cy="181" r="2.5"/>
+    <circle cx="240" cy="207" r="2.5"/>
+    <circle cx="240" cy="233" r="2.5"/>
+  </g>
+
+  <!-- ===== INTERIOR SIDE (right of web) ===== -->
+  <text x="360" y="85" font-size="8" fill="#555" font-family="Helvetica,Arial,sans-serif">INNEN</text>
+
+  <!-- HDPE block (against web, interior side) -->
+  <rect x="287" y="90" width="16" height="162" fill="#4a90a8" opacity="0.25" stroke="#2a7088" stroke-width="0.8"/>
+
+  <!-- Bamboo strips (flush against HDPE, interior) -->
+  <g fill="#8B5A2B" opacity="0.5" stroke="#6a4020" stroke-width="0.5">
+    <rect x="303" y="95" width="16" height="8"/>
+    <rect x="303" y="108" width="16" height="8"/>
+    <rect x="303" y="121" width="16" height="8"/>
+    <rect x="303" y="134" width="16" height="8"/>
+    <rect x="303" y="147" width="16" height="8"/>
+    <rect x="303" y="160" width="16" height="8"/>
+    <rect x="303" y="173" width="16" height="8"/>
+    <rect x="303" y="186" width="16" height="8"/>
+    <rect x="303" y="199" width="16" height="8"/>
+    <rect x="303" y="212" width="16" height="8"/>
+    <rect x="303" y="225" width="16" height="8"/>
+    <rect x="303" y="238" width="16" height="8"/>
+  </g>
+
+  <!-- Interior clamping strip (flush with bamboo) -->
+  <rect x="319" y="92" width="4" height="160" fill="#555" opacity="0.7" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Interior screws: every 2 strips (~70mm) -->
+  <g stroke="#333" stroke-width="1.2">
+    <line x1="321" y1="103" x2="285" y2="103"/>
+    <line x1="321" y1="129" x2="285" y2="129"/>
+    <line x1="321" y1="155" x2="285" y2="155"/>
+    <line x1="321" y1="181" x2="285" y2="181"/>
+    <line x1="321" y1="207" x2="285" y2="207"/>
+    <line x1="321" y1="233" x2="285" y2="233"/>
+  </g>
+  <g fill="#333">
+    <circle cx="321" cy="103" r="2.5"/>
+    <circle cx="321" cy="129" r="2.5"/>
+    <circle cx="321" cy="155" r="2.5"/>
+    <circle cx="321" cy="181" r="2.5"/>
+    <circle cx="321" cy="207" r="2.5"/>
+    <circle cx="321" cy="233" r="2.5"/>
+  </g>
+
+  <!-- Mortar fill indication -->
+  <rect x="235" y="70" width="19" height="192" fill="#d4c4a8" opacity="0.15"/>
+  <rect x="307" y="70" width="18" height="192" fill="#d4c4a8" opacity="0.15"/>
+  <rect x="274" y="92" width="14" height="160" fill="#d4c4a8" opacity="0.1"/>
+  <text x="280" y="270" text-anchor="middle" font-size="7" fill="#999" font-family="Helvetica,Arial,sans-serif">Moertel fuellt die Mitte</text>
+  <text x="280" y="280" text-anchor="middle" font-size="6" fill="#aaa" font-family="Helvetica,Arial,sans-serif">durch Luecken zwischen den Streifen</text>
+
+  <!-- Annotations -->
+  <g font-family="Helvetica,Arial,sans-serif">
+    <!-- Clamping strip annotation -->
+    <line x1="250" y1="92" x2="130" y2="92" stroke="#555" stroke-width="0.5"/>
+    <text x="125" y="90" text-anchor="end" font-size="8" fill="#555">Klemmstreifen (2 mm Stahl)</text>
+    <text x="125" y="102" text-anchor="end" font-size="7" fill="#888">Loecher passen zum Steg, flexibel bei</text>
+    <text x="125" y="112" text-anchor="end" font-size="7" fill="#888">Staerkeunterschieden</text>
+
+    <!-- Screw annotation -->
+    <line x1="256" y1="110" x2="130" y2="135" stroke="#555" stroke-width="0.5"/>
+    <text x="125" y="133" text-anchor="end" font-size="8" fill="#333" font-weight="bold">Schrauben (Edelstahl, alle 2 Streifen, ~70 mm)</text>
+    <text x="125" y="145" text-anchor="end" font-size="7" fill="#888">durch: Klemme → Bambus → HDPE → Steg</text>
+
+    <!-- HDPE block annotation -->
+    <line x1="266" y1="160" x2="130" y2="165" stroke="#4a90a8" stroke-width="0.5"/>
+    <text x="125" y="163" text-anchor="end" font-size="8" fill="#4a90a8">HDPE-Block (zwischen Steg und Streifen)</text>
+    <text x="125" y="175" text-anchor="end" font-size="7" fill="#888">beabstandet Streifen 30 mm vom Steg</text>
+
+    <!-- Bamboo strip annotation -->
+    <line x1="246" y1="200" x2="130" y2="195" stroke="#555" stroke-width="0.5"/>
+    <text x="125" y="193" text-anchor="end" font-size="8" fill="#8B5A2B">Bambusstreifen (~20 mm breit)</text>
+    <text x="125" y="205" text-anchor="end" font-size="7" fill="#888">vertikal, mit Luecken fuer Moertel</text>
+
+    <!-- PVC conduit annotation -->
+    <line x1="266" y1="131" x2="130" y2="215" stroke="#555" stroke-width="0.5"/>
+    <text x="125" y="213" text-anchor="end" font-size="8" fill="#888">PVC-Leerrohr (16 mm)</text>
+    <text x="125" y="225" text-anchor="end" font-size="7" fill="#d4a017">12V ●</text>
+    <text x="125" y="237" text-anchor="end" font-size="7" fill="#2980b9">120V ●</text>
+  </g>
+
+  <!-- Pressure arrows -->
+  <text x="240" y="115" text-anchor="end" font-size="7" fill="#333" font-family="Helvetica,Arial,sans-serif">→</text>
+  <text x="320" y="115" font-size="7" fill="#333" font-family="Helvetica,Arial,sans-serif">←</text>
+
+  <!-- Assembly steps -->
+  <rect x="360" y="110" width="220" height="170" fill="#e8f0e6" stroke="#2d5a27" stroke-width="0.5" rx="4"/>
+  <text x="370" y="130" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Montage (pro Seite):</text>
+  <g font-size="7" fill="#555" font-family="Helvetica,Arial,sans-serif">
+    <text x="370" y="150">1. Paneel flach hinlegen</text>
+    <text x="370" y="165">2. Bambusstreifen an den Steg legen</text>
+    <text x="370" y="180">3. Kabel im PVC-Leerrohr verlegen</text>
+    <text x="370" y="195">4. Diagonale durch Kerben fuehren</text>
+    <text x="370" y="210">5. Klemmstreifen auflegen, Loecher ausrichten</text>
+    <text x="370" y="225">6. Schrauben eindrehen (selbstjustierend)</text>
+    <text x="370" y="240">7. Diagonale an Kreuzungen verdrahten</text>
+    <text x="370" y="260" fill="#2d5a27" font-weight="bold">~8 Min. pro Seite</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(50, 430)" font-family="Helvetica,Arial,sans-serif">
+    <rect x="0" y="0" width="500" height="50" fill="white" stroke="#ddd" stroke-width="0.5" rx="4"/>
+    <rect x="15" y="10" width="12" height="8" fill="#c0392b" opacity="0.7"/><text x="32" y="17" font-size="7" fill="#555">T-Profil (verzinkt)</text>
+    <rect x="135" y="10" width="12" height="8" fill="#555" opacity="0.7"/><text x="152" y="17" font-size="7" fill="#555">Klemmstreifen</text>
+    <rect x="240" y="10" width="12" height="8" fill="#4a90a8" opacity="0.25"/><text x="257" y="17" font-size="7" fill="#555">HDPE</text>
+    <rect x="305" y="10" width="12" height="8" fill="#8B5A2B" opacity="0.5"/><text x="322" y="17" font-size="7" fill="#555">Bambus</text>
+    <circle cx="325" cy="14" r="4" fill="#333"/><text x="335" y="17" font-size="7" fill="#555">Schrauben</text>
+    <circle cx="395" cy="14" r="4" fill="#ccc" stroke="#888" stroke-width="0.5"/><text x="405" y="17" font-size="7" fill="#555">Leerrohr</text>
+    <rect x="15" y="28" width="12" height="8" fill="#d4c4a8" opacity="0.3"/><text x="32" y="35" font-size="7" fill="#555">Moertel (fuellt alle Luecken + Mittelhohlraum)</text>
+  </g>
+</svg>
