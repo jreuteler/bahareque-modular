@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" style="background:#ffffff">
   <rect width="100%" height="100%" fill="white"/>
-  <text x="350" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Panel Cross Section — Horizontal Cut at Top/Bottom T-bar</text>
-  <text x="350" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Looking down · Shows full wall assembly · Exterior left, interior right</text>
+  <text x="350" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Coupe Transversale — Coupe Horizontale au Profilé T Supérieur/Inférieur</text>
+  <text x="350" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Vue de dessus · Shows full wall assembly · Exterior left, interior right</text>
 
   <!-- Same scale as 02 context: 2px/mm. 85mm=170px. 30mm flange=60px. 3mm=6px -->
   <!-- Add lime plaster (5mm=10px) + chicken wire (2mm=4px) on each side -->
@@ -12,10 +12,10 @@
   <text x="349" y="58" text-anchor="middle" font-size="8" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">INT</text>
 
   <g transform="translate(0, 65)">
-    <!-- Lime plaster exterior (5mm=10px) -->
+    <!-- Enduit à la chaux exterior (5mm=10px) -->
     <rect x="151" y="0" width="10" height="210" fill="#f5f0e0" stroke="#ddd" stroke-width="0.5"/>
 
-    <!-- Chicken wire exterior (2mm=4px) -->
+    <!-- Grillage exterior (2mm=4px) -->
     <rect x="161" y="0" width="4" height="210" fill="none" stroke="#888" stroke-width="0.8"/>
 
     <!-- Mortar background (85mm wall = 170px, from x=165 to x=335) -->
@@ -27,7 +27,7 @@
     <!-- Web (3mm=6px wide, extends 85mm inward) -->
     <rect x="247" y="6" width="6" height="204" fill="#c0392b" stroke="#911" stroke-width="0.5"/>
 
-    <!-- HDPE blocks (against web, full height, both sides) -->
+    <!-- HDPE blocks (contre l.âme, full height, both sides) -->
     <rect x="213" y="8" width="32" height="200" fill="#4a90a8" opacity="0.2" stroke="#2a7088" stroke-width="0.8"/>
     <rect x="255" y="8" width="32" height="200" fill="#4a90a8" opacity="0.2" stroke="#2a7088" stroke-width="0.8"/>
     <!-- Notch left of web -->
@@ -35,7 +35,7 @@
     <!-- Notch right of web -->
     <rect x="255" y="8" width="10" height="10" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
 
-    <!-- Bamboo strips (between HDPE and clamp, cross-section) -->
+    <!-- Lattes de bambou (between HDPE and clamp, cross-section) -->
     <g fill="#8B5A2B" opacity="0.5" stroke="#6a4020" stroke-width="0.4">
       <!-- Exterior side -->
       <rect x="195" y="12" width="16" height="12"/>
@@ -63,7 +63,7 @@
       <rect x="289" y="192" width="16" height="12"/>
     </g>
 
-    <!-- Clamping strips (outermost steel, full height) -->
+    <!-- Bande de serrages (outermost steel, full height) -->
     <rect x="189" y="6" width="4" height="204" fill="#555" opacity="0.6" stroke="#333" stroke-width="0.4"/>
     <rect x="307" y="6" width="4" height="204" fill="#555" opacity="0.6" stroke="#333" stroke-width="0.4"/>
 
@@ -95,10 +95,10 @@
       <circle cx="309" cy="170" r="1.3"/><circle cx="309" cy="205" r="1.3"/>
     </g>
 
-    <!-- Chicken wire interior -->
+    <!-- Grillage interior -->
     <rect x="335" y="0" width="4" height="210" fill="none" stroke="#888" stroke-width="0.8"/>
 
-    <!-- Lime plaster interior -->
+    <!-- Enduit à la chaux interior -->
     <rect x="339" y="0" width="10" height="210" fill="#f5f0e0" stroke="#ddd" stroke-width="0.5"/>
 
     <!-- PVC conduit + cables -->
@@ -112,14 +112,14 @@
   <g font-family="Helvetica,Arial,sans-serif">
     <text x="390" y="73" font-size="7" fill="#f0e0c0" stroke="#999" stroke-width="0.3">← lime plaster (3–5 mm)</text>
     <text x="390" y="87" font-size="7" fill="#888">← chicken wire</text>
-    <text x="390" y="101" font-size="7" fill="#c0392b">← flange (30 mm)</text>
+    <text x="390" y="101" font-size="7" fill="#c0392b">← aile (30 mm)</text>
     <text x="390" y="115" font-size="7" fill="#c0392b">← web (3 mm, 85 mm deep)</text>
-    <text x="390" y="133" font-size="7" fill="#4a90a8">← HDPE (full height, against web)</text>
-    <text x="390" y="147" font-size="7" fill="#1a3a6a">← notch for diagonal (corners only)</text>
-    <text x="390" y="165" font-size="7" fill="#8B5A2B">← bamboo strips (cross-section)</text>
+    <text x="390" y="133" font-size="7" fill="#4a90a8">← HDPE (full height, contre l.âme)</text>
+    <text x="390" y="147" font-size="7" fill="#1a3a6a">← encoche pour diagonale (angles uniquement)</text>
+    <text x="390" y="165" font-size="7" fill="#8B5A2B">← lattes de bambou (cross-section)</text>
     <text x="390" y="179" font-size="7" fill="#555">← clamping strips</text>
-    <text x="390" y="197" font-size="7" fill="#333">← screws: clamp → bamboo → HDPE → web</text>
-    <text x="390" y="211" font-size="7" fill="#888">← mortar encases everything</text>
+    <text x="390" y="197" font-size="7" fill="#333">← vis: clamp → bamboo → HDPE → web</text>
+    <text x="390" y="211" font-size="7" fill="#888">← mortier enrobe tout</text>
     <text x="390" y="229" font-size="7" fill="#888">← PVC conduit + 12V/120V cables</text>
   </g>
 
@@ -132,16 +132,16 @@
   <!-- Legend -->
   <g transform="translate(30, 305)" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#555">
     <rect x="0" y="0" width="640" height="16" fill="white" stroke="#ddd" stroke-width="0.5" rx="3"/>
-    <rect x="10" y="4" width="8" height="6" fill="#f5f0e0" stroke="#ddd" stroke-width="0.5"/><text x="22" y="9">Plaster</text>
-    <rect x="60" y="4" width="8" height="6" fill="#888" opacity="0.3"/><text x="72" y="9">Wire</text>
-    <rect x="100" y="4" width="8" height="6" fill="#d4c4a8" opacity="0.45"/><text x="112" y="9">Mortar</text>
+    <rect x="10" y="4" width="8" height="6" fill="#f5f0e0" stroke="#ddd" stroke-width="0.5"/><text x="22" y="9">Enduit</text>
+    <rect x="60" y="4" width="8" height="6" fill="#888" opacity="0.3"/><text x="72" y="9">Fil</text>
+    <rect x="100" y="4" width="8" height="6" fill="#d4c4a8" opacity="0.45"/><text x="112" y="9">Mortier</text>
     <rect x="155" y="4" width="8" height="6" fill="#c0392b" opacity="0.7"/><text x="167" y="9">T-bar</text>
     <rect x="200" y="4" width="8" height="6" fill="#4a90a8" opacity="0.3"/><text x="212" y="9">HDPE</text>
-    <rect x="245" y="4" width="8" height="6" fill="#8B5A2B" opacity="0.5"/><text x="257" y="9">Bamboo</text>
-    <rect x="300" y="4" width="8" height="6" fill="#555" opacity="0.6"/><text x="312" y="9">Clamp</text>
-    <circle cx="355" cy="7" r="2" fill="#333"/><text x="362" y="9">Screw</text>
-    <rect x="395" y="4" width="8" height="6" fill="#1a3a6a" opacity="0.7"/><text x="407" y="9">Notch</text>
-    <circle cx="450" cy="7" r="3" fill="#ccc" stroke="#888" stroke-width="0.3"/><text x="458" y="9">Conduit</text>
+    <rect x="245" y="4" width="8" height="6" fill="#8B5A2B" opacity="0.5"/><text x="257" y="9">Bambou</text>
+    <rect x="300" y="4" width="8" height="6" fill="#555" opacity="0.6"/><text x="312" y="9">Serrage</text>
+    <circle cx="355" cy="7" r="2" fill="#333"/><text x="362" y="9">Vis</text>
+    <rect x="395" y="4" width="8" height="6" fill="#1a3a6a" opacity="0.7"/><text x="407" y="9">Encoche</text>
+    <circle cx="450" cy="7" r="3" fill="#ccc" stroke="#888" stroke-width="0.3"/><text x="458" y="9">Gaine</text>
     <circle cx="500" cy="7" r="2" fill="#d4a017"/><text x="507" y="9">12V</text>
     <circle cx="530" cy="7" r="2" fill="#2980b9"/><text x="537" y="9">120V</text>
   </g>

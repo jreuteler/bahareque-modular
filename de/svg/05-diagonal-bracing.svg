@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 820" style="background:#ffffff">
   <rect width="100%" height="100%" fill="white"/>
-  <text x="225" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Diagonal Bracing — Face View</text>
-  <text x="225" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">1.0 m × 2.5 m · Front strips solid · Rear diagonal dashed</text>
+  <text x="225" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Diagonalaussteifung — Frontansicht</text>
+  <text x="225" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">1.0 m × 2.5 m · Vorderseite Streifen durchgehend · Hintere Diagonale gestrichelt</text>
 
   <!-- Panel: x=90-340 (250px = 1m), y=55-680 (625px = 2.5m) -->
 
-  <!-- T-bar frame -->
+  <!-- T-Profil-Rahmen -->
   <rect x="90" y="55" width="250" height="625" fill="none" stroke="#c0392b" stroke-width="3"/>
 
   <!-- Top HDPE block -->
@@ -52,7 +52,7 @@
   <!-- REAR DIAGONAL (dashed, top-left to bottom-right) -->
   <line x1="98" y1="67" x2="332" y2="668" stroke="#8B5A2B" stroke-width="5" opacity="0.25" stroke-dasharray="10,5" stroke-linecap="round"/>
 
-  <!-- Wire ties at crossings (where front diagonal crosses each vertical strip) -->
+  <!-- Drahtbindungen at crossings (where front diagonal crosses each vertical strip) -->
   <g fill="none" stroke="#888" stroke-width="1.5">
     <circle cx="117" cy="619" r="4"/>
     <circle cx="135" cy="573" r="4"/>
@@ -105,11 +105,11 @@
   <!-- Legend -->
   <g transform="translate(70, 740)" font-family="Helvetica,Arial,sans-serif">
     <rect x="0" y="0" width="310" height="55" fill="white" stroke="#ddd" stroke-width="0.5" rx="4"/>
-    <rect x="15" y="8" width="14" height="4" fill="#c0392b" opacity="0.7"/><text x="35" y="13" font-size="7" fill="#555">T-bar frame</text>
+    <rect x="15" y="8" width="14" height="4" fill="#c0392b" opacity="0.7"/><text x="35" y="13" font-size="7" fill="#555">T-Profil-Rahmen</text>
     <rect x="15" y="20" width="14" height="4" fill="#4a90a8" opacity="0.3"/><text x="35" y="25" font-size="7" fill="#555">HDPE blocks</text>
-    <rect x="15" y="32" width="14" height="4" fill="#8B5A2B" opacity="0.45"/><text x="35" y="37" font-size="7" fill="#555">Bamboo strips</text>
-    <line x1="160" y1="10" x2="185" y2="10" stroke="#8B5A2B" stroke-width="3" opacity="0.7"/><text x="192" y="13" font-size="7" fill="#555">Front diagonal</text>
-    <line x1="160" y1="24" x2="185" y2="24" stroke="#8B5A2B" stroke-width="3" opacity="0.25" stroke-dasharray="5,3"/><text x="192" y="27" font-size="7" fill="#555">Rear diagonal</text>
-    <circle cx="170" cy="40" r="4" fill="none" stroke="#888" stroke-width="1.5"/><text x="180" y="43" font-size="7" fill="#555">Wire ties</text>
+    <rect x="15" y="32" width="14" height="4" fill="#8B5A2B" opacity="0.45"/><text x="35" y="37" font-size="7" fill="#555">Bambusstreifen</text>
+    <line x1="160" y1="10" x2="185" y2="10" stroke="#8B5A2B" stroke-width="3" opacity="0.7"/><text x="192" y="13" font-size="7" fill="#555">Vordere Diagonale</text>
+    <line x1="160" y1="24" x2="185" y2="24" stroke="#8B5A2B" stroke-width="3" opacity="0.25" stroke-dasharray="5,3"/><text x="192" y="27" font-size="7" fill="#555">Hintere Diagonale</text>
+    <circle cx="170" cy="40" r="4" fill="none" stroke="#888" stroke-width="1.5"/><text x="180" y="43" font-size="7" fill="#555">Drahtbindungen</text>
   </g>
 </svg>
