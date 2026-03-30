@@ -39,9 +39,11 @@ The frame is the structural backbone. Everything else attaches to it.
 - **Quantity:** ~27 strips per side, ~54 total per panel
 - **Attachment:** Screw-clamped to the T-bar web at top and bottom via clamping strips
 
-![Diagonal Bracing](../svg/05-diagonal-bracing.svg)
+![Panel Face View](../svg/10-panel-face-view.svg)
 
 ### The )( Profile
+
+![Side Profile](../svg/09-profile.svg)
 
 At the top and bottom, the HDPE blocks hold the strips 30 mm from the web. At mid-height, the strips flex naturally inward toward the web — creating a **)(** cross-section profile. This is not a defect; it is the design:
 

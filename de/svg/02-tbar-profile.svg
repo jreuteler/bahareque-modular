@@ -1,40 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 620" style="background:#ffffff">
   <rect width="100%" height="100%" fill="white"/>
   <text x="350" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">T-Profil — Querschnitte</text>
-  <text x="350" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Top/bottom bars have 85 mm web · Side bars have 30 mm web · Flange always faces mortar</text>
+  <text x="350" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Top/bottom bars have 85 mm web · Side bars have 30 mm web · Flansch always faces Mörtel</text>
 
   <!-- ==================== TOP/BOTTOM T-BAR (85mm web) ==================== -->
   <text x="175" y="65" text-anchor="middle" font-size="11" fill="#555" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Oberes / Unteres T-Profil</text>
   <text x="175" y="78" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">(85 mm web — horizontal structural depth)</text>
 
-  <!-- Scale: ~1.5px per mm. Flange 30mm=45px, web 85mm=128px, 3mm=4.5px -->
+  <!-- Scale: ~1.5px per mm. Flansch 30mm=45px, web 85mm=128px, 3mm=4.5px -->
 
-  <!-- Flange (faces outward = mortar side = top in this view) -->
+  <!-- Flansch (faces nach aussen = Mörtel side = top in this view) -->
   <rect x="100" y="95" width="150" height="12" fill="#c0392b" stroke="#911" stroke-width="1" rx="1"/>
 
   <!-- Web (extends inward) -->
   <rect x="167" y="107" width="12" height="170" fill="#c0392b" stroke="#911" stroke-width="1"/>
 
-  <!-- Cross-section cut through the top T-bar (cutting perpendicular to bar length) -->
-  <!-- Order from web outward: Web → HDPE → Bamboo (vertical, seen as Querschnitt) → Klemmstreifen -->
+  <!-- Cross-section cut through the top T-Profil (cutting perpendicular to bar length) -->
+  <!-- Order from web nach aussen: Web → HDPE → Bambus (vertical, seen as Querschnitt) → Klemmstreifen -->
   <!-- One screw visible at this cut location -->
 
-  <!-- HDPE blocks (gegen Steg, both sides) -->
+  <!-- HDPE-Blocks (gegen Steg, both sides) -->
   <!-- Exterior side (left of web) -->
   <rect x="135" y="107" width="30" height="28" fill="#4a90a8" opacity="0.35" stroke="#2a7088" stroke-width="1" rx="1"/>
-  <!-- Notch at bottom of HDPE (deepest into wall, at web level) — only at corners -->
-  <rect x="155" y="127" width="10" height="8" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
+  <!-- Notch at bottom of HDPE (matches diagonal width ~40px × ~15px) -->
+  <rect x="140" y="120" width="25" height="15" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
   <!-- Interior side (right of web) -->
   <rect x="181" y="107" width="30" height="28" fill="#4a90a8" opacity="0.35" stroke="#2a7088" stroke-width="1" rx="1"/>
-  <rect x="181" y="127" width="10" height="8" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
+  <rect x="181" y="120" width="25" height="15" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
 
-  <!-- Vertikale Bambusstreifen (run full web height, starting below flange) -->
-  <!-- Exterior side — between HDPE and clamping strip -->
+  <!-- Bambus vertical strips (run full web height, starting below Flansch) -->
+  <!-- Exterior side — zwischen HDPE und Klemmeing strip -->
   <rect x="125" y="107" width="8" height="170" fill="#8B5A2B" opacity="0.4" stroke="#6a4020" stroke-width="0.5"/>
   <!-- Interior side -->
   <rect x="213" y="107" width="8" height="170" fill="#8B5A2B" opacity="0.4" stroke="#6a4020" stroke-width="0.5"/>
 
-  <!-- Klemmstreifen (outermost, only at HDPE block height — clamps strips at top/bottom) -->
+  <!-- Klemmstreifen (äusserste, only at HDPE-Block height — clamps strips at top/bottom) -->
   <rect x="119" y="107" width="4" height="30" fill="#555" opacity="0.7" stroke="#333" stroke-width="0.5"/>
   <rect x="223" y="107" width="4" height="30" fill="#555" opacity="0.7" stroke="#333" stroke-width="0.5"/>
 
@@ -53,35 +53,35 @@
 
   <!-- Dimension lines -->
 
-  <!-- Flange thickness: 3mm (vertical, top edge) -->
+  <!-- Flansch thickness: 3mm (vertical, top edge) -->
   <line x1="260" y1="95" x2="280" y2="95" stroke="#333" stroke-width="0.5"/>
   <line x1="260" y1="107" x2="280" y2="107" stroke="#333" stroke-width="0.5"/>
   <line x1="270" y1="95" x2="270" y2="107" stroke="#333" stroke-width="0.5"/>
-  <text x="290" y="104" font-size="8" fill="#333" font-family="Helvetica,Arial,sans-serif">3 mm (flange thickness)</text>
+  <text x="290" y="104" font-size="8" fill="#333" font-family="Helvetica,Arial,sans-serif">3 mm (Flanschdicke)</text>
 
 
 
   <!-- Web thickness: 3mm (horizontal, at bottom) -->
   <line x1="167" y1="285" x2="179" y2="285" stroke="#333" stroke-width="0.5"/>
-  <text x="173" y="298" text-anchor="middle" font-size="7" fill="#333" font-family="Helvetica,Arial,sans-serif">3 mm (web thickness)</text>
+  <text x="173" y="298" text-anchor="middle" font-size="7" fill="#333" font-family="Helvetica,Arial,sans-serif">3 mm (Stegdicke)</text>
 
   <!-- Labels -->
   <g font-family="Helvetica,Arial,sans-serif">
-    <text x="270" y="120" font-size="8" fill="#c0392b">← Flange — faces mortar (exterior)</text>
-    <text x="270" y="145" font-size="8" fill="#c0392b">← Web — extends into wall (85 mm deep)</text>
+    <text x="270" y="120" font-size="8" fill="#c0392b">← Flansch — Mörtelseite (exterior)</text>
+    <text x="270" y="145" font-size="8" fill="#c0392b">← Steg — erstreckt sich in die Wand (85 mm deep)</text>
 
     <line x1="135" y1="120" x2="100" y2="115" stroke="#4a90a8" stroke-width="0.5"/>
-    <text x="20" y="110" font-size="7" fill="#4a90a8">HDPE block →</text>
-    <text x="20" y="121" font-size="6" fill="#888">gegen Steg, spaces strips 30 mm out</text>
+    <text x="20" y="110" font-size="7" fill="#4a90a8">HDPE-Block →</text>
+    <text x="20" y="121" font-size="6" fill="#888">gegen Steg, hält Streifen im Abstand 30 mm out</text>
 
     <line x1="119" y1="125" x2="100" y2="140" stroke="#555" stroke-width="0.5"/>
-    <text x="20" y="140" font-size="7" fill="#555">clamping strip →</text>
-    <text x="20" y="151" font-size="6" fill="#888">outermost, screws through all layers</text>
+    <text x="20" y="140" font-size="7" fill="#555">Klemmstreifen →</text>
+    <text x="20" y="151" font-size="6" fill="#888">äusserste, screws through all layers</text>
 
     <line x1="125" y1="116" x2="100" y2="168" stroke="#8B5A2B" stroke-width="0.5"/>
     <text x="20" y="168" font-size="7" fill="#8B5A2B">Bambusstreifen →</text>
-    <text x="20" y="179" font-size="6" fill="#888">vertical, between HDPE and clamp</text>
-    <text x="20" y="189" font-size="6" fill="#888">(seen in Querschnitt here)</text>
+    <text x="20" y="179" font-size="6" fill="#888">vertical, zwischen HDPE und Klemme</text>
+    <text x="20" y="189" font-size="6" fill="#888">(im Querschnitt here)</text>
 
     <line x1="121" y1="120" x2="100" y2="205" stroke="#333" stroke-width="0.5"/>
     <text x="20" y="207" font-size="7" fill="#333">screw →</text>
@@ -92,7 +92,7 @@
   <text x="530" y="65" text-anchor="middle" font-size="11" fill="#555" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Seitliches T-Profil</text>
   <text x="530" y="78" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">(30 mm web — vertical edges)</text>
 
-  <!-- Flange -->
+  <!-- Flansch -->
   <rect x="460" y="95" width="140" height="12" fill="#c0392b" stroke="#911" stroke-width="1" rx="1"/>
 
   <!-- Web (shorter: 30mm = 45px) -->
@@ -108,35 +108,35 @@
 
   <!-- Note -->
   <text x="530" y="175" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Seitliches T-Profils frame the panel edges.</text>
-  <text x="530" y="187" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">No clamping holes — Bambusstreifen</text>
-  <text x="530" y="199" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">are clamped at top/bottom only.</text>
+  <text x="530" y="187" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Keine Klemmlöcher — Bambusstreifen</text>
+  <text x="530" y="199" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">werden nur oben/unten geklemmt.</text>
 
   <!-- ==================== ASSEMBLY CONTEXT ==================== -->
-  <text x="350" y="340" text-anchor="middle" font-size="11" fill="#555" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Im Kontext — Horizontalschnitt durch das Paneel</text>
-  <text x="350" y="355" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">Draufsicht at a top/bottom T-bar · Flange flush with mortar face</text>
+  <text x="350" y="340" text-anchor="middle" font-size="11" fill="#555" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Im Kontext — Horizontalschnitt durch Paneel</text>
+  <text x="350" y="355" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">Draufsicht at a top/bottom T-Profil · Flansch flush with Mörtel face</text>
 
-  <!-- Scale: 2px/mm. 85mm=170px wide. 30mm flange=60px. 3mm=6px -->
+  <!-- Scale: 2px/mm. 85mm=170px wide. 30mm Flansch=60px. 3mm=6px -->
   <!-- Center assembly at x=250. Ext face x=165, Int face x=335 -->
   <g transform="translate(0, 370)">
-    <!-- Mortar background (fills everything within the T-bar boundary, encasing all components) -->
+    <!-- Mortar background (fills everything within the T-Profil boundary, encasing all components) -->
     <!-- 85mm wall = 170px. From x=165 (ext face) to x=335 (int face) -->
     <rect x="165" y="0" width="170" height="210" fill="#d4c4a8" opacity="0.45" rx="1"/>
 
-    <!-- Flange (30mm=60px wide, 3mm=6px thick, at exterior face) -->
+    <!-- Flansch (30mm=60px wide, 3mm=6px thick, at exterior face) -->
     <rect x="180" y="0" width="140" height="6" fill="#c0392b" stroke="#911" stroke-width="0.8"/>
 
     <!-- Web (3mm=6px wide, extends 85mm=170px inward from exterior face) -->
     <rect x="247" y="6" width="6" height="204" fill="#c0392b" stroke="#911" stroke-width="0.5"/>
 
-    <!-- HDPE blocks (gegen Steg, volle Höhe, both sides) -->
+    <!-- HDPE-Blocks (gegen Steg, volle Höhe, both sides) -->
     <rect x="213" y="8" width="32" height="200" fill="#4a90a8" opacity="0.2" stroke="#2a7088" stroke-width="0.8"/>
     <rect x="255" y="8" width="32" height="200" fill="#4a90a8" opacity="0.2" stroke="#2a7088" stroke-width="0.8"/>
-    <!-- Notch left of Steg (right below flange) -->
-    <rect x="237" y="8" width="10" height="10" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
+    <!-- Notch left of web (matching diagonal width, ~40px wide) -->
+    <rect x="215" y="8" width="40" height="14" fill="#1a3a6a" opacity="0.5" stroke="#0d1f3c" stroke-width="0.5"/>
     <!-- Notch right of web -->
-    <rect x="255" y="8" width="10" height="10" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
+    <rect x="255" y="8" width="40" height="14" fill="#1a3a6a" opacity="0.5" stroke="#0d1f3c" stroke-width="0.5"/>
 
-    <!-- Bambusstreifen (between HDPE and clamp, Querschnitt) -->
+    <!-- Bambusstreifen (zwischen HDPE und Klemme, Querschnitt) -->
     <g fill="#8B5A2B" opacity="0.5" stroke="#6a4020" stroke-width="0.4">
       <!-- Exterior side -->
       <rect x="195" y="12" width="16" height="12"/>
@@ -164,11 +164,11 @@
       <rect x="289" y="192" width="16" height="12"/>
     </g>
 
-    <!-- Klemmstreifen (outermost, volle Höhe) -->
+    <!-- Klemmstreifens (äusserste, volle Höhe) -->
     <rect x="189" y="6" width="4" height="204" fill="#555" opacity="0.6" stroke="#333" stroke-width="0.4"/>
     <rect x="307" y="6" width="4" height="204" fill="#555" opacity="0.6" stroke="#333" stroke-width="0.4"/>
 
-    <!-- Screws every 2nd gap (~70mm) -->
+    <!-- Schraubes every 2nd gap (~70mm) -->
     <!-- Exterior: clamp → bamboo → HDPE → web -->
     <g stroke="#333" stroke-width="0.8">
       <line x1="191" y1="26" x2="247" y2="26"/>
@@ -204,12 +204,12 @@
 
     <g font-family="Helvetica,Arial,sans-serif">
       <text x="370" y="8" font-size="7" fill="#c0392b">← Flansch (30 mm)</text>
-      <text x="370" y="24" font-size="7" fill="#c0392b">← Steg (3 mm, 85 mm deep)</text>
+      <text x="370" y="24" font-size="7" fill="#c0392b">← Steg (3 mm, 85 mm tief)</text>
       <text x="370" y="44" font-size="7" fill="#4a90a8">← HDPE (volle Höhe, gegen Steg)</text>
       <text x="370" y="60" font-size="7" fill="#2a7088">← Kerbe für Diagonale (nur Ecken)</text>
       <text x="370" y="80" font-size="7" fill="#8B5A2B">← Bambusstreifen (Querschnitt)</text>
-      <text x="370" y="100" font-size="7" fill="#555">← Klemmstreifen</text>
-      <text x="370" y="120" font-size="7" fill="#333">← Schrauben: clamp → bamboo → HDPE → web</text>
+      <text x="370" y="100" font-size="7" fill="#555">← Klemmstreifens</text>
+      <text x="370" y="120" font-size="7" fill="#333">← Schrauben: Klemme → bamboo → HDPE → web</text>
       <text x="370" y="140" font-size="7" fill="#888">← Mörtel umschliesst alles</text>
     </g>
 

@@ -39,9 +39,11 @@ El marco es la columna vertebral estructural. Todo lo demás se fija a él.
 - **Cantidad:** ~27 tiras por lado, ~54 en total por panel
 - **Fijación:** Sujetas con tornillos al alma del perfil T en la parte superior e inferior mediante tiras de sujeción
 
-![Arriostramiento Diagonal](svg/05-diagonal-bracing.svg)
+![Arriostramiento Diagonal](svg/10-panel-face-view.svg)
 
 ### El Perfil )(
+
+![Side Profile](svg/09-profile.svg)
 
 En la parte superior e inferior, los bloques de HDPE mantienen las tiras a 30 mm del alma. A media altura, las tiras se flexionan naturalmente hacia adentro, acercándose al alma — creando un perfil de sección transversal **)(**. Esto no es un defecto; es el diseño:
 

@@ -39,9 +39,11 @@ A estrutura é a espinha dorsal do painel. Tudo mais se fixa nela.
 - **Quantidade:** ~27 tiras por lado, ~54 no total por painel
 - **Fixação:** Fixadas por parafusos à alma do perfil T nas partes superior e inferior via tiras de fixação
 
-![Contraventamento Diagonal](svg/05-diagonal-bracing.svg)
+![Contraventamento Diagonal](svg/10-panel-face-view.svg)
 
 ### O Perfil )(
+
+![Side Profile](svg/09-profile.svg)
 
 Nas partes superior e inferior, os blocos de PEAD mantêm as tiras a 30 mm da alma. Na meia-altura, as tiras flexionam naturalmente para dentro em direção à alma — criando um perfil de seção transversal **()**. Isso não é um defeito; é o projeto:
 

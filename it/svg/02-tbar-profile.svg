@@ -1,44 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 620" style="background:#ffffff">
   <rect width="100%" height="100%" fill="white"/>
   <text x="350" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Profilo a T — Sezioni Trasversali</text>
-  <text x="350" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Top/bottom bars have 85 mm web · Side bars have 30 mm web · Flange always faces mortar</text>
+  <text x="350" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Top/bottom bars have 85 mm web · Side bars have 30 mm web · Flangia always faces mortar</text>
 
   <!-- ==================== TOP/BOTTOM T-BAR (85mm web) ==================== -->
   <text x="175" y="65" text-anchor="middle" font-size="11" fill="#555" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Profilo T Superiore / Inferiore</text>
   <text x="175" y="78" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">(85 mm web — horizontal structural depth)</text>
 
-  <!-- Scale: ~1.5px per mm. Flange 30mm=45px, web 85mm=128px, 3mm=4.5px -->
+  <!-- Scale: ~1.5px per mm. Flangia 30mm=45px, web 85mm=128px, 3mm=4.5px -->
 
-  <!-- Flange (faces outward = mortar side = top in this view) -->
+  <!-- Flangia (faces outward = mortar side = top in this view) -->
   <rect x="100" y="95" width="150" height="12" fill="#c0392b" stroke="#911" stroke-width="1" rx="1"/>
 
   <!-- Web (extends inward) -->
   <rect x="167" y="107" width="12" height="170" fill="#c0392b" stroke="#911" stroke-width="1"/>
 
   <!-- Cross-section cut through the top T-bar (cutting perpendicular to bar length) -->
-  <!-- Order from web outward: Web → HDPE → Bamboo (vertical, seen as cross-section) → Listello di fissaggio -->
+  <!-- Order from web outward: Web → HDPE → Bambù (vertical, seen as sezione trasversale) → Fissaggio strip -->
   <!-- One screw visible at this cut location -->
 
-  <!-- HDPE blocks (contro anima, both sides) -->
+  <!-- blocco HDPEs (contro anima, both sides) -->
   <!-- Exterior side (left of web) -->
   <rect x="135" y="107" width="30" height="28" fill="#4a90a8" opacity="0.35" stroke="#2a7088" stroke-width="1" rx="1"/>
-  <!-- Notch at bottom of HDPE (deepest into wall, at web level) — only at corners -->
-  <rect x="155" y="127" width="10" height="8" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
+  <!-- Notch at bottom of HDPE (matches diagonal width ~40px × ~15px) -->
+  <rect x="140" y="120" width="25" height="15" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
   <!-- Interior side (right of web) -->
   <rect x="181" y="107" width="30" height="28" fill="#4a90a8" opacity="0.35" stroke="#2a7088" stroke-width="1" rx="1"/>
-  <rect x="181" y="127" width="10" height="8" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
+  <rect x="181" y="120" width="25" height="15" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
 
-  <!-- Bamboo vertical strips (run full web height, starting below flange) -->
-  <!-- Exterior side — between HDPE and clamping strip -->
+  <!-- Bambù vertical strips (run full web height, starting below flangia) -->
+  <!-- Exterior side — between HDPE and listello di fissaggio -->
   <rect x="125" y="107" width="8" height="170" fill="#8B5A2B" opacity="0.4" stroke="#6a4020" stroke-width="0.5"/>
   <!-- Interior side -->
   <rect x="213" y="107" width="8" height="170" fill="#8B5A2B" opacity="0.4" stroke="#6a4020" stroke-width="0.5"/>
 
-  <!-- Listello di fissaggio (outermost, only at HDPE block height — clamps strips at top/bottom) -->
+  <!-- Fissaggio strip (outermost, only at blocco HDPE height — clamps strips at top/bottom) -->
   <rect x="119" y="107" width="4" height="30" fill="#555" opacity="0.7" stroke="#333" stroke-width="0.5"/>
   <rect x="223" y="107" width="4" height="30" fill="#555" opacity="0.7" stroke="#333" stroke-width="0.5"/>
 
-  <!-- ONE screw visible at this cross-section cut -->
+  <!-- ONE screw visible at this sezione trasversale cut -->
   <!-- Exterior: clamp → bamboo → HDPE → web -->
   <line x1="121" y1="120" x2="167" y2="120" stroke="#333" stroke-width="1.5"/>
   <circle cx="121" cy="120" r="2.5" fill="#333"/>
@@ -49,15 +49,15 @@
   <!-- Notch annotation -->
   <line x1="160" y1="135" x2="160" y2="155" stroke="#2a7088" stroke-width="0.5"/>
   <text x="160" y="165" text-anchor="middle" font-size="6" fill="#2a7088" font-family="Helvetica,Arial,sans-serif">intaglio per diagonale</text>
-  <text x="160" y="175" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">(solo angoli)</text>
+  <text x="160" y="175" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">(corners only)</text>
 
   <!-- Dimension lines -->
 
-  <!-- Flange thickness: 3mm (vertical, top edge) -->
+  <!-- Flangia thickness: 3mm (vertical, top edge) -->
   <line x1="260" y1="95" x2="280" y2="95" stroke="#333" stroke-width="0.5"/>
   <line x1="260" y1="107" x2="280" y2="107" stroke="#333" stroke-width="0.5"/>
   <line x1="270" y1="95" x2="270" y2="107" stroke="#333" stroke-width="0.5"/>
-  <text x="290" y="104" font-size="8" fill="#333" font-family="Helvetica,Arial,sans-serif">3 mm (flange thickness)</text>
+  <text x="290" y="104" font-size="8" fill="#333" font-family="Helvetica,Arial,sans-serif">3 mm (flangia thickness)</text>
 
 
 
@@ -67,21 +67,21 @@
 
   <!-- Labels -->
   <g font-family="Helvetica,Arial,sans-serif">
-    <text x="270" y="120" font-size="8" fill="#c0392b">← Flange — faces mortar (exterior)</text>
-    <text x="270" y="145" font-size="8" fill="#c0392b">← Web — extends into wall (85 mm deep)</text>
+    <text x="270" y="120" font-size="8" fill="#c0392b">← Flangia — lato malta (exterior)</text>
+    <text x="270" y="145" font-size="8" fill="#c0392b">← Anima — si estende nella parete (85 mm deep)</text>
 
     <line x1="135" y1="120" x2="100" y2="115" stroke="#4a90a8" stroke-width="0.5"/>
-    <text x="20" y="110" font-size="7" fill="#4a90a8">HDPE block →</text>
+    <text x="20" y="110" font-size="7" fill="#4a90a8">blocco HDPE →</text>
     <text x="20" y="121" font-size="6" fill="#888">contro anima, spaces strips 30 mm out</text>
 
     <line x1="119" y1="125" x2="100" y2="140" stroke="#555" stroke-width="0.5"/>
-    <text x="20" y="140" font-size="7" fill="#555">clamping strip →</text>
+    <text x="20" y="140" font-size="7" fill="#555">listello di fissaggio →</text>
     <text x="20" y="151" font-size="6" fill="#888">outermost, screws through all layers</text>
 
     <line x1="125" y1="116" x2="100" y2="168" stroke="#8B5A2B" stroke-width="0.5"/>
     <text x="20" y="168" font-size="7" fill="#8B5A2B">listelli di bambù →</text>
     <text x="20" y="179" font-size="6" fill="#888">vertical, between HDPE and clamp</text>
-    <text x="20" y="189" font-size="6" fill="#888">(seen in cross-section here)</text>
+    <text x="20" y="189" font-size="6" fill="#888">(seen in sezione trasversale here)</text>
 
     <line x1="121" y1="120" x2="100" y2="205" stroke="#333" stroke-width="0.5"/>
     <text x="20" y="207" font-size="7" fill="#333">screw →</text>
@@ -92,7 +92,7 @@
   <text x="530" y="65" text-anchor="middle" font-size="11" fill="#555" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Profilo T Laterale</text>
   <text x="530" y="78" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">(30 mm web — vertical edges)</text>
 
-  <!-- Flange -->
+  <!-- Flangia -->
   <rect x="460" y="95" width="140" height="12" fill="#c0392b" stroke="#911" stroke-width="1" rx="1"/>
 
   <!-- Web (shorter: 30mm = 45px) -->
@@ -108,35 +108,35 @@
 
   <!-- Note -->
   <text x="530" y="175" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">Profilo T Laterales frame the panel edges.</text>
-  <text x="530" y="187" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">No clamping holes — listelli di bambù</text>
+  <text x="530" y="187" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">No fissaggio holes — listelli di bambù</text>
   <text x="530" y="199" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">are clamped at top/bottom only.</text>
 
   <!-- ==================== ASSEMBLY CONTEXT ==================== -->
   <text x="350" y="340" text-anchor="middle" font-size="11" fill="#555" font-weight="bold" font-family="Helvetica,Arial,sans-serif">In Contesto — Taglio Orizzontale del Pannello</text>
-  <text x="350" y="355" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">Vista dall.alto at a top/bottom T-bar · Flange flush with mortar face</text>
+  <text x="350" y="355" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">Vista dall'alto at a top/bottom T-bar · Flangia flush with mortar face</text>
 
-  <!-- Scale: 2px/mm. 85mm=170px wide. 30mm flange=60px. 3mm=6px -->
+  <!-- Scale: 2px/mm. 85mm=170px wide. 30mm flangia=60px. 3mm=6px -->
   <!-- Center assembly at x=250. Ext face x=165, Int face x=335 -->
   <g transform="translate(0, 370)">
     <!-- Mortar background (fills everything within the T-bar boundary, encasing all components) -->
     <!-- 85mm wall = 170px. From x=165 (ext face) to x=335 (int face) -->
     <rect x="165" y="0" width="170" height="210" fill="#d4c4a8" opacity="0.45" rx="1"/>
 
-    <!-- Flange (30mm=60px wide, 3mm=6px thick, at exterior face) -->
+    <!-- Flangia (30mm=60px wide, 3mm=6px thick, at exterior face) -->
     <rect x="180" y="0" width="140" height="6" fill="#c0392b" stroke="#911" stroke-width="0.8"/>
 
     <!-- Web (3mm=6px wide, extends 85mm=170px inward from exterior face) -->
     <rect x="247" y="6" width="6" height="204" fill="#c0392b" stroke="#911" stroke-width="0.5"/>
 
-    <!-- HDPE blocks (contro anima, full height, both sides) -->
+    <!-- blocco HDPEs (contro anima, full height, both sides) -->
     <rect x="213" y="8" width="32" height="200" fill="#4a90a8" opacity="0.2" stroke="#2a7088" stroke-width="0.8"/>
     <rect x="255" y="8" width="32" height="200" fill="#4a90a8" opacity="0.2" stroke="#2a7088" stroke-width="0.8"/>
-    <!-- Notch left of web (right below flange) -->
-    <rect x="237" y="8" width="10" height="10" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
+    <!-- Notch left of web (matching diagonal width, ~40px wide) -->
+    <rect x="215" y="8" width="40" height="14" fill="#1a3a6a" opacity="0.5" stroke="#0d1f3c" stroke-width="0.5"/>
     <!-- Notch right of web -->
-    <rect x="255" y="8" width="10" height="10" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
+    <rect x="255" y="8" width="40" height="14" fill="#1a3a6a" opacity="0.5" stroke="#0d1f3c" stroke-width="0.5"/>
 
-    <!-- Listelli di bambù (between HDPE and clamp, cross-section) -->
+    <!-- Listelli di bambù (between HDPE and clamp, sezione trasversale) -->
     <g fill="#8B5A2B" opacity="0.5" stroke="#6a4020" stroke-width="0.4">
       <!-- Exterior side -->
       <rect x="195" y="12" width="16" height="12"/>
@@ -164,7 +164,7 @@
       <rect x="289" y="192" width="16" height="12"/>
     </g>
 
-    <!-- Listello di fissaggios (outermost, full height) -->
+    <!-- Fissaggio strips (outermost, full height) -->
     <rect x="189" y="6" width="4" height="204" fill="#555" opacity="0.6" stroke="#333" stroke-width="0.4"/>
     <rect x="307" y="6" width="4" height="204" fill="#555" opacity="0.6" stroke="#333" stroke-width="0.4"/>
 
@@ -206,10 +206,10 @@
       <text x="370" y="8" font-size="7" fill="#c0392b">← flangia (30 mm)</text>
       <text x="370" y="24" font-size="7" fill="#c0392b">← web (3 mm, 85 mm deep)</text>
       <text x="370" y="44" font-size="7" fill="#4a90a8">← HDPE (full height, contro anima)</text>
-      <text x="370" y="60" font-size="7" fill="#2a7088">← intaglio per diagonale (solo angoli)</text>
-      <text x="370" y="80" font-size="7" fill="#8B5A2B">← listelli di bambù (cross-section)</text>
-      <text x="370" y="100" font-size="7" fill="#555">← clamping strips</text>
-      <text x="370" y="120" font-size="7" fill="#333">← viti: clamp → bamboo → HDPE → web</text>
+      <text x="370" y="60" font-size="7" fill="#2a7088">← intaglio per diagonale (corners only)</text>
+      <text x="370" y="80" font-size="7" fill="#8B5A2B">← listelli di bambù (sezione trasversale)</text>
+      <text x="370" y="100" font-size="7" fill="#555">← listello di fissaggios</text>
+      <text x="370" y="120" font-size="7" fill="#333">← screws: clamp → bamboo → HDPE → web</text>
       <text x="370" y="140" font-size="7" fill="#888">← malta avvolge tutto</text>
     </g>
 
@@ -229,6 +229,6 @@
     <rect x="230" y="4" width="10" height="6" fill="#555" opacity="0.6"/><text x="245" y="9">Fissaggio</text>
     <circle cx="300" cy="7" r="2" fill="#333"/><text x="308" y="9">Vite</text>
     <rect x="345" y="4" width="10" height="6" fill="#d4c4a8" opacity="0.45"/><text x="360" y="9">Malta</text>
-    <rect x="415" y="4" width="10" height="6" fill="#1a3a6a" opacity="0.7"/><text x="430" y="9">Intaglio (diagonale, solo angoli)</text>
+    <rect x="415" y="4" width="10" height="6" fill="#1a3a6a" opacity="0.7"/><text x="430" y="9">Notch (diagonal, corners only)</text>
   </g>
 </svg>

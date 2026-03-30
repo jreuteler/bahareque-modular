@@ -39,11 +39,14 @@ Der Rahmen ist das strukturelle Rückgrat. Alles andere wird daran befestigt.
 - **Menge:** ~27 Streifen pro Seite, ~54 total pro Paneel
 - **Befestigung:** Schraubgeklemmt an den T-bar-Steg oben und unten über Klemmleisten
 
-![Diagonalverstrebung](svg/05-diagonal-bracing.svg)
+![Diagonalverstrebung](svg/10-panel-face-view.svg)
 
 ### Das )( Profil
 
+![Side Profile](svg/09-profile.svg)
+
 Oben und unten halten die HDPE-Blöcke die Streifen 30 mm vom Steg entfernt. Auf halber Höhe biegen sich die Streifen natürlich nach innen zum Steg — wodurch ein **)(** Querschnittprofil entsteht. Das ist kein Fehler; es ist das Design:
+
 
 - Der Mörtel füllt den variierenden Spalt und erzeugt eine natürliche Bogenform
 - Der Bogen widersteht Kräften senkrecht zur Wandebene (Wind, Stoss)

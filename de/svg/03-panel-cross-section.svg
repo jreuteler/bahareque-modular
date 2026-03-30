@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" style="background:#ffffff">
   <rect width="100%" height="100%" fill="white"/>
-  <text x="350" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Paneel-Querschnitt — Horizontalschnitt am oberen/unteren T-Profil</text>
+  <text x="350" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Panel Cross Section — Horizontalschnitt am oberen/unteren T-Profil</text>
   <text x="350" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Draufsicht · Zeigt kompletten Wandaufbau · Aussen links, innen rechts</text>
 
-  <!-- Same scale as 02 context: 2px/mm. 85mm=170px. 30mm flange=60px. 3mm=6px -->
+  <!-- Same scale as 02 context: 2px/mm. 85mm=170px. 30mm Flansch=60px. 3mm=6px -->
   <!-- Add Kalkputz (5mm=10px) + chicken wire (2mm=4px) on each side -->
   <!-- Total: 10 + 4 + 170 + 4 + 10 = 198px -->
   <!-- Center at x=250. Ext plaster x=151, Int plaster end x=349 -->
@@ -21,21 +21,21 @@
     <!-- Mortar background (85mm wall = 170px, from x=165 to x=335) -->
     <rect x="165" y="0" width="170" height="210" fill="#d4c4a8" opacity="0.45" rx="1"/>
 
-    <!-- Flange (30mm=60px wide, 3mm=6px thick, at exterior face) -->
+    <!-- Flansch (30mm=60px wide, 3mm=6px thick, at exterior face) -->
     <rect x="180" y="0" width="140" height="6" fill="#c0392b" stroke="#911" stroke-width="0.8"/>
 
     <!-- Web (3mm=6px wide, extends 85mm inward) -->
     <rect x="247" y="6" width="6" height="204" fill="#c0392b" stroke="#911" stroke-width="0.5"/>
 
-    <!-- HDPE blocks (gegen Steg, volle Höhe, both sides) -->
+    <!-- HDPE-Blocks (gegen Steg, volle Höhe, both sides) -->
     <rect x="213" y="8" width="32" height="200" fill="#4a90a8" opacity="0.2" stroke="#2a7088" stroke-width="0.8"/>
     <rect x="255" y="8" width="32" height="200" fill="#4a90a8" opacity="0.2" stroke="#2a7088" stroke-width="0.8"/>
-    <!-- Notch left of web -->
-    <rect x="237" y="8" width="10" height="10" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
+    <!-- Notch left of web (matching diagonal width, ~40px wide) -->
+    <rect x="215" y="8" width="40" height="14" fill="#1a3a6a" opacity="0.5" stroke="#0d1f3c" stroke-width="0.5"/>
     <!-- Notch right of web -->
-    <rect x="255" y="8" width="10" height="10" fill="#1a3a6a" opacity="0.7" stroke="#0d1f3c" stroke-width="0.5"/>
+    <rect x="255" y="8" width="40" height="14" fill="#1a3a6a" opacity="0.5" stroke="#0d1f3c" stroke-width="0.5"/>
 
-    <!-- Bambusstreifen (between HDPE and clamp, Querschnitt) -->
+    <!-- Bambusstreifen (zwischen HDPE und Klemme, Querschnitt) -->
     <g fill="#8B5A2B" opacity="0.5" stroke="#6a4020" stroke-width="0.4">
       <!-- Exterior side -->
       <rect x="195" y="12" width="16" height="12"/>
@@ -63,11 +63,11 @@
       <rect x="289" y="192" width="16" height="12"/>
     </g>
 
-    <!-- Klemmstreifen (outermost steel, volle Höhe) -->
+    <!-- Klemmstreifens (äusserste steel, volle Höhe) -->
     <rect x="189" y="6" width="4" height="204" fill="#555" opacity="0.6" stroke="#333" stroke-width="0.4"/>
     <rect x="307" y="6" width="4" height="204" fill="#555" opacity="0.6" stroke="#333" stroke-width="0.4"/>
 
-    <!-- Screws every 2nd gap (~70mm) -->
+    <!-- Schraubes every 2nd gap (~70mm) -->
     <g stroke="#333" stroke-width="0.8">
       <line x1="191" y1="26" x2="247" y2="26"/>
       <line x1="191" y1="62" x2="247" y2="62"/>
@@ -101,7 +101,7 @@
     <!-- Kalkputz interior -->
     <rect x="339" y="0" width="10" height="210" fill="#f5f0e0" stroke="#ddd" stroke-width="0.5"/>
 
-    <!-- PVC conduit + cables -->
+    <!-- PVC-Leerrohr + cables -->
     <circle cx="201" cy="50" r="3" fill="#ccc" opacity="0.5" stroke="#888" stroke-width="0.4"/>
     <circle cx="201" cy="50" r="1.2" fill="#d4a017"/>
     <circle cx="295" cy="140" r="3.5" fill="#ccc" opacity="0.5" stroke="#888" stroke-width="0.4"/>
@@ -113,21 +113,21 @@
     <text x="390" y="73" font-size="7" fill="#f0e0c0" stroke="#999" stroke-width="0.3">← Kalkputz (3–5 mm)</text>
     <text x="390" y="87" font-size="7" fill="#888">← chicken wire</text>
     <text x="390" y="101" font-size="7" fill="#c0392b">← Flansch (30 mm)</text>
-    <text x="390" y="115" font-size="7" fill="#c0392b">← Steg (3 mm, 85 mm deep)</text>
+    <text x="390" y="115" font-size="7" fill="#c0392b">← Steg (3 mm, 85 mm tief)</text>
     <text x="390" y="133" font-size="7" fill="#4a90a8">← HDPE (volle Höhe, gegen Steg)</text>
     <text x="390" y="147" font-size="7" fill="#1a3a6a">← Kerbe für Diagonale (nur Ecken)</text>
     <text x="390" y="165" font-size="7" fill="#8B5A2B">← Bambusstreifen (Querschnitt)</text>
-    <text x="390" y="179" font-size="7" fill="#555">← Klemmstreifen</text>
-    <text x="390" y="197" font-size="7" fill="#333">← Schrauben: clamp → bamboo → HDPE → web</text>
+    <text x="390" y="179" font-size="7" fill="#555">← Klemmstreifens</text>
+    <text x="390" y="197" font-size="7" fill="#333">← Schrauben: Klemme → bamboo → HDPE → web</text>
     <text x="390" y="211" font-size="7" fill="#888">← Mörtel umschliesst alles</text>
-    <text x="390" y="229" font-size="7" fill="#888">← PVC conduit + 12V/120V cables</text>
+    <text x="390" y="229" font-size="7" fill="#888">← PVC-Leerrohr + 12V/120V cables</text>
   </g>
 
   <!-- Dimension: full wall including plaster -->
   <line x1="151" y1="283" x2="349" y2="283" stroke="#333" stroke-width="0.5"/>
   <line x1="151" y1="279" x2="151" y2="287" stroke="#333" stroke-width="0.5"/>
   <line x1="349" y1="279" x2="349" y2="287" stroke="#333" stroke-width="0.5"/>
-  <text x="250" y="297" text-anchor="middle" font-size="8" fill="#333" font-family="Helvetica,Arial,sans-serif">~95 mm total (85 mm mortar + plaster both sides)</text>
+  <text x="250" y="297" text-anchor="middle" font-size="8" fill="#333" font-family="Helvetica,Arial,sans-serif">~95 mm total (85 mm Mörtel + plaster both sides)</text>
 
   <!-- Legend -->
   <g transform="translate(30, 305)" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#555">
@@ -135,7 +135,7 @@
     <rect x="10" y="4" width="8" height="6" fill="#f5f0e0" stroke="#ddd" stroke-width="0.5"/><text x="22" y="9">Putz</text>
     <rect x="60" y="4" width="8" height="6" fill="#888" opacity="0.3"/><text x="72" y="9">Draht</text>
     <rect x="100" y="4" width="8" height="6" fill="#d4c4a8" opacity="0.45"/><text x="112" y="9">Mörtel</text>
-    <rect x="155" y="4" width="8" height="6" fill="#c0392b" opacity="0.7"/><text x="167" y="9">T-bar</text>
+    <rect x="155" y="4" width="8" height="6" fill="#c0392b" opacity="0.7"/><text x="167" y="9">T-Profil</text>
     <rect x="200" y="4" width="8" height="6" fill="#4a90a8" opacity="0.3"/><text x="212" y="9">HDPE</text>
     <rect x="245" y="4" width="8" height="6" fill="#8B5A2B" opacity="0.5"/><text x="257" y="9">Bambus</text>
     <rect x="300" y="4" width="8" height="6" fill="#555" opacity="0.6"/><text x="312" y="9">Klemme</text>

@@ -44,6 +44,8 @@ This system bridges both:
 | **Variants** | P (pass-through), O (outlet), S (switch), W (water) |
 | **Integrated electrical** | 12V lighting + 120V mains, snap-connect between panels |
 
+![Panel Construction — Side Profile and Face View](svg/11-combined-profile-face.svg)
+
 ## Repository Structure
 
 ```
@@ -177,6 +179,26 @@ Dieses System vereint beides:
 
 Sie dürfen alles frei nutzen, verändern und verbreiten. Änderungen müssen unter denselben Lizenzen offen bleiben.
 
+### Lizenz-FAQ
+
+**Kann ich ein Haus mit diesem System bauen?**
+Ja. Kostenlos. Ohne Genehmigung. Ohne Gebühren. Ohne Registrierung.
+
+**Kann ich Paneele herstellen und verkaufen?**
+Ja. Aber Sie müssen alle Designänderungen unter denselben offenen Lizenzen teilen. Sie können Ihre Änderungen nicht patentieren.
+
+**Kann ich einen Kurs mit diesen Dokumenten geben?**
+Ja. Nennen Sie das Projekt und teilen Sie neues Material unter CC BY-SA 4.0.
+
+**Kann jemand eine Variante dieses Systems patentieren?**
+Nein. Die CERN-OHL-S v2 Lizenz verlangt, dass jeder, der das Design oder darauf basierende Produkte verbreitet, eine gebührenfreie Patentlizenz erteilt.
+
+**Kann ein Unternehmen dies kommerziell nutzen?**
+Ja. Unternehmen können Paneele herstellen und verkaufen. Designänderungen müssen unter CERN-OHL-S v2 geteilt werden. Patentbeschränkungen dürfen nicht hinzugefügt werden.
+
+**Kann jemand dieses Projekt schliessen?**
+Nein. Beide Lizenzen sind Copyleft / Share-Alike. Jedes Derivat muss offen bleiben. Dies ist dauerhaft und unwiderruflich.
+
 ## Ursprung & Kontakt
 
 Entworfen von **Jan Reuteler** (janreuteler@icloud.com), Schweiz.
@@ -232,6 +254,26 @@ Este sistema une ambos mundos:
 
 Puede usar, modificar y distribuir todo libremente. Las modificaciones deben permanecer abiertas bajo las mismas licencias. Nadie puede cerrar esto — ni siquiera nosotros.
 
+### Preguntas Frecuentes sobre la Licencia
+
+**¿Puedo construir una casa con este sistema?**
+Sí. Gratis. Sin permiso. Sin tarifas. Sin registro.
+
+**¿Puedo fabricar paneles y venderlos?**
+Sí. Pero debe compartir cualquier modificación de diseño bajo las mismas licencias abiertas. No puede patentar sus modificaciones.
+
+**¿Puedo dar un curso usando estos documentos?**
+Sí. Cite el proyecto y comparta cualquier material nuevo bajo CC BY-SA 4.0.
+
+**¿Se puede patentar una variación de este sistema?**
+No. La licencia CERN-OHL-S v2 requiere que cualquier persona que distribuya el diseño o productos basados en él otorgue una licencia de patente libre de regalías.
+
+**¿Puede una empresa usar esto comercialmente?**
+Sí. Las empresas pueden fabricar y vender paneles. Deben compartir modificaciones de diseño bajo CERN-OHL-S v2. No pueden agregar restricciones de patente.
+
+**¿Alguien puede cerrar el código fuente de este proyecto?**
+No. Ambas licencias son copyleft / share-alike. Cada derivado debe permanecer abierto. Esto es permanente e irrevocable.
+
 ## Origen y contacto
 
 Diseñado por **Jan Reuteler** (janreuteler@icloud.com), Suiza.
@@ -250,6 +292,10 @@ Desarrollado para los Andes colombianos (Eje Cafetero, ~2.000 m de altitud) usan
 
 Documentação completa: [pt/](pt/)
 
+**Licença:** Hardware: CERN-OHL-S v2 · Documentação: CC BY-SA 4.0
+
+Pode construir, fabricar, vender, ensinar — tudo livre. Modificações devem permanecer abertas. Ninguém pode patentear variações. Ninguém pode fechar o código. Permanente e irrevogável.
+
 Projetado por **Jan Reuteler** (janreuteler@icloud.com), Suíça.
 
 ---
@@ -264,6 +310,10 @@ Projetado por **Jan Reuteler** (janreuteler@icloud.com), Suíça.
 
 Documentazione completa: [it/](it/)
 
+**Licenza:** Hardware: CERN-OHL-S v2 · Documentazione: CC BY-SA 4.0
+
+Si può costruire, fabbricare, vendere, insegnare — tutto libero. Le modifiche devono rimanere aperte. Nessuno può brevettare variazioni. Nessuno può chiudere il codice. Permanente e irrevocabile.
+
 Progettato da **Jan Reuteler** (janreuteler@icloud.com), Svizzera.
 
 ---
@@ -277,5 +327,9 @@ Progettato da **Jan Reuteler** (janreuteler@icloud.com), Svizzera.
 > *Ce projet est en développement actif. Cette publication initiale est un travail en cours — la documentation sera affinée, les dessins techniques améliorés, et le système sera construit et testé en Colombie (région de l'Eje Cafetero). Tous les résultats et itérations de conception seront publiés ici. Commentaires, suggestions et contributions sont les bienvenus.*
 
 Documentation complète : [fr/](fr/)
+
+**Licence :** Hardware : CERN-OHL-S v2 · Documentation : CC BY-SA 4.0
+
+Vous pouvez construire, fabriquer, vendre, enseigner — tout est libre. Les modifications doivent rester ouvertes. Personne ne peut breveter des variations. Personne ne peut fermer le code. Permanent et irrévocable.
 
 Conçu par **Jan Reuteler** (janreuteler@icloud.com), Suisse.

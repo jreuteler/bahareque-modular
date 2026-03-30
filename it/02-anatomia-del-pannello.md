@@ -39,9 +39,11 @@ Il telaio è la spina dorsale strutturale. Tutto il resto vi si aggancia.
 - **Quantità:** ~27 listelli per lato, ~54 totali per pannello
 - **Fissaggio:** Serrati a vite all'anima del profilo a T in alto e in basso tramite barre di serraggio
 
-![Controventatura Diagonale](svg/05-diagonal-bracing.svg)
+![Controventatura Diagonale](svg/10-panel-face-view.svg)
 
 ### Il Profilo )(
+
+![Side Profile](svg/09-profile.svg)
 
 In alto e in basso, i distanziatori in HDPE mantengono i listelli a 30 mm dall'anima. A mezza altezza, i listelli si flettono naturalmente verso l'interno contro l'anima — creando un profilo di sezione trasversale **)(** . Questo non è un difetto; è il progetto:
 

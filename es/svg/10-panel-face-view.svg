@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 900" style="background:#ffffff">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="15" y="18" font-size="12" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Vista Frontal</text>
+  <text x="15" y="32" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">Lado frontal, 1.0 m × 2.5 m</text>
+
+  <!-- Marco perfil T -->
+  <rect x="75" y="50" width="300" height="750" fill="none" stroke="#c0392b" stroke-width="4" rx="1"/>
+
+  <!-- Vertical bamboo strips (green-brown, drawn first so HDPE covers their ends) -->
+  <g fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.3">
+    <rect x="90" y="54" width="6" height="742"/>
+    <rect x="100" y="54" width="6" height="742"/>
+    <rect x="110" y="54" width="6" height="742"/>
+    <rect x="120" y="54" width="6" height="742"/>
+    <rect x="130" y="54" width="6" height="742"/>
+    <rect x="140" y="54" width="6" height="742"/>
+    <rect x="150" y="54" width="6" height="742"/>
+    <rect x="160" y="54" width="6" height="742"/>
+    <rect x="170" y="54" width="6" height="742"/>
+    <rect x="180" y="54" width="6" height="742"/>
+    <rect x="190" y="54" width="6" height="742"/>
+    <rect x="200" y="54" width="6" height="742"/>
+    <rect x="210" y="54" width="6" height="742"/>
+    <rect x="220" y="54" width="6" height="742"/>
+    <rect x="230" y="54" width="6" height="742"/>
+    <rect x="240" y="54" width="6" height="742"/>
+    <rect x="250" y="54" width="6" height="742"/>
+    <rect x="260" y="54" width="6" height="742"/>
+    <rect x="270" y="54" width="6" height="742"/>
+    <rect x="280" y="54" width="6" height="742"/>
+    <rect x="290" y="54" width="6" height="742"/>
+    <rect x="300" y="54" width="6" height="742"/>
+    <rect x="310" y="54" width="6" height="742"/>
+    <rect x="320" y="54" width="6" height="742"/>
+    <rect x="330" y="54" width="6" height="742"/>
+    <rect x="340" y="54" width="6" height="742"/>
+    <rect x="350" y="54" width="6" height="742"/>
+  </g>
+
+  <!-- Front diagonal strip (orange-brown, solid) -->
+  <line x1="79" y1="796" x2="371" y2="54" stroke="#c47a2a" stroke-width="18" opacity="0.3" stroke-linecap="round"/>
+  <line x1="79" y1="796" x2="371" y2="54" stroke="#c47a2a" stroke-width="2" opacity="0.7" stroke-linecap="round"/>
+
+  <!-- Rear diagonal strip (dashed, same color, top-left to bottom-right) -->
+  <line x1="79" y1="54" x2="371" y2="796" stroke="#c47a2a" stroke-width="18" opacity="0.12" stroke-linecap="round" stroke-dasharray="12,6"/>
+  <line x1="79" y1="54" x2="371" y2="796" stroke="#c47a2a" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-dasharray="12,6"/>
+
+  <!-- Bloque HDPEs (drawn on top of tiras verticales) -->
+  <rect x="79" y="54" width="292" height="12" fill="#4a90a8" opacity="0.45" stroke="#2a7088" stroke-width="0.8"/>
+  <rect x="79" y="784" width="292" height="12" fill="#4a90a8" opacity="0.45" stroke="#2a7088" stroke-width="0.8"/>
+
+  <!-- Notches -->
+  <rect x="79" y="54" width="10" height="12" fill="#1a3a6a" opacity="0.6" stroke="#0d1f3c" stroke-width="0.3"/>
+  <rect x="361" y="54" width="10" height="12" fill="#1a3a6a" opacity="0.6" stroke="#0d1f3c" stroke-width="0.3"/>
+  <rect x="361" y="784" width="10" height="12" fill="#1a3a6a" opacity="0.6" stroke="#0d1f3c" stroke-width="0.3"/>
+  <rect x="79" y="784" width="10" height="12" fill="#1a3a6a" opacity="0.6" stroke="#0d1f3c" stroke-width="0.3"/>
+
+  <!-- Clamping strips (at midpoint of HDPE, over the tiras verticales) -->
+  <!-- Top: y=59 (midpoint of HDPE y=54-66) -->
+  <rect x="79" y="59" width="292" height="3" fill="#555" opacity="0.7" stroke="#333" stroke-width="0.3"/>
+  <!-- Bottom: y=789 (midpoint of HDPE y=784-796) -->
+  <rect x="79" y="789" width="292" height="3" fill="#555" opacity="0.7" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Amarres at front diagonal crossings -->
+  <g fill="none" stroke="#888" stroke-width="1.5">
+    <circle cx="93" cy="755" r="3.5"/>
+    <circle cx="103" cy="730" r="3.5"/>
+    <circle cx="113" cy="705" r="3.5"/>
+    <circle cx="123" cy="680" r="3.5"/>
+    <circle cx="133" cy="655" r="3.5"/>
+    <circle cx="143" cy="630" r="3.5"/>
+    <circle cx="153" cy="605" r="3.5"/>
+    <circle cx="163" cy="580" r="3.5"/>
+    <circle cx="173" cy="555" r="3.5"/>
+    <circle cx="183" cy="530" r="3.5"/>
+    <circle cx="193" cy="505" r="3.5"/>
+    <circle cx="203" cy="480" r="3.5"/>
+    <circle cx="213" cy="455" r="3.5"/>
+    <circle cx="223" cy="430" r="3.5"/>
+    <circle cx="233" cy="405" r="3.5"/>
+    <circle cx="243" cy="380" r="3.5"/>
+    <circle cx="253" cy="355" r="3.5"/>
+    <circle cx="263" cy="330" r="3.5"/>
+    <circle cx="273" cy="305" r="3.5"/>
+    <circle cx="283" cy="280" r="3.5"/>
+    <circle cx="293" cy="255" r="3.5"/>
+    <circle cx="303" cy="230" r="3.5"/>
+    <circle cx="313" cy="205" r="3.5"/>
+    <circle cx="323" cy="180" r="3.5"/>
+    <circle cx="333" cy="155" r="3.5"/>
+    <circle cx="343" cy="130" r="3.5"/>
+    <circle cx="353" cy="105" r="3.5"/>
+  </g>
+
+  <!-- Screws at top HDPE (every 2nd gap) -->
+  <g fill="#333">
+    <circle cx="93" cy="60" r="1.5"/>
+    <circle cx="93" cy="790" r="1.5"/>
+    <circle cx="113" cy="60" r="1.5"/>
+    <circle cx="113" cy="790" r="1.5"/>
+    <circle cx="133" cy="60" r="1.5"/>
+    <circle cx="133" cy="790" r="1.5"/>
+    <circle cx="153" cy="60" r="1.5"/>
+    <circle cx="153" cy="790" r="1.5"/>
+    <circle cx="173" cy="60" r="1.5"/>
+    <circle cx="173" cy="790" r="1.5"/>
+    <circle cx="193" cy="60" r="1.5"/>
+    <circle cx="193" cy="790" r="1.5"/>
+    <circle cx="213" cy="60" r="1.5"/>
+    <circle cx="213" cy="790" r="1.5"/>
+    <circle cx="233" cy="60" r="1.5"/>
+    <circle cx="233" cy="790" r="1.5"/>
+    <circle cx="253" cy="60" r="1.5"/>
+    <circle cx="253" cy="790" r="1.5"/>
+    <circle cx="273" cy="60" r="1.5"/>
+    <circle cx="273" cy="790" r="1.5"/>
+    <circle cx="293" cy="60" r="1.5"/>
+    <circle cx="293" cy="790" r="1.5"/>
+    <circle cx="313" cy="60" r="1.5"/>
+    <circle cx="313" cy="790" r="1.5"/>
+    <circle cx="333" cy="60" r="1.5"/>
+    <circle cx="333" cy="790" r="1.5"/>
+    <circle cx="353" cy="60" r="1.5"/>
+    <circle cx="353" cy="790" r="1.5"/>
+  </g>
+
+  <!-- Dimensions -->
+  <line x1="75" y1="820" x2="375" y2="820" stroke="#333" stroke-width="0.5"/>
+  <line x1="75" y1="815" x2="75" y2="825" stroke="#333" stroke-width="0.5"/>
+  <line x1="375" y1="815" x2="375" y2="825" stroke="#333" stroke-width="0.5"/>
+  <text x="225.0" y="835" text-anchor="middle" font-size="8" fill="#333" font-family="Helvetica,Arial,sans-serif">1.0 m</text>
+
+  <line x1="55" y1="50" x2="55" y2="800" stroke="#333" stroke-width="0.5"/>
+  <line x1="50" y1="50" x2="60" y2="50" stroke="#333" stroke-width="0.5"/>
+  <line x1="50" y1="800" x2="60" y2="800" stroke="#333" stroke-width="0.5"/>
+  <text x="45" y="425.0" text-anchor="end" font-size="8" fill="#333" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,45,425.0)">2.5 m</text>
+
+  <!-- Labels -->
+  <g font-family="Helvetica,Arial,sans-serif">
+    <line x1="380" y1="60.0" x2="395" y2="60.0" stroke="#4a90a8" stroke-width="0.5"/>
+    <text x="400" y="63.0" font-size="7" fill="#4a90a8">Bloque HDPE</text>
+
+    <text x="400" y="75.0" font-size="7" fill="#555">Tira de sujeción</text>
+
+    <text x="400" y="150" font-size="7" fill="#5a7a3a">tiras verticales</text>
+
+    <text x="400" y="190" font-size="7" fill="#c47a2a">diagonal frontal (sólida)</text>
+    <text x="400" y="205" font-size="7" fill="#c47a2a" opacity="0.5">diagonal trasera (discontinua)</text>
+
+    <text x="400" y="245" font-size="7" fill="#888">amarres en cruces</text>
+
+    <text x="400" y="285" font-size="7" fill="#333">tornillos (cada 2da ranura)</text>
+
+    <text x="400" y="325" font-size="7" fill="#1a3a6a">muescas (esquinas, para diagonal)</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(40, 840)" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#555">
+    <rect x="0" y="0" width="470" height="42" fill="white" stroke="#ddd" stroke-width="0.5" rx="4"/>
+    <rect x="15" y="8" width="12" height="4" fill="#c0392b" opacity="0.7"/><text x="32" y="13">Marco perfil T</text>
+    <rect x="100" y="8" width="12" height="4" fill="#4a90a8" opacity="0.35"/><text x="117" y="13">HDPE</text>
+    <rect x="155" y="8" width="12" height="4" fill="#1a3a6a" opacity="0.6"/><text x="172" y="13">Muesca</text>
+    <rect x="210" y="8" width="12" height="4" fill="#5a7a3a" opacity="0.4"/><text x="227" y="13">Tiras verticales</text>
+    <line x1="310" y1="10" x2="330" y2="10" stroke="#c47a2a" stroke-width="3" opacity="0.4"/><text x="337" y="13">Diagonal (frontal)</text>
+    <line x1="420" y1="10" x2="440" y2="10" stroke="#c47a2a" stroke-width="2" opacity="0.3" stroke-dasharray="4,2"/><text x="447" y="13">Diagonal (trasera)</text>
+    <rect x="15" y="24" width="12" height="4" fill="#555" opacity="0.5"/><text x="32" y="29">Sujeción</text>
+    <circle cx="106" cy="26" r="2" fill="#333"/><text x="114" y="29">Tornillo</text>
+    <circle cx="165" cy="26" r="3.5" fill="none" stroke="#888" stroke-width="1.5"/><text x="175" y="29">Amarre</text>
+  </g>
+</svg>

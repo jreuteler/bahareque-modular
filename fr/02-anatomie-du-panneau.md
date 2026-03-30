@@ -39,9 +39,11 @@ Le cadre est l'epine dorsale structurelle. Tout le reste s'y fixe.
 - **Quantite :** ~27 lattes par face, ~54 au total par panneau
 - **Fixation :** Serrees par vis sur l'ame du profile en T en haut et en bas via des bandes de serrage
 
-![Contreventement diagonal](svg/05-diagonal-bracing.svg)
+![Contreventement diagonal](svg/10-panel-face-view.svg)
 
 ### Le profil )(
+
+![Side Profile](svg/09-profile.svg)
 
 En haut et en bas, les blocs en PEHD maintiennent les lattes a 30 mm de l'ame. A mi-hauteur, les lattes flechissent naturellement vers l'interieur en direction de l'ame -- creant un profil en section **)(** . Ce n'est pas un defaut ; c'est le concept :
 
