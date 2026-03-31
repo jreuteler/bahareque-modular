@@ -201,6 +201,7 @@ CHAPTERS = {
         "12": ("Climate Adaptation", "Tropical humid, highland, dry, subtropical, coastal — mortar mix, lime plaster, overhang, and bamboo species tables for each zone"),
         "13": ("Bamboo Treatment", "Borate solution preparation, tank soaking, modified Boucherie method, quality control (turmeric test), safety, treatment summary"),
         "14": ("Acoustic Upgrade", "Noise-facing wall upgrades: dense mortar, clay damping layer, double panel with fiber cavity. Apply only where needed. Retrofit-friendly."),
+        "16": ("Floor Panel Concept", "Bamboo bowstring beam: compression arch + tension tie + mortar, zero steel in span, concept pending validation"),
     },
     "de": {
         "01": ("Designphilosophie", "Ursprung in kolumbianischer Permakultur, traditionelle Techniken weltweit, der hybride Ansatz, Schönheit, 80–100 Jahre Lebensdauer, Gemeinschaftsproduktion, Stand der Technik, Open Source"),
@@ -217,6 +218,7 @@ CHAPTERS = {
         "12": ("Klimaanpassung", "Tropisch feucht, Hochland, trocken, subtropisch, Küste — Anpassungstabellen"),
         "13": ("Bambusbehandlung", "Boratlösung, Tauchbad, Boucherie-Methode, Qualitätskontrolle, Sicherheit"),
         "14": ("Akustik-Upgrade", "Schallschutz für lärmbelastete Wände: dichterer Mörtel, Lehmdämpfung, Doppelpaneel mit Faserfüllung"),
+        "16": ("Bodenpaneel-Konzept", "Bambus-Bogenträger: Druckbogen + Zugband + Mörtel, Nullstahl in der Spannweite, Konzept zur Validierung"),
     },
     "es": {
         "01": ("Filosofía de Diseño", "Origen en permacultura colombiana, técnicas tradicionales, el enfoque híbrido, belleza, 80–100 años, producción comunitaria, estado del arte, código abierto"),
@@ -233,6 +235,7 @@ CHAPTERS = {
         "12": ("Adaptación Climática", "Tropical húmedo, altiplano, seco, subtropical, costero — tablas de adaptación"),
         "13": ("Tratamiento del Bambú", "Solución de borato, inmersión, método Boucherie, control de calidad, seguridad"),
         "14": ("Mejora Acústica", "Mejoras para muros expuestos al ruido: mortero denso, capa de arcilla, panel doble con fibra"),
+        "16": ("Concepto Panel de Piso", "Viga arco de bambú: arco en compresión + tirante en tracción + mortero, cero acero en la luz, concepto por validar"),
     },
     "pt": {
         "01": ("Filosofia de Design", "Origem na permacultura colombiana, técnicas tradicionais, abordagem híbrida, beleza, 80–100 anos, produção comunitária, estado da arte, código aberto"),
@@ -249,6 +252,7 @@ CHAPTERS = {
         "12": ("Adaptação Climática", "Tropical úmido, planalto, seco, subtropical, costeiro — tabelas"),
         "13": ("Tratamento do Bambu", "Solução de borato, imersão, método Boucherie, controle de qualidade"),
         "14": ("Melhoria Acústica", "Melhorias para paredes expostas a ruído: argamassa densa, camada de argila, painel duplo"),
+        "16": ("Conceito Painel de Piso", "Viga arco de bambu: arco em compressão + tirante em tração + argamassa, zero aço no vão"),
     },
     "it": {
         "01": ("Filosofia del Design", "Origine nella permacultura colombiana, tecniche tradizionali, approccio ibrido, bellezza, 80–100 anni, produzione comunitaria, stato dell'arte, open source"),
@@ -265,6 +269,7 @@ CHAPTERS = {
         "12": ("Adattamento Climatico", "Tropicale umido, altopiano, secco, subtropicale, costiero — tabelle"),
         "13": ("Trattamento Bambù", "Soluzione di borato, immersione, metodo Boucherie, controllo qualità"),
         "14": ("Miglioramento Acustico", "Miglioramenti per pareti esposte al rumore: malta densa, strato di argilla, pannello doppio"),
+        "16": ("Concetto Pannello Pavimento", "Trave arco di bambù: arco in compressione + tirante in trazione + malta, zero acciaio nella campata"),
     },
     "fr": {
         "01": ("Philosophie de Conception", "Origine dans la permaculture colombienne, techniques traditionnelles, approche hybride, beauté, 80–100 ans, production communautaire, état de l'art, open source"),
@@ -281,6 +286,7 @@ CHAPTERS = {
         "12": ("Adaptation Climatique", "Tropical humide, altitude, sec, subtropical, côtier — tableaux"),
         "13": ("Traitement du Bambou", "Solution de borate, trempage, méthode Boucherie, contrôle qualité"),
         "14": ("Amélioration Acoustique", "Améliorations pour murs exposés au bruit : mortier dense, couche d'argile, double panneau"),
+        "16": ("Concept Panneau de Sol", "Poutre arc en bambou : arc en compression + tirant en traction + mortier, zéro acier dans la portée"),
     },
 }
 

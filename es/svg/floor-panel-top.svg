@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background:#ffffff">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="400" y="18" text-anchor="middle" font-size="12" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Panel de Piso — Vista Superior (before tiles)</text>
+  <text x="400" y="32" text-anchor="middle" font-size="7" fill="#999" font-family="Helvetica,Arial,sans-serif">1.0 m wide × 5,0 m de luz · Viga arco de bambú — arch + tie + piezas transversales</text>
+
+  <!-- Panel: x=100 to x=700 (5m span), y=80 to y=280 (1m width = 200px) -->
+
+  <!-- Top Marco perfil T outline -->
+  <rect x="100" y="80" width="600" height="200" fill="#e8d8b0" opacity="0.3" stroke="#c0392b" stroke-width="3"/>
+
+  <!-- T-bar flanges (visible from top as red edges) -->
+  <rect x="100" y="80" width="600" height="4" fill="#c0392b" opacity="0.6"/>
+  <rect x="100" y="276" width="600" height="4" fill="#c0392b" opacity="0.6"/>
+  <rect x="100" y="80" width="4" height="200" fill="#c0392b" opacity="0.6"/>
+  <rect x="696" y="80" width="4" height="200" fill="#c0392b" opacity="0.6"/>
+
+  <!-- Tiras de bambú (running along span = horizontal, green-brown) -->
+  <g fill="#5a7a3a" opacity="0.3" stroke="#3a5a2a" stroke-width="0.3">
+    <rect x="108" y="90" width="584" height="5"/>
+    <rect x="108" y="100" width="584" height="5"/>
+    <rect x="108" y="110" width="584" height="5"/>
+    <rect x="108" y="120" width="584" height="5"/>
+    <rect x="108" y="130" width="584" height="5"/>
+    <rect x="108" y="140" width="584" height="5"/>
+    <rect x="108" y="150" width="584" height="5"/>
+    <rect x="108" y="160" width="584" height="5"/>
+    <rect x="108" y="170" width="584" height="5"/>
+    <rect x="108" y="180" width="584" height="5"/>
+    <rect x="108" y="190" width="584" height="5"/>
+    <rect x="108" y="200" width="584" height="5"/>
+    <rect x="108" y="210" width="584" height="5"/>
+    <rect x="108" y="220" width="584" height="5"/>
+    <rect x="108" y="230" width="584" height="5"/>
+    <rect x="108" y="240" width="584" height="5"/>
+    <rect x="108" y="250" width="584" height="5"/>
+    <rect x="108" y="260" width="584" height="5"/>
+  </g>
+
+  <!-- Sujecióning strips (at both short edges, over the bamboo) -->
+  <rect x="104" y="86" width="3" height="188" fill="#555" opacity="0.5" stroke="#333" stroke-width="0.3"/>
+  <rect x="693" y="86" width="3" height="188" fill="#555" opacity="0.5" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Screws (every 2nd strip, at both short edges) -->
+  <g fill="#333">
+    <circle cx="105" cy="97" r="1.5"/><circle cx="105" cy="117" r="1.5"/>
+    <circle cx="105" cy="137" r="1.5"/><circle cx="105" cy="157" r="1.5"/>
+    <circle cx="105" cy="177" r="1.5"/><circle cx="105" cy="197" r="1.5"/>
+    <circle cx="105" cy="217" r="1.5"/><circle cx="105" cy="237" r="1.5"/>
+    <circle cx="105" cy="257" r="1.5"/>
+    <circle cx="695" cy="97" r="1.5"/><circle cx="695" cy="117" r="1.5"/>
+    <circle cx="695" cy="137" r="1.5"/><circle cx="695" cy="157" r="1.5"/>
+    <circle cx="695" cy="177" r="1.5"/><circle cx="695" cy="197" r="1.5"/>
+    <circle cx="695" cy="217" r="1.5"/><circle cx="695" cy="237" r="1.5"/>
+    <circle cx="695" cy="257" r="1.5"/>
+  </g>
+
+  <!-- PVC conduit runs (along span) -->
+  <line x1="108" y1="148" x2="692" y2="148" stroke="#ccc" stroke-width="4" opacity="0.5"/>
+  <line x1="108" y1="148" x2="692" y2="148" stroke="#2980b9" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <line x1="108" y1="215" x2="692" y2="215" stroke="#ccc" stroke-width="4" opacity="0.5"/>
+  <line x1="108" y1="215" x2="692" y2="215" stroke="#d4a017" stroke-width="1.2" stroke-dasharray="4,3"/>
+
+  <!-- Water pipe runs -->
+  <line x1="108" y1="175" x2="692" y2="175" stroke="#3498db" stroke-width="5" opacity="0.2"/>
+  <line x1="108" y1="175" x2="692" y2="175" stroke="#3498db" stroke-width="1.5"/>
+
+  <!-- Bamboo tie bundle (26× 30×35mm strips, full width at bottom) -->
+  <rect x="108" y="86" width="584" height="188" fill="#5a7a3a" opacity="0.08" stroke="#3a5a2a" stroke-width="0.3"/>
+  <!-- Individual tie strips (visible as vertical lines in top view) -->
+  <g stroke="#3a5a2a" stroke-width="0.5" opacity="0.2">
+    <line x1="108" y1="93" x2="692" y2="93"/><line x1="108" y1="100" x2="692" y2="100"/>
+    <line x1="108" y1="107" x2="692" y2="107"/><line x1="108" y1="114" x2="692" y2="114"/>
+    <line x1="108" y1="121" x2="692" y2="121"/><line x1="108" y1="128" x2="692" y2="128"/>
+    <line x1="108" y1="135" x2="692" y2="135"/><line x1="108" y1="142" x2="692" y2="142"/>
+    <line x1="108" y1="149" x2="692" y2="149"/><line x1="108" y1="156" x2="692" y2="156"/>
+    <line x1="108" y1="163" x2="692" y2="163"/><line x1="108" y1="170" x2="692" y2="170"/>
+    <line x1="108" y1="177" x2="692" y2="177"/><line x1="108" y1="184" x2="692" y2="184"/>
+    <line x1="108" y1="191" x2="692" y2="191"/><line x1="108" y1="198" x2="692" y2="198"/>
+    <line x1="108" y1="205" x2="692" y2="205"/><line x1="108" y1="212" x2="692" y2="212"/>
+    <line x1="108" y1="219" x2="692" y2="219"/><line x1="108" y1="226" x2="692" y2="226"/>
+    <line x1="108" y1="233" x2="692" y2="233"/><line x1="108" y1="240" x2="692" y2="240"/>
+    <line x1="108" y1="247" x2="692" y2="247"/><line x1="108" y1="254" x2="692" y2="254"/>
+    <line x1="108" y1="261" x2="692" y2="261"/><line x1="108" y1="268" x2="692" y2="268"/>
+  </g>
+
+  <!-- HDPE blocks at short edges -->
+  <rect x="104" y="84" width="16" height="192" fill="#4a90a8" opacity="0.2" stroke="#2a7088" stroke-width="0.5"/>
+  <rect x="680" y="84" width="16" height="192" fill="#4a90a8" opacity="0.2" stroke="#2a7088" stroke-width="0.5"/>
+
+  <!-- Overlength bolt positions (at short edges, on wall below) -->
+  <g fill="none" stroke="#333" stroke-width="1.2">
+    <circle cx="90" cy="110" r="4"/><circle cx="90" cy="155" r="4"/>
+    <circle cx="90" cy="200" r="4"/><circle cx="90" cy="245" r="4"/>
+    <circle cx="710" cy="110" r="4"/><circle cx="710" cy="155" r="4"/>
+    <circle cx="710" cy="200" r="4"/><circle cx="710" cy="245" r="4"/>
+  </g>
+
+  <!-- Recessed light junction boxes (visible as circles on bottom, shown dashed from top) -->
+  <circle cx="300" cy="180" r="8" fill="none" stroke="#d4a017" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle cx="500" cy="180" r="8" fill="none" stroke="#d4a017" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Wall panels below (dashed outline showing support) -->
+  <rect x="70" y="80" width="30" height="200" fill="none" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="700" y="80" width="30" height="200" fill="none" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Dimensions -->
+  <line x1="100" y1="310" x2="700" y2="310" stroke="#333" stroke-width="0.5"/>
+  <line x1="100" y1="305" x2="100" y2="315" stroke="#333" stroke-width="0.5"/>
+  <line x1="700" y1="305" x2="700" y2="315" stroke="#333" stroke-width="0.5"/>
+  <text x="400" y="325" text-anchor="middle" font-size="8" fill="#333" font-family="Helvetica,Arial,sans-serif">5,0 m de luz</text>
+
+  <line x1="55" y1="80" x2="55" y2="280" stroke="#333" stroke-width="0.5"/>
+  <line x1="50" y1="80" x2="60" y2="80" stroke="#333" stroke-width="0.5"/>
+  <line x1="50" y1="280" x2="60" y2="280" stroke="#333" stroke-width="0.5"/>
+  <text x="45" y="185" text-anchor="end" font-size="8" fill="#333" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,45,185)">1,0 m de ancho</text>
+
+  <!-- Labels -->
+  <g font-family="Helvetica,Arial,sans-serif">
+    <text x="400" y="75" text-anchor="middle" font-size="7" fill="#5a7a3a">arco de bambú strips (above) + tie strips (below) run along span →</text>
+    <text x="80" y="300" text-anchor="end" font-size="6" fill="#888" transform="rotate(-90,80,300)">wall (support)</text>
+    <text x="735" y="300" font-size="6" fill="#888" transform="rotate(90,735,300)">wall (support)</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(50, 340)" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#555">
+    <rect x="0" y="0" width="700" height="30" fill="white" stroke="#ddd" stroke-width="0.5" rx="4"/>
+    <rect x="15" y="8" width="10" height="4" fill="#c0392b" opacity="0.6"/><text x="30" y="13">Marco perfil T</text>
+    <rect x="100" y="8" width="10" height="4" fill="#5a7a3a" opacity="0.3"/><text x="115" y="13">Tiras de bambú</text>
+    <rect x="195" y="8" width="10" height="4" fill="#4a90a8" opacity="0.2"/><text x="210" y="13">HDPE</text>
+    <rect x="245" y="8" width="10" height="4" fill="#555" opacity="0.5"/><text x="260" y="13">Sujeción</text>
+    <circle cx="310" cy="10" r="2" fill="#333"/><text x="318" y="13">Tornillo</text>
+    <circle cx="355" cy="10" r="4" fill="none" stroke="#333" stroke-width="1"/><text x="365" y="13">Perno</text>
+    <line x1="400" y1="10" x2="420" y2="10" stroke="#3498db" stroke-width="1.5"/><text x="425" y="13">Water</text>
+    <circle cx="470" cy="10" r="3" fill="#ccc" stroke="#888" stroke-width="0.3"/><text x="480" y="13">Conducto</text>
+    <rect x="520" y="8" width="14" height="4" fill="#5a7a3a" opacity="0.15"/><text x="540" y="13">Tirante</text>
+    <circle cx="590" cy="10" r="5" fill="none" stroke="#d4a017" stroke-width="0.8" stroke-dasharray="2,1"/><text x="600" y="13">Light (below)</text>
+  </g>
+</svg>
