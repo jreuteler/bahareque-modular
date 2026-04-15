@@ -4,10 +4,11 @@
 
 | Material | Especificação | Quantidade | Observações |
 |----------|---------------|------------|-------------|
-| Perfil T de aço | 30×30×3 mm, galvanizado a quente | 2× 1,0 m + 2× 2,5 m = 7,0 m | Um gabarito de soldagem para todos os painéis |
-| Tiras de fixação | Aço plano de 2 mm, galvanizado, furos correspondentes | 4× 1,0 m = 4,0 m | Superior + inferior, ambos os lados |
+| Cantoneira L de aço | L 40×40×4 mm, galvanizada a quente (ASTM A36 / equivalente ICONTEC NTC 2542) | 2× 1,0 m + 2× 2,5 m = 7,0 m | Estoque comercial colombiano (Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa). Barras de 6 m, corte com serra-tronco |
+| Tiras de fixação | Chato 40×3 mm, galvanizado, furos correspondentes | 4× 1,0 m = 4,0 m | Superior + inferior, ambos os lados |
+| Cartelas de canto + parafusos | Chato de reforço + parafusos M12/M8 | 1 conjunto | Conexão de canto mais rígida que solda apenas |
 | Parafusos | Aço inoxidável, autoperfurantes | ~28 por painel | Através da tira de fixação → bambu → PEAD → alma (a cada ~70 mm, um para cada duas tiras) |
-| Blocos de PEAD | Seção de 30×30 mm, reciclado | 2× 1,0 m = 2,0 m | Perfis T superior + inferior |
+| Blocos de PEAD | Seção de 30×30 mm, reciclado | 2× 1,0 m = 2,0 m | Sobre as almas das cantoneiras L superior + inferior |
 | Tiras de bambu (verticais) | Tratadas com borato, ~20 mm de largura | ~54 tiras × 2,5 m | ~27 por lado |
 | Tira de bambu (diagonal) | Tratada com borato, 60×20 mm | 2× ~2,69 m | 1 por lado, cantos opostos |
 | Arame galvanizado | Arame de amarração | ~5 m | ~16–20 amarrações nos cruzamentos |
@@ -17,7 +18,8 @@
 | Soquetes E10 | Suportes de lâmpada rosca | 6 | 3 por lado |
 | Conectores rápidos | 2 pinos (12V) + 3 pinos (120V) | 2 + 2 | Ambas as bordas verticais |
 | Tela de galinheiro | Tela hexagonal galvanizada, 25 mm | ~5,5 m² | Ambas as faces + sobreposição |
-| Argamassa de cimento | 1:4 cimento:areia + aditivos | ~0,21 m³ | ~120 kg peso úmido |
+| Argamassa de cimento (base) | 1:4 cimento:areia + aditivos | ~0,147 m³ cavidade líquida | ~310 kg úmida / ~294 kg curada (densidade ~2 000 kg/m³) |
+| Argamassa de cal pozolânica com capim-estrela (otimizada) | Cal hidráulica + 30 % cinzas volantes/CCA + fibras de capim-estrela | ~0,147 m³ mesma cavidade | ~270 kg úmida / ~257 kg curada (densidade ~1 750 kg/m³) |
 | Fibra de PP | 6–12 mm picada | ~200 g | Prevenção de fissuras na cura |
 | Aditivo pozolânico | Cinza vulcânica / cinza de casca de arroz / metacaulim | ~2 kg | Redução de pH, durabilidade |
 
@@ -51,13 +53,15 @@ Propriedades principais da Guadua angustifolia:
 
 O sistema funciona com qualquer bambu estrutural que possa ser cortado em tiras. Ajuste a largura e o espaçamento das tiras para a espécie disponível.
 
-### Perfil T de Aço
+### Estrutura em Cantoneira L de Aço
 
-- **Perfil:** 30×30×3 mm (aba de 30 mm, alma de 30 mm ou 85 mm, espessura de 3 mm)
+- **Perfil:** L 40×40×4 mm cantoneira de abas iguais (ASTM A36 / ICONTEC NTC 2542)
+- **Massa:** ~2,42 kg/m; estrutura do painel total ~17 kg + ~4 kg tiras de fixação + ~1 kg cartelas/parafusos = **~22 kg por painel**
 - **Galvanização:** A quente conforme ISO 1461, revestimento mínimo de zinco de 85 μm
-- **Vida útil:** 80–100 anos em ambientes tropicais não costeiros na espessura de zinco especificada
-- **Fornecimento:** Qualquer fornecedor de aço estrutural. O perfil T é um perfil padrão mundial.
-- **Alternativa:** Se o perfil T não estiver disponível, solde uma cantoneira (30×30×3) a uma barra chata (30×3) para criar o perfil. Mesma função, um pouco mais de soldagem.
+- **Vida útil:** 80–100 anos em ambientes tropicais não costeiros na espessura de zinco especificada (o painel em serviço fica continuamente contraventado dentro da matriz alcalina da argamassa, que auto-passiva o aço exposto)
+- **Fornecimento:** Item comercial mundial. Na Colômbia: Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa, Colmena/Sidenal, Perfilamos del Cauca. Estoque em barras de 6 m em praticamente qualquer fornecedor de aço estrutural. Sem encomenda especial, sem fabricação sob medida, sem alma assimétrica
+- **Perfis alternativos:** L 50×50×4 ou L 50×50×5 (um pouco mais pesados, também estoque comercial) são substitutos diretos. SHS (perfil tubular quadrado) 40×40×2 também funciona estruturalmente, mas exige que as tiras de fixação sejam soldadas em vez de parafusadas através da alma
+- **Por que não perfil T:** Versões anteriores deste documento especificavam T 60×60×7 mm (~45 kg por painel). O serviço do painel continuamente contraventado não exige a alma simétrica do perfil T — uma alma de cantoneira L unilateral é estruturalmente equivalente com aproximadamente metade da massa de aço, metade do custo e disponibilidade dramaticamente melhor. Perfis T abertos continuam sendo a escolha correta apenas onde a resistência à flambagem no eixo fraco importa (p. ex. colunas independentes — o tubo quadrado fechado é preferido sobre o perfil T neste sistema).
 
 ### Blocos Espaçadores de PEAD
 

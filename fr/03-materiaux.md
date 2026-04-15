@@ -4,10 +4,11 @@
 
 | Materiau | Specification | Quantite | Notes |
 |----------|--------------|----------|-------|
-| Profile en T en acier | 30x30x3 mm, galvanise a chaud | 2x 1,0 m + 2x 2,5 m = 7,0 m | Un seul gabarit de soudure pour tous les panneaux |
-| Bandes de serrage | Acier plat de 2 mm, galvanise, trous correspondants | 4x 1,0 m = 4,0 m | Haut + bas, les deux faces |
+| Corniere L en acier | L 40x40x4 mm, galvanise a chaud (ASTM A36 / equivalent ICONTEC NTC 2542) | 2x 1,0 m + 2x 2,5 m = 7,0 m | Stock courant colombien (Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa). Barres standard de 6 m, decoupe a la tronconneuse |
+| Bandes de serrage | Plat 40x3 mm, galvanise, trous correspondants | 4x 1,0 m = 4,0 m | Haut + bas, les deux faces |
+| Goussets d'angle + boulonnerie | Plat de renfort + boulons M12/M8 | 1 jeu | Liaison d'angle plus rigide qu'une simple soudure |
 | Vis | Acier inoxydable, autotaraudeuses | ~28 par panneau | A travers bande de serrage → bambou → PEHD → ame (tous les ~70 mm, une pour deux lattes) |
-| Blocs en PEHD | Section 30x30 mm, recycle | 2x 1,0 m = 2,0 m | Profiles en T haut + bas |
+| Blocs en PEHD | Section 30x30 mm, recycle | 2x 1,0 m = 2,0 m | Sur les ames des cornieres L superieure + inferieure |
 | Lattes de bambou (verticales) | Traitees au borate, ~20 mm de large | ~54 lattes x 2,5 m | ~27 par face |
 | Latte de bambou (diagonale) | Traitee au borate, 60x20 mm | 2x ~2,69 m | 1 par face, coins opposes |
 | Fil galvanise | Fil de ligature | ~5 m | ~16-20 ligatures aux croisements |
@@ -17,7 +18,8 @@
 | Douilles E10 | Supports de lampe a vis | 6 | 3 par face |
 | Connecteurs rapides | 2 broches (12V) + 3 broches (120V) | 2 + 2 | Aux deux bords verticaux |
 | Grillage a poule | Grillage hexagonal galvanise, 25 mm | ~5,5 m2 | Les deux faces + recouvrement |
-| Mortier de ciment | 1:4 ciment:sable + additifs | ~0,21 m3 | ~120 kg poids humide |
+| Mortier de ciment (de base) | 1:4 ciment:sable + additifs | ~0,147 m3 cavite nette (apres 30 % guadua + acier) | ~310 kg humide / ~294 kg durci (densite ~2 000 kg/m3) |
+| Mortier a la chaux pouzzolanique au pasto estrella (optimise) | Chaux hydraulique + 30 % cendres volantes/RHA + fibres pasto estrella | ~0,147 m3 meme cavite | ~270 kg humide / ~257 kg durci (densite ~1 750 kg/m3) |
 | Fibre PP | Hachee 6-12 mm | ~200 g | Prevention des fissures de retrait |
 | Adjuvant pouzzolanique | Cendre volcanique / cendre de balle de riz / metakaolin | ~2 kg | Reduction du pH, durabilite |
 
@@ -51,13 +53,15 @@ Proprietes cles de la Guadua angustifolia :
 
 Le systeme fonctionne avec tout bambou structurel pouvant etre fendu en lattes. Ajuster la largeur et l'espacement des lattes selon l'espece disponible.
 
-### Profile en T en acier
+### Cadre en corniere L en acier
 
-- **Profil :** 30x30x3 mm (aile de 30 mm, ame de 30 mm ou 85 mm, epaisseur de 3 mm)
+- **Profil :** L 40x40x4 mm corniere a ailes egales (ASTM A36 / ICONTEC NTC 2542)
+- **Masse :** ~2,42 kg/m ; cadre du panneau au total ~17 kg + ~4 kg de bandes de serrage + ~1 kg de goussets/boulonnerie = **~22 kg par panneau**
 - **Galvanisation :** A chaud selon ISO 1461, revetement de zinc minimum de 85 um
-- **Duree de vie :** 80-100 ans en environnement tropical non cotier a l'epaisseur de zinc specifiee
-- **Approvisionnement :** Tout fournisseur d'acier de construction. Le profile en T est un profil standard mondial.
-- **Alternative :** Si le profile en T n'est pas disponible, souder une corniere (30x30x3) a un plat (30x3) pour creer le profil. Meme fonction, un peu plus de soudure.
+- **Duree de vie :** 80-100 ans en environnement tropical non cotier a l'epaisseur de zinc specifiee (le panneau en service est continument contrevente dans la matrice alcaline du mortier, qui auto-passive l'acier expose)
+- **Approvisionnement :** Article courant a l'echelle mondiale. En Colombie : Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa, Colmena/Sidenal, Perfilamos del Cauca. Stock en barres de 6 m chez pratiquement tout marchand d'acier de construction. Pas de commande speciale, pas de fabrication sur mesure, pas d'ame asymetrique
+- **Profils alternatifs :** L 50x50x4 ou L 50x50x5 (un peu plus lourds, egalement stock courant) sont des substituts directs. Le tube carre (SHS) 40x40x2 fonctionne aussi structurellement, mais necessite que les bandes de serrage soient soudees plutot que vissees a travers l'ame
+- **Pourquoi pas un profile en T ?** Les versions anterieures de ce document specifiaient T 60×60×7 mm (~45 kg par panneau). Le panneau en service continument contrevente n'a pas besoin de l'ame symetrique du profile en T -- une ame de corniere L unilaterale est structurellement equivalente avec environ la moitie de la masse d'acier, la moitie du cout et une disponibilite radicalement meilleure. Les profiles en T ouverts restent le bon choix uniquement la ou la resistance au flambage selon l'axe faible compte (par ex. colonnes autoportantes -- le tube carre ferme est prefere au profile en T dans ce systeme).
 
 ### Blocs d'espacement en PEHD
 

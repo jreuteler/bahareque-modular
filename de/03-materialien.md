@@ -4,10 +4,11 @@
 
 | Material | Spezifikation | Menge | Anmerkungen |
 |----------|--------------|-------|-------------|
-| T-bar-Stahl | 30×30×3 mm, feuerverzinkt | 2× 1,0 m + 2× 2,5 m = 7,0 m | Eine Schweisslehre für alle Paneele |
-| Klemmleisten | 2 mm Flachstahl, verzinkt, passende Löcher | 4× 1,0 m = 4,0 m | Oben + unten, beide Seiten |
+| L-Winkelstahl | L 40×40×4 mm, feuerverzinkt (ASTM A36 / ICONTEC NTC 2542 äquivalent) | 2× 1,0 m + 2× 2,5 m = 7,0 m | Kolumbianisches Lagermaterial (Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa). 6-m-Standardlängen, mit Trennschleifer geschnitten |
+| Klemmleisten | 40×3 mm Flachstahl, verzinkt, passende Löcher | 4× 1,0 m = 4,0 m | Oben + unten, beide Seiten |
+| Eckbleche + Schrauben | Flachblech-Verstärkungen + M12/M8 Schrauben | 1 Set | Steifere Eckverbindung anstelle reiner Schweissnaht |
 | Schrauben | Edelstahl, selbstschneidend | ~28 pro Paneel | Durch Klemmleiste → Bambus → HDPE → Steg (alle ~70 mm, eine pro zwei Streifen) |
-| HDPE-Blöcke | 30×30 mm Querschnitt, recycelt | 2× 1,0 m = 2,0 m | Obere + untere T-bars |
+| HDPE-Blöcke | 30×30 mm Querschnitt, recycelt | 2× 1,0 m = 2,0 m | Auf oberen + unteren L-Winkel-Stegen |
 | Bambusstreifen (vertikal) | Borat-behandelt, ~20 mm breit | ~54 Streifen × 2,5 m | ~27 pro Seite |
 | Bambusstreifen (diagonal) | Borat-behandelt, 60×20 mm | 2× ~2,69 m | 1 pro Seite, gegenüberliegende Ecken |
 | Verzinkter Draht | Bindedraht | ~5 m | ~16–20 Bindungen an Kreuzungen |
@@ -17,7 +18,8 @@
 | E10-Fassungen | Schraubfassungen | 6 | 3 pro Seite |
 | Snap-Stecker | 2-polig (12V) + 3-polig (120V) | 2 + 2 | An beiden Vertikalkanten |
 | Hühnerdraht | Verzinktes Sechseckgeflecht, 25 mm | ~5,5 m² | Beide Seiten + Überlappung |
-| Zementmörtel | 1:4 Zement:Sand + Zusätze | ~0,21 m³ | ~120 kg Nassgewicht |
+| Zementmörtel (Basis) | 1:4 Zement:Sand + Zusätze | ~0,147 m³ Netto-Hohlraum (nach 30 % Guadua + Stahlverdrängung) | ~310 kg nass / ~294 kg ausgehärtet (Dichte ~2 000 kg/m³) |
+| Puzzolanischer Kalkmörtel mit Pasto estrella (optimiert) | Hydraulischer Kalk + 30 % Flugasche/RHA + Pasto-estrella-Fasern | ~0,147 m³ gleicher Hohlraum | ~270 kg nass / ~257 kg ausgehärtet (Dichte ~1 750 kg/m³) |
 | PP-Faser | 6–12 mm gehäckselt | ~200 g | Rissverhinderung bei Aushärtung |
 | Puzzolanischer Zusatz | Vulkanasche / Reishülsenasche / Metakaolin | ~2 kg | pH-Senkung, Dauerhaftigkeit |
 
@@ -51,13 +53,15 @@ Schlüsseleigenschaften von Guadua angustifolia:
 
 Das System funktioniert mit jedem Strukturbambus, der in Streifen gespalten werden kann. Passen Sie Streifenbreite und -abstand an die verfügbare Art an.
 
-### Stahl-T-bar
+### Stahl-L-Winkelrahmen
 
-- **Profil:** 30×30×3 mm (30 mm Flansch, 30 mm oder 85 mm Steg, 3 mm Dicke)
+- **Profil:** L 40×40×4 mm gleichschenkliges Winkelprofil (ASTM A36 / ICONTEC NTC 2542)
+- **Masse:** ~2,42 kg/m; Paneelrahmen total ~17 kg + ~4 kg Klemmleisten + ~1 kg Eckbleche/Verbindungselemente = **~22 kg pro Paneel**
 - **Verzinkung:** Feuerverzinkt nach ISO 1461, mindestens 85 μm Zinkbeschichtung
-- **Lebensdauer:** 80–100 Jahre in nicht-küstennahen tropischen Umgebungen bei der angegebenen Zinkdicke
-- **Beschaffung:** Jeder Stahlbauhändler. T-bar ist ein Standardprofil weltweit.
-- **Alternative:** Falls T-bar nicht verfügbar, einen Winkel (30×30×3) an einen Flachstahl (30×3) schweissen, um das Profil zu erzeugen. Gleiche Funktion, etwas mehr Schweissarbeit.
+- **Lebensdauer:** 80–100 Jahre in nicht-küstennahen tropischen Umgebungen bei der angegebenen Zinkdicke (der Paneeldienst ist innerhalb der alkalischen Mörtelmatrix kontinuierlich abgestützt, die freiliegenden Stahl selbst passiviert)
+- **Beschaffung:** Massenartikel weltweit. In Kolumbien: Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa, Colmena/Sidenal, Perfilamos del Cauca. Lagerware in 6-m-Längen bei praktisch jedem Stahlbauhändler. Keine Sonderbestellung, keine Sonderanfertigung, keine asymmetrischen Stege
+- **Alternative Profile:** L 50×50×4 oder L 50×50×5 (etwas schwerer, ebenfalls Lagerware) sind direkte Ersatzprofile. SHS (quadratisches Hohlprofil) 40×40×2 funktioniert strukturell ebenfalls, erfordert aber Klemmleisten, die geschweisst statt durch den Steg geschraubt werden
+- **Warum nicht T-Profil:** Frühere Versionen dieses Dokuments spezifizierten T 60×60×7 mm (~45 kg pro Paneel). Kontinuierlich abgestützter Paneeldienst erfordert nicht den symmetrischen Steg des T-Profils — ein einseitiger L-Winkel-Steg ist strukturell gleichwertig bei etwa der halben Stahlmasse, halben Kosten und dramatisch besserer Verfügbarkeit. Offene T-Profile bleiben nur dort die richtige Wahl, wo Schwachachs-Knickwiderstand wichtig ist (z. B. freistehende Stützen — geschlossenes Vierkantrohr wird in diesem System bevorzugt gegenüber T-Profil).
 
 ### HDPE-Distanzblöcke
 

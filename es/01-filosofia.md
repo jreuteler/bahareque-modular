@@ -83,7 +83,7 @@ Este sistema de paneles resuelve el dilema entre la construcción tradicional y 
 
 **Tradicional donde se ve.** La superficie exterior es pañete de cal sobre bambú y mortero — los mismos materiales usados en bahareque, quincha, bahareque de vara y tsuchikabe durante siglos. La textura es artesanal. La superficie respira. La edificación pertenece a su lugar.
 
-**Moderno donde importa.** Dentro de cada panel hay un marco de perfil T de acero galvanizado en caliente, diseñado para cargas sísmicas. Este marco es invisible una vez terminado el panel. Lleva la realidad estructural mientras los materiales tradicionales llevan la experiencia humana.
+**Moderno donde importa.** Dentro de cada panel hay un marco de ángulo L de acero galvanizado en caliente, diseñado para cargas sísmicas. Este marco es invisible una vez terminado el panel. Lleva la realidad estructural mientras los materiales tradicionales llevan la experiencia humana.
 
 ## Integración con Permacultura
 
@@ -149,7 +149,7 @@ El trabajo académico más citado sobre bahareque moderno. La [Guía de Diseño 
 
 El sistema constructivo de bambú más escalado del mundo: más de 2.400 unidades de vivienda construidas en Filipinas, Nepal, India y Sri Lanka. CBFT usa marcos de bambú tratado con conexiones metálicas, relleno de bambú aplanado (esterilla), malla de alambre y mortero de cemento. Los paneles se prefabrican en talleres. Diseñado para vientos de tifón de hasta 300 km/h y sismos de magnitud 7–8. Vida útil objetivo: ~60 años. Capacitación proporcionada a través de la Academia del Bambú.
 
-**En qué difiere este sistema:** CBFT usa bambú/madera como estructura del marco. Nuestro sistema usa perfil T de acero galvanizado — proporcionando mayor capacidad axial, mayor vida útil protegida contra la corrosión (80–100 años vs. 60), y una superficie de sujeción consistente para el sistema de tornillos. CBFT no incluye instalación eléctrica integrada. CBFT es propietario (acceso basado en capacitación); nuestro sistema es hardware abierto.
+**En qué difiere este sistema:** CBFT usa bambú/madera como estructura del marco. Nuestro sistema usa ángulo L de acero galvanizado — proporcionando mayor capacidad axial, mayor vida útil protegida contra la corrosión (80–100 años vs. 60), y una superficie de sujeción consistente para el sistema de tornillos. CBFT no incluye instalación eléctrica integrada. CBFT es propietario (acceso basado en capacitación); nuestro sistema es hardware abierto.
 
 - [BASE Bahay — Fundación Hilti](https://www.hiltifoundation.org/basebahaybamboo)
 - [BASE Builds](https://base-builds.com/tag/cement-bamboo-frame-technology-2/)
@@ -158,7 +158,7 @@ El sistema constructivo de bambú más escalado del mundo: más de 2.400 unidade
 
 Investigación reciente de universidades chinas ha probado muros de mortero compuesto rociado con montantes de bambú y **arriostramiento diagonal de bambú** — la coincidencia estructural más cercana al concepto de arriostramiento diagonal de nuestro panel. Pruebas cíclicas cuasiestáticas mostraron buena disipación de energía y comportamiento de falla dúctil con tiras diagonales. El mortero se rocía en vez de vertirse con vibración, y no hay marco de acero.
 
-**En qué difiere este sistema:** Nuestro vertido en mesa vibradora logra un llenado de mortero más completo (cero vacíos) sin equipo de rociado. El marco de perfil T de acero agrega capacidad de carga axial y proporciona una superficie de sujeción estandarizada. Sin embargo, la investigación china proporciona la mejor validación publicada de que el arriostramiento diagonal de bambú en compuesto de mortero funciona estructuralmente — construimos sobre esta evidencia.
+**En qué difiere este sistema:** Nuestro vertido vertical in-situ (o, alternativamente, vertido en mesa vibradora en taller) logra un llenado de mortero más completo (cero vacíos) sin equipo de rociado. El marco de ángulo L de acero agrega capacidad de carga axial y proporciona una superficie de sujeción estandarizada. Sin embargo, la investigación china proporciona la mejor validación publicada de que el arriostramiento diagonal de bambú en compuesto de mortero funciona estructuralmente — construimos sobre esta evidencia.
 
 - [Estudio sísmico de tiras diagonales de bambú (ScienceDirect)](https://www.sciencedirect.com/science/article/abs/pii/S2352710223020090)
 
@@ -202,7 +202,7 @@ Para mayor claridad, las siguientes características **no tienen equivalente doc
 
 | Característica | Estado |
 |----------------|--------|
-| Marco de perfil T de acero galvanizado para paneles de bambú | Novedoso |
+| Marco de ángulo L de acero galvanizado para paneles de bambú (perfil comercial de stock) | Novedoso |
 | Sistema de fijación con tornillos (autoajustable para variación de espesor) | Novedoso |
 | Vertido de mortero en mesa vibradora sobre cama de arena | Novedoso |
 | Instalación eléctrica integrada 12V + 120V con conectores rápidos | Novedoso |

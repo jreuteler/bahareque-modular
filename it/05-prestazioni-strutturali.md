@@ -4,7 +4,7 @@
 
 Questo sistema di pannelli è stato progettato per funzionare **con un telaio in acciaio a pilastri e travi** — la configurazione che raccomandiamo per edifici multipiano in zone sismiche. In questa configurazione, il telaio in acciaio porta i carichi gravitazionali e sismici mentre i pannelli forniscono controventatura laterale, chiusura alle intemperie, massa termica e servizi integrati.
 
-Tuttavia, i pannelli sono **strutturalmente capaci di funzionare senza un telaio in acciaio**. Con una capacità assiale conservativa di ~4.000 kg per pannello (due profili a T laterali), una fila di pannelli può comodamente portare un secondo piano e un tetto senza una struttura in acciaio indipendente. Una semplice trave di coronamento in legno o bambù in sommità collega i pannelli e distribuisce il carico del tetto.
+Tuttavia, i pannelli sono **strutturalmente capaci di funzionare senza un telaio in acciaio**. Con una capacità di compressione che supera ampiamente i carichi residenziali tipici (due montanti laterali in angolare L L 40×40×4), una fila di pannelli può comodamente portare un secondo piano e un tetto senza una struttura in acciaio indipendente. Una semplice trave di coronamento in legno o bambù in sommità collega i pannelli e distribuisce il carico del tetto.
 
 **Due configurazioni:**
 
@@ -74,33 +74,36 @@ Il nucleo denso di malta fornisce una buona attenuazione acustica:
 
 | Componente | Peso |
 |------------|------|
-| Telaio in acciaio (profilo a T 30×30×3, 7 m totali) | ~18 kg |
-| Malta (85 mm × 1,0 m × 2,5 m, densità ~2.000 kg/m³) | ~120 kg |
-| Listelli di bambù + diagonali | ~10 kg |
-| Distanziatori HDPE, filo, rete, tubazione, cavi | ~7 kg |
-| **Peso totale del pannello** | **~155 kg** |
-| **Peso per m² di parete** | **~62 kg/m²** |
+| Telaio in acciaio (angolare L 40×40×4, 7 m totali a 2,42 kg/m + barre di serraggio + cartelle) | ~22 kg |
+| Malta del nucleo (cavità ~0,147 m³, indurita, densità ~2 000 kg/m³) | ~294 kg |
+| Listelli di bambù + diagonali (~30 % cavità) | ~38 kg |
+| Distanziatori HDPE, filo, rete, tubazione, cavi | ~6 kg |
+| Intonaco di calce (10 mm su entrambi i lati) | ~100 kg |
+| **Peso totale del pannello, miscela base** | **~460 kg** |
+| **Peso per m² di parete, base** | **~184 kg/m²** |
+| Peso totale del pannello, miscela bahareque ottimizzata (calce pozzolanica + pasto estrella + intonaco 5 mm) | ~380 kg |
+| Peso di spedizione dell'assemblaggio a secco (telaio + bambù + rete + impianti, prima del getto) | ~75 kg |
 
-Per confronto: parete in blocchi di cemento da 150 mm ≈ 180 kg/m². Il sistema a pannelli pesa circa un terzo della muratura convenzionale per unità di superficie.
+Per confronto: parete in blocchi di cemento da 150 mm ≈ 180 kg/m². Il sistema a pannelli (miscela base) pesa circa quanto la muratura convenzionale per unità di superficie; la miscela bahareque ottimizzata è ~15 % più leggera. Critico per la logistica: il **peso di spedizione dell'assemblaggio a secco (~75 kg)** è la forma in cui il pannello viene trasportato dal laboratorio al cantiere (la malta viene gettata in opera).
 
 ### Carico Assiale (Verticale)
 
-Ogni pannello ha due profili a T verticali laterali che possono portare carichi di compressione significativi:
+Ogni pannello ha due montanti laterali verticali in angolare L che possono portare carichi di compressione significativi:
 
 | Elemento | Sezione trasversale | Capacità assiale conservativa |
 |----------|---------------------|-------------------------------|
-| Profilo a T laterale (30×30×3 mm) | A ≈ 171 mm² | ~20 kN per profilo a T (a σ = 120 MPa, ~50% dello snervamento) |
-| Due profili a T laterali per pannello | 2 × 171 mm² | ~40 kN per pannello (~4.000 kg) |
+| Montante laterale in angolare L (L 40×40×4 mm) | A ≈ 304 mm² | ~36 kN per montante (a σ = 120 MPa, ~50 % dello snervamento A36) |
+| Due montanti laterali per pannello | 2 × 304 mm² | ~72 kN per pannello (~7 200 kg) |
 
-**Cosa significano 4.000 kg per pannello nella pratica:**
+**Cosa significa nella pratica:**
 
-Una tipica casa monopiano con soppalco/mezzanino e tetto in tegole impone circa 200–400 kg di carico per metro lineare di parete (tetto + soffitto + solaio del mezzanino + carico vivo). Un singolo pannello da 1 m può portare **10–20 volte questo requisito**.
-
-Anche una parete conservativa di 10 pannelli (10 m) porta un totale combinato di 40.000 kg — molto più di qualsiasi tetto e piano superiore residenziale realistico. **I pannelli non necessitano di un telaio in acciaio per portare un secondo piano e un tetto.**
+Una tipica casa monopiano con soppalco e tetto in tegole impone circa 200–400 kg di carico per metro lineare di parete (tetto + soffitto + solaio del mezzanino + carico vivo). Un singolo pannello da 1 m può portare **18–36 volte questo requisito**. **I pannelli non necessitano di un telaio in acciaio separato per portare un secondo piano e un tetto.**
 
 Quando usati **con un telaio in acciaio**, questa capacità assiale è puro margine di riserva — l'acciaio porta i carichi gravitazionali. Quando usati **senza telaio in acciaio**, i pannelli sono la struttura portante. In quel caso, una trave di coronamento in legno o bambù in cima alla parete distribuisce il carico del tetto uniformemente su tutti i pannelli e li lega insieme.
 
-L'instabilità per carico di punta non è una preoccupazione a questi livelli di carico: lo spessore di 85 mm della parete in malta fornisce una rigidezza laterale sostanziale al profilo a T, e il rapporto altezza-spessore del pannello (~2.500/85 ≈ 29) è ben entro i limiti di snellezza accettati per le pareti armate.
+L'instabilità per carico di punta non è una preoccupazione a questi livelli di carico **quando l'angolare L è annegato nel composito del pannello**: lo spessore di 85 mm della parete in malta fornisce al telaio angolare una rigidezza laterale continua. Il rapporto altezza-spessore (~2.500/85 ≈ 29) è ben entro i limiti di snellezza per pareti armate.
+
+**Importante: limitazione dell'asse debole dei profili aperti.** Gli angolari L, profili a T e profili a C hanno rigidezza minima sul loro asse debole. Un montante L 40×40×4 indipendente senza controventatura del pannello (I_min ≈ 3,8 × 10⁴ mm⁴) si svergerebbe sotto carico modesto. La capacità di 36 kN per angolare L è la **capacità di snervamento assiale** ed è raggiungibile SOLO quando l'angolare è continuamente controventato dal riempimento del pannello (malta + guadua). Per colonne indipendenti in edifici multipiano, i profili aperti non sono adatti — usare invece tubo cavo quadrato (SHS).
 
 ### Carico Laterale (Nel Piano / Taglio Orizzontale)
 
@@ -134,12 +137,12 @@ Questi sono numeri molto conservativi. La matrice di malta, il reticolo di legat
 
 Il pannello resiste alla pressione perpendicolare alla faccia della parete (aspirazione/pressione del vento, impatto):
 
-- L'arco di malta creato dal profilo )( agisce come una volta ribassata tra i profili a T rigidi superiore e inferiore
+- L'arco di malta creato dal profilo )( agisce come una volta ribassata tra i angolari L rigidi superiore e inferiore
 - Stima conservativa per pressione uniforme del vento, trattando il pannello come una lastra su due appoggi:
 
 | Parametro | Valore |
 |-----------|--------|
-| Luce del pannello (tra profili a T superiore/inferiore) | 2,5 m |
+| Luce del pannello (tra angolari L superiore/inferiore) | 2,5 m |
 | Larghezza del pannello | 1,0 m |
 | Spessore della malta (minimo, al centro) | ~55 mm |
 | Resistenza a flessione della malta (conservativa) | 1,0 MPa |
@@ -156,10 +159,10 @@ Il reticolo di listelli di bambù e le legature in filo forniscono una significa
 |-------------------|---------------------|----------------------|
 | Oggetti leggeri (quadri, orologi, portasciugamani) | Chiodo o vite da muratura nella malta | 5–10 kg per ancoraggio |
 | Oggetti medi (mensole, specchi, mobiletti) | Tassello a espansione in plastica nella malta (6–8 mm) | 15–25 kg per ancoraggio |
-| Oggetti pesanti (pensili da cucina, scaldabagno, supporto TV) | Bullone passante all'anima del profilo a T in acciaio | 50–100 kg per ancoraggio |
-| Oggetti molto pesanti (libreria, dispensa piena) | Bulloni passanti multipli al profilo a T + piastra di distribuzione | 200+ kg per punto di fissaggio |
+| Oggetti pesanti (pensili da cucina, scaldabagno, supporto TV) | Bullone passante all'anima del angolare L in acciaio | 50–100 kg per ancoraggio |
+| Oggetti molto pesanti (libreria, dispensa piena) | Bulloni passanti multipli al angolare L + piastra di distribuzione | 200+ kg per punto di fissaggio |
 
-**Consiglio:** L'anima del profilo a T corre in una posizione nota (centro dello spessore della parete). Un cercametalli o una calamita la localizzano facilmente. Il bullonaggio passante all'anima fornisce un ancoraggio affidabile e ad alta capacità paragonabile all'intelaiatura con montanti in acciaio.
+**Consiglio:** L'anima del angolare L corre in una posizione nota (centro dello spessore della parete). Un cercametalli o una calamita la localizzano facilmente. Il bullonaggio passante all'anima fornisce un ancoraggio affidabile e ad alta capacità paragonabile all'intelaiatura con montanti in acciaio.
 
 ### Riepilogo — Capacità Conservativa in kg per Pannello
 
@@ -169,9 +172,9 @@ Per costruttori e non ingegneri, ecco gli stessi numeri espressi in chilogrammi.
 |---------------|-----------|-----------------------------------|-------------------------------|
 | **Taglio orizzontale (sismico/vento)** | Orizzontale, nel piano della parete | **~1.200–1.500 kg per pannello** | Una forza orizzontale di 1,2–1,5 tonnellate applicata in cima a un singolo pannello prima che debba essere considerato al suo limite di esercizio. Una tipica casa monopiano necessita di ~600 kg di resistenza al taglio per metro di parete — un pannello ne fornisce il doppio. |
 | **Fuori piano (pressione del vento)** | Perpendicolare alla faccia della parete | **~90 kg distribuiti sulla faccia del pannello** | Equivalente a ~36 kg/m² di pressione uniforme. Una persona che spinge forte contro la parete (~80 kg su ~0,3 m²) è ben entro la capacità. |
-| **Assiale (verticale)** | Verso il basso, attraverso il pannello | **~4.000 kg per pannello** | I due profili a T laterali portano 4 tonnellate — 10–20 volte più del tipico tetto + piano superiore per metro di parete. I pannelli possono portare un secondo piano e un tetto senza telaio in acciaio. |
+| **Assiale (verticale)** | Verso il basso, attraverso il pannello | **Supera ampiamente i carichi residenziali (~7 200 kg di snervamento assiale per pannello in composito)** | I due angolari L laterali portano molto più del tipico tetto + piano superiore per metro di parete. I pannelli possono portare un secondo piano e un tetto senza telaio in acciaio separato. |
 | **Carico puntuale nella malta** | Estrazione / taglio all'ancoraggio | **~15–25 kg per ancoraggio** | Una staffa per mensola con 2 ancoraggi regge 30–50 kg in sicurezza. |
-| **Carico puntuale al profilo a T** | Bullone passante | **~50–100 kg per bullone** | Un pensile da cucina con 4 bulloni passanti regge 200–400 kg in sicurezza. |
+| **Carico puntuale al angolare L** | Bullone passante | **~50–100 kg per bullone** | Un pensile da cucina con 4 bulloni passanti regge 200–400 kg in sicurezza. |
 
 > **Importante:** Queste sono stime, non valori testati. Saranno validate attraverso test fisici. Non utilizzare per l'ingegneria strutturale senza verifica indipendente. In caso di dubbio, fissare gli oggetti pesanti al telaio in acciaio dell'edificio, non al pannello.
 
@@ -210,6 +213,6 @@ Programma di test pianificato:
 - [ ] **Test delle connessioni** — capacità dell'aletta imbullonata pannello-pilastro, durabilità del connettore a scatto
 - [ ] **Test di invecchiamento accelerato** — invecchiamento accelerato di campioni di bambù inglobato nella malta
 - [ ] **Test di trasmissione acustica** (ASTM E90) — misura STC
-- [ ] **Test di estrazione carichi puntuali** — capacità di tasselli da muratura e bulloni passanti in malta + profilo a T
+- [ ] **Test di estrazione carichi puntuali** — capacità di tasselli da muratura e bulloni passanti in malta + angolare L
 
 I risultati dei test saranno pubblicati in questo repository man mano che diventano disponibili. Se avete accesso a strutture di test e volete contribuire, fatevi vivo — test collaborativi con diverse specie di bambù e miscele di malta renderanno questo sistema più robusto per tutti.

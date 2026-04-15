@@ -1,0 +1,401 @@
+{
+  "_meta": {
+    "version": "0.1.0",
+    "description": "Room layout specification for BaharequeModular viewers. Together with window-spec.json, provides all parameters needed to generate a 3D room viewer. All dimensions in mm.",
+    "depends_on": "window-spec.json (glass types, jamb, reserved zones, sill detail)"
+  },
+
+  "panel": {
+    "widths": [1000, 2000],
+    "height": 3000,
+    "note": "1m (standard) and 2m (wide) panels use the same T2\" frame. 2m panels: 38% less steel per m², half the connectors, half the pours. Mix both sizes in one building. Default height: 3.0m (adjustable per project).",
+    "width_2m": {
+      "steel_per_m2": "7.0 USD (vs 11.2 for 1m = 38% savings)",
+      "dry_weight": "245 kg (3-4 people)",
+      "diagonal_angle": "56 degrees (vs 72 for 1m)",
+      "formwork": "2 × standard 1.22m plywood sheets side by side, or custom 2m×3m"
+    },
+    "unit": "mm"
+  },
+
+  "tbar": {
+    "profile": "T2\" (50×50mm)",
+    "flange_width": 50,
+    "flange_thickness": 6.4,
+    "web_height": 43.6,
+    "web_thickness": 6.4,
+    "web_width": 990,
+    "web_gap_per_side": 5,
+    "note": "T2\" is the most available inch-based profile at any Colombian ferretería.",
+    "unit": "mm"
+  },
+
+  "tbar_horizontal": {
+    "description": "90° rotated frame for clerestory and horizontal wall panels. Same T2\" profile but webs protrude LEFT/RIGHT (horizontal) instead of UP/DOWN.",
+    "profile": "T2\" (50×50mm)",
+    "long_tbars": "horizontal (top + bottom edges), no web protrusion",
+    "short_tbars": "vertical (left + right edges), webs protrude horizontally for VWC-A",
+    "panel_sizes": ["1×1m"],
+    "use_cases": ["clerestory", "gable end", "parapet", "knee wall"]
+  },
+
+  "connector": {
+    "profile": "T4\" (100×100mm)",
+    "families": {
+      "VWC": {
+        "name": "Vertical Wall Connector",
+        "description": "Double T-bar (I-shape). Two T-bars with flanges connected back-to-back, webs pointing outward. Used between floors where the upper web (ridge) provides bolt interface for the next floor's wall panels.",
+        "types": {
+          "VWC-A": "standard inline — everywhere except 90° corners and top ring",
+          "VWC-I90": "T-junction — L-shaped, main arm + half perp arm",
+          "VWC-C": "corner — two halves, 45° miter weld, L-shape from top"
+        },
+        "height_t2": 100,
+        "composition": "lower_web (43.6) + lower_flange (6.4) + upper_flange (6.4) + upper_web/ridge (43.6) = 100mm"
+      },
+      "TWC": {
+        "name": "Top Wall Connector",
+        "description": "Single T-bar (half of VWC). Used at the TOPMOST panel ring only — no upper floor, so no ridge needed. The lower web bolts to the panel web (same as VWC). The flange provides a flat bearing surface for the roof plate/eave beam. Clean flat top — no protruding ridge.",
+        "types": {
+          "TWC-A": "standard inline — replaces VWC-A at the top ring",
+          "TWC-I90": "T-junction — replaces VWC-I90 at the top ring",
+          "TWC-C": "corner — replaces VWC-C at the top ring"
+        },
+        "height_t2": 50,
+        "composition": "web (43.6) + flange (6.4) = 50mm",
+        "flat_top": true,
+        "note": "The flange (50mm wide for T2\") sits flat on top. Roof plate beam bolts directly to this flange. No ridge = clean eave line, simpler roof connection."
+      }
+    },
+    "vertical_zone": {
+      "description": "Gap between stacked panels where connectors occupy space.",
+      "VWC_height": 100,
+      "TWC_height": 50,
+      "note": "VWC (100mm) between floors. TWC (50mm) at the top ring only. The connector zone in the viewer uses VWC height for inter-floor and TWC height at the roof level.",
+      "unit": "mm",
+      "infill": {
+        "material": "Same borate mortar as panels (1:4 cement:sand + 0.3% borax + 5 kg/m³ pasto estrella)",
+        "method": "Poured in-situ after connector bolts are installed and upper panels placed",
+        "fills": "95% of connector zone volume (steel occupies only 5%)",
+        "structural_benefit": {
+          "vertical_capacity": "4.2× improvement over steel-only (240 kN → 1015 kN per 1m panel)",
+          "ring_beam_effect": "Continuous masonry band around building perimeter — acts as viga de amarre (bond beam). Provides in-plane shear transfer for seismic resistance.",
+          "monolithic_behavior": "Building transitions from discrete panels with steel joints to a monolithic structure with continuous ring beams at every floor level."
+        },
+        "construction_sequence": [
+          "1. Erect lower floor panels",
+          "2. Install VWC-A/TWC connectors, bolt through",
+          "3. Place upper floor panels on VWC-A ridge",
+          "4. Bolt upper panels",
+          "5. Wet surfaces, pour borate mortar infill around connectors",
+          "6. Cure (same as panel mortar)"
+        ],
+        "issues_checked": {
+          "thermal_expansion": "Negligible at tropical highland 12-26°C range (steel 0.17mm/m expansion)",
+          "corrosion": "Double protection: borate mortar pH buffer + hot-dip galvanized steel",
+          "load_path": "Poured mortar bonds to panel mortar above and below — continuous contact",
+          "bolt_access": "Bolts installed before filling — encased permanently (no future access needed)"
+        },
+        "recommendation": "HIGHLY RECOMMENDED for all seismic zones. Zero additional material cost (same mortar recipe). Transforms connection from joint to ring beam."
+      }
+    },
+    "usage_rules": {
+      "ground_to_clerestory": "VWC — double T-bar, ridge receives clerestory panel bottom flange",
+      "clerestory_top_ring": "TWC — single T-bar, flat flange for roof bearing",
+      "multi_storey_between_floors": "VWC — ridge receives upper floor panel bottom web",
+      "horizontal_between_clerestory_panels": "VWC-A horizontal (same piece, rotated 90°)"
+    }
+  },
+
+  "foundation": {
+    "type": "brick_channel",
+    "description": "Brick channel on flat concrete strip. Panel web slides into channel, flange rests on walls. No bolts, no DPC penetration.",
+    "concrete_strip": {
+      "width": 300,
+      "depth": 200,
+      "note": "Flat top, no embedded hardware. Width increases for thicker walls."
+    },
+    "dpc": {
+      "material_standard": "HDPE sheet",
+      "material_legado": "0.5mm copper sheet",
+      "overlap": 50,
+      "penetrations": 0,
+      "note": "Continuous sheet on concrete, under brick channel. Zero bolt holes."
+    },
+    "channel": {
+      "internal_width": 20,
+      "internal_depth": 60,
+      "web_penetration": 35,
+      "air_gap": 25,
+      "drainage": "25mm coarse gravel bed + 10mm weep holes every 500mm on exterior face",
+      "note": "Web slides in but does not reach bottom. Gravel drains any moisture to weep holes."
+    },
+    "infill": "Lime mortar around web above gravel, after panel mortar has cured",
+    "seismic_note": "For 3+ stories: add stainless L-clips at quarter points for positive uplift restraint",
+    "spec": "See foundation-spec.md for full detail",
+    "unit": "mm"
+  },
+
+  "skirting": {
+    "height": 70,
+    "thickness": 12,
+    "material": "teak or guadua",
+    "color_hex": "6B4226",
+    "unit": "mm"
+  },
+
+  "inner_cove": {
+    "radius": 10,
+    "description": "Concave quarter-round at interior wall-wall corners. Lime-finished.",
+    "unit": "mm"
+  },
+
+  "interior_wall": {
+    "description": "Interior partition wall. Same 156mm construction as exterior panels but lime-finished on both faces. Used for mezzanine half-walls, room dividers, bathroom walls, etc.",
+    "thickness": 156,
+    "finish": "lime both sides (COL_LIME_INT)",
+    "frame": "Same T2\" frame as exterior panels",
+    "connection_to_exterior": "VWC-I90 at each end where it meets an exterior panel",
+    "connection_to_floor": "Ground floor: web slides into brick channel on foundation. Upper floors: bottom flange bolted to floor slab. See foundation-spec.md.",
+    "variants": {
+      "full_height": {
+        "height": "panel_height (e.g. 3000mm)",
+        "use": "Room divider, bathroom wall"
+      },
+      "mezzanine_half_wall": {
+        "height": {
+          "formula": "mezzanine_floor_height",
+          "value_1500mm_mezz": 1500,
+          "note": "Wall top = mezzanine floor bottom. Slab sits on T-bar top flange."
+        },
+        "use": "Supports mezzanine slab edge. Double-height room sees this wall from the open side."
+      }
+    },
+    "unit": "mm"
+  },
+
+  "glass_railing": {
+    "description": "Tempered glass railing at mezzanine slab edge or balcony. Mounted on teak base rail bolted to slab edge.",
+    "glass_thickness": 10,
+    "glass_height": 1000,
+    "glass_type": "tempered",
+    "base_rail": {
+      "material": "teak",
+      "width": 50,
+      "height": 50,
+      "note": "U-channel bolted to slab edge. Glass slides in and is secured with silicone + set screws."
+    },
+    "top_rail": {
+      "material": "teak",
+      "width": 50,
+      "height": 30,
+      "note": "Cap rail on top of glass. Comfortable hand grip."
+    },
+    "posts": {
+      "material": "teak",
+      "spacing": 1000,
+      "size": [50, 50],
+      "note": "Teak posts every 1m for lateral stiffness."
+    },
+    "position": "Flush with interior face of supporting wall below.",
+    "color_hex_glass": "F0F0F8",
+    "color_hex_teak": "8B6B4A",
+    "unit": "mm"
+  },
+
+  "floor_slab": {
+    "description": "Guadua triple-beam ribbed slab. 150mm culms in triangle stacks (2 bottom + 1 top), wire-lashed, mortar-filled cores at ends, esterilla below, mortar flange above, terracotta tiles on top. See floor-slab-spec.md.",
+    "total_depth": 350,
+    "layers": {
+      "esterilla": { "thickness": 5, "note": "Guadua mat — permanent formwork + ceiling finish, lime-washed below" },
+      "guadua_ribs": { "height": 280, "culm_od": 150, "culm_wall": 18, "config": "2 bottom + 1 top triangle, wire-lashed" },
+      "fill_beams": { "culm_od": 150, "note": "1 per gap between ribs, at top level" },
+      "mortar_flange": { "thickness": 40, "note": "Structural compression zone" },
+      "tile_bed": { "thickness": 10 },
+      "terracotta": { "thickness": 20 }
+    },
+    "rib_spacing_cc": 600,
+    "max_clear_span": 7000,
+    "max_span_with_columns": "unlimited (7m bays)",
+    "material": "guadua triple-beam ribs + borate mortar (standard) or pozzolanic lime mortar (El Legado)",
+    "finish_top": "terracotta tiles (250×250×20mm)",
+    "finish_bottom": "esterilla + lime wash (traditional Colombian ceiling)",
+    "weight": 254,
+    "weight_unit": "kg/m²",
+    "composite_I": "638 × 10⁶ mm⁴ per rib (T-beam with mortar flange)",
+    "edge_rules": {
+      "at_exterior_walls": "Rib ends bear on VWC upper flange or TWC flange. Slab edge aligns with interior wall face. Does NOT extend into round exterior corner zone.",
+      "at_interior_walls": "Rib ends bear on T-bar flange. 90° angle — wall top meets esterilla bottom cleanly.",
+      "at_open_edge": "Glass railing or teak balustrade mounted on slab edge.",
+      "at_brick_piers": "Ribs bear on timber collector beam (100×150mm) spanning across pier top."
+    },
+    "junction_with_wall_below": "Clean 90° angle. Interior wall top meets esterilla bottom flush.",
+    "column_support": {
+      "needed_when": "clear span > 7m",
+      "options": {
+        "guadua_column": {
+          "type": "Single mortar-filled guadua culm",
+          "culm_od": 150,
+          "capacity_kn": 300,
+          "visible_diameter": "~160mm with lime plaster",
+          "note": "Same culm as floor ribs. Minimal visual obstruction. Recommended for open-plan spaces."
+        },
+        "interior_wall": {
+          "type": "Standard interior wall panel (1m or 2m)",
+          "thickness": 156,
+          "capacity_kn": 1000,
+          "note": "Wall IS the column. Double duty: room divider + structural support. Best for apartments."
+        },
+        "brick_pier": {
+          "type": "Brick pier",
+          "size": [240, 240],
+          "capacity_kn": 200,
+          "note": "Traditional masonry. Separate trade. Best for hacienda aesthetic."
+        }
+      },
+      "note": "For multifamily 9m width: 1 row at ~4.5m. Hacienda arcade option: columns at 3-4m with round arch panels between."
+    },
+    "spec": "See floor-slab-spec.md for full structural calculations and construction sequence.",
+    "unit": "mm"
+  },
+
+  "floor": {
+    "type": "terracotta",
+    "tile_size": 250,
+    "tile_thickness": 20,
+    "grout_joint": 3,
+    "tile_top_flush_with": "teak window board (15mm above subfloor)",
+    "color_hex": "C27B4A",
+    "grout_color_hex": "8A7A6A",
+    "unit": "mm"
+  },
+
+  "colors": {
+    "description": "Viewer theme colors. Hex values without 0x prefix.",
+    "lime_exterior": "F5F2ED",
+    "lime_interior": "F2EDE4",
+    "corner_piece": "F5F0EA",
+    "glass": "F0F0F8",
+    "silicone_joint": "333333",
+    "skirting": "6B4226",
+    "teak": "8B6B4A",
+    "terracotta": "C27B4A",
+    "grout": "8A7A6A",
+    "panel_joint_line": "B0A898",
+    "background": "8A9BAE"
+  },
+
+  "viewer": {
+    "glass_visual_thickness": 20,
+    "panel_joint_line_width": 3,
+    "panel_joint_line_depth": 2,
+    "soffit_emissive_hex": "181818",
+    "note": "Viewer-only display parameters, not construction dimensions.",
+    "unit": "mm"
+  },
+
+  "rooms": {
+    "demo_4x4": {
+      "name": "4×4m demo room",
+      "description": "Enclosed room with windows on north and west walls. Used for corner-viewer.html.",
+      "panels_x": 4,
+      "panels_z": 4,
+      "interior_size": [4000, 4000],
+      "walls": {
+        "north": {
+          "exterior_axis": "z_min",
+          "panels": [
+            { "type": "solid" },
+            { "type": "window", "glass": "flush_silicone", "variant": "full_height_fixed" },
+            { "type": "window", "glass": "flush_silicone", "variant": "full_height_fixed" },
+            { "type": "solid" }
+          ]
+        },
+        "west": {
+          "exterior_axis": "x_min",
+          "panels": [
+            { "type": "solid" },
+            { "type": "window", "glass": "flush_silicone", "variant": "full_height_fixed", "span": 2 },
+            { "type": "window_continuation" },
+            { "type": "solid" }
+          ],
+          "note": "Panels 2-3 form a single 2m opening. Panel 3 is 'window_continuation' — no jamb or joint between them."
+        },
+        "south": {
+          "exterior_axis": "z_max",
+          "panels": [
+            { "type": "solid" },
+            { "type": "solid" },
+            { "type": "solid" },
+            { "type": "solid" }
+          ]
+        },
+        "east": {
+          "exterior_axis": "x_max",
+          "panels": [
+            { "type": "solid" },
+            { "type": "door", "material": "teak", "hinge": "left" },
+            { "type": "solid" },
+            { "type": "solid" }
+          ]
+        }
+      },
+      "corners": {
+        "nw": { "position": "x_min_z_min", "radius": 100 },
+        "ne": { "position": "x_max_z_min", "radius": 100 },
+        "sw": { "position": "x_min_z_max", "radius": 100 },
+        "se": { "position": "x_max_z_max", "radius": 100 }
+      },
+      "inner_coves": [
+        { "walls": ["north", "west"], "position": "x_min_z_min" }
+      ],
+      "upper_level": {
+        "description": "Clerestory / horizontal wall band above main walls, separated by connector zone.",
+        "panel_height": 1000,
+        "connector_zone_height": 100,
+        "base_y": "panel_height + connector_zone_height",
+        "walls": {
+          "north": {
+            "panels": [
+              { "type": "clerestory", "glass": "lipped", "span": 2 },
+              { "type": "window_continuation" },
+              { "type": "clerestory", "glass": "lipped", "span": 2 },
+              { "type": "window_continuation" }
+            ],
+            "note": "Two 2m-wide clerestory windows spanning full wall width. No solid panels."
+          },
+          "west": {
+            "panels": [
+              { "type": "horizontal_solid" },
+              { "type": "clerestory", "glass": "lipped" },
+              { "type": "clerestory", "glass": "lipped" },
+              { "type": "horizontal_solid" }
+            ]
+          },
+          "south": {
+            "panels": [
+              { "type": "horizontal_solid" },
+              { "type": "horizontal_solid" },
+              { "type": "horizontal_solid" },
+              { "type": "horizontal_solid" }
+            ]
+          },
+          "east": {
+            "panels": [
+              { "type": "horizontal_solid" },
+              { "type": "horizontal_solid" },
+              { "type": "horizontal_solid" },
+              { "type": "horizontal_solid" }
+            ]
+          }
+        },
+        "corners": {
+          "description": "Same R=100mm round corners, spanning connector_zone + panel_height = 1100mm",
+          "height": 1100,
+          "radius": 100
+        }
+      },
+      "unit": "mm"
+    }
+  }
+}

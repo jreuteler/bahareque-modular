@@ -1,36 +1,57 @@
 # Impatto Ambientale
 
-## Impronta di Carbonio per Pannello
+## Impronta di Carbonio per Pannello — miscela base
+
+I valori sotto riflettono la specifica base attuale: telaio acciaio L 40×40×4 + 30 % di guadua nella cavità + malta cemento-sabbia (base) + intonaco di calce 10 mm su entrambi i lati. Vedere [Anatomia del Pannello](02-anatomia-del-pannello.md) e [Materiali](03-materiali.md) per i dettagli.
 
 | Materiale | Qtà per pannello | CO₂ incorporata (kg) | Fonte dell'emissione |
 |-----------|-----------------|---------------------|---------------------|
-| Cemento Portland | 25 kg | 20,0 | Calcinazione + combustibile del forno (~0,8 kg CO₂/kg cemento) |
-| Acciaio profilo a T + barre di serraggio | ~8 kg acciaio | 14,4 | Produzione dell'acciaio (~1,8 kg CO₂/kg acciaio) |
-| Zincatura (zinco) | ~0,3 kg zinco | 1,2 | Fusione dello zinco (~4 kg CO₂/kg zinco) |
-| Sabbia | 100 kg | 0,5 | Estrazione + trasporto |
-| Rete a maglia esagonale | ~1,5 kg | 2,7 | Produzione filo d'acciaio |
+| Cemento Portland (~18 % della massa di malta) | ~54 kg | 43,2 | Calcinazione + combustibile del forno (~0,8 kg CO₂/kg cemento) |
+| Telaio acciaio angolare L + barre di serraggio | ~22 kg acciaio | 39,6 | Produzione dell'acciaio (~1,8 kg CO₂/kg acciaio) |
+| Zincatura (zinco) | ~0,7 kg zinco | 2,8 | Fusione dello zinco (~4 kg CO₂/kg zinco) |
+| Sabbia (~82 % della massa di malta) | ~240 kg | 1,2 | Estrazione + trasporto |
+| Rete a maglia esagonale + rete in alluminio | ~2 kg | 3,6 | Produzione filo d'acciaio |
 | Tubazione PVC | ~0,3 kg | 0,6 | Produzione PVC (~2 kg CO₂/kg) |
 | Cavi + connettori | ~0,5 kg | 1,5 | Rame + plastica |
 | Distanziatori HDPE | ~0,5 kg | 0,5 | Se riciclato: ~1 kg CO₂/kg (contro 3 per vergine) |
-| **Subtotale emissioni** | | **~41 kg CO₂** | |
-| Bambù (carbonio sequestrato durante la crescita) | ~10 kg peso secco | **−15 a −20 kg CO₂** | Il bambù sequestra ~1,5–2 kg CO₂ per kg di massa secca |
-| Intonaco di calce (riassorbe CO₂ durante la carbonatazione) | ~15 kg calce | **−5 a −8 kg CO₂** | La carbonatazione della calce ricattura ~30–50% della CO₂ di calcinazione |
-| **CO₂ netta per pannello** | | **~15–25 kg CO₂** | |
-| **CO₂ netta per m² di parete** | | **~6–10 kg CO₂/m²** | |
+| Calce (in intonaco, calcinazione) | ~22 kg calce | 18,0 | Calcinazione del calcare (~0,8 kg CO₂/kg calce) |
+| Fibra PP (additivo malta) | ~0,2 kg | 0,4 | Produzione polipropilene |
+| **Subtotale emissioni** | | **~111 kg CO₂** | |
+| Bambù (carbonio sequestrato durante la crescita) | ~38 kg peso secco (30 % cavità) | **−60 a −75 kg CO₂** | Il bambù sequestra ~1,6–2,0 kg CO₂ per kg di massa secca |
+| Intonaco di calce (riassorbe CO₂ durante la carbonatazione) | ~22 kg calce | **−6 a −9 kg CO₂** | La carbonatazione della calce ricattura ~30–50 % della CO₂ di calcinazione nel corso di decenni |
+| **CO₂ netta per pannello, miscela base** | | **~30–45 kg CO₂** | |
+| **CO₂ netta per m² di parete, base** | | **~12–18 kg CO₂/m²** | |
+
+## Impronta di Carbonio per Pannello — miscela bahareque ottimizzata
+
+La miscela ottimizzata (calce pozzolanica + pasto estrella + 30 % guadua + intonaco 5 mm) riduce il carbonio incorporato attraverso più leve cumulative:
+
+| Leva | Delta CO₂ per pannello vs base |
+|---|---|
+| Sostituire 30 % del cemento con cenere volante o RHA | −10 a −13 kg |
+| Sostituire malta cemento Portland con calce idraulica + pozzolana | −8 a −12 kg |
+| Sostituire fibra PP con pasto estrella | −0,5 kg |
+| Intonaco di calce 5 mm su entrambi i lati (−50 % volume calce) | −9 kg di calcinazione, +4 kg di minore recupero da carbonatazione = **−5 kg netto** |
+| **Riduzione totale** | **−24 a −30 kg CO₂ per pannello** |
+| **CO₂ netta per pannello, miscela ottimizzata** | **~6 a 20 kg CO₂** |
+| **CO₂ netta per m² di parete, ottimizzata** | **~3 a 8 kg CO₂/m²** |
+
+Con pozzolane disponibili localmente (cenere vulcanica nella regione caffè colombiana, cenere di lolla di riso da Tolima/Valle del Cauca) e fibra di pasto estrella dalla proprietà stessa, la miscela bahareque ottimizzata si avvicina a **carbonio-neutra** per pannello. Se il bambuseto è gestito come pozzo di carbonio (rotazione con permanenza della biomassa), il sistema diventa **carbonio-negativo**: la parete assorbe più CO₂ nella sua vita di quanto ne sia stato emesso per costruirla.
 
 ## Confronto con Sistemi Murari Convenzionali
 
-| Sistema murario | kg CO₂ per m² | Rapporto rispetto a questo sistema |
-|----------------|--------------|-----------------------------------|
-| **Questo sistema a pannelli** | **6–10** | **1× (riferimento)** |
-| Blocchi di cemento (15 cm, intonacati) | 40–60 | 5–7× |
-| Mattone in argilla cotto (intonacato) | 50–80 | 6–10× |
-| Parete in calcestruzzo armato (15 cm) | 70–100 | 8–12× |
-| Cartongesso su montanti in acciaio | 15–25 | 2–3× |
-| Bahareque convenzionale (intonaco di fango) | 3–8 | 0,5–1× |
-| Blocco in adobe | 5–10 | 0,7–1× |
+| Sistema murario | kg CO₂ per m² | Rapporto vs pannello base |
+|----------------|--------------|---------------------------|
+| **Questo sistema a pannelli — miscela base** | **12–18** | **1× (riferimento)** |
+| **Questo sistema a pannelli — miscela bahareque ottimizzata** | **3–8** | **~0,4× base** |
+| Blocchi di cemento (15 cm, intonacati) | 40–60 | 3–4× base |
+| Mattone in argilla cotto (intonacato) | 50–80 | 3–5× base |
+| Parete in calcestruzzo armato (15 cm) | 70–100 | 5–7× base |
+| Cartongesso su montanti in acciaio | 15–25 | 1–1,5× base |
+| Bahareque convenzionale (intonaco di fango, senza telaio acciaio) | 3–8 | 0,3–0,5× base |
+| Blocco in adobe | 5–10 | 0,4–0,7× base |
 
-Il sistema a pannelli produce **5–10 volte meno CO₂ rispetto ai blocchi di cemento o ai mattoni** — i due materiali murari più comuni nel mondo in via di sviluppo. È comparabile all'edilizia tradizionale in terra ma con prestazioni strutturali e durata enormemente superiori.
+La miscela base del sistema a pannelli produce **~3 volte meno CO₂ rispetto ai blocchi di cemento o ai mattoni** — i due materiali murari più comuni nel mondo in via di sviluppo. La miscela bahareque ottimizzata si avvicina ai livelli dell'edilizia tradizionale in terra fornendo prestazioni strutturali e durata enormemente superiori.
 
 ## Carbonio per Anno di Servizio
 

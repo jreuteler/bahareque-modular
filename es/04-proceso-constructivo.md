@@ -1,5 +1,7 @@
 # Proceso Constructivo
 
+> **Actualización de SVG pendiente:** algunos diagramas en este capítulo fueron generados para la especificación anterior del marco con perfil T y han sido temporalmente desvinculados hasta que se regeneren para la especificación actual de **ángulo L 40×40×4 mm**. Ver [`SVG-STATUS.md`](../SVG-STATUS.md) en la raíz del repositorio.
+
 ## Preparación del Taller
 
 Todos los paneles se construyen en un taller cubierto — independiente del clima, con control de calidad, eficiente como línea de ensamble. Requisitos mínimos del taller:
@@ -7,7 +9,7 @@ Todos los paneles se construyen en un taller cubierto — independiente del clim
 - Área cubierta: ~6 × 4 m (techo, lados abiertos aceptable)
 - Estación de soldadura (solo para fabricación de marcos)
 - Taladro de columna o taladro manual
-- 2× mesas vibradoras (~1,2 × 2,7 m cada una)
+- 2× mesas vibradoras (~1,2 × 2,7 m cada una) para el modelo de producción de vertido en taller, **o** encofrado + bomba de mortero in situ para el modelo preferido de vertido in situ (ver [Anatomía del Panel § Desglose de Peso](02-anatomia-del-panel.md))
 - Suministro de arena para la cama
 - Mezcladora de mortero (eléctrica o manual)
 - Herramientas manuales básicas: destornilladores, cortafrío, alicates, grapadora
@@ -18,10 +20,13 @@ Todos los paneles se construyen en un taller cubierto — independiente del clim
 
 ### Paso 1: Fabricación del Marco
 
-1. Cortar perfil T a longitud: 2× 1,0 m (superior/inferior, alma de 85 mm) + 2× 2,5 m (laterales, alma de 30 mm)
-2. Soldar esquinas en una plantilla — todos los marcos son idénticos
-3. Perforar agujeros de sujeción cada ~70 mm a lo largo de las almas de los perfiles T superior e inferior (uno por cada dos tiras de bambú, ~14 agujeros por barra, ~28 en total)
-4. Galvanizar en caliente el marco completo (proceso por lotes — enviar 20–50 marcos a la vez)
+> _Diagrama del marco del panel pendiente — el SVG anterior del marco muestra geometría de perfil T y no es representativo del marco de ángulo L. Ver `SVG-STATUS.md`._
+
+1. Cortar ángulo L 40×40×4 a longitud: 2× 1,0 m (superior/inferior) + 2× 2,5 m (laterales). Stock comercial de Gerdau Diaco / Acesco / Ferrasa, barras de 6 m
+2. Cortar las esquinas a inglete a 45° (o cortar a escuadra con un ala traslapada sobre la otra — ambos producen un marco rectangular limpio)
+3. Soldar esquinas en una plantilla — todos los marcos son idénticos. Opcionalmente, pequeñas cartelas de esquina (60×60×3 platina) pueden soldarse sobre cada esquina interior para rigidez durante el manejo
+4. Perforar agujeros de sujeción cada ~70 mm a lo largo de las almas del ángulo superior e inferior (uno por cada dos tiras de bambú, ~14 agujeros por barra, ~28 en total)
+5. Galvanizar en caliente el marco completo (proceso por lotes — enviar 20–50 marcos a la vez)
 
 **Todos los marcos son idénticos sin importar la variante del panel.** La plantilla asegura dimensiones consistentes. Una plantilla, un marco, para siempre.
 
@@ -29,7 +34,7 @@ Todos los paneles se construyen en un taller cubierto — independiente del clim
 
 1. Cortar HDPE a 30 × 30 mm × 1.000 mm (2 por panel)
 2. Cortar muescas de esquina: 10 × 10 mm en cada extremo (4 muescas por bloque, 8 por panel)
-3. Montar bloques en las almas de los perfiles T superior e inferior usando tornillos o adhesivo
+3. Montar bloques en las almas del ángulo L superior e inferior usando tornillos o adhesivo
 
 ### Paso 3: Instalación Eléctrica
 
@@ -50,15 +55,15 @@ Todos los paneles se construyen en un taller cubierto — independiente del clim
 5. Pasar la tira diagonal por la muesca inferior izquierda del HDPE, cruzando hacia la muesca superior derecha (a nivel del alma)
 6. Pre-tensionar la diagonal y asegurar en ambos extremos
 
-![Sistema de Sujeción con Tornillos](svg/04-screw-clamping.svg)
+> _Diagrama de sujeción con tornillos pendiente — el SVG anterior muestra geometría del alma del perfil T; el detalle de sujeción con ángulo L es similar en principio (tira de sujeción → bambú → tornillo a través del alma) pero geométricamente diferente. Ver `SVG-STATUS.md`._
 
 ### Paso 5: Sujeción con Tornillos (Lado 1)
 
-1. Colocar tira de sujeción de acero (2 mm × 30 mm × 1.000 mm) sobre las tiras de bambú en el perfil T superior
-2. Alinear agujeros de la tira de sujeción con los agujeros del alma del perfil T
+1. Colocar tira de sujeción de acero (platina 3 mm × 40 mm × 1.000 mm) sobre las tiras de bambú en el alma del ángulo superior
+2. Alinear agujeros de la tira de sujeción con los agujeros del alma del ángulo L
 3. Atornillar con tornillos de acero inoxidable a través de: tira de sujeción → tiras de bambú → agujeros del alma
 4. La tira de sujeción se flexiona para acomodar la variación natural de espesor — autoajustable
-5. Repetir en el perfil T inferior
+5. Repetir en el ángulo inferior
 6. Amarrar con alambre la diagonal a cada tira vertical en los cruces (~8–10 amarres)
 
 **Tiempo: ~5 minutos por lado para sujeción, ~3 minutos para amarres de alambre**

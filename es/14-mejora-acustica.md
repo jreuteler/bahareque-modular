@@ -25,7 +25,7 @@ Se reemplaza la arena de río estándar por agregados más pesados en la mezcla 
 | Escoria de hierro | +25–30% | A menudo gratis | Cerca de siderúrgicas, fundiciones |
 | Arena magnetítica (arena negra) | +40% | Bajo | Lechos de ríos volcánicos (Andes, Centroamérica) |
 
-- **Peso del panel:** ~175–190 kg (vs. ~155 kg estándar)
+- **Peso del panel:** terminado ~490–530 kg mezcla base (vs. ~440 kg base estándar) / ~405–440 kg mezcla optimizada (vs. ~360 kg optimizada estándar). Peso de ensamble en seco sin cambios a ~75 kg (el agregado denso se añade en el vertido in-situ, no en el ensamble en taller)
 - **Sobrecosto:** ~$1–2 por panel
 - **STC:** ~43–48
 - **Cambio en producción:** Ninguno — solo se sustituye el agregado. La proporción de mezcla se mantiene en 1:4 cemento:agregado.

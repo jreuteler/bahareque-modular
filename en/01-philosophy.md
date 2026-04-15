@@ -83,7 +83,7 @@ This panel system resolves the trade-off between traditional and modern construc
 
 **Traditional where it's seen.** The exterior surface is lime plaster over bamboo and mortar — the same materials used in bahareque, quincha, wattle-and-daub, and tsuchikabe for centuries. The texture is handmade. The surface breathes. The building belongs to its place.
 
-**Modern where it matters.** Inside each panel is a hot-dip galvanized steel T-bar frame engineered for seismic loads. This frame is invisible once the panel is finished. It carries the structural reality while the traditional materials carry the human experience.
+**Modern where it matters.** Inside each panel is a hot-dip galvanized steel L-angle frame engineered for seismic loads. This frame is invisible once the panel is finished. It carries the structural reality while the traditional materials carry the human experience.
 
 ## Permaculture Integration
 
@@ -149,7 +149,7 @@ The most cited academic work on modern bahareque. Kaminski's [Design Guide for E
 
 The most scaled bamboo construction system in the world: 2,400+ housing units built in the Philippines, Nepal, India, and Sri Lanka. CBFT uses treated bamboo frames with metal connections, flattened bamboo (esterilla) infill, wire mesh, and cement mortar. Panels are prefabricated in workshops. Designed for typhoon winds up to 300 km/h and earthquakes up to magnitude 7–8. Target lifespan: ~60 years. Training provided through the Bamboo Academy.
 
-**How this system differs:** CBFT uses bamboo/wood as the frame structure. Our system uses galvanized steel T-bar — providing higher axial capacity, longer corrosion-protected lifespan (80–100 years vs. 60), and a consistent clamping surface for the screw system. CBFT does not include integrated electrical. CBFT is proprietary (training-based access); our system is open hardware.
+**How this system differs:** CBFT uses bamboo/wood as the frame structure. Our system uses galvanized steel L-angle — providing higher axial capacity, longer corrosion-protected lifespan (80–100 years vs. 60), and a consistent clamping surface for the screw system. CBFT does not include integrated electrical. CBFT is proprietary (training-based access); our system is open hardware.
 
 - [BASE Bahay — Hilti Foundation](https://www.hiltifoundation.org/basebahaybamboo)
 - [BASE Builds](https://base-builds.com/tag/cement-bamboo-frame-technology-2/)
@@ -158,7 +158,7 @@ The most scaled bamboo construction system in the world: 2,400+ housing units bu
 
 Recent research from Chinese universities has tested sprayed composite mortar walls with original bamboo studs and **diagonal bamboo bracing** — structurally the closest match to our panel's diagonal bracing concept. Quasi-static cyclic loading tests showed good energy dissipation and ductile failure behavior with diagonal strips. The mortar is sprayed rather than vibration-poured, and there is no steel frame.
 
-**How this system differs:** Our vibration-table pour achieves more complete mortar fill (zero voids) without spray equipment. The steel T-bar frame adds axial load capacity and provides a standardized clamping surface. However, the Chinese research provides the best published validation that diagonal bamboo bracing in mortar composite works structurally — we build on this evidence.
+**How this system differs:** Our in-situ vertical pour (or optional workshop vibration-table pour) achieves more complete mortar fill (zero voids) without spray equipment. The steel L-angle frame adds axial load capacity and provides a standardized clamping surface. However, the Chinese research provides the best published validation that diagonal bamboo bracing in mortar composite works structurally — we build on this evidence.
 
 - [Diagonal bamboo strips seismic study (ScienceDirect)](https://www.sciencedirect.com/science/article/abs/pii/S2352710223020090)
 
@@ -202,7 +202,7 @@ For clarity, the following features have **no documented equivalent** in any exi
 
 | Feature | Status |
 |---------|--------|
-| Galvanized steel T-bar frame for bamboo panels | Novel |
+| Galvanized steel L-angle frame for bamboo panels (commodity stock profile) | Novel |
 | Screw-clamping system (self-adjusting for thickness variation) | Novel |
 | Vibration table mortar pour on sand bed | Novel |
 | Integrated 12V + 120V snap-connect electrical | Novel |

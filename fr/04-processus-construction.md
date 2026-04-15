@@ -1,5 +1,7 @@
 # Processus de construction
 
+> **Mise a jour SVG en attente :** certains diagrammes de ce chapitre ont ete generes pour l'ancienne specification du cadre en T et ont ete temporairement deconnectes en attendant leur regeneration pour la specification actuelle de **corniere L 40x40x4 mm**. Voir [`SVG-STATUS.md`](../SVG-STATUS.md) a la racine du depot.
+
 ## Installation de l'atelier
 
 Tous les panneaux sont fabriques dans un atelier couvert -- independant de la meteo, avec controle qualite et efficacite de chaine de montage. Exigences minimales de l'atelier :
@@ -18,10 +20,13 @@ Tous les panneaux sont fabriques dans un atelier couvert -- independant de la me
 
 ### Etape 1 : Fabrication du cadre
 
-1. Couper le profile en T aux longueurs : 2x 1,0 m (haut/bas, ame de 85 mm) + 2x 2,5 m (cotes, ame de 30 mm)
-2. Souder les angles dans un gabarit -- tous les cadres sont identiques
-3. Percer les trous de serrage tous les ~70 mm le long des ames superieures et inferieures (un pour deux lattes de bambou, ~14 trous par barre, ~28 au total)
-4. Galvaniser a chaud les cadres finis (processus par lot -- envoyer 20-50 cadres a la fois)
+> _Diagramme du cadre du panneau en attente -- l'ancien SVG du cadre montre la geometrie en T et n'est pas representatif du cadre en corniere L. Voir `SVG-STATUS.md`._
+
+1. Couper la corniere L 40x40x4 aux longueurs : 2x 1,0 m (haut/bas) + 2x 2,5 m (cotes). Stock courant chez Gerdau Diaco / Acesco / Ferrasa, barres de 6 m
+2. Couper les angles en onglet a 45° (ou couper droit avec une aile recouvrant l'autre -- les deux donnent un cadre rectangulaire propre)
+3. Souder les angles dans un gabarit -- tous les cadres sont identiques. De petits goussets d'angle optionnels (plat 60×60×3) peuvent etre soudes en travers de chaque angle interieur pour la rigidite a la manutention
+4. Percer les trous de serrage tous les ~70 mm le long des ames superieures et inferieures de la corniere (un pour deux lattes de bambou, ~14 trous par barre, ~28 au total)
+5. Galvaniser a chaud les cadres finis (processus par lot -- envoyer 20-50 cadres a la fois)
 
 **Tous les cadres sont identiques quelle que soit la variante de panneau.** Le gabarit garantit des dimensions constantes. Un gabarit, un cadre, pour toujours.
 
@@ -29,7 +34,7 @@ Tous les panneaux sont fabriques dans un atelier couvert -- independant de la me
 
 1. Couper le stock PEHD a 30 x 30 mm x 1 000 mm (2 par panneau)
 2. Couper les encoches d'angle : 10 x 10 mm a chaque extremite (4 encoches par bloc, 8 par panneau)
-3. Monter les blocs sur les ames des profiles en T haut et bas avec des vis ou de l'adhesif
+3. Monter les blocs sur les ames de la corniere L haut et bas avec des vis ou de l'adhesif
 
 ### Etape 3 : Electricite
 
@@ -50,15 +55,15 @@ Tous les panneaux sont fabriques dans un atelier couvert -- independant de la me
 5. Passer la latte diagonale a travers l'encoche inferieure gauche du bloc PEHD, en travers jusqu'a l'encoche superieure droite (au niveau de l'ame)
 6. Pre-tendre la diagonale et la fixer aux deux extremites
 
-![Systeme de serrage par vis](svg/04-screw-clamping.svg)
+> _Diagramme du serrage par vis en attente -- l'ancien SVG montre la geometrie de l'ame en T ; le detail de serrage en corniere L est similaire en principe (bande de serrage → bambou → vis a travers l'ame) mais geometriquement different. Voir `SVG-STATUS.md`._
 
 ### Etape 5 : Serrage par vis (face 1)
 
-1. Placer la bande de serrage en acier (2 mm x 30 mm x 1 000 mm) sur les lattes de bambou au niveau du profile en T superieur
-2. Aligner les trous de la bande de serrage avec ceux de l'ame du profile en T
+1. Placer la bande de serrage en acier (plat 3 mm x 40 mm x 1 000 mm) sur les lattes de bambou au niveau de l'ame de la corniere superieure
+2. Aligner les trous de la bande de serrage avec ceux de l'ame de la corniere L
 3. Visser les vis en acier inoxydable a travers : bande de serrage, lattes de bambou, trous de l'ame
 4. La bande de serrage se flexe pour s'adapter aux variations naturelles d'epaisseur -- auto-ajustable
-5. Repeter au profile en T inferieur
+5. Repeter sur la corniere inferieure
 6. Ligaturer la diagonale a chaque latte verticale aux croisements (~8-10 ligatures)
 
 **Temps : ~5 minutes par face pour le serrage, ~3 minutes pour les ligatures**

@@ -4,7 +4,7 @@
 
 | Material | Specification | Quantity | Notes |
 |----------|--------------|----------|-------|
-| T-bar steel | 30×30×3 mm, hot-dip galvanized | 2× 1.0 m + 2× 2.5 m = 7.0 m | One welding jig for all panels |
+| L-angle steel | L 40×40×4 mm, hot-dip galvanized (ASTM A36 / ICONTEC NTC 2542 equivalent) | 2× 1.0 m + 2× 2.5 m = 7.0 m | Commodity Colombian stock (Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa). 6 m standard lengths, cut with chop saw |
 | Clamping strips | 2 mm flat steel, galvanized, matching holes | 4× 1.0 m = 4.0 m | Top + bottom, both sides |
 | Screws | Stainless steel, self-tapping | ~28 per panel | Through clamping strip → bamboo → HDPE → web (every ~70 mm, one per two strips) |
 | HDPE blocks | 30×30 mm cross-section, recycled | 2× 1.0 m = 2.0 m | Top + bottom T-bars |
@@ -17,7 +17,8 @@
 | E10 sockets | Screw-base lamp holders | 6 | 3 per side |
 | Snap connectors | 2-pin (12V) + 3-pin (120V) | 2 + 2 | Both vertical edges |
 | Chicken wire | Galvanized hex mesh, 25 mm | ~5.5 m² | Both faces + overlap |
-| Cement mortar | 1:4 cement:sand + additives | ~0.21 m³ | ~120 kg wet weight |
+| Cement mortar (baseline) | 1:4 cement:sand + additives | ~0.147 m³ net cavity (after 30 % guadua + steel displacement) | ~310 kg wet / ~294 kg cured (density ~2 000 kg/m³) |
+| Pozzolanic lime mortar with pasto estrella (optimized) | Hydraulic lime + 30 % fly ash/RHA + pasto estrella fibers | ~0.147 m³ same cavity | ~270 kg wet / ~257 kg cured (density ~1 750 kg/m³) |
 | PP fiber | 6–12 mm chopped | ~200 g | Curing crack prevention |
 | Pozzolanic admixture | Volcanic ash / rice husk ash / metakaolin | ~2 kg | pH reduction, durability |
 
@@ -51,13 +52,15 @@ Key properties of Guadua angustifolia:
 
 The system works with any structural bamboo that can be split into strips. Adjust strip width and spacing for the available species.
 
-### Steel T-bar
+### Steel L-angle frame
 
-- **Profile:** 30×30×3 mm (30 mm flange, 30 mm or 85 mm web, 3 mm thickness)
+- **Profile:** L 40×40×4 mm equal-leg angle (ASTM A36 / ICONTEC NTC 2542)
+- **Mass:** ~2.42 kg/m; panel frame total ~17 kg + ~4 kg clamping strips + ~1 kg gussets/fasteners = **~22 kg per panel**
 - **Galvanizing:** Hot-dip per ISO 1461, minimum 85 μm zinc coating
-- **Lifespan:** 80–100 years in non-coastal tropical environments at the specified zinc thickness
-- **Sourcing:** Any structural steel supplier. T-bar is a standard profile worldwide.
-- **Alternative:** If T-bar is unavailable, weld an angle (30×30×3) to flat bar (30×3) to create the profile. Same function, slightly more welding.
+- **Lifespan:** 80–100 years in non-coastal tropical environments at the specified zinc thickness (panel service is continuously braced within the alkaline mortar matrix, which self-passivates exposed steel)
+- **Sourcing:** Commodity item worldwide. In Colombia: Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa, Colmena/Sidenal, Perfilamos del Cauca. Stocked in 6 m lengths at virtually every structural steel supplier. No special order, no custom fabrication, no asymmetric webs
+- **Alternative profiles:** L 50×50×4 or L 50×50×5 (slightly heavier, also commodity stock) are drop-in substitutes. SHS (square hollow section) 40×40×2 also works structurally but requires clamping strips to be welded rather than screwed through the web
+- **Why not T-bar:** earlier versions of this document spec'd T 60×60×7 mm (~45 kg per panel). Continuously-braced panel service does not require the T-profile's symmetric web — a single-sided L-angle web is structurally equivalent at roughly half the steel mass, half the cost, and dramatically better availability. Open T-profiles remain the correct choice only where weak-axis buckling resistance matters (e.g. freestanding columns — closed square tube is preferred over T-profile in this system).
 
 ### HDPE Spacer Blocks
 

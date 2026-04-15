@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 550" style="background:#ffffff">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="300" y="18" text-anchor="middle" font-size="12" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Corner Piece Detail — Plan View</text>
+  <text x="300" y="32" text-anchor="middle" font-size="7" fill="#999" font-family="Helvetica,Arial,sans-serif">Two T 60×60 pieces mitered at 45° and welded · Interior corner (connector side) · NOT TO SCALE</text>
+
+  <!-- ============================================================ -->
+  <!-- WALLS
+       South wall: y=155 (exterior) to y=205 (interior), runs left to x=345
+       East wall:  x=295 (interior) to x=345 (exterior), runs down from y=205
+       Connector south: y=185
+       Connector east: x=310
+  -->
+  <!-- ============================================================ -->
+
+  <!-- SOUTH WALL -->
+  <rect x="50" y="155" width="295" height="50" fill="#d4c4a8" opacity="0.25" stroke="#888" stroke-width="1"/>
+  <text x="195" y="183" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">south wall</text>
+  <rect x="50" y="155" width="295" height="3" fill="#c0392b" opacity="0.5"/>
+  <rect x="50" y="202" width="295" height="3" fill="#c0392b" opacity="0.5"/>
+
+  <!-- EAST WALL -->
+  <rect x="295" y="205" width="50" height="230" fill="#d4c4a8" opacity="0.25" stroke="#888" stroke-width="1"/>
+  <text x="320" y="330" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,320,330)">east wall</text>
+  <rect x="342" y="205" width="3" height="230" fill="#c0392b" opacity="0.5"/>
+  <rect x="295" y="205" width="3" height="230" fill="#c0392b" opacity="0.5"/>
+
+  <!-- Corner zone mortar -->
+  <rect x="295" y="155" width="50" height="50" fill="#d4c4a8" opacity="0.15" stroke="#888" stroke-width="0.5"/>
+  <rect x="295" y="155" width="50" height="3" fill="#c0392b" opacity="0.5"/>
+  <rect x="342" y="155" width="3" height="50" fill="#c0392b" opacity="0.5"/>
+
+  <!-- ============================================================ -->
+  <!-- SOUTH WALL CONNECTOR (blue) -->
+  <!-- ============================================================ -->
+  <rect x="70" y="185" width="225" height="3" fill="#3a7db8" opacity="0.85" stroke="#2a6088" stroke-width="0.5"/>
+  <rect x="70" y="188" width="225" height="14" fill="#3a7db8" opacity="0.1"/>
+
+  <!-- EAST WALL CONNECTOR (blue) -->
+  <rect x="310" y="225" width="3" height="210" fill="#3a7db8" opacity="0.85" stroke="#2a6088" stroke-width="0.5"/>
+  <rect x="296" y="225" width="14" height="210" fill="#3a7db8" opacity="0.1"/>
+
+  <!-- ============================================================ -->
+  <!-- CORNER PIECE — interior L at connector lines -->
+  <!-- South connector at y=185, east connector at x=310 -->
+  <!-- Corner point: (313, 185) outer, (309, 189) inner -->
+  <!-- ============================================================ -->
+
+  <!-- South leg (along y=185, extending left from corner, ~500mm) -->
+  <polygon points="313,185 140,185 140,189 309,189" fill="#3a7db8" opacity="0.9" stroke="#2a6088" stroke-width="0.8"/>
+  <!-- South leg shelf (below, extending into room) -->
+  <rect x="140" y="189" width="173" height="12" fill="#3a7db8" opacity="0.2"/>
+
+  <!-- East leg (along x=310, extending down from corner, ~500mm) -->
+  <polygon points="313,185 313,360 309,360 309,189" fill="#3a7db8" opacity="0.9" stroke="#2a6088" stroke-width="0.8"/>
+  <!-- East leg shelf (left, extending into room) -->
+  <rect x="297" y="189" width="12" height="171" fill="#3a7db8" opacity="0.2"/>
+
+  <!-- 45° miter weld line at corner point -->
+  <line x1="313" y1="185" x2="309" y2="189" stroke="#ff6600" stroke-width="2"/>
+  <text x="318" y="182" font-size="5" fill="#ff6600" font-family="Helvetica,Arial,sans-serif">45° weld</text>
+
+  <!-- ============================================================ -->
+  <!-- M12 BOLTS (2 per leg = 4 total) -->
+  <!-- ============================================================ -->
+  <!-- South leg bolts (2 bolts, spaced along the 500mm leg) -->
+  <circle cx="190" cy="187" r="2.5" fill="#555"/>
+  <circle cx="260" cy="187" r="2.5" fill="#555"/>
+  <!-- East leg bolts (2 bolts, spaced along the 500mm leg) -->
+  <circle cx="311" cy="250" r="2.5" fill="#555"/>
+  <circle cx="311" cy="320" r="2.5" fill="#555"/>
+
+  <!-- ============================================================ -->
+  <!-- FLOOR PANEL (sits on connector shelves + corner shelf) -->
+  <!-- ============================================================ -->
+  <rect x="100" y="205" width="195" height="180" fill="#e8d8b0" opacity="0.12" stroke="#888" stroke-width="0.5"/>
+  <rect x="100" y="205" width="195" height="3" fill="#8b1a1a" opacity="0.4"/>
+  <rect x="100" y="205" width="3" height="180" fill="#8b1a1a" opacity="0.4"/>
+  <rect x="292" y="205" width="3" height="180" fill="#8b1a1a" opacity="0.4"/>
+  <rect x="100" y="382" width="195" height="3" fill="#8b1a1a" opacity="0.4"/>
+  <text x="198" y="295" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">floor panel</text>
+  <text x="198" y="307" text-anchor="middle" font-size="5" fill="#2d5a27" font-family="Helvetica,Arial,sans-serif">supported by connector</text>
+  <text x="198" y="315" text-anchor="middle" font-size="5" fill="#2d5a27" font-family="Helvetica,Arial,sans-serif">shelves + corner shelf</text>
+
+  <!-- ============================================================ -->
+  <!-- LABELS -->
+  <!-- ============================================================ -->
+  <text x="195" y="148" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">EXTERIOR (south)</text>
+  <text x="375" y="330" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif" transform="rotate(90,375,330)">EXTERIOR (east)</text>
+  <text x="198" y="410" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">INTERIOR</text>
+
+  <!-- Dimension: south leg outer length -->
+  <line x1="140" y1="177" x2="313" y2="177" stroke="#333" stroke-width="0.5"/>
+  <line x1="140" y1="173" x2="140" y2="181" stroke="#333" stroke-width="0.5"/>
+  <line x1="313" y1="173" x2="313" y2="181" stroke="#333" stroke-width="0.5"/>
+  <text x="226" y="174" text-anchor="middle" font-size="5" fill="#333" font-family="Helvetica,Arial,sans-serif">~500mm outer</text>
+
+  <!-- Annotation box -->
+  <rect x="380" y="80" width="200" height="45" fill="#e8f0e6" stroke="#2d5a27" stroke-width="0.5" rx="3"/>
+  <text x="480" y="93" text-anchor="middle" font-size="6" fill="#2d5a27" font-weight="bold" font-family="Helvetica,Arial,sans-serif">One L-piece per corner (interior):</text>
+  <text x="480" y="105" text-anchor="middle" font-size="6" fill="#2d5a27" font-family="Helvetica,Arial,sans-serif">Joins connector T-bars at the interior corner.</text>
+  <text x="480" y="117" text-anchor="middle" font-size="5" fill="#2d5a27" font-family="Helvetica,Arial,sans-serif">Two 45° cuts + one weld. 4× M12 bolts.</text>
+
+  <!-- ============================================================ -->
+  <!-- LEGEND -->
+  <!-- ============================================================ -->
+  <g transform="translate(40,470)" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#555">
+    <rect x="0" y="0" width="520" height="42" fill="white" stroke="#ddd" stroke-width="0.5" rx="4"/>
+    <rect x="15" y="8" width="12" height="6" fill="#d4c4a8" opacity="0.3" stroke="#888" stroke-width="0.5"/><text x="32" y="14">Wall panel</text>
+    <rect x="100" y="8" width="12" height="6" fill="#e8d8b0" opacity="0.15" stroke="#888" stroke-width="0.5"/><text x="117" y="14">Floor panel</text>
+    <rect x="195" y="8" width="12" height="6" fill="#3a7db8" opacity="0.85" stroke="#2a6088" stroke-width="0.5"/><text x="212" y="14">Connector + corner piece</text>
+    <rect x="370" y="8" width="12" height="6" fill="#c0392b" opacity="0.5"/><text x="387" y="14">Wall T-bar</text>
+    <rect x="15" y="24" width="12" height="6" fill="#8b1a1a" opacity="0.4"/><text x="32" y="30">Floor T-bar</text>
+    <circle cx="110" cy="27" r="3" fill="#555"/><text x="120" y="30">M12 bolt</text>
+    <line x1="195" y1="27" x2="210" y2="27" stroke="#ff6600" stroke-width="2"/><text x="217" y="30">45° miter weld</text>
+  </g>
+</svg>

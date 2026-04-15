@@ -25,7 +25,7 @@ A areia de rio padrão é substituída por agregados mais pesados na mistura de 
 | Escória de ferro (*escória*) | +25–30% | Frequentemente grátis | Próximo a siderúrgicas, fundições |
 | Areia magnetítica (*areia preta*) | +40% | Baixo | Leitos de rios vulcânicos (Andes, América Central) |
 
-- **Peso do painel:** ~175–190 kg (vs. ~155 kg padrão)
+- **Peso do painel:** acabado ~490–530 kg mistura base (vs. ~440 kg base padrão) / ~405–440 kg mistura otimizada (vs. ~360 kg otimizada padrão). Peso de montagem a seco inalterado em ~75 kg (o agregado denso é adicionado no vertido in-situ, não na montagem em oficina)
 - **Custo extra:** ~$1–2 por painel
 - **STC:** ~43–48
 - **Mudança na produção:** Nenhuma — apenas substituir o agregado. A proporção da mistura permanece 1:4 cimento:agregado.

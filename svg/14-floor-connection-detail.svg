@@ -1,0 +1,317 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" style="background:#ffffff">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="400" y="18" text-anchor="middle" font-size="12" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Floor-Level Connection Detail</text>
+  <text x="400" y="32" text-anchor="middle" font-size="7" fill="#999" font-family="Helvetica,Arial,sans-serif">Connector T-bar (turned 90°) · lower wall + floor panel + upper wall · looking from interior</text>
+
+  <!-- ============================================================ -->
+  <!-- LEFT SIDE: SECTION LOOKING ALONG WALL (side view from interior) -->
+  <!-- ============================================================ -->
+  <text x="200" y="55" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">A. Side View (looking along wall)</text>
+
+  <!-- Lower wall panel (starts at flange y=335) -->
+  <rect x="50" y="335" width="300" height="205" fill="#d4c4a8" opacity="0.25" stroke="#888" stroke-width="1"/>
+  <text x="200" y="445" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">lower wall panel</text>
+
+  <!-- Lower wall flange not visible in this perspective (goes into page) -->
+  <!-- =================================================================== -->
+  <!-- In this perspective (looking along the wall from interior):         -->
+  <!-- - Webs face us head-on → solid dark rectangles (53mm wide)          -->
+  <!-- - Flanges go into the page → thin light edges (7mm)                 -->
+  <!-- - Connector shelf faces us → solid dark rectangle                   -->
+  <!-- - Connector flange goes into page → thin light edge                 -->
+  <!-- Wall is 300px = 85mm. So 53mm ≈ 187px, 7mm ≈ 25px                  -->
+  <!-- Web centered in wall: starts at (300-187)/2 = 56px from panel edge  -->
+  <!-- =================================================================== -->
+
+  <!-- Upper wall panel (mortar body) -->
+  <rect x="50" y="70" width="300" height="195" fill="#d4c4a8" opacity="0.25" stroke="#888" stroke-width="1"/>
+  <text x="200" y="110" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">upper wall panel</text>
+
+  <!-- Upper wall flange not visible in this perspective (goes into page) -->
+
+  <!-- Upper wall side web extending DOWN (faces us → dark rectangle, full panel width) -->
+  <rect x="50" y="265" width="300" height="30" fill="#c0392b" opacity="0.55" stroke="#922b20" stroke-width="0.5"/>
+  <text x="200" y="283" text-anchor="middle" font-size="5" fill="white" font-family="Helvetica,Arial,sans-serif">upper wall web (face-on)</text>
+
+  <!-- CONNECTOR T-BAR -->
+  <!-- Connector flange goes into page — not visible in this perspective -->
+  <!-- Connector shelf (faces us → dark rectangle, full panel width × 6px thick) -->
+  <rect x="50" y="296" width="300" height="6" fill="#3a7db8" opacity="0.7" stroke="#2a6088" stroke-width="0.5"/>
+  <text x="370" y="300" font-size="7" fill="#3a7db8" font-weight="bold" font-family="Helvetica,Arial,sans-serif">connector shelf</text>
+  <text x="370" y="310" font-size="6" fill="#3a7db8" font-family="Helvetica,Arial,sans-serif">(face-on, 53mm deep)</text>
+  <line x1="293" y1="299" x2="365" y2="300" stroke="#3a7db8" stroke-width="0.5"/>
+  <text x="370" y="324" font-size="5" fill="#3a7db8" opacity="0.6" font-family="Helvetica,Arial,sans-serif">connector flange</text>
+  <text x="370" y="332" font-size="5" fill="#3a7db8" opacity="0.6" font-family="Helvetica,Arial,sans-serif">(edge-on, thin)</text>
+
+  <!-- Horizontal bolts: through connector flange + wall web (at 100mm and 900mm from panel edge) -->
+  <!-- 100mm = 100/85*300 ≈ 35px from edge, 900mm ≈ 317px — but these are along the wall not across -->
+  <!-- In this view bolts go INTO page — shown as circles at web positions -->
+  <!-- Upper web bolts (100mm and 900mm from panel edges = x=85 and x=315 within 300px) -->
+  <circle cx="110" cy="280" r="3" fill="#555" opacity="0.8"/>
+  <circle cx="290" cy="280" r="3" fill="#555" opacity="0.8"/>
+  <!-- Lower web bolts -->
+  <circle cx="110" cy="318" r="3" fill="#555" opacity="0.8"/>
+  <circle cx="290" cy="318" r="3" fill="#555" opacity="0.8"/>
+  <text x="370" y="343" font-size="6" fill="#555" font-family="Helvetica,Arial,sans-serif">M12 bolts (go into page)</text>
+  <line x1="293" y1="318" x2="365" y2="340" stroke="#555" stroke-width="0.5"/>
+
+  <!-- Lower wall side web extending UP (faces us → dark rectangle, full panel width) -->
+  <rect x="50" y="302" width="300" height="30" fill="#c0392b" opacity="0.55" stroke="#922b20" stroke-width="0.5"/>
+  <text x="200" y="320" text-anchor="middle" font-size="5" fill="white" font-family="Helvetica,Arial,sans-serif">lower wall web (face-on)</text>
+
+  <!-- (flange already shown at panel boundary above) -->
+
+  <!-- Floor panel (sits ON TOP of connector shelf) -->
+  <rect x="50" y="175" width="300" height="120" fill="#e8d8b0" opacity="0.35" stroke="#888" stroke-width="1"/>
+  <text x="200" y="230" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">floor panel</text>
+  <text x="200" y="242" text-anchor="middle" font-size="7" fill="#888" font-family="Helvetica,Arial,sans-serif">180mm (above shelf)</text>
+
+  <!-- Floor panel transverse T-bar flange (goes into page → thin, dark red) -->
+  <rect x="50" y="292" width="300" height="3" fill="#8b1a1a" opacity="0.4"/>
+  <!-- Floor panel transverse T-bar web (faces us → darker rectangle, full width) -->
+  <rect x="50" y="265" width="300" height="28" fill="#8b1a1a" opacity="0.15"/>
+
+  <!-- Vertical bolt indicators: floor flange → connector shelf (at 250mm and 750mm) -->
+  <circle cx="140" cy="297" r="3" fill="#555" opacity="0.5"/>
+  <circle cx="260" cy="297" r="3" fill="#555" opacity="0.5"/>
+  <text x="15" y="299" font-size="6" fill="#555" font-family="Helvetica,Arial,sans-serif">M12 vertical bolts</text>
+  <text x="15" y="309" font-size="6" fill="#555" font-family="Helvetica,Arial,sans-serif">(floor → shelf)</text>
+  <line x1="100" y1="302" x2="137" y2="297" stroke="#555" stroke-width="0.5"/>
+
+  <!-- Dimension: ceiling height -->
+  <line x1="30" y1="270" x2="30" y2="540" stroke="#333" stroke-width="0.5"/>
+  <line x1="25" y1="270" x2="35" y2="270" stroke="#333" stroke-width="0.5"/>
+  <line x1="25" y1="540" x2="35" y2="540" stroke="#333" stroke-width="0.5"/>
+  <text x="20" y="410" text-anchor="end" font-size="7" fill="#333" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,20,410)">~2,950mm ceiling</text>
+
+  <!-- ============================================================ -->
+  <!-- RIGHT SIDE: PLAN VIEW (looking down at connector level) -->
+  <!-- ============================================================ -->
+  <text x="610" y="55" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">B. Plan View (looking down at floor level)</text>
+  <text x="610" y="66" text-anchor="middle" font-size="6" fill="#999" font-family="Helvetica,Arial,sans-serif">EXTERIOR = top · INTERIOR/ROOM = bottom</text>
+
+  <!-- ——— WALL PANELS (3 panels, 1m each, 85mm = 40px tall) ——— -->
+  <!-- Wall mortar body -->
+  <rect x="460" y="100" width="100" height="40" fill="#d4c4a8" opacity="0.25" stroke="#888" stroke-width="0.8"/>
+  <rect x="560" y="100" width="100" height="40" fill="#d4c4a8" opacity="0.25" stroke="#888" stroke-width="0.8"/>
+  <rect x="660" y="100" width="100" height="40" fill="#d4c4a8" opacity="0.25" stroke="#888" stroke-width="0.8"/>
+  <text x="510" y="123" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">wall L</text>
+  <text x="610" y="123" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">wall C</text>
+  <text x="710" y="123" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">wall R</text>
+
+  <!-- Wall T-bar frames (red) — exterior edge (top) and interior edge (bottom) -->
+  <g fill="#c0392b" opacity="0.5">
+    <!-- Exterior flanges (top) -->
+    <rect x="460" y="100" width="100" height="3"/>
+    <rect x="560" y="100" width="100" height="3"/>
+    <rect x="660" y="100" width="100" height="3"/>
+    <!-- Interior flanges (bottom) -->
+    <rect x="460" y="137" width="100" height="3"/>
+    <rect x="560" y="137" width="100" height="3"/>
+    <rect x="660" y="137" width="100" height="3"/>
+  </g>
+
+  <!-- Wall panel joint lines -->
+  <line x1="560" y1="90" x2="560" y2="145" stroke="#888" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <line x1="660" y1="90" x2="660" y2="145" stroke="#888" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="560" y="88" text-anchor="middle" font-size="5" fill="#888" font-family="Helvetica,Arial,sans-serif">wall joint</text>
+  <text x="660" y="88" text-anchor="middle" font-size="5" fill="#888" font-family="Helvetica,Arial,sans-serif">wall joint</text>
+
+  <!-- EXTERIOR / INTERIOR labels -->
+  <text x="610" y="96" text-anchor="middle" font-size="5" fill="#888" font-family="Helvetica,Arial,sans-serif">EXTERIOR</text>
+  <text x="610" y="300" text-anchor="middle" font-size="5" fill="#888" font-family="Helvetica,Arial,sans-serif">INTERIOR (room)</text>
+
+  <!-- ——— CONNECTOR T-BAR (blue, INSIDE wall, just past halfway toward interior) ——— -->
+  <!-- Wall is y=100 to y=140 (40px). Halfway = y=120. Connector at y=122. -->
+  <!-- Flange (7mm ≈ 3px, dark blue) — 2m segments offset from wall joints -->
+  <rect x="460" y="122" width="200" height="3" fill="#3a7db8" opacity="0.85" stroke="#2a6088" stroke-width="0.5"/>
+  <rect x="660" y="122" width="100" height="3" fill="#3a7db8" opacity="0.7" stroke="#2a6088" stroke-width="0.5"/>
+  <!-- Shelf / horizontal web (53mm ≈ 25px, lighter blue, extends toward interior) -->
+  <rect x="460" y="125" width="200" height="15" fill="#3a7db8" opacity="0.15" stroke="#3a7db8" stroke-width="0.3"/>
+  <rect x="660" y="125" width="100" height="15" fill="#3a7db8" opacity="0.12" stroke="#3a7db8" stroke-width="0.3"/>
+
+  <text x="435" y="126" text-anchor="end" font-size="5" fill="#3a7db8" font-family="Helvetica,Arial,sans-serif">connector</text>
+  <text x="435" y="134" text-anchor="end" font-size="5" fill="#3a7db8" font-family="Helvetica,Arial,sans-serif">flange →</text>
+  <text x="435" y="145" text-anchor="end" font-size="4" fill="#3a7db8" opacity="0.6" font-family="Helvetica,Arial,sans-serif">shelf →</text>
+
+  <!-- Connector joint (at panel center, NOT at wall joint) -->
+  <line x1="660" y1="120" x2="660" y2="145" stroke="#3a7db8" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="785" y="125" font-size="5" fill="#3a7db8" font-family="Helvetica,Arial,sans-serif">connector joint</text>
+  <text x="785" y="133" font-size="5" fill="#3a7db8" font-family="Helvetica,Arial,sans-serif">(at panel CENTER)</text>
+
+  <!-- Notches in connector at wall panel corners -->
+  <rect x="558" y="122" width="5" height="3" fill="white" stroke="#3a7db8" stroke-width="0.5"/>
+  <line x1="560" y1="125" x2="545" y2="148" stroke="#2a6088" stroke-width="0.3"/>
+  <text x="520" y="153" font-size="5" fill="#2a6088" font-family="Helvetica,Arial,sans-serif">notch (clears</text>
+  <text x="520" y="161" font-size="5" fill="#2a6088" font-family="Helvetica,Arial,sans-serif">corner weld)</text>
+
+  <!-- ——— FLOOR PANELS (top edge touching wall interior face at y=140) ——— -->
+  <!-- Floor panel fill — same x and width as wall panels -->
+  <rect x="460" y="140" width="100" height="100" fill="#e8d8b0" opacity="0.15" stroke="#888" stroke-width="0.5"/>
+  <rect x="560" y="140" width="100" height="100" fill="#e8d8b0" opacity="0.15" stroke="#888" stroke-width="0.5"/>
+  <rect x="660" y="140" width="100" height="100" fill="#e8d8b0" opacity="0.15" stroke="#888" stroke-width="0.5"/>
+  <!-- Floor panel longitudinal T-bars at edges (dark red) -->
+  <!-- Adjacent panels share flanges at joints (no gap) -->
+  <g fill="#8b1a1a" opacity="0.5">
+    <rect x="460" y="140" width="3" height="100"/>
+    <rect x="558" y="140" width="4" height="100"/>
+    <rect x="658" y="140" width="4" height="100"/>
+    <rect x="757" y="140" width="3" height="100"/>
+  </g>
+  <!-- Floor panel transverse T-bars (dark red, at wall support = top edge of floor panels) -->
+  <g fill="#8b1a1a" opacity="0.4">
+    <rect x="460" y="140" width="100" height="3"/>
+    <rect x="560" y="140" width="100" height="3"/>
+    <rect x="660" y="140" width="100" height="3"/>
+  </g>
+  <text x="510" y="195" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">floor L</text>
+  <text x="610" y="195" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">floor C</text>
+  <text x="710" y="195" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">floor R</text>
+
+  <!-- Floor panel joints (aligned with wall joints) -->
+  <line x1="560" y1="140" x2="560" y2="240" stroke="#a89060" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <line x1="660" y1="140" x2="660" y2="240" stroke="#a89060" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- ——— BOLT POSITIONS ——— -->
+  <!-- Wall → connector horizontal bolts (at 100mm and 900mm from panel edge) -->
+  <g fill="#555">
+    <circle cx="470" cy="124" r="2"/><circle cx="550" cy="124" r="2"/>
+    <circle cx="570" cy="124" r="2"/><circle cx="650" cy="124" r="2"/>
+    <circle cx="670" cy="124" r="2"/><circle cx="750" cy="124" r="2"/>
+  </g>
+  <text x="775" y="115" font-size="4" fill="#555" font-family="Helvetica,Arial,sans-serif">← wall bolts (horiz)</text>
+
+  <!-- Floor → connector vertical bolts (at 250mm and 750mm from panel edge) -->
+  <g fill="#555" opacity="0.5">
+    <circle cx="485" cy="135" r="2"/><circle cx="535" cy="135" r="2"/>
+    <circle cx="585" cy="135" r="2"/><circle cx="635" cy="135" r="2"/>
+    <circle cx="685" cy="135" r="2"/><circle cx="735" cy="135" r="2"/>
+  </g>
+  <text x="775" y="148" font-size="4" fill="#555" font-family="Helvetica,Arial,sans-serif">← floor bolts (vert)</text>
+
+  <!-- Floor panel-to-panel bolts (at 1/3 and 2/3 span, through shared flanges at joints) -->
+  <g fill="#555" opacity="0.4">
+    <circle cx="560" cy="180" r="1.5"/><circle cx="560" cy="210" r="1.5"/>
+    <circle cx="660" cy="180" r="1.5"/><circle cx="660" cy="210" r="1.5"/>
+  </g>
+  <text x="775" y="237" font-size="4" fill="#555" font-family="Helvetica,Arial,sans-serif">← panel-to-panel bolts</text>
+
+  <!-- ============================================================ -->
+  <!-- BOTTOM: SECTION SHOWING BOTH WALLS + FLOOR SPAN -->
+  <!-- ============================================================ -->
+  <text x="610" y="540" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">C. Section Across Room (showing floor panel between two walls)</text>
+  <text x="610" y="552" text-anchor="middle" font-size="6" fill="#999" font-family="Helvetica,Arial,sans-serif">Both wall webs point inward (same orientation) · Connector bolts to outer half of web</text>
+
+  <!-- ======= LEFT SIDE (south wall) ======= -->
+
+  <!-- Left LOWER wall (interior face flush with inner edge of web at x=509) -->
+  <rect x="455" y="640" width="54" height="80" fill="#d4c4a8" opacity="0.25" stroke="#888" stroke-width="1"/>
+  <text x="482" y="685" text-anchor="middle" font-size="5" fill="#888" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,482,685)">lower wall</text>
+
+  <!-- Left lower wall side web (pointing RIGHT = inward, extends UP to connector) -->
+  <rect x="505" y="622" width="4" height="21" fill="#c0392b" opacity="0.6"/>
+
+  <!-- Left UPPER wall (interior face flush with inner edge of web at x=509) -->
+  <rect x="455" y="560" width="54" height="40" fill="#d4c4a8" opacity="0.2" stroke="#888" stroke-width="1"/>
+  <text x="482" y="583" text-anchor="middle" font-size="5" fill="#888" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,482,583)">upper wall</text>
+
+  <!-- Left upper wall side web (pointing RIGHT = inward, extends DOWN to connector) -->
+  <rect x="505" y="600" width="4" height="18" fill="#c0392b" opacity="0.6"/>
+
+  <!-- Left connector (flange on EXTERIOR side of webs) -->
+  <rect x="497" y="600" width="6" height="42" fill="#3a7db8" opacity="0.85" stroke="#2a6088" stroke-width="0.8"/>
+  <!-- Connector shelf (53mm ≈ 31px, extending RIGHT from flange into room) -->
+  <rect x="503" y="618" width="31" height="4" fill="#3a7db8" opacity="0.35" stroke="#2a6088" stroke-width="0.5"/>
+
+  <!-- Left bolts: through connector flange + wall web (horizontal) -->
+  <circle cx="504" cy="608" r="2" fill="#555"/>
+  <circle cx="504" cy="632" r="2" fill="#555"/>
+
+  <!-- Annotation: outer/inner half -->
+  <text x="512" y="658" font-size="4" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">outer</text>
+  <text x="525" y="658" font-size="4" fill="#888" font-family="Helvetica,Arial,sans-serif">inner</text>
+  <line x1="505" y1="650" x2="520" y2="650" stroke="#c0392b" stroke-width="1"/>
+  <line x1="520" y1="650" x2="535" y2="650" stroke="#888" stroke-width="0.5" stroke-dasharray="2,1"/>
+
+  <!-- ======= RIGHT SIDE (north wall) ======= -->
+
+  <!-- Right LOWER wall (interior face flush with inner edge of web at x=711) -->
+  <rect x="711" y="640" width="54" height="80" fill="#d4c4a8" opacity="0.25" stroke="#888" stroke-width="1"/>
+  <text x="738" y="685" text-anchor="middle" font-size="5" fill="#888" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,738,685)">lower wall</text>
+
+  <!-- Right lower wall side web (pointing LEFT = inward, extends UP to connector) -->
+  <rect x="711" y="622" width="4" height="21" fill="#c0392b" opacity="0.6"/>
+
+  <!-- Right UPPER wall (interior face flush with inner edge of web at x=711) -->
+  <rect x="711" y="560" width="54" height="40" fill="#d4c4a8" opacity="0.2" stroke="#888" stroke-width="1"/>
+  <text x="738" y="583" text-anchor="middle" font-size="5" fill="#888" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,738,583)">upper wall</text>
+
+  <!-- Right upper wall side web (pointing LEFT = inward, extends DOWN to connector) -->
+  <rect x="711" y="600" width="4" height="18" fill="#c0392b" opacity="0.6"/>
+
+  <!-- Right connector (flange on EXTERIOR side of webs, mirrored) -->
+  <rect x="717" y="600" width="6" height="42" fill="#3a7db8" opacity="0.85" stroke="#2a6088" stroke-width="0.8"/>
+  <!-- Connector shelf (53mm ≈ 31px, extending LEFT from flange into room) -->
+  <rect x="686" y="618" width="31" height="4" fill="#3a7db8" opacity="0.35" stroke="#2a6088" stroke-width="0.5"/>
+
+  <!-- Right bolts -->
+  <circle cx="716" cy="608" r="2" fill="#555"/>
+  <circle cx="716" cy="632" r="2" fill="#555"/>
+
+  <!-- ======= FLOOR PANEL (edges flush with wall interior faces at x=509 and x=711) ======= -->
+  <rect x="509" y="553" width="202" height="65" fill="#e8d8b0" opacity="0.35" stroke="#888" stroke-width="1"/>
+  <text x="610" y="588" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">floor panel (180mm)</text>
+  <text x="610" y="598" text-anchor="middle" font-size="5" fill="#2d5a27" font-family="Helvetica,Arial,sans-serif">edges aligned with wall interior face</text>
+
+  <!-- Floor panel T-bars at each support (flange down, resting on shelf at y=618) -->
+  <rect x="509" y="614" width="20" height="4" fill="#8b1a1a" opacity="0.6"/>
+  <rect x="691" y="614" width="20" height="4" fill="#8b1a1a" opacity="0.6"/>
+
+  <!-- Vertical bolts (floor flange → connector shelf) -->
+  <line x1="519" y1="614" x2="519" y2="622" stroke="#555" stroke-width="1.2"/>
+  <circle cx="519" cy="622" r="1.5" fill="#555"/>
+  <line x1="702" y1="614" x2="702" y2="622" stroke="#555" stroke-width="1.2"/>
+  <circle cx="702" cy="622" r="1.5" fill="#555"/>
+
+  <!-- ======= LABELS ======= -->
+  <text x="475" y="740" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">EXTERIOR</text>
+  <text x="610" y="650" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">ROOM (below)</text>
+  <text x="745" y="740" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">EXTERIOR</text>
+
+  <!-- Annotation -->
+  <text x="610" y="670" text-anchor="middle" font-size="6" fill="#2d5a27" font-weight="bold" font-family="Helvetica,Arial,sans-serif">floor panel inside web pocket · connector on outer half of webs</text>
+  <text x="610" y="680" text-anchor="middle" font-size="5" fill="#2d5a27" font-family="Helvetica,Arial,sans-serif">lower web, upper web, and connector flange all overlap in the same zone</text>
+
+  <!-- Dimension: floor span -->
+  <line x1="520" y1="700" x2="700" y2="700" stroke="#333" stroke-width="0.5"/>
+  <line x1="520" y1="696" x2="520" y2="704" stroke="#333" stroke-width="0.5"/>
+  <line x1="700" y1="696" x2="700" y2="704" stroke="#333" stroke-width="0.5"/>
+  <text x="610" y="713" text-anchor="middle" font-size="6" fill="#333" font-family="Helvetica,Arial,sans-serif">floor span (between inner web faces)</text>
+
+  <!-- Connector labels -->
+  <text x="440" y="618" text-anchor="end" font-size="5" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">connector flange</text>
+  <text x="440" y="626" text-anchor="end" font-size="5" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">(outer half) →</text>
+  <text x="780" y="618" font-size="5" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">← connector flange</text>
+  <text x="780" y="626" font-size="5" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">   (outer half)</text>
+
+  <!-- Vertical alignment lines -->
+  <line x1="507" y1="560" x2="507" y2="695" stroke="#2d5a27" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="713" y1="560" x2="713" y2="695" stroke="#2d5a27" stroke-width="0.3" stroke-dasharray="1,3"/>
+
+  <!-- ============================================================ -->
+  <!-- LEGEND -->
+  <!-- ============================================================ -->
+  <g transform="translate(50,820)" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#555">
+    <rect x="0" y="0" width="700" height="55" fill="white" stroke="#ddd" stroke-width="0.5" rx="4"/>
+    <rect x="15" y="8" width="12" height="6" fill="#d4c4a8" opacity="0.3" stroke="#888" stroke-width="0.5"/><text x="32" y="14">Wall panel</text>
+    <rect x="110" y="8" width="12" height="6" fill="#e8d8b0" opacity="0.3" stroke="#888" stroke-width="0.5"/><text x="127" y="14">Floor panel</text>
+    <rect x="210" y="8" width="12" height="6" fill="#3a7db8" opacity="0.85" stroke="#2a6088" stroke-width="0.8"/><text x="227" y="14">Connector T-bar (T 60×60 turned 90°) — blue</text>
+    <rect x="450" y="8" width="12" height="6" fill="#c0392b" opacity="0.6"/><text x="467" y="14">Wall T-bar (red)</text>
+    <rect x="570" y="8" width="12" height="6" fill="#8b1a1a" opacity="0.6"/><text x="587" y="14">Floor T-bar (dark red)</text>
+    <circle cx="21" cy="30" r="3" fill="#555"/><text x="32" y="33">M12 bolt (horizontal: wall→connector)</text>
+    <circle cx="280" cy="30" r="3" fill="#555" opacity="0.5"/><text x="290" y="33">M12 bolt (vertical: floor→connector)</text>
+    <rect x="450" y="27" width="8" height="6" fill="white" stroke="#c0392b" stroke-width="0.5"/><text x="463" y="33">Notch (clears corner weld)</text>
+
+    <text x="15" y="48" font-size="6" fill="#999">All bolts: M12 × 30mm through 14mm of steel (7mm + 7mm). One bolt size, one wrench.</text>
+  </g>
+</svg>

@@ -25,7 +25,7 @@ Le sable de rivière standard est remplacé par des agrégats plus lourds dans l
 | Scorie de fer (*escoria*) | +25–30% | Souvent gratuit | Près des aciéries, fonderies |
 | Sable magnétitique (*arena negra*) | +40% | Faible | Lits de rivières volcaniques (Andes, Amérique centrale) |
 
-- **Poids du panneau :** ~175–190 kg (vs. ~155 kg standard)
+- **Poids du panneau :** fini ~490–530 kg mélange de base (vs. ~440 kg base standard) / ~405–440 kg mélange optimisé (vs. ~360 kg optimisé standard). Poids d'assemblage à sec inchangé à ~75 kg (le granulat dense est ajouté lors du coulage in situ, pas lors de l'assemblage en atelier)
 - **Surcoût :** ~$1–2 par panneau
 - **STC :** ~43–48
 - **Modification de production :** Aucune — il suffit de substituer l'agrégat. Le ratio de mélange reste 1:4 ciment:agrégat.

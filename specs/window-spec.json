@@ -1,0 +1,701 @@
+{
+  "_meta": {
+    "version": "0.1.0",
+    "description": "Parametric window panel specifications for 156mm BaharequeModular walls. Defines glass types, jamb dimensions, and all variants. Used to generate SVGs, Three.js viewers, STLs, and cut lists."
+  },
+
+  "wall": {
+    "finished_thickness": 156,
+    "frame_depth": 50,
+    "cover_per_side": 53,
+    "lime_thickness": 3,
+    "mortar_cover": 3,
+    "outer_mesh": 3,
+    "diagonal_zone": 30,
+    "inner_mesh": 6,
+    "hdpe": 20,
+    "unit": "mm"
+  },
+
+  "corner": {
+    "radius": 100,
+    "diameter": 200,
+    "unit": "mm"
+  },
+
+  "jamb": {
+    "description": "Solid zone at each side of a window panel. Built identically to a solid wall — same layers, same 156mm thickness. Ensures seamless joint with adjacent solid panels.",
+    "width": 100,
+    "unit": "mm",
+    "construction": "Same as solid panel: HDPE + inner mesh + guadua infill + outer mesh + mortar + lime. Full 156mm depth.",
+    "note": "The jamb strip IS a miniature solid wall. VWC-A connectors bridge the panel joint as usual."
+  },
+
+  "reserved_zones": {
+    "description": "Solid zones at top and bottom of EVERY panel. No glass allowed in these zones.",
+    "top_reserve": {
+      "height": 100,
+      "purpose": "Wall-to-ceiling cove transition (R=100mm). Outer bamboo mesh extends as flap, bends onto ceiling during slab pour. Mortar fills cove automatically.",
+      "rule": "Max window head height = panel_height - top_reserve - flange_thickness"
+    },
+    "bottom_solid": {
+      "height": 300,
+      "purpose": "Sill zone. Protects glass from kicks. Plant shelf. Hides bottom T-bar flange. Conduit routing. Structural shear resistance.",
+      "corner": "90 degrees (sharp). Covered by skirting board.",
+      "skirting_board": {
+        "height": "60-80mm",
+        "material": "teak or guadua",
+        "attachment": "screwed into 30×30mm guadua support blocks at panel bottom",
+        "function": "Protects lime from mop water, hides wall-floor joint, clean baseline"
+      }
+    },
+    "max_glass_height": {
+      "calculation": "panel_height - top_reserve - bottom_solid - 2 × flange_thickness",
+      "value_3m_panel": 2588,
+      "rounded": 2580,
+      "note": "2580mm of glass = still very generous (taller than a standard door)"
+    },
+    "unit": "mm"
+  },
+
+  "glass_defaults": {
+    "silicone_ring": {
+      "description": "All window types get a visible silicone ring (dark grey perimeter seal) unless explicitly disabled. This is the default for both flush and lipped glass.",
+      "material": "silicone sealant",
+      "width": 2,
+      "color": "dark grey",
+      "color_hex": "333333",
+      "visible_in_viewer": true
+    }
+  },
+
+  "glass_types": {
+    "flush_silicone": {
+      "id": "D",
+      "name": "Flush structural silicone (Option D) — PRINCIPAL TYPE",
+      "description": "Glass bonded to lime surface with structural silicone. Glass outer face flush with lime outer face. No frame visible from outside. From inside: 148mm deep lime-finished reveal tunnel framing the view.",
+      "glass_position": "flush with exterior lime surface (z = 0)",
+      "glass_position_from_exterior": 0,
+      "interior_reveal": 148,
+      "glass_thickness": 6,
+      "glass_type": "tempered",
+      "joint": {
+        "material": "structural silicone (Dow 795 / Sika SG-500)",
+        "width": 2,
+        "color": "dark grey"
+      },
+      "operable": false,
+      "set_after_cure": true,
+      "replaceable": true,
+      "best_for": ["view walls", "feature windows", "west-facing panorama"],
+      "unit": "mm"
+    },
+
+    "lipped": {
+      "id": "B",
+      "name": "Lipped (Option B — 6mm recessed)",
+      "description": "Glass sits behind a 6mm lime+mortar lip. Shadow line frames the glass. Colonial/Mediterranean aesthetic.",
+      "glass_position_from_exterior": 6,
+      "interior_reveal": 144,
+      "glass_thickness": 6,
+      "glass_type": "tempered",
+      "lip": {
+        "depth": 6,
+        "composition": "3mm lime + 3mm mortar"
+      },
+      "joint": {
+        "material": "silicone sealant",
+        "width": 3
+      },
+      "operable": false,
+      "set_after_cure": true,
+      "replaceable": true,
+      "best_for": ["standard windows", "bedrooms", "kitchen", "arched windows"],
+      "unit": "mm"
+    },
+
+    "dgu_framed": {
+      "id": "C",
+      "name": "Double-glazed unit in sub-frame (Option C)",
+      "description": "Sealed DGU in a teak or aluminum sub-frame. Centered in wall. Can be openable (tilt-turn).",
+      "glass_position_from_exterior": 66,
+      "interior_reveal": 66,
+      "dgu_thickness": 24,
+      "dgu_composition": "4mm glass + 16mm argon gap + 4mm glass",
+      "sub_frame": {
+        "material": ["teak", "aluminum"],
+        "visible_width": 40,
+        "depth": 156
+      },
+      "operable": true,
+      "operation_types": ["tilt-turn", "casement", "sliding"],
+      "set_after_cure": true,
+      "replaceable": true,
+      "best_for": ["bathrooms", "bedrooms", "ventilation needed"],
+      "unit": "mm"
+    }
+  },
+
+  "panel_variants": {
+    "full_height_fixed": {
+      "name": "Maximum glass (view wall) — PRINCIPAL TYPE",
+      "panel_sizes": [[1, 3], [2, 3], [3, 3]],
+      "glass_zone": {
+        "x": "jamb_width",
+        "y": "flange_thickness + 6",
+        "y_value": 12,
+        "w": "panel_width - 2 * jamb_width",
+        "h": 2876
+      },
+      "glass_type": "flush_silicone",
+      "sill_height": 12,
+      "lintel_height": 2888,
+      "has_solid_below": false,
+      "has_solid_above": true,
+      "skirting_returns": {
+        "description": "Skirting board splits at window panel. Two returns run along the inside face of each jamb strip, creating a | | shape from top view. Glass sits between the returns.",
+        "return_depth": "jamb_width (100mm)",
+        "return_height": "skirting_height (60-80mm)",
+        "material": "same as wall skirting (teak or guadua)",
+        "function": "Frames glass at floor level. Protects jamb corners from mopping. Clean transition from wall skirting to glass."
+      },
+      "note": "Glass starts just above the bottom T-bar flange (12mm from floor). Maximum glass: 2876mm tall. Skirting | | returns frame the glass base. Top reserve 100mm for ceiling cove. The 148mm deep reveal is visible full height from inside.",
+      "unit": "mm"
+    },
+
+    "standard_window": {
+      "name": "Standard window",
+      "panel_sizes": [[1, 3]],
+      "glass_zone": {
+        "x": "jamb_width",
+        "y": 900,
+        "w": "panel_width - 2 * jamb_width",
+        "h": 1200
+      },
+      "glass_type": "lipped",
+      "sill_height": 900,
+      "lintel_height": 2100,
+      "has_solid_below": true,
+      "has_solid_above": true,
+      "note": "900mm above head to cove zone = ample solid for lintel + conduit routing",
+      "unit": "mm"
+    },
+
+    "arched_window": {
+      "name": "Round arch window",
+      "panel_sizes": [[1, 3], [2, 3]],
+      "description": "Rectangular glass below with semicircular arch above. Single glass piece (rect + arch). Arch top at HEAD_H (panel_height - cove_reserve - flange_thickness). The arch radius equals half the glass width. 100mm jambs each side.",
+      "arch": {
+        "type": "semicircular",
+        "radius": "glass_width / 2",
+        "top": "HEAD_H (panel_height - cove_reserve - flange_thickness)",
+        "spring_line": "HEAD_H - radius",
+        "formed_by": "30mm guadua pieces bent around HDPE template, mortar locks shape"
+      },
+      "variants": {
+        "1m_standard": {
+          "panel_width": 1000,
+          "glass_width": 800,
+          "radius": 400,
+          "arch_spring": 2494,
+          "arch_top": 2894,
+          "rect_glass": {"sill": 12, "head": 2494, "height": 2481},
+          "note": "Standard 1-panel arch. Mediterranean/colonial aesthetic."
+        },
+        "2m_full_height": {
+          "panel_width": 2000,
+          "glass_width": 1800,
+          "radius": 900,
+          "arch_spring": 1994,
+          "arch_top": 2894,
+          "rect_glass": {"sill": 12, "head": 1994, "height": 1981},
+          "note": "2-panel span. 900mm radius creates cathedral-like effect. Dramatic for view walls."
+        }
+      },
+      "glass_type": "flush_silicone",
+      "glass_construction": "Single piece: flat tempered glass for rectangular section, curved tempered glass for arch. Or segmented flat panes following the curve.",
+      "sill_height": 12,
+      "has_solid_below": false,
+      "has_solid_above": true,
+      "cove_reserve_above": 100,
+      "production": {
+        "template": "HDPE template cut to arch radius. One template per variant (R=400mm or R=900mm).",
+        "process": "Lay 30mm guadua mesh pieces in jig, bend around HDPE template at arch zone. Mortar pour locks the curved shape permanently.",
+        "complexity": "Low — same 30mm pieces as flat panels, just curved at the top"
+      },
+      "best_for": ["feature windows", "living rooms", "entrance halls", "chapels"],
+      "unit": "mm"
+    },
+
+    "teak_slat_window": {
+      "name": "Teak slat window (privacy screen)",
+      "panel_sizes": [[1, 3], [2, 3]],
+      "description": "Full height glass (inset/recessed) with vertical teak slats flush with the exterior lime surface. The slats provide privacy, sun shading, and ventilation while maintaining the exterior lime aesthetic. From outside: clean vertical lines in teak. From inside: filtered light through slats with full glass behind.",
+      "glass_zone": {
+        "x": "jamb_width",
+        "y": 12,
+        "w": "panel_width - 2 * jamb_width",
+        "h": "HEAD_H - 12"
+      },
+      "glass_type": "flush_silicone",
+      "glass_position_from_exterior": 20,
+      "slats": {
+        "material": "teak",
+        "width": 30,
+        "thickness": 20,
+        "spacing": 15,
+        "orientation": "vertical",
+        "position": "flush with exterior lime surface",
+        "note": "Slats are fixed (not operable). 30mm wide × 20mm deep, spaced 15mm apart. ~22 slats per 1m panel. Mounted on a teak frame that bolts to the jambs."
+      },
+      "has_solid_below": false,
+      "has_solid_above": true,
+      "best_for": ["bathrooms", "bedrooms", "stairwells", "west-facing walls (sun control)"],
+      "unit": "mm"
+    },
+
+    "teak_slat_screen": {
+      "name": "Teak slat screen (no glass, ventilation)",
+      "panel_sizes": [[1, 3], [2, 3]],
+      "description": "Vertical teak slats without glass behind. Open to air — provides ventilation, privacy, and sun shading. Same slat dimensions as teak_slat_window but no glass, no silicone. Air flows freely between slats. Used in multi-family for stairwells, corridors, parking areas, and tropical ventilation.",
+      "glass_zone": null,
+      "slats": {
+        "material": "teak",
+        "width": 30,
+        "thickness": 20,
+        "spacing": 15,
+        "orientation": "vertical",
+        "position": "flush with exterior lime surface",
+        "note": "Same slats as teak_slat_window. No glass — open to breeze. Rain protection via roof overhang. ~40 slats for 2m panel."
+      },
+      "has_glass": false,
+      "has_solid_below": false,
+      "has_solid_above": true,
+      "best_for": ["stairwells", "corridors", "parking ventilation", "tropical climates", "multi-family common areas"],
+      "unit": "mm"
+    },
+
+    "sliding_glass_door": {
+      "name": "Sliding glass door",
+      "panel_sizes": [[2, 3], [3, 3]],
+      "description": "Full height glass panels on a sliding track. One or two fixed panels with one or two sliding panels. Glass recessed by 20mm from exterior for track clearance. Teak frame at top and bottom houses the track. Flush threshold for wheelchair access.",
+      "glass_zone": {
+        "x": "jamb_width",
+        "y": 0,
+        "w": "panel_width - 2 * jamb_width",
+        "h": "HEAD_H"
+      },
+      "glass_type": "flush_silicone",
+      "glass_thickness": 6,
+      "track": {
+        "material": "aluminum or stainless steel",
+        "type": "top-hung (bottom guide only)",
+        "top_rail_height": 40,
+        "bottom_rail_height": 15,
+        "note": "Top-hung track avoids debris in bottom rail. Bottom guide keeps panels aligned."
+      },
+      "configurations": {
+        "2_panel": "1 fixed + 1 sliding (opens to one side)",
+        "3_panel": "1 fixed center + 2 sliding (opens both sides)",
+        "4_panel": "2 fixed + 2 sliding (stacking)"
+      },
+      "operable": true,
+      "threshold": "flush teak, 15mm above floor, no step",
+      "has_solid_below": false,
+      "has_solid_above": true,
+      "best_for": ["terraces", "living rooms opening to garden", "indoor-outdoor transition"],
+      "unit": "mm"
+    },
+
+    "glass_door": {
+      "name": "Glass door (hinged, French style)",
+      "panel_sizes": [[1, 3], [2, 3]],
+      "description": "Full height tempered glass door panel with minimal teak frame. Glass flush with exterior. Hinged on one side, opens outward (default) or inward. For 2-panel: double French doors meeting in the center.",
+      "glass_zone": {
+        "x": "jamb_width + frame_width",
+        "y": "frame_width",
+        "w": "panel_width - 2 * jamb_width - 2 * frame_width",
+        "h": "HEAD_H - 2 * frame_width"
+      },
+      "glass_type": "tempered",
+      "glass_thickness": 10,
+      "frame": {
+        "material": "teak",
+        "width": 40,
+        "depth": 45,
+        "note": "Minimal teak frame around glass. Handles integrated into frame."
+      },
+      "hardware": {
+        "doorknob": {
+          "type": "lever",
+          "material": "brass",
+          "color_hex": "C0A060",
+          "height": 1050,
+          "both_sides": true
+        },
+        "hinges": {"side": "left", "count": 3, "concealed": true},
+        "swing": {"direction": "outward", "angle": 90}
+      },
+      "operable": true,
+      "has_solid_below": false,
+      "has_solid_above": true,
+      "best_for": ["garden access", "balconies", "terraces", "connecting indoor-outdoor"],
+      "unit": "mm"
+    },
+
+    "teak_cladding": {
+      "name": "Teak cladding panel (solid wall, teak exterior)",
+      "panel_sizes": [[1, 3], [2, 3]],
+      "description": "Solid 156mm wall panel with horizontal or vertical teak planks on the exterior face instead of lime. The teak is flush with adjacent lime panels. Interior is lime-finished as usual. Creates a warm wood accent wall on the exterior.",
+      "cladding": {
+        "material": "teak",
+        "plank_width": 100,
+        "plank_thickness": 15,
+        "orientation": "horizontal (default) or vertical",
+        "gap": 3,
+        "mounting": "Screwed to guadua support blocks through mortar. Stainless steel screws.",
+        "finish": "natural teak oil or left to weather to silver-grey",
+        "note": "Planks sit on a 15mm recess in the mortar (mortar cover reduced by 15mm on exterior). Total wall thickness unchanged at 156mm."
+      },
+      "has_glass": false,
+      "has_solid_below": true,
+      "has_solid_above": true,
+      "best_for": ["accent walls", "entrance features", "bathroom exteriors", "mixing materials for visual interest"],
+      "unit": "mm"
+    },
+
+    "clerestory": {
+      "name": "Clerestory (knee wall level)",
+      "panel_sizes": [[1, 1], [3, 1]],
+      "note_3x1": "3×1m variant spans 3 panels as a single opening (no intermediate jambs). Used in casita for wider clerestory bands. Same frame orientation — horizontal webs connect at the two end edges only.",
+      "frame": {
+        "orientation": "horizontal",
+        "description": "Frame rotated 90° from standard wall panel. Long T-bars run HORIZONTALLY (top and bottom of the 1m-tall panel). Short T-bars are VERTICAL (left and right edges). Webs protrude LEFT and RIGHT for panel-to-panel connection along the eave band.",
+        "long_tbars": {
+          "position": "top and bottom edges",
+          "direction": "horizontal (along eave)",
+          "cut_length": 1000,
+          "web_protrusion": "NONE — sits on wall plate below (bottom) and against roof structure above (top)",
+          "quantity": 2
+        },
+        "short_tbars": {
+          "position": "left and right edges",
+          "direction": "vertical",
+          "cut_length": 1000,
+          "web_width": 990,
+          "web_protrusion": "LEFT and RIGHT — extends horizontally for VWC-A bolt connection to adjacent clerestory panel",
+          "quantity": 2
+        },
+        "connection_below": "Bottom flange rests on top of wall panel's upper T-bar flange. Bolted through or clamped.",
+        "connection_above": "Top flange bolts to roof plate / eave beam.",
+        "connection_sides": "VWC-A connectors between adjacent clerestory panels, oriented horizontally."
+      },
+      "glass_zone": {
+        "x": "jamb_width",
+        "y": 100,
+        "w": "panel_width - 2 * jamb_width",
+        "h": 800
+      },
+      "glass_type": "lipped",
+      "sill_height": 100,
+      "lintel_height": 900,
+      "has_solid_below": true,
+      "has_solid_above": true,
+      "note": "Mounted at PH (3000mm) to EAVE (4000mm). 1m tall panel. Frame is 90° rotated — webs horizontal for panel-to-panel joining along the eave band. Bottom 100mm solid zone sits on wall plate.",
+      "unit": "mm"
+    },
+
+    "horizontal_wall": {
+      "name": "Horizontal wall panel (90° rotated frame)",
+      "panel_sizes": [[1, 1], [3, 1]],
+      "note_3x1": "3×1m variant spans 3 panels as a single solid section. Used in casita for solid upper bands on south/east walls. Same frame orientation — horizontal webs at the two end edges only.",
+      "frame": {
+        "orientation": "horizontal",
+        "description": "Same as clerestory frame: 90° rotated from standard wall panel. Long T-bars run horizontally, short T-bars vertical with webs protruding left/right. Used wherever a short wall section sits above standard wall height — gable ends, parapets, knee walls, or horizontal bands between openings.",
+        "long_tbars": {
+          "position": "top and bottom edges",
+          "direction": "horizontal",
+          "cut_length": 1000,
+          "web_protrusion": "NONE",
+          "quantity": 2
+        },
+        "short_tbars": {
+          "position": "left and right edges",
+          "direction": "vertical",
+          "cut_length": 1000,
+          "web_width": 990,
+          "web_protrusion": "LEFT and RIGHT — horizontal VWC-A connections",
+          "quantity": 2
+        },
+        "connection_below": "Bottom flange on wall plate / top of standard panel.",
+        "connection_above": "Top flange to roof structure or capping.",
+        "connection_sides": "VWC-A horizontal between adjacent panels."
+      },
+      "infill": "solid (same as standard wall panel — guadua + mortar + lime)",
+      "variants": ["solid", "clerestory_window", "vent_opening"],
+      "note": "Generic 1×1m panel with horizontal webs. The clerestory is a specific variant with a glass zone. Can also be fully solid for gable ends or parapets.",
+      "unit": "mm"
+    },
+
+    "door": {
+      "name": "Single door panel",
+      "panel_sizes": [[1, "any"]],
+      "description": "Teak door flush with exterior wall surface. Door height adapts to panel height. 100mm jambs each side give 800mm clear opening. Solid lintel zone above door provides structure and conduit routing.",
+      "door_zone": {
+        "x": "jamb_width",
+        "y": 0,
+        "w": "panel_width - 2 * jamb_width",
+        "h": {
+          "formula": "min(panel_height - cove_reserve - 200, 2400)",
+          "value_2500_panel": 2200,
+          "value_3000_panel": 2400,
+          "note": "200mm minimum lintel above door. Capped at 2400mm for ergonomics."
+        }
+      },
+      "door_leaf": {
+        "material": "teak",
+        "thickness": 45,
+        "position": "flush with exterior lime surface",
+        "position_from_exterior": 0,
+        "color_hex": "6B4226"
+      },
+      "door_frame": {
+        "material": "teak",
+        "width": 20,
+        "depth": "wall_thickness (156mm)",
+        "note": "Teak frame lines the full reveal depth. Visible from inside as a warm wood border."
+      },
+      "hardware": {
+        "doorknob": {
+          "type": "lever",
+          "material": "brass",
+          "color_hex": "C0A060",
+          "height": 1050,
+          "side": "right (viewed from exterior)",
+          "both_sides": true,
+          "backplate": { "width": 30, "height": 60, "thickness": 3 },
+          "lever": { "length": 100, "diameter": 15 },
+          "note": "Brass lever handle at 1050mm from floor. Mounted on both sides of the door."
+        },
+        "hinges": {
+          "side": "left",
+          "count": 3,
+          "material": "stainless steel",
+          "concealed": true,
+          "note": "3 concealed hinges inside teak frame."
+        },
+        "swing": {
+          "direction": "outward",
+          "angle": 90,
+          "note": "Default: exterior doors swing outward. Interior doors swing toward the larger room."
+        }
+      },
+      "threshold": {
+        "material": "teak",
+        "height": 15,
+        "note": "Low teak threshold, flush with interior terracotta tile top."
+      },
+      "skirting": "No skirting at door panel — skirting on adjacent solid panels terminates at jamb edge.",
+      "has_solid_below": false,
+      "has_solid_above": true,
+      "unit": "mm"
+    },
+
+    "door_with_sidelight": {
+      "name": "Door + sidelight",
+      "panel_sizes": [[2, 3]],
+      "zones": [
+        {
+          "type": "door",
+          "x": "jamb_width",
+          "y": 0,
+          "w": 850,
+          "h": 2400,
+          "frame": "teak",
+          "operable": true
+        },
+        {
+          "type": "glass",
+          "x": "jamb_width + 850 + 50",
+          "y": 300,
+          "w": "panel_width - 2 * jamb_width - 850 - 50",
+          "h": 2100,
+          "glass_type": "flush_silicone"
+        }
+      ],
+      "unit": "mm"
+    },
+
+    "window_nook": {
+      "name": "Window nook (reading seat)",
+      "panel_sizes": [[3, 3]],
+      "description": "Inner wall steps back 400mm across 3 panels. Creates a deep seat at window height.",
+      "nook_depth": 400,
+      "seat_height": 450,
+      "glass_zone": {
+        "x": "jamb_width",
+        "y": "seat_height",
+        "w": "panel_width - 2 * jamb_width",
+        "h": 1800
+      },
+      "glass_type": "flush_silicone",
+      "unit": "mm"
+    },
+
+    "corner_window": {
+      "name": "Corner window (L-shaped, no mullion)",
+      "description": "Two window panels meeting at ∅200mm corner piece. Glass wraps the corner. Corner piece is solid lime (no glass in the curve).",
+      "panel_sizes": [[1, 3], [1, 3]],
+      "corner_radius": 200,
+      "glass_type": "flush_silicone",
+      "note": "The ∅200mm corner piece creates a 200mm lime column between the two glass panes. No mullion needed.",
+      "unit": "mm"
+    },
+
+    "mezzanine_window": {
+      "name": "Mezzanine under-slab window",
+      "panel_sizes": [[1, 3]],
+      "description": "Window in a full-height (3m) panel where the mezzanine slab intersects at ~1.5m. Glass zone sits BELOW the mezzanine floor surface. The upper half of the panel (above mezzanine) is solid wall for the mezzanine room. Glass provides light to the ground-floor space below the mezzanine.",
+      "glass_zone": {
+        "x": "jamb_width",
+        "y": "bottom_solid",
+        "w": "panel_width - 2 * jamb_width",
+        "h": {
+          "formula": "mezzanine_floor_height - bottom_solid - flange_thickness",
+          "value_1500mm_mezz": 1194,
+          "note": "Glass stops just below mezzanine floor level. Exact height depends on mezzanine slab position."
+        }
+      },
+      "glass_type": "lipped",
+      "sill_height": 300,
+      "lintel_height": "mezzanine_floor_height - flange_thickness",
+      "has_solid_below": true,
+      "has_solid_above": true,
+      "mezzanine": {
+        "floor_height": 1500,
+        "slab_thickness": 100,
+        "note": "The mezzanine slab rests on the T-bar flanges at this height. The solid zone above runs from mezzanine top surface to panel top."
+      },
+      "note": "Ground floor gets natural light through this window. Mezzanine room wall starts at slab top. Interior reveal depth = 148mm, same as standard windows.",
+      "unit": "mm"
+    },
+
+    "mezzanine_door": {
+      "name": "Mezzanine under-slab door",
+      "panel_sizes": [[1, 3]],
+      "description": "Door in a full-height panel where the mezzanine slab intersects. Door provides access to the ground-floor space below the mezzanine. Door head height limited by the mezzanine floor surface.",
+      "door_zone": {
+        "x": "jamb_width",
+        "y": 0,
+        "w": "panel_width - 2 * jamb_width",
+        "h": {
+          "formula": "mezzanine_floor_height - slab_thickness - 50",
+          "value_1500mm_mezz": 1350,
+          "note": "Door clears below mezzanine slab with 50mm margin for frame/clearance. Shorter than standard door — stooping entry for storage/utility space."
+        }
+      },
+      "door_leaf": {
+        "material": "teak",
+        "thickness": 45,
+        "position": "flush with exterior lime surface",
+        "position_from_exterior": 0
+      },
+      "mezzanine": {
+        "floor_height": 1500,
+        "slab_thickness": 100
+      },
+      "hardware": {
+        "doorknob": {
+          "type": "lever",
+          "material": "brass",
+          "color_hex": "C0A060",
+          "height": 1050,
+          "side": "right (viewed from exterior)",
+          "both_sides": true,
+          "note": "Same brass lever as standard door."
+        },
+        "hinges": { "side": "left", "count": 2, "concealed": true }
+      },
+      "has_solid_below": false,
+      "has_solid_above": true,
+      "note": "Shorter door (1350mm for 1500mm mezzanine) — suitable for storage, utility, or children's play space under the mezzanine. Above the door: solid wall for mezzanine room. Skirting stops at jamb edge.",
+      "unit": "mm"
+    }
+  },
+
+    "grid_window": {
+      "name": "Steel grid window (industrial/colonial pane grid) — DRAFT",
+      "status": "draft",
+      "panel_sizes": [[1, 3], [2, 3]],
+      "description": "Floor-to-ceiling window with small glass panes set in a lightweight steel grid. The T2\" outer frame is the panel boundary. A secondary grid of flat steel bar (20×3mm or 25×4mm) is welded inside the frame opening, creating a regular pattern of small rectangular panes. Glass panes siliconed into each opening. Industrial loft / colonial iron window aesthetic. The steel grid is painted black or left as natural dark patina, contrasting with white lime walls.",
+      "outer_frame": "T2\" (same as all panels — jambs, flange, web)",
+      "inner_grid": {
+        "material": "flat steel bar",
+        "profile": "20×3mm or 25×4mm",
+        "color": "black (painted or powder-coated) or natural dark steel patina",
+        "attachment": "welded to T2\" frame inner face",
+        "structural_role": "none — holds glass only"
+      },
+      "variants": {
+        "1m": {
+          "panel_width": 1000,
+          "glass_zone": {
+            "width": 800,
+            "height": 2580
+          },
+          "suggested_grid": "2 panes across × 8-9 panes tall",
+          "pane_size_approx": "390 × 280mm",
+          "total_panes": "16-18",
+          "note": "2 vertical muntins + 8 horizontal = 16 panes. Adjust count for desired proportion."
+        },
+        "2m": {
+          "panel_width": 2000,
+          "glass_zone": {
+            "width": 1800,
+            "height": 2580
+          },
+          "suggested_grid": "4 panes across × 8-9 panes tall",
+          "pane_size_approx": "440 × 280mm",
+          "total_panes": "32-36",
+          "note": "3 vertical muntins + 8 horizontal = 36 panes."
+        }
+      },
+      "glass": {
+        "type": "tempered",
+        "thickness": 4,
+        "setting": "black silicone, same as all window types"
+      },
+      "jamb_width": 100,
+      "sill_height": 12,
+      "head_height": 2888,
+      "weight": "Much lighter than solid panel — no mortar, no guadua fill. Frame + grid + glass only.",
+      "has_solid_below": false,
+      "has_solid_above": true,
+      "silicone_ring": true,
+      "note": "Grid spacing is a design choice, not structural. The pane count and proportions can be adjusted per project. Inspired by industrial loft steel windows and colonial iron window grilles. The T2\" frame is the same as every other panel — only the infill changes.",
+      "unit": "mm"
+    }
+  },
+
+  "sill_detail": {
+    "description": "Window sill formed by the mortar/lime at the bottom of the glass zone.",
+    "exterior": {
+      "slope": 5,
+      "slope_unit": "degrees",
+      "drip_groove": true,
+      "drip_groove_distance_from_edge": 15,
+      "note": "Exterior sill slopes outward 5° for water drainage. Drip groove cut in the underside of the sill overhang."
+    },
+    "interior": {
+      "depth": 148,
+      "material": "lime-finished mortar",
+      "note": "148mm deep reveal = shelf for plants, books, coffee cups."
+    }
+  },
+
+  "lintel_detail": {
+    "description": "Top of window opening. The T-bar short bar (top flange) acts as the structural lintel. Additional support from guadua support blocks spanning the opening.",
+    "structural": "T2\" top flange + 30×30mm guadua support blocks",
+    "note": "For openings wider than 1m, add a continuous guadua beam (∅40-50mm) above the glass zone."
+  }
+}

@@ -5,29 +5,50 @@
 | Propriete | Valeur |
 |-----------|--------|
 | Dimensions | 1,0 m x 2,5 m x 85 mm |
-| Poids | ~155 kg |
+| Poids de l'assemblage a sec (tel qu'expedie sur site) | **~75 kg** |
+| Poids du panneau fini (melange de base, apres coulage in situ + cure + enduit) | ~440 kg |
+| Poids du panneau fini (melange bahareque optimise) | ~360 kg |
 | Centre de gravite | Centre (construction symetrique) |
-| Zones fragiles | Angles, aretes (le mortier peut s'ecailler en cas d'impact) |
-| Cure minimale avant manutention | 7 jours |
-| Cure minimale avant installation | 14 jours recommandes |
+| Zones fragiles | Angles, aretes (le mortier peut s'ecailler une fois coule en cas d'impact) |
+| Cure minimale avant manutention | 7 jours apres coulage in situ |
+| Cure minimale avant installation | 14 jours recommandes -- noter qu'en modele de coulage in situ, le panneau est dresse et le mortier coule sur place, donc « installation » et « coulage » se font ensemble sur site |
 
-## Portage a la main
+## Modele de production primaire : coulage in situ
 
-Un panneau de 155 kg necessite **3 a 4 personnes** avec un dispositif de portage :
+**Le modele de production primaire consiste a expedier l'assemblage a sec (~75 kg) sur site et a couler le mortier in situ contre coffrage.** Le panneau fini de ~440 kg n'est jamais deplace en tant qu'unite -- il devient directement partie du mur, evitant les couts d'engins de levage lourds et le risque de fissuration au transport. Voir [Processus de construction](04-processus-construction.md) pour le protocole de coulage vertical in situ.
 
-### Dispositif de portage simple
+La manutention de panneaux durcis (sections suivantes) s'applique au modele alternatif : coulage du mortier en atelier sur table vibrante, panneaux entierement durcis livres comme elements finis. Cette approche reste documentee comme option pour les constructeurs preferant la production en atelier, mais ajoute des couts significatifs de levage, transport et taux de rebut.
+
+## Portage a la main -- assemblage a sec (~75 kg)
+
+L'assemblage a sec (cadre acier corniere L + esterilla de bambou + grillage + equipements, avant mortier) est leve et positionne par **2 personnes avec une simple sangle**. Aucun dispositif de portage, pas de grue, pas de chariot elevateur -- c'est l'un des avantages operationnels centraux du modele de coulage in situ.
+
+### Sangle simple (assemblage a sec)
+
+1. Enrouler une seule sangle (50 mm x capacite 500+ kg) autour du panneau a mi-hauteur (~125 cm du bas)
+2. Chaque porteur saisit une extremite de la sangle a deux mains, sur les longs cotes opposes
+3. Soulever ensemble ; le panneau pend verticalement entre eux
+4. Marcher a allure normale ; le panneau peut etre porte 30-50 m avant pause
+
+**Poids par personne : ~38 kg** -- entierement gerable pour les portages courts typiques atelier-camion, camion-stock-site, stock-pose.
+
+## Portage a la main -- panneau fini durci (modele atelier alternatif)
+
+Un panneau fini a ~360-440 kg **ne peut pas etre porte a la main**. Levage mecanique requis (palan a chaine, mini-pelle, ou petite grue mobile). C'est la raison principale pour laquelle le modele de coulage in situ est prefere.
+
+Si des panneaux coules en atelier doivent etre deplaces (par ex. production de phase pilote avant validation du protocole in situ), utiliser :
+
+### Dispositif de portage (panneau durci, ~360-440 kg)
 
 Deux perches de bambou (3 m de long, 8-10 cm de diametre) passees dans des boucles de sangle robuste enroulees autour du panneau a 1/4 et 3/4 de la hauteur :
 
 1. Poser le panneau a plat
-2. Enrouler deux sangles (50 mm de large, capacite 500+ kg) autour du panneau a ~60 cm et ~190 cm du bas
+2. Enrouler deux sangles (50 mm de large, capacite 1 000+ kg) autour du panneau a ~60 cm et ~190 cm du bas
 3. Passer une perche de bambou dans les boucles de sangle de chaque cote
-4. Deux personnes par perche, soulever par les extremites
+4. **4 personnes par perche, 8 porteurs au total** pour un panneau melange de base a ~440 kg, ou 6 porteurs pour un panneau melange optimise a ~360 kg
 5. Le panneau pend verticalement entre les perches
 
-**Poids par personne : ~40 kg** -- acceptable pour de courtes distances (atelier au camion, camion au site).
-
-Pour des distances plus longues (>50 m), ajouter une troisieme perche avec une sangle centrale pour 6 porteurs (~26 kg chacun).
+**Poids par personne : ~55 kg (base) / ~45 kg (optimise)** -- au bord superieur de la manutention manuelle sure. Longues distances ou escaliers : utiliser plutot un levage mecanique.
 
 ### Levage et basculement
 

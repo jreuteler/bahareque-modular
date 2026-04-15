@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" style="background:#ffffff">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="350" y="18" text-anchor="middle" font-size="12" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Foundation Channel Detail</text>
+  <text x="350" y="32" text-anchor="middle" font-size="7" fill="#999" font-family="Helvetica,Arial,sans-serif">Panel drops into teak-lined channel · DPC membrane · self-leveling mortar · drain pipes · NOT TO SCALE</text>
+
+  <!-- CONCRETE SLAB -->
+  <rect x="50" y="220" width="600" height="120" fill="#bbb" opacity="0.3" stroke="#888" stroke-width="1"/>
+  <text x="350" y="310" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">concrete foundation slab</text>
+
+  <!-- CHANNEL (85mm wide × 40mm deep) -->
+  <rect x="258" y="220" width="85" height="40" fill="white" stroke="#888" stroke-width="1"/>
+
+  <!-- TEAK LINERS (10mm thick, on both channel walls) -->
+  <rect x="258" y="220" width="8" height="40" fill="#8B6914" opacity="0.5" stroke="#6B4F10" stroke-width="0.5"/>
+  <rect x="335" y="220" width="8" height="40" fill="#8B6914" opacity="0.5" stroke="#6B4F10" stroke-width="0.5"/>
+
+  <!-- DPC MEMBRANE (lines the channel bottom and up the teak faces) -->
+  <path d="M 258,260 L 258,220 L 343,220 L 343,260" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- SELF-LEVELING MORTAR (thin layer on channel bottom) -->
+  <rect x="266" y="252" width="69" height="8" fill="#d4c4a8" opacity="0.5" stroke="#bbb" stroke-width="0.3"/>
+
+  <!-- DPC PADS -->
+  <rect x="280" y="248" width="12" height="4" fill="#333" opacity="0.5"/>
+  <rect x="310" y="248" width="12" height="4" fill="#333" opacity="0.5"/>
+
+  <!-- DRAIN PIPE (PVC, through slab wall, angled) -->
+  <line x1="258" y1="255" x2="220" y2="265" stroke="#ccc" stroke-width="6" opacity="0.5"/>
+  <line x1="258" y1="255" x2="220" y2="265" stroke="#2980b9" stroke-width="2"/>
+  <text x="195" y="270" text-anchor="end" font-size="6" fill="#2980b9" font-family="Helvetica,Arial,sans-serif">PVC drain pipe</text>
+  <text x="195" y="278" text-anchor="end" font-size="5" fill="#2980b9" font-family="Helvetica,Arial,sans-serif">(16mm, 2% slope, every 2-3m)</text>
+
+  <!-- WALL PANEL (sitting in channel, on DPC pads) -->
+  <rect x="268" y="70" width="65" height="178" fill="#d4c4a8" opacity="0.3" stroke="#888" stroke-width="1"/>
+  <text x="300" y="155" text-anchor="middle" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,300,155)">wall panel (85mm)</text>
+
+  <!-- Wall panel T-bar frame (red edges) -->
+  <rect x="268" y="70" width="3" height="178" fill="#c0392b" opacity="0.5"/>
+  <rect x="330" y="70" width="3" height="178" fill="#c0392b" opacity="0.5"/>
+
+  <!-- Wall panel side web (protruding 30mm below panel, into channel) -->
+  <!-- Web points inward — shown as a thin strip at one side -->
+
+  <!-- DOWEL PINS (16mm rebar, welded to panel base, dropping into pockets) -->
+  <line x1="285" y1="248" x2="285" y2="270" stroke="#555" stroke-width="3"/>
+  <circle cx="285" cy="270" r="2" fill="#555"/>
+  <line x1="318" y1="248" x2="318" y2="270" stroke="#555" stroke-width="3"/>
+  <circle cx="318" cy="270" r="2" fill="#555"/>
+
+  <!-- GROUT between panel and teak liners -->
+  <rect x="266" y="220" width="2" height="28" fill="#d4c4a8" opacity="0.3"/>
+  <rect x="333" y="220" width="2" height="28" fill="#d4c4a8" opacity="0.3"/>
+
+  <!-- FLOOR TILES on slab surface -->
+  <rect x="50" y="210" width="208" height="10" fill="#c67a3c" opacity="0.4"/>
+  <rect x="343" y="210" width="307" height="10" fill="#c67a3c" opacity="0.4"/>
+
+  <!-- DIMENSION: channel width -->
+  <line x1="258" y1="275" x2="343" y2="275" stroke="#333" stroke-width="0.5"/>
+  <line x1="258" y1="271" x2="258" y2="279" stroke="#333" stroke-width="0.5"/>
+  <line x1="343" y1="271" x2="343" y2="279" stroke="#333" stroke-width="0.5"/>
+  <text x="300" y="287" text-anchor="middle" font-size="6" fill="#333" font-family="Helvetica,Arial,sans-serif">85mm channel</text>
+
+  <!-- DIMENSION: channel depth -->
+  <line x1="360" y1="220" x2="360" y2="260" stroke="#333" stroke-width="0.5"/>
+  <line x1="356" y1="220" x2="364" y2="220" stroke="#333" stroke-width="0.5"/>
+  <line x1="356" y1="260" x2="364" y2="260" stroke="#333" stroke-width="0.5"/>
+  <text x="370" y="243" font-size="6" fill="#333" font-family="Helvetica,Arial,sans-serif">40mm</text>
+
+  <!-- LABELS -->
+  <g font-family="Helvetica,Arial,sans-serif">
+    <text x="370" y="227" font-size="6" fill="#8B6914">← teak liner (10mm, permanent formwork)</text>
+    <text x="370" y="255" font-size="6" fill="#d4c4a8" stroke="#888" stroke-width="0.2">← self-leveling mortar</text>
+    <text x="370" y="238" font-size="6" fill="#333" opacity="0.6">← DPC membrane (dashed)</text>
+    <text x="370" y="250" font-size="5" fill="#333">← DPC pads (panel sits on these)</text>
+    <text x="370" y="268" font-size="6" fill="#555">← dowel pins (16mm rebar, grouted)</text>
+    <text x="200" y="215" text-anchor="end" font-size="6" fill="#c67a3c">floor tiles →</text>
+  </g>
+
+  <!-- 5-layer protection label -->
+  <rect x="50" y="340" width="600" height="45" fill="#e8f0e6" stroke="#2d5a27" stroke-width="0.5" rx="4"/>
+  <text x="60" y="355" font-size="7" fill="#2d5a27" font-weight="bold" font-family="Helvetica,Arial,sans-serif">5 layers of moisture protection:</text>
+  <text x="60" y="368" font-size="6" fill="#2d5a27" font-family="Helvetica,Arial,sans-serif">1. DPC pads (panel above water) · 2. DPC membrane (waterproof barrier) · 3. Self-leveling mortar (no puddle spots)</text>
+  <text x="60" y="378" font-size="6" fill="#2d5a27" font-family="Helvetica,Arial,sans-serif">4. Drain pipes to exterior (gravity drainage) · 5. Teak liner (Class 1 rot resistance, permanent formwork)</text>
+</svg>

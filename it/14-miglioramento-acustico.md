@@ -25,7 +25,7 @@ La sabbia di fiume standard viene sostituita con aggregati più pesanti nella mi
 | Scoria di ferro (*escoria*) | +25–30% | Spesso gratuita | Vicino ad acciaierie, fonderie |
 | Sabbia magnetitica (*arena negra*) | +40% | Basso | Letti fluviali vulcanici (Ande, America Centrale) |
 
-- **Peso del pannello:** ~175–190 kg (vs. ~155 kg standard)
+- **Peso del pannello:** finito ~490–530 kg miscela di base (vs. ~440 kg base standard) / ~405–440 kg miscela ottimizzata (vs. ~360 kg ottimizzata standard). Peso di assemblaggio a secco invariato a ~75 kg (l'aggregato denso viene aggiunto durante il getto in-situ, non durante l'assemblaggio in officina)
 - **Costo aggiuntivo:** ~$1–2 per pannello
 - **STC:** ~43–48
 - **Modifica alla produzione:** Nessuna — si sostituisce solo l'aggregato. Il rapporto di miscela rimane 1:4 cemento:aggregato.

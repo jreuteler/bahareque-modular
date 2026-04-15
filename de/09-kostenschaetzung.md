@@ -2,55 +2,89 @@
 
 > **Haftungsausschluss:** Dies sind reine Materialkostenschätzungen, basierend auf Preisen von 2025 in Kolumbien (Region Eje Cafetero). Arbeitskosten sind nicht enthalten — das System ist für Gemeinschaftsproduktion konzipiert, bei der Arbeit beigetragen, nicht gekauft wird. Die Preise variieren erheblich nach Region, Währung und Lieferkette. Verwenden Sie diese als Ausgangspunkt, nicht als Budget.
 
-## Kosten pro Paneel (nur Material)
+In diesem Projekt werden zwei Mörtelmischungen dokumentiert: die **Basismischung** (Zement-Sand-Mörtel + 30 % Guadua-Anteil + 10 mm Kalkputz beidseitig) und die **optimierte Bahareque-Mischung** (puzzolanischer Kalk + Pasto-estrella-Fasern + 30 % Guadua + 5 mm Kalkputz). Beide Kostenaufstellungen sind unten gezeigt.
+
+## Kosten pro Paneel — Basismischung (nur Material)
 
 | Material | Spezifikation | Menge pro Paneel | Stückpreis (USD) | Total (USD) |
 |----------|--------------|-----------------|-----------------|-------------|
-| T-bar-Stahl | 30×30×3 mm, verzinkt | 7,0 m | 2,50 $/m | 17,50 $ |
-| Verzinkung | Feuerverzinkt, Chargenprozess | 1 Rahmen | 3,00 $ | 3,00 $ |
-| Klemmleisten | 2 mm Flachstahl, verzinkt | 4,0 m | 1,00 $/m | 4,00 $ |
+| L-Winkelstahl | L 40×40×4 mm, ASTM A36 | 7,0 m | 4,00 $/m | 28,00 $ |
+| Verzinkung | Feuerverzinkt, Chargenprozess | 1 Rahmen | 2,00 $ | 2,00 $ |
+| Klemmleisten | 40×3 mm Flachstahl, verzinkt | 4,0 m | 1,00 $/m | 4,00 $ |
+| Eckbleche + Schrauben | Flachblech + M12/M8 | 1 Set | 3,00 $ | 3,00 $ |
 | Edelstahlschrauben | Selbstschneidend, A2 | 40 Stk. | 0,08 $ | 3,20 $ |
 | HDPE-Blöcke | Recycelt, 30×30 mm | 2,0 m | 1,50 $/m | 3,00 $ |
-| Bambusstreifen (vertikal) | Borat-behandelte Guadua | ~135 m total | 0,05 $/m | 6,75 $ |
-| Bambusstreifen (diagonal) | 60×20 mm, behandelt | 5,4 m | 0,30 $/m | 1,60 $ |
+| Bambusstreifen (vertikal + horizontal, 30 % Hohlraumdichte) | Borat-behandelte Guadua | ~400 m total | 0,05 $/m | 20,00 $ |
+| Bambusstreifen (diagonal) | 60×20 mm, behandelt | ~5,4 m | 0,30 $/m | 1,60 $ |
 | Drahtbindungen | Verzinkt | 5 m | 0,10 $/m | 0,50 $ |
 | PVC-Leerrohr | 16 mm Elektro | 5 m | 0,30 $/m | 1,50 $ |
 | 12V-Kabel + Fassungen | 2-adrig + 6× E10 | 1 Set | 3,00 $ | 3,00 $ |
 | 120V-Kabel + Stecker | 3-adrig + Snap-Stecker | 1 Set | 4,00 $ | 4,00 $ |
 | Hühnerdrahtgeflecht | Verzinktes Sechseck, 25 mm | 5,5 m² | 0,80 $/m² | 4,40 $ |
-| Zement | Portland Typ I | ~25 kg | 0,15 $/kg | 3,75 $ |
-| Sand | Sauberer Flusssand | ~100 kg | 0,02 $/kg | 2,00 $ |
+| Zement | Portland Typ I | ~54 kg | 0,15 $/kg | 8,10 $ |
+| Sand (Mörtel) | Sauberer Flusssand | ~240 kg | 0,02 $/kg | 4,80 $ |
 | PP-Faser | Gehäckselt 6–12 mm | 200 g | 5,00 $/kg | 1,00 $ |
 | Puzzolanischer Zusatz | Vulkanasche oder RHA | 2 kg | 0,50 $/kg | 1,00 $ |
-| **Paneel-Zwischensumme** | | | | **60–65 $** |
+| **Paneel-Zwischensumme — Basis** | | | | **~93 $** |
 
-### Fertigstellung vor Ort (pro Paneelfläche)
+### Fertigstellung vor Ort, Basis (pro Paneelfläche)
 
 | Material | Menge pro Paneel | Kosten (USD) |
 |----------|-----------------|-------------|
-| Kalkputz (beide Seiten) | ~15 kg Kalk + 40 kg Sand | 4,00 $ |
-| Kalkanstrich (beide Seiten) | ~2 kg Kalk | 0,50 $ |
-| **Fertigstellung Zwischensumme** | | **4,50 $** |
+| Kalkputz (10 mm beidseitig) | ~25 kg Kalk + ~65 kg Sand | 6,50 $ |
+| Kalkanstrich (beidseitig) | ~2 kg Kalk | 0,50 $ |
+| **Fertigstellung Zwischensumme — Basis** | | **7,00 $** |
 
-### **Gesamte Materialkosten pro Paneel: ~65–70 USD**
+### **Gesamte Materialkosten pro Paneel — Basis: ~100 USD**
 
-### Kosten pro m² fertige Wand
+### Kosten pro m² fertige Wand — Basis
 
 - Paneelfläche: 1,0 m × 2,5 m = 2,5 m²
-- Materialkosten pro m²: **~26–28 USD/m²**
+- Materialkosten pro m²: **~40 USD/m²**
+
+## Kosten pro Paneel — optimierte Bahareque-Mischung (nur Material)
+
+Die optimierte Mischung ersetzt Portland-Zement-Sand-Mörtel durch hydraulischen Kalk + Puzzolan, ersetzt PP-Faser durch Pasto-estrella (gratis, vor Ort gesammelt) und verwendet dünneren 5 mm Kalkputz. Gleicher L-Winkelrahmen, gleicher Bambusanteil, gleiche elektrische und tragende Komponenten.
+
+| Material | Spezifikation | Menge pro Paneel | Stückpreis (USD) | Total (USD) |
+|----------|--------------|-----------------|-----------------|-------------|
+| L-Winkelstahl + Verzinkung + Klemmleisten + Eckbleche | (wie Basis) | | | 37,20 $ |
+| Edelstahlschrauben, HDPE, Bambus, Drahtbindungen, Leerrohr, Kabel, Geflecht | (wie Basis) | | | 41,20 $ |
+| Hydraulischer Kalk (Hauptbindemittel) | NHL 3.5 oder NHL 5 | ~42 kg | 0,30 $/kg | 12,60 $ |
+| Flugasche oder Reishülsenasche (Puzzolan, 30 % Zement-Äquivalent) | FA oder RHA | ~15 kg | 0,10 $/kg | 1,50 $ |
+| Sand (Mörtel) | Sauberer Flusssand | ~200 kg | 0,02 $/kg | 4,00 $ |
+| Pasto-estrella-Faser (getrocknetes Sterngras) | Vor Ort gesammelt | ~3 kg | gratis | 0,00 $ |
+| **Paneel-Zwischensumme — optimiert** | | | | **~96 $** |
+
+### Fertigstellung vor Ort, optimiert (pro Paneelfläche)
+
+| Material | Menge pro Paneel | Kosten (USD) |
+|----------|-----------------|-------------|
+| Kalkputz (5 mm beidseitig) | ~12 kg Kalk + ~33 kg Sand | 3,30 $ |
+| Kalkanstrich (beidseitig) | ~2 kg Kalk | 0,50 $ |
+| **Fertigstellung Zwischensumme — optimiert** | | **3,80 $** |
+
+### **Gesamte Materialkosten pro Paneel — optimiert: ~100 USD**
+
+### Kosten pro m² fertige Wand — optimiert
+
+- Materialkosten pro m²: **~40 USD/m²**
+
+> **Beide Mischungen liegen materialkostenmässig etwa gleich** (~100 $/Paneel, ~40 $/m²). Die optimierte Mischung tauscht leicht höhere Kalk-/Puzzolan-Zutatenkosten (gegenüber günstigerem Portlandzement) gegen niedrigere Kalkputzkosten (dünner), null PP-Faserkosten und deutlich geringere graue CO₂-Emissionen (siehe [Umweltbilanz](10-umweltbilanz.md)). Die optimierte Mischung ist daher ein **klarer Gewinn bei CO₂ und Heritage-Authentizität bei praktisch gleichen Kosten**.
 
 ## Vergleich mit konventioneller Bauweise
 
 | Wandsystem | Materialkosten pro m² (USD) | Lebensdauer | Anmerkungen |
 |------------|---------------------------|-------------|-------------|
-| **Dieses Paneelsystem** | **26–28 $** | **80–100 Jahre** | Beinhaltet Tragstruktur, Elektrik, Finish |
+| **Dieses Paneelsystem — Basis** | **~40 $** | **80–100 Jahre** | Beinhaltet Tragstruktur, Elektrik, Finish |
+| **Dieses Paneelsystem — optimiert** | **~40 $** | **80–100 Jahre** | Gleicher Preis, weniger CO₂ |
 | Betonblock (15 cm) | 25–35 $ | 40–60 Jahre | Erfordert Bewehrung, Verguss, Putz, Farbe, separate Elektrik |
 | Gebrannter Ziegel | 30–45 $ | 60–80 Jahre | Erfordert Mörtel, Putz, Farbe, separate Elektrik |
 | Gipskarton auf Stahlständern | 20–30 $ | 20–30 Jahre | Keine thermische Masse, nicht tragend, erfordert Farbe, separate Elektrik |
 | Konventioneller Bahareque (vor Ort) | 15–25 $ | 15–30 Jahre | Keine Elektrik, Oberflächenqualität variabel, kurze Lebensdauer ohne Ingenieurberechnung |
 | Adobe-Block | 10–20 $ | 20–40 Jahre | Schlechtes Erdbebenverhalten, keine Elektrik, erfordert dicke Wände |
 
-**Zentrale Erkenntnis:** Das Paneelsystem kostet pro m² ungefähr gleich viel wie Betonblock — beinhaltet aber integrierte Elektrik, hat die 2-fache Lebensdauer, bietet bessere thermische und akustische Leistung und erzeugt eine hochwertigere Oberfläche. Wenn man die Kosten für die separate Elektroinstallation eines Betonblockhauses einrechnet, ist das Paneelsystem günstiger.
+**Zentrale Erkenntnis:** Das Paneelsystem kostet pro m² etwa **20–35 % mehr als Betonblock** — beinhaltet aber integrierte Elektrik, hat die 1,5–2-fache Lebensdauer, bietet bessere thermische und akustische Leistung und erzeugt eine hochwertigere Oberfläche. Wenn man die Kosten für die separate Verkabelung eines Betonblockhauses einrechnet (~8–15 $/m² für Leerrohre, Kabel, Steckdosen und deren Installationsarbeit), ist das Paneelsystem auf Basis vollständig-fertige-Wand-bezugsbereit kostenwettbewerbsfähig.
 
 ## Kosten pro Haus (Grobschätzung)
 

@@ -1,5 +1,7 @@
 # Processo Construtivo
 
+> **Atualização de SVG pendente:** alguns diagramas deste capítulo foram gerados para a especificação anterior de estrutura em cantoneira L e foram temporariamente desvinculados até serem regenerados para a especificação atual de **cantoneira L 40×40×4 mm**. Veja [`SVG-STATUS.md`](../SVG-STATUS.md) na raiz do repositório.
+
 ## Configuração da Oficina
 
 Todos os painéis são construídos em uma oficina coberta — independente do clima, com controle de qualidade, eficiência de linha de montagem. Requisitos mínimos da oficina:
@@ -18,9 +20,9 @@ Todos os painéis são construídos em uma oficina coberta — independente do c
 
 ### Etapa 1: Fabricação da Estrutura
 
-1. Cortar o perfil T no comprimento: 2× 1,0 m (superior/inferior, alma de 85 mm) + 2× 2,5 m (laterais, alma de 30 mm)
-2. Soldar os cantos em gabarito — todas as estruturas idênticas
-3. Furar os orifícios de fixação a cada ~70 mm ao longo das almas dos perfis T superior e inferior (um para cada duas tiras de bambu, ~14 furos por barra, ~28 no total)
+1. Cortar a cantoneira L 40×40×4 no comprimento: 2× 1,0 m (superior/inferior) + 2× 2,5 m (laterais). Estoque comercial em barras de 6 m
+2. Cortar os cantos em meia-esquadria a 45° (ou cortar reto com uma aba sobreposta à outra). Soldar em gabarito — todas as estruturas idênticas. Cartelas de canto opcionais para rigidez no manuseio
+3. Furar os orifícios de fixação a cada ~70 mm ao longo das almas das cantoneiras L superior e inferior (um para cada duas tiras de bambu, ~14 furos por barra, ~28 no total)
 4. Galvanizar a quente a estrutura completa (processo em lote — enviar 20–50 estruturas de uma vez)
 
 **Todas as estruturas são idênticas independentemente da variante do painel.** O gabarito garante dimensões consistentes. Um gabarito, uma estrutura, para sempre.
@@ -29,7 +31,7 @@ Todos os painéis são construídos em uma oficina coberta — independente do c
 
 1. Cortar o PEAD em peças de 30 × 30 mm × 1.000 mm (2 por painel)
 2. Cortar entalhes nos cantos: 10 × 10 mm em cada extremidade (4 entalhes por bloco, 8 por painel)
-3. Montar os blocos nas almas dos perfis T superior e inferior usando parafusos ou adesivo
+3. Montar os blocos nas almas dos cantoneiras L superior e inferior usando parafusos ou adesivo
 
 ### Etapa 3: Instalação Elétrica
 
@@ -54,11 +56,11 @@ Todos os painéis são construídos em uma oficina coberta — independente do c
 
 ### Etapa 5: Fixação por Parafusos (Lado 1)
 
-1. Colocar a tira de fixação de aço (2 mm × 30 mm × 1.000 mm) sobre as tiras de bambu no perfil T superior
-2. Alinhar os furos da tira de fixação com os furos da alma do perfil T
+1. Colocar a tira de fixação de aço (2 mm × 30 mm × 1.000 mm) sobre as tiras de bambu no cantoneira L superior
+2. Alinhar os furos da tira de fixação com os furos da alma do cantoneira L
 3. Parafusar com parafusos de aço inoxidável através de: tira de fixação → tiras de bambu → furos da alma
 4. A tira de fixação flexiona para acomodar a variação natural de espessura — autoajustável
-5. Repetir no perfil T inferior
+5. Repetir no cantoneira L inferior
 6. Amarrar a diagonal a cada tira vertical nos cruzamentos com arame (~8–10 amarrações)
 
 **Tempo: ~5 minutos por lado para fixação, ~3 minutos para amarrações**

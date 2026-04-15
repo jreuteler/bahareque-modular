@@ -4,10 +4,11 @@
 
 | Material | Especificación | Cantidad | Notas |
 |----------|---------------|----------|-------|
-| Perfil T de acero | 30×30×3 mm, galvanizado en caliente | 2× 1,0 m + 2× 2,5 m = 7,0 m | Una sola plantilla de soldadura para todos los paneles |
-| Tiras de sujeción | Platina de acero de 2 mm, galvanizada, agujeros coincidentes | 4× 1,0 m = 4,0 m | Superior + inferior, ambos lados |
+| Ángulo L de acero | L 40×40×4 mm, galvanizado en caliente (ASTM A36 / NTC 2542 ICONTEC equivalente) | 2× 1,0 m + 2× 2,5 m = 7,0 m | Stock comercial colombiano (Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa). Barras de 6 m, corte con tronzadora |
+| Tiras de sujeción | Platina 40×3 mm, galvanizada, agujeros coincidentes | 4× 1,0 m = 4,0 m | Superior + inferior, ambos lados |
+| Cartelas + tornillería de esquina | Platina de refuerzo + tornillos M12/M8 | 1 juego | Conexión de esquina más rígida que solo cordón de soldadura |
 | Tornillos | Acero inoxidable, autorroscantes | ~28 por panel | A través de tira de sujeción → bambú → HDPE → alma (cada ~70 mm, uno por cada dos tiras) |
-| Bloques de HDPE | Sección transversal de 30×30 mm, reciclado | 2× 1,0 m = 2,0 m | Perfiles T superior + inferior |
+| Bloques de HDPE | Sección transversal de 30×30 mm, reciclado | 2× 1,0 m = 2,0 m | Sobre las almas del ángulo L superior + inferior |
 | Tiras de bambú (verticales) | Tratadas con borato, ~20 mm de ancho | ~54 tiras × 2,5 m | ~27 por lado |
 | Tiras de bambú (diagonal) | Tratadas con borato, 60×20 mm | 2× ~2,69 m | 1 por lado, esquinas opuestas |
 | Alambre galvanizado | Alambre de amarre | ~5 m | ~16–20 amarres en cruces |
@@ -17,7 +18,8 @@
 | Portalámparas E10 | Rosca base para bombillos | 6 | 3 por lado |
 | Conectores rápidos | 2 pines (12V) + 3 pines (120V) | 2 + 2 | Ambos bordes verticales |
 | Malla de gallinero | Malla hexagonal galvanizada, 25 mm | ~5,5 m² | Ambas caras + traslape |
-| Mortero de cemento | 1:4 cemento:arena + aditivos | ~0,21 m³ | ~120 kg en peso húmedo |
+| Mortero de cemento (base) | 1:4 cemento:arena + aditivos | ~0,147 m³ de cavidad neta (después del 30 % de guadua + desplazamiento del acero) | ~310 kg húmedo / ~294 kg curado (densidad ~2 000 kg/m³) |
+| Mortero de cal puzolánica con pasto estrella (optimizado) | Cal hidráulica + 30 % de cenizas volantes/CCA + fibras de pasto estrella | ~0,147 m³ misma cavidad | ~270 kg húmedo / ~257 kg curado (densidad ~1 750 kg/m³) |
 | Fibra de PP | Picada 6–12 mm | ~200 g | Prevención de grietas de curado |
 | Adición puzolánica | Ceniza volcánica / ceniza de cascarilla de arroz / metacaolín | ~2 kg | Reducción de pH, durabilidad |
 
@@ -51,13 +53,15 @@ Propiedades clave de la Guadua angustifolia:
 
 El sistema funciona con cualquier bambú estructural que pueda partirse en tiras. Ajuste el ancho de tira y la separación según la especie disponible.
 
-### Perfil T de Acero
+### Marco de Ángulo L de Acero
 
-- **Perfil:** 30×30×3 mm (ala de 30 mm, alma de 30 mm o 85 mm, espesor de 3 mm)
+- **Perfil:** L 40×40×4 mm ángulo de alas iguales (ASTM A36 / NTC 2542 ICONTEC)
+- **Masa:** ~2,42 kg/m; marco del panel total ~17 kg + ~4 kg tiras de sujeción + ~1 kg cartelas/tornillería = **~22 kg por panel**
 - **Galvanizado:** En caliente según ISO 1461, mínimo 85 μm de recubrimiento de zinc
-- **Vida útil:** 80–100 años en ambientes tropicales no costeros con el espesor de zinc especificado
-- **Abastecimiento:** Cualquier proveedor de acero estructural. El perfil T es un perfil estándar en todo el mundo.
-- **Alternativa:** Si no se consigue perfil T, soldar un ángulo (30×30×3) a una platina (30×3) para crear el perfil. Misma función, un poco más de soldadura.
+- **Vida útil:** 80–100 años en ambientes tropicales no costeros con el espesor de zinc especificado (el panel en servicio queda continuamente arriostrado dentro de la matriz alcalina del mortero, que auto-pasiva el acero expuesto)
+- **Abastecimiento:** Producto comercial a nivel mundial. En Colombia: Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa, Colmena/Sidenal, Perfilamos del Cauca. Stock en barras de 6 m en prácticamente cualquier proveedor de acero estructural. Sin pedido especial, sin fabricación a medida, sin almas asimétricas
+- **Perfiles alternativos:** L 50×50×4 o L 50×50×5 (ligeramente más pesados, también stock comercial) son sustitutos directos. SHS (perfil hueco cuadrado) 40×40×2 también funciona estructuralmente pero requiere que las tiras de sujeción se suelden en lugar de atornillarse a través del alma
+- **¿Por qué no perfil T?:** Versiones anteriores de este documento especificaban T 60×60×7 mm (~45 kg por panel). El servicio del panel continuamente arriostrado no requiere el alma simétrica del perfil T — un alma de ángulo L de un solo lado es estructuralmente equivalente a aproximadamente la mitad de la masa de acero, la mitad del costo y disponibilidad dramáticamente mejor. Los perfiles T abiertos siguen siendo la elección correcta solo donde importa la resistencia al pandeo en el eje débil (p. ej. columnas independientes — el tubo cuadrado cerrado se prefiere sobre el perfil T en este sistema).
 
 ### Separadores de HDPE
 

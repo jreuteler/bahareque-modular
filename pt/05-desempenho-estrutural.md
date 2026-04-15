@@ -4,7 +4,7 @@
 
 Este sistema de painéis foi projetado para funcionar **com uma estrutura de aço pilar-viga** — a configuração que recomendamos para edificações de múltiplos pavimentos em zonas sísmicas. Nessa configuração, a estrutura de aço suporta cargas gravitacionais e sísmicas enquanto os painéis fornecem contraventamento lateral, fechamento contra intempéries, massa térmica e serviços integrados.
 
-No entanto, os painéis são **estruturalmente capazes de funcionar sem uma estrutura de aço**. Com uma capacidade axial conservadora de ~4.000 kg por painel (dois perfis T laterais), uma fileira de painéis pode confortavelmente suportar um segundo pavimento e telhado sem uma estrutura de aço independente. Uma viga de cintamento simples de madeira ou bambu no topo conecta os painéis e distribui a carga do telhado.
+No entanto, os painéis são **estruturalmente capazes de funcionar sem uma estrutura de aço**. Com capacidade de compressão que excede amplamente as cargas residenciais típicas (dois montantes laterais em cantoneira L L 40×40×4), uma fileira de painéis pode confortavelmente suportar um segundo pavimento e telhado sem uma estrutura de aço independente. Uma viga de cintamento simples de madeira ou bambu no topo conecta os painéis e distribui a carga do telhado.
 
 **Duas configurações:**
 
@@ -74,33 +74,36 @@ O núcleo denso de argamassa proporciona boa atenuação sonora:
 
 | Componente | Peso |
 |------------|------|
-| Estrutura de aço (perfil T 30×30×3, 7 m total) | ~18 kg |
-| Argamassa (85 mm × 1,0 m × 2,5 m, densidade ~2.000 kg/m³) | ~120 kg |
-| Tiras de bambu + diagonais | ~10 kg |
-| Blocos de PEAD, arame, tela, eletroduto, cabos | ~7 kg |
-| **Peso total do painel** | **~155 kg** |
-| **Peso por m² de parede** | **~62 kg/m²** |
+| Estrutura de aço (cantoneira L 40×40×4, 7 m total a 2,42 kg/m + tiras de fixação + cartelas) | ~22 kg |
+| Argamassa do núcleo (cavidade ~0,147 m³, curada, densidade ~2 000 kg/m³) | ~294 kg |
+| Tiras de bambu + diagonais (~30 % cavidade) | ~38 kg |
+| Blocos de PEAD, arame, tela, eletroduto, cabos | ~6 kg |
+| Reboco de cal (10 mm em ambas as faces) | ~100 kg |
+| **Peso total do painel, mistura base** | **~460 kg** |
+| **Peso por m² de parede, base** | **~184 kg/m²** |
+| Peso total do painel, mistura bahareque otimizada (cal pozolânica + capim-estrela + reboco 5 mm) | ~380 kg |
+| Peso de envio da montagem a seco (estrutura + bambu + tela + instalações, antes do despejo) | ~75 kg |
 
-Para comparação: parede de bloco de concreto de 150 mm ≈ 180 kg/m². O sistema de painéis tem aproximadamente um terço do peso da alvenaria convencional por unidade de área.
+Para comparação: parede de bloco de concreto de 150 mm ≈ 180 kg/m². O sistema de painéis (mistura base) pesa aproximadamente o mesmo que a alvenaria convencional por unidade de área; a mistura bahareque otimizada é ~15 % mais leve. Crítico para a logística: o **peso de envio da montagem a seco (~75 kg)** é a forma em que o painel é transportado da oficina ao canteiro (a argamassa é despejada in loco).
 
 ### Carga Axial (Vertical)
 
-Cada painel possui dois perfis T laterais verticais que podem suportar cargas compressivas significativas:
+Cada painel possui dois montantes laterais verticais em cantoneira L que podem suportar cargas compressivas significativas:
 
 | Elemento | Seção transversal | Capacidade axial conservadora |
 |----------|-------------------|-------------------------------|
-| Perfil T lateral (30×30×3 mm) | A ≈ 171 mm² | ~20 kN por perfil T (a σ = 120 MPa, ~50% do escoamento) |
-| Dois perfis T laterais por painel | 2 × 171 mm² | ~40 kN por painel (~4.000 kg) |
+| Montante lateral em cantoneira L (L 40×40×4 mm) | A ≈ 304 mm² | ~36 kN por montante (a σ = 120 MPa, ~50 % do escoamento A36) |
+| Dois montantes laterais por painel | 2 × 304 mm² | ~72 kN por painel (~7 200 kg) |
 
-**O que 4.000 kg por painel significa na prática:**
+**O que isso significa na prática:**
 
-Uma casa típica de um pavimento com mezanino e telha cerâmica impõe aproximadamente 200–400 kg de carga por metro linear de parede (telhado + forro + piso do mezanino + carga viva). Um único painel de 1 m pode suportar **10–20× esse requisito**.
-
-Mesmo uma parede conservadora de 10 painéis (10 m) suporta 40.000 kg combinados — muito mais do que qualquer telhado e pavimento superior residencial realista. **Os painéis não precisam de uma estrutura de aço para suportar um segundo pavimento e telhado.**
+Uma casa típica de um pavimento com mezanino e telha cerâmica impõe aproximadamente 200–400 kg de carga por metro linear de parede (telhado + forro + piso do mezanino + carga viva). Um único painel de 1 m pode suportar **18–36× esse requisito**. **Os painéis não precisam de uma estrutura de aço separada para suportar um segundo pavimento e telhado.**
 
 Quando usados **com uma estrutura de aço**, essa capacidade axial é pura margem de reserva — o aço suporta as cargas gravitacionais. Quando usados **sem uma estrutura de aço**, os painéis são a estrutura portante. Nesse caso, uma viga de cintamento de madeira ou bambu no topo da parede distribui a carga do telhado uniformemente por todos os painéis e os amarra.
 
-A flambagem não é uma preocupação nesses níveis de carga: a espessura de parede de 85 mm de argamassa proporciona rigidez lateral substancial ao perfil T, e a relação altura/espessura do painel (~2.500/85 ≈ 29) está bem dentro dos limites de esbeltez aceitos para paredes armadas.
+A flambagem não é uma preocupação nesses níveis de carga **quando a cantoneira L está embebida no compósito do painel**: a espessura de parede de 85 mm de argamassa proporciona à estrutura angular rigidez lateral contínua. A relação altura/espessura do painel (~2 500/85 ≈ 29) está bem dentro dos limites de esbeltez aceitos para paredes armadas.
+
+**Importante: limitação do eixo fraco de perfis abertos.** Perfis estruturais abertos — cantoneiras L, perfis T, perfis C — têm rigidez mínima em torno de seu eixo fraco. Um montante L 40×40×4 independente sem contraventamento do painel (I_min ≈ 3,8 × 10⁴ mm⁴) flambaria sob carga modesta. A capacidade de 36 kN por cantoneira L acima é a **capacidade de escoamento axial** e SÓ é alcançável quando a cantoneira está continuamente contraventada pelo preenchimento do painel (argamassa + guadua). Para colunas independentes em edificações de múltiplos pavimentos, perfis abertos não são apropriados — usar tubo quadrado oco (SHS).
 
 ### Carga Lateral (No Plano / Esforço Cortante)
 
@@ -134,12 +137,12 @@ Esses são números muito conservadores. A matriz de argamassa, a grade de amarr
 
 O painel resiste à pressão perpendicular à face da parede (sucção/pressão de vento, impacto):
 
-- O arco de argamassa criado pelo perfil )( funciona como uma abóbada rasa entre os perfis T rígidos superior e inferior
+- O arco de argamassa criado pelo perfil )( funciona como uma abóbada rasa entre os cantoneiras L rígidos superior e inferior
 - Estimativa conservadora para pressão uniforme de vento, tratando o painel como uma laje simplesmente apoiada:
 
 | Parâmetro | Valor |
 |-----------|-------|
-| Vão do painel (entre perfis T superior/inferior) | 2,5 m |
+| Vão do painel (entre cantoneiras L superior/inferior) | 2,5 m |
 | Largura do painel | 1,0 m |
 | Espessura da argamassa (mínima, no centro) | ~55 mm |
 | Resistência à flexão da argamassa (conservadora) | 1,0 MPa |
@@ -156,10 +159,10 @@ A grade de tiras de bambu e as amarrações de arame proporcionam resistência a
 |-----------------|---------------------|------------------------|
 | Itens leves (quadros, relógios, ganchos de toalha) | Prego ou parafuso para alvenaria na argamassa | 5–10 kg por ancoragem |
 | Itens médios (prateleiras, espelhos, armários pequenos) | Bucha de expansão plástica na argamassa (6–8 mm) | 15–25 kg por ancoragem |
-| Itens pesados (armários de cozinha, aquecedor de água, suporte de TV) | Parafuso passante na alma do perfil T | 50–100 kg por ancoragem |
-| Itens muito pesados (estante, despensa cheia) | Múltiplos parafusos passantes no perfil T + placa de distribuição | 200+ kg por ponto de fixação |
+| Itens pesados (armários de cozinha, aquecedor de água, suporte de TV) | Parafuso passante na alma do cantoneira L | 50–100 kg por ancoragem |
+| Itens muito pesados (estante, despensa cheia) | Múltiplos parafusos passantes no cantoneira L + placa de distribuição | 200+ kg por ponto de fixação |
 
-**Dica:** A alma do perfil T está em uma posição conhecida (centro da espessura da parede). Um detector de metais ou ímã a localiza facilmente. O parafuso passante na alma proporciona ancoragem confiável e de alta capacidade comparável à estrutura de montantes de aço.
+**Dica:** A alma do cantoneira L está em uma posição conhecida (centro da espessura da parede). Um detector de metais ou ímã a localiza facilmente. O parafuso passante na alma proporciona ancoragem confiável e de alta capacidade comparável à estrutura de montantes de aço.
 
 ### Resumo — Capacidade Conservadora em kg por Painel
 
@@ -169,9 +172,9 @@ Para construtores e não-engenheiros, aqui estão os mesmos números expressos e
 |---------------|---------|-------------------------------------|--------------------------------|
 | **Esforço cortante (sismo/vento)** | Horizontal, no plano da parede | **~1.200–1.500 kg por painel** | Uma força horizontal de 1,2–1,5 toneladas aplicada no topo de um único painel antes de ser considerado no seu limite de trabalho. Uma casa típica de um pavimento precisa de ~600 kg de resistência ao esforço cortante por metro de parede — um painel fornece 2× isso. |
 | **Fora do plano (pressão de vento)** | Perpendicular à face da parede | **~90 kg distribuídos pela face do painel** | Equivalente a ~36 kg/m² de pressão uniforme. Uma pessoa se apoiando com força na parede (~80 kg em ~0,3 m²) está bem dentro da capacidade. |
-| **Axial (vertical)** | Para baixo, através do painel | **~4.000 kg por painel** | Os dois perfis T laterais suportam 4 toneladas — 10–20× mais do que um telhado + pavimento superior típico por metro de parede. Os painéis podem suportar um segundo pavimento e telhado sem estrutura de aço. |
+| **Axial (vertical)** | Para baixo, através do painel | **Excede amplamente as cargas residenciais (~7 200 kg de escoamento axial por painel em compósito)** | Os dois cantoneiras L laterais suportam muito mais do que um telhado + pavimento superior típico por metro de parede. Os painéis podem suportar um segundo pavimento e telhado sem estrutura de aço separada. |
 | **Carga pontual na argamassa** | Arrancamento / cisalhamento na ancoragem | **~15–25 kg por ancoragem** | Um suporte de prateleira com 2 ancoragens segura 30–50 kg com segurança. |
-| **Carga pontual no perfil T** | Parafuso passante | **~50–100 kg por parafuso** | Um armário de cozinha com 4 parafusos passantes segura 200–400 kg com segurança. |
+| **Carga pontual no cantoneira L** | Parafuso passante | **~50–100 kg por parafuso** | Um armário de cozinha com 4 parafusos passantes segura 200–400 kg com segurança. |
 
 > **Importante:** Estas são estimativas, não valores testados. Serão validadas através de testes físicos. Não utilize para engenharia estrutural sem verificação independente. Em caso de dúvida, fixe itens pesados na estrutura metálica da edificação, não no painel.
 
@@ -210,6 +213,6 @@ Programa de testes planejado:
 - [ ] **Testes de conexão** — capacidade da aba de fixação painel-pilar, durabilidade dos conectores rápidos
 - [ ] **Testes de intemperismo de longo prazo** — envelhecimento acelerado de amostras de bambu encapsulado em argamassa
 - [ ] **Testes de transmissão acústica** (ASTM E90) — medição de STC
-- [ ] **Testes de arrancamento de carga pontual** — capacidade de ancoragem em alvenaria e parafuso passante na argamassa + perfil T
+- [ ] **Testes de arrancamento de carga pontual** — capacidade de ancoragem em alvenaria e parafuso passante na argamassa + cantoneira L
 
 Os resultados dos testes serão publicados neste repositório à medida que ficarem disponíveis. Se você tem acesso a instalações de teste e quer contribuir, entre em contato — testes colaborativos com diferentes espécies de bambu e traços de argamassa tornarão este sistema mais forte para todos.

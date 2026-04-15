@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 980" style="background:#ffffff">
   <rect width="100%" height="100%" fill="white"/>
   <text x="15" y="18" font-size="12" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Side Profile</text>
-  <text x="15" y="30" font-size="7" fill="#999" font-family="Helvetica,Arial,sans-serif">not to scale</text>
-  <text x="15" y="18" font-size="12" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Side Profile</text>
   <text x="15" y="32" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">Cross-section through wall depth (not to scale)</text>
 
   <text x="190" y="58" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">EXT</text>
@@ -189,7 +187,6 @@
   <line x1="165" y1="870" x2="175" y2="870" stroke="#333" stroke-width="0.5"/>
   <text x="158" y="470" text-anchor="end" font-size="8" fill="#333" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,158,470)">2.5 m panel height</text>
   <g transform="translate(470, 0) scale(1, 1.0667)">
-    <text x="15" y="15" font-size="11" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Face View</text>
     <text x="15" y="18" font-size="12" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Face View</text>
   <text x="15" y="32" font-size="8" fill="#888" font-family="Helvetica,Arial,sans-serif">Front side, 1.0 m × 2.5 m</text>
 

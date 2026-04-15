@@ -7,7 +7,7 @@
 
   <!-- FLANGE (mortar face) -->
   <rect x="235" y="70" width="90" height="10" fill="#c0392b" stroke="#911" stroke-width="1"/>
-  <text x="280" y="62" text-anchor="middle" font-size="8" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">Flange (30 mm) — mortar face</text>
+  <text x="280" y="62" text-anchor="middle" font-size="8" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">Flange (60 mm) — mortar face</text>
 
   <!-- WEB with drilled holes -->
   <rect x="276" y="80" width="9" height="180" fill="#c0392b" stroke="#911" stroke-width="1"/>

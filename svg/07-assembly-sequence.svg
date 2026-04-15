@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" style="background:#ffffff">
+  <rect width="100%" height="100%" fill="white"/>
   <text x="350" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Assembly Sequence</text>
   <text x="350" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">4 production stages · Each panel follows the same process</text>
 
@@ -7,7 +8,7 @@
     <rect x="10" y="10" width="100" height="200" fill="none" stroke="#c0392b" stroke-width="2.5" rx="1"/>
     <text x="60" y="6" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">1</text>
     <text x="60" y="228" text-anchor="middle" font-size="7" fill="#555" font-family="Helvetica,Arial,sans-serif">Frame</text>
-    <text x="60" y="240" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">T-bar welded + galvanized</text>
+    <text x="60" y="240" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">T 60×60 welded + galvanized</text>
     <text x="60" y="250" text-anchor="middle" font-size="6" fill="#888" font-family="Helvetica,Arial,sans-serif">Holes drilled</text>
   </g>
 

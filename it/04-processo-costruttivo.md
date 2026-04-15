@@ -1,5 +1,7 @@
 # Processo Costruttivo
 
+> **Aggiornamento SVG in sospeso:** alcuni diagrammi di questo capitolo sono stati generati per la precedente specifica del telaio in profilo a T e sono stati temporaneamente scollegati in attesa di rigenerazione per l'attuale specifica di **angolare L 40×40×4 mm**. Vedere [`SVG-STATUS.md`](../SVG-STATUS.md) nella radice del repository.
+
 ## Allestimento del Laboratorio
 
 Tutti i pannelli vengono costruiti in un laboratorio coperto — indipendente dalle condizioni meteorologiche, a qualità controllata, efficiente come una catena di montaggio. Requisiti minimi del laboratorio:
@@ -18,9 +20,9 @@ Tutti i pannelli vengono costruiti in un laboratorio coperto — indipendente da
 
 ### Fase 1: Fabbricazione del Telaio
 
-1. Tagliare il profilo a T a misura: 2× 1,0 m (superiore/inferiore, anima 85 mm) + 2× 2,5 m (laterali, anima 30 mm)
-2. Saldare gli angoli in una dima — tutti i telai identici
-3. Forare i fori di serraggio ogni ~70 mm lungo le anime superiore e inferiore del profilo a T (uno ogni due listelli di bambù, ~14 fori per barra, ~28 totali)
+1. Tagliare l'angolare L 40×40×4 a misura: 2× 1,0 m (superiore/inferiore) + 2× 2,5 m (laterali). Stock commerciale, barre da 6 m
+2. Tagliare gli angoli a 45° (oppure tagliare diritti con un'ala sovrapposta all'altra). Saldare in dima — tutti i telai identici. Cartelle d'angolo opzionali per rigidità in fase di movimentazione
+3. Forare i fori di serraggio ogni ~70 mm lungo le anime superiore e inferiore dell'angolare (uno ogni due listelli di bambù, ~14 fori per barra, ~28 totali)
 4. Zincare a caldo il telaio completato (processo a lotti — inviare 20–50 telai alla volta)
 
 **Tutti i telai sono identici indipendentemente dalla variante del pannello.** La dima garantisce dimensioni costanti. Una dima, un telaio, per sempre.
@@ -29,7 +31,7 @@ Tutti i pannelli vengono costruiti in un laboratorio coperto — indipendente da
 
 1. Tagliare il materiale HDPE a 30 × 30 mm × 1.000 mm (2 per pannello)
 2. Tagliare gli intagli angolari: 10 × 10 mm ad ogni estremità (4 intagli per blocco, 8 per pannello)
-3. Montare i blocchi sulle anime dei profili a T superiore e inferiore con viti o adesivo
+3. Montare i blocchi sulle anime degli angolari L superiore e inferiore con viti o adesivo
 
 ### Fase 3: Impianto Elettrico
 
@@ -54,11 +56,11 @@ Tutti i pannelli vengono costruiti in un laboratorio coperto — indipendente da
 
 ### Fase 5: Serraggio a Vite (Lato 1)
 
-1. Posizionare la barra di serraggio in acciaio (2 mm × 30 mm × 1.000 mm) sui listelli di bambù al profilo a T superiore
-2. Allineare i fori della barra di serraggio con i fori nell'anima del profilo a T
+1. Posizionare la barra di serraggio in acciaio (2 mm × 30 mm × 1.000 mm) sui listelli di bambù al angolare L superiore
+2. Allineare i fori della barra di serraggio con i fori nell'anima del angolare L
 3. Avvitare le viti in acciaio inossidabile attraverso: barra di serraggio → listelli di bambù → fori dell'anima
 4. La barra di serraggio si flette per adattarsi alla variazione naturale di spessore — autoregolante
-5. Ripetere al profilo a T inferiore
+5. Ripetere al angolare L inferiore
 6. Legare con filo la diagonale ad ogni listello verticale agli incroci (~8–10 legature)
 
 **Tempo: ~5 minuti per lato per il serraggio, ~3 minuti per le legature in filo**

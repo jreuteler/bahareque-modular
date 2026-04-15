@@ -5,29 +5,52 @@
 | Propiedad | Valor |
 |-----------|-------|
 | Dimensiones | 1,0 m × 2,5 m × 85 mm |
-| Peso | ~155 kg |
+| Peso del montaje en seco (tal como se envía a obra) | **~75 kg** |
+| Peso del panel terminado (mezcla base, después de vertido in situ + curado + pañete) | ~440 kg |
+| Peso del panel terminado (mezcla bahareque optimizada) | ~360 kg |
 | Centro de gravedad | Centro (construcción simétrica) |
-| Áreas frágiles | Esquinas, bordes (el mortero puede astillarse con impacto) |
-| Curado mínimo antes de manipular | 7 días |
-| Curado mínimo antes de instalación | 14 días recomendado |
+| Áreas frágiles | Esquinas, bordes (el mortero puede astillarse con impacto una vez vertido) |
+| Curado mínimo antes de manipular | 7 días después del vertido in situ |
+| Curado mínimo antes de instalación | 14 días recomendado — nota: en el modelo de vertido in situ el panel se erige y el mortero se vierte en el lugar, así que "instalación" y "vertido" ocurren juntos en obra, no secuencialmente |
 
-## Transporte Manual
+## Modelo de Producción Primario: Vertido In Situ
 
-Un panel de 155 kg requiere **3–4 personas** usando una plantilla de carga:
+**El modelo de producción primario es enviar el montaje en seco (~75 kg) a la obra y verter el mortero in situ contra encofrado.** El panel terminado de ~440 kg nunca se mueve como unidad — se convierte directamente en parte del muro de la edificación, ahorrando costos de equipos de izaje pesado y eliminando el riesgo de fisuración por transporte. Ver [Proceso Constructivo](04-proceso-constructivo.md) para el protocolo de vertido vertical in situ.
 
-### Plantilla de Carga Sencilla
+El manejo de paneles curados (secciones siguientes) aplica al modelo de producción alternativo: vertido del mortero en taller sobre mesa vibradora, con paneles totalmente curados enviados a obra como elementos terminados. Este enfoque se conserva como opción documentada para constructores que prefieren producción en taller, pero añade un sobrecoste significativo de izaje, transporte y tasa de rechazo.
+
+## Transporte Manual — Montaje en Seco (~75 kg)
+
+El montaje en seco (marco de acero ángulo L + esterilla de bambú + malla + instalaciones, antes del mortero) lo levantan y posicionan **2 personas con una simple correa de cinta**. Sin plantilla de carga, sin grúa, sin montacarga — esta es una de las ventajas operativas centrales del modelo de producción de vertido in situ.
+
+### Carga sencilla con correa (montaje en seco)
+
+1. Enrollar una sola correa de 50 mm × capacidad 500+ kg alrededor del panel seco a media altura (~125 cm desde la base)
+2. Cada cargador agarra un extremo de la correa con ambas manos, parados en lados largos opuestos del panel
+3. Levantar juntos; el panel cuelga verticalmente entre ellos
+4. Caminar a paso normal; el panel puede llevarse 30–50 m antes de necesitar un descanso
+
+**Peso por persona: ~38 kg** — completamente manejable para los acarreos cortos típicos de taller-a-camión, camión-a-acopio-en-obra y acopio-a-instalación.
+
+## Transporte Manual — Panel Terminado Curado (modelo alternativo de vertido en taller)
+
+Un panel terminado de ~360–440 kg **no puede llevarse a mano**. Requiere izaje mecánico (polipasto de cadena, minicargador o pequeña grúa móvil). Esta es la razón central por la que se prefiere el modelo de vertido in situ.
+
+Si los paneles vertidos en taller deben moverse (p. ej. producción en fase piloto antes de validar el protocolo in situ), use:
+
+### Plantilla de Carga Sencilla (panel curado, ~360–440 kg)
 
 Dos varas de bambú (3 m de largo, 8–10 cm de diámetro) pasadas a través de lazos de cinta de carga pesada enrollados alrededor del panel a 1/4 y 3/4 de la altura:
 
 1. Colocar el panel plano
-2. Enrollar dos cintas de carga (50 mm de ancho, capacidad 500+ kg) alrededor del panel a ~60 cm y ~190 cm desde la base
+2. Enrollar dos cintas de carga (50 mm de ancho, capacidad 1 000+ kg) alrededor del panel a ~60 cm y ~190 cm desde la base
 3. Pasar una vara de bambú por los lazos de las cintas a cada lado
-4. Dos personas por vara, levantar desde los extremos
+4. **4 personas por vara, 8 cargadores en total** para un panel de mezcla base a ~440 kg, o 6 cargadores para un panel de mezcla optimizada a ~360 kg
 5. El panel queda colgando verticalmente entre las varas
 
-**Peso por persona: ~40 kg** — manejable para distancias cortas (taller al camión, camión al sitio).
+**Peso por persona: ~55 kg (base) / ~45 kg (optimizada)** — al borde superior del manejo manual seguro. Distancias largas o escaleras deben usar izaje mecánico en su lugar.
 
-Para transportes más largos (>50 m), agregar una tercera vara con una cinta central para 6 cargadores (~26 kg cada uno).
+Para cualquier flujo de producción rutinario, **use montacarga, minicargador o polipasto de cadena en lugar del transporte manual** para paneles curados. El transporte manual de paneles curados es solo una opción para emergencias/piloto.
 
 ### Levantamiento e Inclinación
 
@@ -76,7 +99,7 @@ Después del curado, los paneles se almacenan **verticalmente (de canto)** en un
 Para edificaciones de dos pisos, los paneles deben levantarse al segundo piso:
 
 - **Poste de carga simple:** Una vara de bambú o acero con cuerda y polea. Dos personas jalan la cuerda, una guía el panel. Funciona para volúmenes bajos.
-- **Polipasto de cadena en viga:** Fijar un polipasto de cadena de 500 kg a la viga de acero de la edificación. Enganchar a la cinta de carga del panel. Una persona opera, una guía. Rápido y controlado.
+- **Polipasto de cadena en viga:** Fijar un polipasto de cadena de **1 000 kg** a la viga de acero de la edificación (los polipastos de 500 kg son insuficientes para izajes de paneles curados). Enganchar a la cinta de carga del panel. Una persona opera, una guía. Rápido y controlado. Para izajes del montaje en seco (~75 kg) basta un polipasto de 500 kg.
 - **Montacarga (si está disponible):** Horquilla debajo del panel (protegido con cartón). Levantar y colocar directamente en posición.
 
 **No lance, ruede ni arrastre los paneles.** El mortero es fuerte en compresión pero puede agrietarse con impacto puntual.

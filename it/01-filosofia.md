@@ -83,7 +83,7 @@ Questo sistema di pannelli risolve il compromesso tra edilizia tradizionale e mo
 
 **Tradizionale dove si vede.** La superficie esterna è intonaco di calce su bambù e malta — gli stessi materiali usati nel bahareque, nella quincha, nel graticcio e fango e nel tsuchikabe da secoli. La texture è artigianale. La superficie respira. L'edificio appartiene al suo luogo.
 
-**Moderno dove conta.** All'interno di ogni pannello c'è un telaio in profilo a T di acciaio zincato a caldo, ingegnerizzato per carichi sismici. Questo telaio è invisibile una volta che il pannello è finito. Porta la realtà strutturale mentre i materiali tradizionali portano l'esperienza umana.
+**Moderno dove conta.** All'interno di ogni pannello c'è un telaio in angolare L di acciaio zincato a caldo, ingegnerizzato per carichi sismici. Questo telaio è invisibile una volta che il pannello è finito. Porta la realtà strutturale mentre i materiali tradizionali portano l'esperienza umana.
 
 ## Integrazione con la Permacultura
 
@@ -143,13 +143,13 @@ Questo progetto non esiste nel vuoto. Diversi sistemi hanno esplorato costruzion
 
 Il lavoro accademico più citato sul bahareque moderno. La [Guida alla Progettazione per l'Edilizia in Bahareque Ingegnerizzato](https://www.researchgate.net/publication/311583390_Design_Guide_for_Engineered_Bahareque_Housing) di Kaminski (pubblicata con INBAR e Fundación Redes) fornisce le basi ingegneristiche strutturali per le pareti in bahareque cementato — scheletro in guadua con tamponamento in stuoie di bambù, rinforzo in rete metallica e intonaco di malta cementizia. Il suo lavoro è alla base del codice edilizio colombiano NSR-10 per il bahareque encementado (Capitolo G-1). Oltre 4.000 abitazioni costruite in Colombia, Costa Rica, Nepal, Ecuador, Perù, Messico, El Salvador e Filippine.
 
-**Come si differenzia questo sistema:** L'approccio di Kaminski è una costruzione in opera — le pareti vengono costruite in cantiere da artigiani qualificati, uno strato alla volta. La finitura dipende fortemente dalla maestria artigianale. Il nostro sistema industrializza questo in pannelli prefabbricati standardizzati: telaio in profilo a T di acciaio (non legno/bambù), listelli serrati a vite (non stuoie inchiodate), getto di malta su tavolo vibrante (non applicazione a cazzuola in cantiere) e impianto elettrico integrato con connessione a scatto. L'obiettivo è una qualità costante alla velocità della produzione comunitaria, con una superficie di parete finita adatta a edifici residenziali e commerciali.
+**Come si differenzia questo sistema:** L'approccio di Kaminski è una costruzione in opera — le pareti vengono costruite in cantiere da artigiani qualificati, uno strato alla volta. La finitura dipende fortemente dalla maestria artigianale. Il nostro sistema industrializza questo in pannelli prefabbricati standardizzati: telaio in angolare L di acciaio (non legno/bambù), listelli serrati a vite (non stuoie inchiodate), getto verticale di malta in-situ contro cassero (non applicazione a cazzuola in cantiere) e impianto elettrico integrato con connessione a scatto. L'obiettivo è una qualità costante alla velocità della produzione comunitaria, con una superficie di parete finita adatta a edifici residenziali e commerciali.
 
 ### Cement Bamboo Frame Technology (CBFT) — BASE Bahay / Fondazione Hilti
 
 Il sistema costruttivo in bambù più diffuso al mondo: oltre 2.400 unità abitative costruite nelle Filippine, Nepal, India e Sri Lanka. Il CBFT utilizza telai in bambù trattato con connessioni metalliche, tamponamento in bambù appiattito (esterilla), rete metallica e malta cementizia. I pannelli sono prefabbricati in laboratorio. Progettato per venti di tifone fino a 300 km/h e terremoti fino a magnitudo 7–8. Durata di progetto: ~60 anni. Formazione fornita attraverso la Bamboo Academy.
 
-**Come si differenzia questo sistema:** Il CBFT utilizza bambù/legno come struttura del telaio. Il nostro sistema utilizza profili a T di acciaio zincato — garantendo una maggiore capacità assiale, una durata più lunga con protezione dalla corrosione (80–100 anni contro 60) e una superficie di serraggio uniforme per il sistema a vite. Il CBFT non include impianto elettrico integrato. Il CBFT è proprietario (accesso basato su formazione); il nostro sistema è hardware aperto.
+**Come si differenzia questo sistema:** Il CBFT utilizza bambù/legno come struttura del telaio. Il nostro sistema utilizza angolari L di acciaio zincato — garantendo una maggiore capacità assiale, una durata più lunga con protezione dalla corrosione (80–100 anni contro 60) e una superficie di serraggio uniforme per il sistema a vite. Il CBFT non include impianto elettrico integrato. Il CBFT è proprietario (accesso basato su formazione); il nostro sistema è hardware aperto.
 
 - [BASE Bahay — Fondazione Hilti](https://www.hiltifoundation.org/basebahaybamboo)
 - [BASE Builds](https://base-builds.com/tag/cement-bamboo-frame-technology-2/)
@@ -158,7 +158,7 @@ Il sistema costruttivo in bambù più diffuso al mondo: oltre 2.400 unità abita
 
 Ricerche recenti da università cinesi hanno testato pareti in malta composita spruzzata con montanti originali in bambù e **controventi diagonali in bambù** — strutturalmente la corrispondenza più vicina al concetto di controventatura diagonale del nostro pannello. Test di carico ciclico quasi-statico hanno mostrato buona dissipazione di energia e comportamento a rottura duttile con listelli diagonali. La malta viene spruzzata anziché gettata su tavolo vibrante, e non c'è telaio in acciaio.
 
-**Come si differenzia questo sistema:** Il nostro getto su tavolo vibrante ottiene un riempimento di malta più completo (zero vuoti) senza attrezzature di spruzzatura. Il telaio in profilo a T di acciaio aggiunge capacità di carico assiale e fornisce una superficie di serraggio standardizzata. Tuttavia, la ricerca cinese fornisce la migliore validazione pubblicata che la controventatura diagonale in bambù in composito di malta funziona strutturalmente — costruiamo su questa evidenza.
+**Come si differenzia questo sistema:** Il nostro getto verticale in-situ (o, in alternativa, getto su tavolo vibrante in officina) ottiene un riempimento di malta più completo (zero vuoti) senza attrezzature di spruzzatura. Il telaio in angolare L di acciaio aggiunge capacità di carico assiale e fornisce una superficie di serraggio standardizzata. Tuttavia, la ricerca cinese fornisce la migliore validazione pubblicata che la controventatura diagonale in bambù in composito di malta funziona strutturalmente — costruiamo su questa evidenza.
 
 - [Studio sismico sui listelli diagonali di bambù (ScienceDirect)](https://www.sciencedirect.com/science/article/abs/pii/S2352710223020090)
 
@@ -202,7 +202,7 @@ Per chiarezza, le seguenti caratteristiche **non hanno equivalenti documentati**
 
 | Caratteristica | Stato |
 |----------------|-------|
-| Telaio in profilo a T di acciaio zincato per pannelli in bambù | Innovativo |
+| Telaio in angolare L di acciaio zincato per pannelli in bambù (profilo commerciale di stock) | Innovativo |
 | Sistema di serraggio a vite (autoregolante per variazioni di spessore) | Innovativo |
 | Getto di malta su tavolo vibrante su letto di sabbia | Innovativo |
 | Impianto elettrico integrato 12V + 120V con connessione a scatto | Innovativo |

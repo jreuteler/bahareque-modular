@@ -2,42 +2,75 @@
 
 > **Aviso:** Estas são estimativas apenas de custo de materiais, baseadas em preços de 2025 na Colômbia (região do Eje Cafetero). A mão de obra não está incluída — o sistema é projetado para produção comunitária onde a mão de obra é contribuída, não comprada. Os preços variam significativamente por região, moeda e cadeia de suprimentos. Use estas como ponto de partida, não como orçamento.
 
-## Custo por Painel (apenas materiais)
+Neste projeto são documentadas duas especificações de mistura de argamassa: a **mistura base** (argamassa cimento-areia + 30 % de guadua + reboco de cal de 10 mm em ambas as faces) e a **mistura bahareque otimizada** (cal pozolânica + fibras de capim-estrela + 30 % de guadua + reboco de cal de 5 mm).
+
+## Custo por Painel — mistura base (apenas materiais)
 
 | Material | Especificação | Qtd por painel | Custo unitário (USD) | Total (USD) |
 |----------|---------------|----------------|---------------------|-------------|
-| Perfil T de aço | 30×30×3 mm, galvanizado | 7,0 m | $2,50/m | $17,50 |
-| Galvanização | A quente, processo em lote | 1 estrutura | $3,00 | $3,00 |
-| Tiras de fixação | Aço plano 2 mm, galv. | 4,0 m | $1,00/m | $4,00 |
+| Cantoneira L de aço | L 40×40×4 mm, ASTM A36 | 7,0 m | $4,00/m | $28,00 |
+| Galvanização | A quente, processo em lote | 1 estrutura | $2,00 | $2,00 |
+| Tiras de fixação | Chato 40×3 mm, galv. | 4,0 m | $1,00/m | $4,00 |
+| Cartelas de canto + parafusos | Chato + M12/M8 | 1 conj. | $3,00 | $3,00 |
 | Parafusos inox | Autoperfurantes, A2 | 40 pçs | $0,08 | $3,20 |
 | Blocos de PEAD | Reciclado, 30×30 mm | 2,0 m | $1,50/m | $3,00 |
-| Tiras de bambu (verticais) | Guadua tratada com borato | ~135 m total | $0,05/m | $6,75 |
-| Tira de bambu (diagonal) | 60×20 mm, tratada | 5,4 m | $0,30/m | $1,60 |
+| Tiras de bambu (verticais + horizontais, 30 % densidade de cavidade) | Guadua tratada com borato | ~400 m total | $0,05/m | $20,00 |
+| Tiras de bambu (diagonais) | 60×20 mm, tratada | ~5,4 m | $0,30/m | $1,60 |
 | Amarrações de arame | Galvanizado | 5 m | $0,10/m | $0,50 |
 | Eletroduto de PVC | 16 mm elétrico | 5 m | $0,30/m | $1,50 |
 | Cabo 12V + soquetes | 2 condutores + 6× E10 | 1 conj. | $3,00 | $3,00 |
 | Cabo 120V + conectores | 3 condutores + conectores rápidos | 1 conj. | $4,00 | $4,00 |
 | Tela de galinheiro | Hexagonal galv., 25 mm | 5,5 m² | $0,80/m² | $4,40 |
-| Cimento | Portland Tipo I | ~25 kg | $0,15/kg | $3,75 |
-| Areia | Areia de rio limpa | ~100 kg | $0,02/kg | $2,00 |
+| Cimento | Portland Tipo I | ~54 kg | $0,15/kg | $8,10 |
+| Areia (argamassa) | Areia de rio limpa | ~240 kg | $0,02/kg | $4,80 |
 | Fibra de PP | Picada 6–12 mm | 200 g | $5,00/kg | $1,00 |
 | Aditivo pozolânico | Cinza vulcânica ou CCA | 2 kg | $0,50/kg | $1,00 |
-| **Subtotal do painel** | | | | **$60–65** |
+| **Subtotal do painel — base** | | | | **~$93** |
 
-### Acabamento no local (por área de painel)
+### Acabamento no local, base (por área de painel)
 
 | Material | Qtd por painel | Custo (USD) |
 |----------|----------------|-------------|
-| Reboco de cal (ambas as faces) | ~15 kg cal + 40 kg areia | $4,00 |
+| Reboco de cal (10 mm em cada face) | ~25 kg cal + ~65 kg areia | $6,50 |
 | Caiação (ambas as faces) | ~2 kg cal | $0,50 |
-| **Subtotal acabamento** | | **$4,50** |
+| **Subtotal acabamento — base** | | **$7,00** |
 
-### **Custo total de material por painel: ~$65–70 USD**
+### **Custo total de material por painel — base: ~$100 USD**
 
-### Custo por m² de parede acabada
+### Custo por m² de parede acabada — base
 
 - Área do painel: 1,0 m × 2,5 m = 2,5 m²
-- Custo de material por m²: **~$26–28 USD/m²**
+- Custo de material por m²: **~$40 USD/m²**
+
+## Custo por Painel — mistura bahareque otimizada (apenas materiais)
+
+A mistura otimizada substitui a argamassa de cimento Portland-areia por cal hidráulica + pozolana, substitui a fibra de PP por capim-estrela (grátis, coletado in loco) e usa reboco de cal mais fino de 5 mm. Mesma estrutura em cantoneira L, mesmo conteúdo de bambu, mesmos componentes elétricos e estruturais.
+
+| Material | Especificação | Qtd por painel | Custo unitário (USD) | Total (USD) |
+|----------|---------------|----------------|---------------------|-------------|
+| Cantoneira L de aço + galvanização + tiras de fixação + cartelas | (igual à base) | | | $37,20 |
+| Parafusos inox, PEAD, bambu, arames, eletroduto, cabos, tela | (igual à base) | | | $41,20 |
+| Cal hidráulica (aglomerante principal) | NHL 3.5 ou NHL 5 | ~42 kg | $0,30/kg | $12,60 |
+| Cinzas volantes ou cinza de casca de arroz (pozolana, 30 % equivalente cimento) | FA ou CCA | ~15 kg | $0,10/kg | $1,50 |
+| Areia (argamassa) | Areia de rio limpa | ~200 kg | $0,02/kg | $4,00 |
+| Fibra de capim-estrela (seca) | Coletada in loco | ~3 kg | grátis | $0,00 |
+| **Subtotal do painel — otimizado** | | | | **~$96** |
+
+### Acabamento no local, otimizado (por área de painel)
+
+| Material | Qtd por painel | Custo (USD) |
+|----------|----------------|-------------|
+| Reboco de cal (5 mm em cada face) | ~12 kg cal + ~33 kg areia | $3,30 |
+| Caiação (ambas as faces) | ~2 kg cal | $0,50 |
+| **Subtotal acabamento — otimizado** | | **$3,80** |
+
+### **Custo total de material por painel — otimizado: ~$100 USD**
+
+### Custo por m² de parede acabada — otimizado
+
+- Custo de material por m²: **~$40 USD/m²**
+
+> **As duas misturas custam aproximadamente o mesmo em materiais** (~$100/painel, ~$40/m²). A mistura otimizada troca um custo de ingredientes cal/pozolana ligeiramente mais alto (vs. cimento Portland mais barato) por menor custo de reboco de cal (mais fino), zero custo de fibra de PP, e CO₂ incorporado substancialmente menor (ver [Impacto Ambiental](10-impacto-ambiental.md)). A mistura otimizada é, portanto, **um claro ganho em carbono e autenticidade patrimonial a custo praticamente igual**.
 
 ## Comparação com Construção Convencional
 

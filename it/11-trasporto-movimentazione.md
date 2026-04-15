@@ -5,29 +5,50 @@
 | Proprietà | Valore |
 |-----------|--------|
 | Dimensioni | 1,0 m × 2,5 m × 85 mm |
-| Peso | ~155 kg |
+| Peso dell'assemblaggio a secco (così come spedito in cantiere) | **~75 kg** |
+| Peso del pannello finito (miscela base, dopo getto in opera + stagionatura + intonaco) | ~440 kg |
+| Peso del pannello finito (miscela bahareque ottimizzata) | ~360 kg |
 | Baricentro | Centro (costruzione simmetrica) |
-| Zone fragili | Angoli, bordi (la malta può scheggiarsi in caso di impatto) |
-| Stagionatura minima prima della movimentazione | 7 giorni |
-| Stagionatura minima prima dell'installazione | 14 giorni raccomandati |
+| Zone fragili | Angoli, bordi (la malta può scheggiarsi una volta gettata in caso di impatto) |
+| Stagionatura minima prima della movimentazione | 7 giorni dopo il getto in opera |
+| Stagionatura minima prima dell'installazione | 14 giorni raccomandati — nota: nel modello di getto in opera il pannello è eretto e la malta gettata sul posto, quindi «installazione» e «getto» avvengono insieme in cantiere |
 
-## Trasporto a Mano
+## Modello di Produzione Primario: Getto in Opera
 
-Un pannello da 155 kg richiede **3–4 persone** con una dima di trasporto:
+**Il modello di produzione primario consiste nello spedire l'assemblaggio a secco (~75 kg) in cantiere e gettare la malta in opera contro casseforme.** Il pannello finito da ~440 kg non viene mai spostato come unità — diventa direttamente parte della parete dell'edificio, risparmiando i costi di mezzi di sollevamento pesanti ed eliminando il rischio di fessurazione da trasporto. Vedere [Processo Costruttivo](04-processo-costruttivo.md) per il protocollo di getto verticale in opera.
 
-### Dima di Trasporto Semplice
+La movimentazione di pannelli stagionati (sezioni seguenti) si applica al modello alternativo: getto della malta in laboratorio su tavolo vibrante, con pannelli totalmente stagionati spediti in cantiere come elementi finiti. Quest'approccio è mantenuto come opzione documentata per chi preferisce la produzione in laboratorio, ma aggiunge significativi costi di sollevamento, trasporto e tasso di scarto.
+
+## Trasporto a Mano — assemblaggio a secco (~75 kg)
+
+L'assemblaggio a secco (telaio acciaio angolare L + esterilla di bambù + rete + impianti, prima della malta) viene sollevato e posizionato da **2 persone con una semplice cinghia**. Nessuna dima di trasporto, nessuna gru, nessun muletto necessario — è uno dei vantaggi operativi centrali del modello di produzione con getto in opera.
+
+### Cinghia singola (assemblaggio a secco)
+
+1. Avvolgere una singola cinghia (50 mm × portata 500+ kg) attorno al pannello a metà altezza (~125 cm dal basso)
+2. Ogni portatore afferra un'estremità della cinghia con entrambe le mani, sui lati lunghi opposti del pannello
+3. Sollevare insieme; il pannello pende verticalmente tra loro
+4. Camminare a passo normale; il pannello può essere portato 30–50 m prima di una pausa
+
+**Peso per persona: ~38 kg** — completamente gestibile per i trasporti brevi tipici del laboratorio-camion, camion-deposito-cantiere e deposito-installazione.
+
+## Trasporto a Mano — pannello finito stagionato (modello laboratorio alternativo)
+
+Un pannello finito a ~360–440 kg **non può essere portato a mano**. Richiede sollevamento meccanico (paranco a catena, mini-pala o piccola gru mobile). Questo è il motivo principale per cui il modello di getto in opera è preferito.
+
+Se i pannelli gettati in laboratorio devono essere spostati (ad es. produzione in fase pilota prima della validazione del protocollo in opera), usare:
+
+### Dima di Trasporto (pannello stagionato, ~360–440 kg)
 
 Due pali di bambù (3 m di lunghezza, 8–10 cm di diametro) infilati in asole di cinghia pesante avvolte attorno al pannello a 1/4 e 3/4 dell'altezza:
 
 1. Stendere il pannello in piano
-2. Avvolgere due cinghie (50 mm di larghezza, portata 500+ kg) attorno al pannello a ~60 cm e ~190 cm dal basso
+2. Avvolgere due cinghie (50 mm di larghezza, portata 1 000+ kg) attorno al pannello a ~60 cm e ~190 cm dal basso
 3. Infilare un palo di bambù nelle due asole delle cinghie su ogni lato
-4. Due persone per palo, sollevare dalle estremità
+4. **4 persone per palo, 8 portatori in totale** per un pannello miscela base a ~440 kg, oppure 6 portatori per un pannello miscela ottimizzata a ~360 kg
 5. Il pannello pende verticalmente tra i pali
 
-**Peso per persona: ~40 kg** — gestibile per brevi distanze (dal laboratorio al camion, dal camion al cantiere).
-
-Per trasporti più lunghi (>50 m), aggiungere un terzo palo con cinghia centrale per 6 portatori (~26 kg ciascuno).
+**Peso per persona: ~55 kg (base) / ~45 kg (ottimizzato)** — al limite superiore della movimentazione manuale sicura. Per lunghe distanze o scale, usare invece sollevamento meccanico.
 
 ### Sollevamento e Ribaltamento
 

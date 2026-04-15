@@ -1,5 +1,7 @@
 # Bauprozess
 
+> **SVG-Aktualisierung ausstehend:** Einige Diagramme in diesem Kapitel wurden für die frühere T-Profil-Rahmenspezifikation erzeugt und sind vorübergehend entkoppelt, bis sie für die aktuelle **L 40×40×4 mm Winkel**-Spezifikation neu erzeugt sind. Siehe [`SVG-STATUS.md`](../SVG-STATUS.md) im Repository-Stammverzeichnis.
+
 ## Werkstatteinrichtung
 
 Alle Paneele werden in einer überdachten Werkstatt gebaut — wetterunabhängig, qualitätskontrolliert, fliessbandeffizient. Mindestanforderungen an die Werkstatt:
@@ -7,7 +9,7 @@ Alle Paneele werden in einer überdachten Werkstatt gebaut — wetterunabhängig
 - Überdachte Fläche: ~6 × 4 m (Dach, offene Seiten akzeptabel)
 - Schweissstation (nur für Rahmenfertigung)
 - Ständerbohrmaschine oder Handbohrmaschine
-- 2× Rütteltische (~1,2 × 2,7 m pro Stück)
+- 2× Rütteltische (~1,2 × 2,7 m pro Stück) für das Werkstatt-Verguss-Produktionsmodell, **oder** Schalung + Vor-Ort-Mörtelpumpe für das bevorzugte Vor-Ort-Verguss-Modell (siehe [Paneelaufbau § Gewichtsaufschlüsselung](02-paneel-aufbau.md))
 - Sandvorrat für Bett
 - Mörtelmischer (elektrisch oder von Hand)
 - Einfaches Handwerkzeug: Schraubenzieher, Drahtschneider, Zangen, Klammergerät
@@ -18,10 +20,13 @@ Alle Paneele werden in einer überdachten Werkstatt gebaut — wetterunabhängig
 
 ### Schritt 1: Rahmenfertigung
 
-1. T-bar auf Länge schneiden: 2× 1,0 m (oben/unten, 85 mm Steg) + 2× 2,5 m (Seiten, 30 mm Steg)
-2. Ecken in einer Lehre schweissen — alle Rahmen identisch
-3. Klemmlöcher alle ~70 mm entlang der oberen und unteren T-bar-Stege bohren (eines pro zwei Bambusstreifen, ~14 Löcher pro Leiste, ~28 total)
-4. Den fertigen Rahmen feuerverzinken (Chargenprozess — 20–50 Rahmen auf einmal versenden)
+> _Wandpaneel-Rahmen-Diagramm ausstehend — die frühere Rahmen-SVG zeigt T-Profil-Geometrie und ist nicht repräsentativ für den L-Winkelrahmen. Siehe `SVG-STATUS.md`._
+
+1. L 40×40×4 Winkel auf Länge schneiden: 2× 1,0 m (oben/unten) + 2× 2,5 m (Seiten). Lagermaterial von Gerdau Diaco / Acesco / Ferrasa, 6-m-Stangen
+2. Ecken auf 45° auf Gehrung schneiden (oder gerade schneiden mit einem Schenkel über dem anderen — beides ergibt einen sauberen rechteckigen Rahmen)
+3. Ecken in einer Lehre schweissen — alle Rahmen identisch. Optionale kleine Eckbleche (60×60×3 Blech) können über jede Innenecke geschweisst werden für Steifigkeit beim Handhaben
+4. Klemmlöcher alle ~70 mm entlang der oberen und unteren Winkel-Stege bohren (eines pro zwei Bambusstreifen, ~14 Löcher pro Leiste, ~28 total)
+5. Den fertigen Rahmen feuerverzinken (Chargenprozess — 20–50 Rahmen auf einmal versenden)
 
 **Alle Rahmen sind identisch, unabhängig von der Paneelvariante.** Die Lehre gewährleistet konsistente Masse. Eine Lehre, ein Rahmen, für immer.
 
@@ -29,7 +34,7 @@ Alle Paneele werden in einer überdachten Werkstatt gebaut — wetterunabhängig
 
 1. HDPE-Material auf 30 × 30 mm × 1.000 mm zuschneiden (2 pro Paneel)
 2. Eckkerben schneiden: 10 × 10 mm an jedem Ende (4 Kerben pro Block, 8 pro Paneel)
-3. Blöcke auf obere und untere T-bar-Stege montieren mit Schrauben oder Klebstoff
+3. Blöcke auf obere und untere L-Winkel-Stege montieren mit Schrauben oder Klebstoff
 
 ### Schritt 3: Elektrik
 
@@ -50,15 +55,15 @@ Alle Paneele werden in einer überdachten Werkstatt gebaut — wetterunabhängig
 5. Diagonalstreifen durch die untere linke HDPE-Kerbe fädeln, quer zur oberen rechten Kerbe (auf Steghöhe)
 6. Diagonale vorspannen und an beiden Enden sichern
 
-![Schraubklemmsystem](svg/04-screw-clamping.svg)
+> _Schraubklemm-Diagramm ausstehend — die frühere Klemm-SVG zeigt T-Profil-Steggeometrie; das L-Winkel-Klemmdetail ist im Prinzip ähnlich (Klemmleiste → Bambus → Schraube durch Steg), aber geometrisch anders. Siehe `SVG-STATUS.md`._
 
 ### Schritt 5: Schraubklemmung (Seite 1)
 
-1. Stahl-Klemmleiste (2 mm × 30 mm × 1.000 mm) über die Bambusstreifen am oberen T-bar legen
-2. Löcher in der Klemmleiste mit Löchern im T-bar-Steg ausrichten
+1. Stahl-Klemmleiste (Flachstahl 3 mm × 40 mm × 1.000 mm) über die Bambusstreifen am oberen Winkel-Steg legen
+2. Löcher in der Klemmleiste mit Löchern im L-Winkel-Steg ausrichten
 3. Edelstahlschrauben eindrehen durch: Klemmleiste → Bambusstreifen → Steglöcher
 4. Die Klemmleiste biegt sich, um natürliche Dickenvariation auszugleichen — selbstjustierend
-5. Am unteren T-bar wiederholen
+5. Am unteren Winkel wiederholen
 6. Diagonale an jeder Vertikalstreifen-Kreuzung mit Draht binden (~8–10 Bindungen)
 
 **Zeit: ~5 Minuten pro Seite für die Klemmung, ~3 Minuten für die Drahtbindungen**
@@ -131,6 +136,28 @@ Dies ist die zentrale Innovation in der Anwendungsmethode:
 5. Kalkanstrich auftragen: 2–3 dünne Schichten mit Pinsel
 
 Die fertige Wand ist fugenlos — keine sichtbaren Fugen, kein sichtbarer Stahl, keine sichtbaren Schrauben. Nur glatter Kalkputz mit der Textur einer handgefertigten Wand.
+
+### Schritt 12: Bad-Abdichtung
+
+Bad- und Duschbereiche erfordern eine wasserdichte Behandlung anstelle von Kalkputz:
+
+1. **Duschwände:** Flüssige Abdichtungsmembran (Sika-1 oder ähnlich) direkt auf die Mörtel-Paneelfläche auftragen — 2 Anstriche, mit Pinsel. Dann flexibler Fliesenkleber + Keramik-/Porzellanfliesen. **Kein Kalkputz im Duschbereich.**
+2. **Badezimmerboden (gesamt):** Abdichtungsmembran auf der Plattenoberfläche + Keramikfliesen. Die Platte muss ein Gefälle von 2 % zum Bodenablauf aufweisen (während des Plattengusses geformt).
+3. **Badezimmerwände ausserhalb der Dusche:** Kalkputz ist akzeptabel, oder Fliesen für leichte Reinigung.
+4. **Decke (unter Galerie):** Kalkputz — nicht direkt besprüht.
+
+Die Mörtel-Paneeloberfläche bietet ausgezeichnete Haftung für die Flüssigmembran — keine zusätzliche Vorbereitung nötig. Einfach die Paneelfläche reinigen und auftragen.
+
+### Entwässerung (in der Platte geplant)
+
+Alle Entwässerungen müssen VOR dem Guss der Fundamentplatte installiert werden:
+
+- **Toilettenabfluss:** 4" (100 mm) PVC-Rohr zur Klärgrube. Position ist fix — kann später nicht verschoben werden.
+- **Duschbodenablauf:** 2" (50 mm) PVC mit Geruchsverschluss. Platte im Duschbereich um ~20 mm vertieft, um Wasser zurückzuhalten.
+- **Spülbeckenabflüsse:** 1,5" (40 mm) PVC mit Geruchsverschluss. Spülbecken Küche durch die Platte; Waschbecken Bad durch das W-Typ-Wasserpaneel oder die Platte.
+- **Reinigungsöffnung:** Zugängliche Armatur ausserhalb des Gebäudes an der Abflussleitung.
+
+Das W-Typ-Paneel liefert Versorgungs-Steigleitungen (warm/kalt CPVC). Entwässerung ist immer in der Platte — Schwerkraftentwässerung benötigt Gefälle, das Paneele nicht bieten können.
 
 ## Qualitätscheckliste
 

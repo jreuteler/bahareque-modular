@@ -83,7 +83,7 @@ Ce systeme de panneaux resout le compromis entre construction traditionnelle et 
 
 **Traditionnel la ou c'est visible.** La surface exterieure est un enduit a la chaux sur bambou et mortier -- les memes materiaux utilises dans le bahareque, la quincha, le torchis et le tsuchikabe depuis des siecles. La texture est artisanale. La surface respire. Le batiment appartient a son lieu.
 
-**Moderne la ou ca compte.** A l'interieur de chaque panneau se trouve une ossature en profile en T d'acier galvanise a chaud, concue pour les charges sismiques. Cette ossature est invisible une fois le panneau fini. Elle porte la realite structurelle tandis que les materiaux traditionnels portent l'experience humaine.
+**Moderne la ou ca compte.** A l'interieur de chaque panneau se trouve une ossature en corniere L d'acier galvanise a chaud, concue pour les charges sismiques. Cette ossature est invisible une fois le panneau fini. Elle porte la realite structurelle tandis que les materiaux traditionnels portent l'experience humaine.
 
 ## Integration permaculturelle
 
@@ -143,13 +143,13 @@ Ce projet n'existe pas en vase clos. Plusieurs systemes ont explore la construct
 
 Le travail academique le plus cite sur le bahareque moderne. Le [Guide de conception pour l'habitat en bahareque ingenierie](https://www.researchgate.net/publication/311583390_Design_Guide_for_Engineered_Bahareque_Housing) de Kaminski (publie avec INBAR et Fundacion Redes) fournit les bases de l'ingenierie structurelle pour les murs en bahareque cimente -- squelettes en guadua avec remplissage en nattes de bambou, armature en grillage metallique et enduit en mortier de ciment. Son travail sous-tend la norme colombienne de construction parasismique NSR-10 pour le bahareque encementado (Chapitre G-1). Plus de 4 000 logements construits en Colombie, au Costa Rica, au Nepal, en Equateur, au Perou, au Mexique, au Salvador et aux Philippines.
 
-**En quoi ce systeme differe :** L'approche de Kaminski est une construction in situ -- les murs sont construits sur place par des artisans qualifies, couche par couche. La finition depend fortement du savoir-faire. Notre systeme industrialise cela en panneaux prefabriques standardises : ossature en profile en T en acier (et non en bois/bambou), lattes serrees par vis (et non nattes clouees), coulage du mortier sur table vibrante (et non a la truelle sur site), et systeme electrique integre a connexion rapide. L'objectif est une qualite constante a la vitesse de production communautaire, avec une surface de mur finie adaptee aux batiments residentiels et commerciaux.
+**En quoi ce systeme differe :** L'approche de Kaminski est une construction in situ -- les murs sont construits sur place par des artisans qualifies, couche par couche. La finition depend fortement du savoir-faire. Notre systeme industrialise cela en panneaux prefabriques standardises : ossature en corniere L en acier (et non en bois/bambou), lattes serrees par vis (et non nattes clouees), coulage vertical du mortier in situ contre coffrage (et non a la truelle sur site), et systeme electrique integre a connexion rapide. L'objectif est une qualite constante a la vitesse de production communautaire, avec une surface de mur finie adaptee aux batiments residentiels et commerciaux.
 
 ### Technologie de cadre en bambou cimente (CBFT) -- BASE Bahay / Fondation Hilti
 
 Le systeme de construction en bambou le plus deploye au monde : plus de 2 400 unites d'habitation construites aux Philippines, au Nepal, en Inde et au Sri Lanka. Le CBFT utilise des ossatures en bambou traite avec des connexions metalliques, du bambou aplati (esterilla) en remplissage, du grillage metallique et du mortier de ciment. Les panneaux sont prefabriques en atelier. Concu pour des vents de typhon jusqu'a 300 km/h et des seismes jusqu'a magnitude 7-8. Duree de vie cible : ~60 ans. Formation dispensee par la Bamboo Academy.
 
-**En quoi ce systeme differe :** Le CBFT utilise le bambou/bois comme ossature. Notre systeme utilise un profile en T en acier galvanise -- offrant une capacite axiale superieure, une duree de vie mieux protegee contre la corrosion (80-100 ans contre 60) et une surface de serrage reguliere pour le systeme de vis. Le CBFT n'inclut pas de systeme electrique integre. Le CBFT est proprietaire (acces par formation) ; notre systeme est du materiel libre.
+**En quoi ce systeme differe :** Le CBFT utilise le bambou/bois comme ossature. Notre systeme utilise une corniere L en acier galvanise -- offrant une capacite axiale superieure, une duree de vie mieux protegee contre la corrosion (80-100 ans contre 60) et une surface de serrage reguliere pour le systeme de vis. Le CBFT n'inclut pas de systeme electrique integre. Le CBFT est proprietaire (acces par formation) ; notre systeme est du materiel libre.
 
 - [BASE Bahay -- Fondation Hilti](https://www.hiltifoundation.org/basebahaybamboo)
 - [BASE Builds](https://base-builds.com/tag/cement-bamboo-frame-technology-2/)
@@ -158,7 +158,7 @@ Le systeme de construction en bambou le plus deploye au monde : plus de 2 400 un
 
 Des recherches recentes d'universites chinoises ont teste des murs en mortier composite projete avec des montants en bambou d'origine et un **contreventement diagonal en bambou** -- structurellement la correspondance la plus proche du concept de contreventement diagonal de notre panneau. Les essais cycliques quasi-statiques ont montre une bonne dissipation d'energie et un comportement de rupture ductile avec des lattes diagonales. Le mortier est projete plutot que coule sur table vibrante, et il n'y a pas d'ossature en acier.
 
-**En quoi ce systeme differe :** Notre coulage sur table vibrante permet un remplissage de mortier plus complet (zero vide) sans equipement de projection. L'ossature en profile en T en acier ajoute une capacite de charge axiale et fournit une surface de serrage standardisee. Cependant, la recherche chinoise fournit la meilleure validation publiee que le contreventement diagonal en bambou dans un composite mortier fonctionne structurellement -- nous nous appuyons sur cette evidence.
+**En quoi ce systeme differe :** Notre coulage vertical in situ (ou, en variante, coulage sur table vibrante en atelier) permet un remplissage de mortier plus complet (zero vide) sans equipement de projection. L'ossature en corniere L en acier ajoute une capacite de charge axiale et fournit une surface de serrage standardisee. Cependant, la recherche chinoise fournit la meilleure validation publiee que le contreventement diagonal en bambou dans un composite mortier fonctionne structurellement -- nous nous appuyons sur cette evidence.
 
 - [Etude sismique des lattes diagonales en bambou (ScienceDirect)](https://www.sciencedirect.com/science/article/abs/pii/S2352710223020090)
 
@@ -202,7 +202,7 @@ Pour plus de clarte, les caracteristiques suivantes n'ont **aucun equivalent doc
 
 | Caracteristique | Statut |
 |----------------|--------|
-| Ossature en profile en T en acier galvanise pour panneaux en bambou | Nouveau |
+| Ossature en corniere L en acier galvanise pour panneaux en bambou (profile commercial de stock) | Nouveau |
 | Systeme de serrage par vis (auto-ajustable aux variations d'epaisseur) | Nouveau |
 | Coulage de mortier sur table vibrante sur lit de sable | Nouveau |
 | Systeme electrique integre 12V + 120V a connexion rapide | Nouveau |

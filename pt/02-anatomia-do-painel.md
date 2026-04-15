@@ -2,31 +2,40 @@
 
 ![Vista Explodida do Painel](svg/01-panel-exploded.svg)
 
+> **Atualização de SVG pendente:** alguns diagramas deste capítulo estão migrando da especificação anterior de cantoneira L para a especificação atual de **cantoneira L 40×40×4 mm**. Alguns SVG específicos do cantoneira L foram temporariamente removidos até serem regenerados. Veja [`SVG-STATUS.md`](../SVG-STATUS.md) na raiz do repositório para a lista completa de regeneração de SVG.
+
 ## Visão Geral
 
-Todo painel de parede tem **1,0 m de largura × 2,5 m de altura** (orientação vertical), pesa aproximadamente **155 kg**, e contém estrutura, isolamento e sistemas elétricos integrados. Um tamanho. Quatro variantes. Totalmente pré-fabricado em oficina, transportado até o local, parafusado numa estrutura metálica.
+Cada painel de parede tem **1,0 m de largura × 2,5 m de altura** (orientação vertical). O peso do painel depende da fase de produção: uma **montagem a seco** (estrutura + bambu + tela + instalações, antes do despejo de argamassa) pesa aproximadamente **~75 kg** e é a forma entregue da oficina ao canteiro para o despejo da argamassa in loco. Depois que a argamassa é despejada, curada e os acabamentos in loco aplicados (reboco, caiação):
 
-> **Escalabilidade:** A altura de 2,5 m é adequada para pés-direitos residenciais padrão no mundo todo. O sistema se adapta a qualquer altura — 3,0 m para pés-direitos altos, 2,7 m para espaços comerciais, 2,0 m para divisórias. Apenas os perfis T verticais e as tiras de bambu mudam de comprimento. O gabarito da estrutura, o sistema de fixação, o processo de argamassa e o layout elétrico permanecem idênticos.
+- **Peso base da parede acabada:** aproximadamente **~440 kg** por painel (≈ 176 kg/m²) com a mistura padrão documentada (30 % de teor de guadua na cavidade + argamassa cimento-areia + 10 mm de reboco de cal nos dois lados).
+- **Mistura bahareque otimizada:** aproximadamente **~360 kg** por painel (≈ 144 kg/m²) com argamassa de cal pozolânica com fibras de capim-estrela + 30 % de guadua + 5 mm de reboco de cal nos dois lados. Prática tradicional do bahareque colombiano transposta ao sistema modular; energia incorporada ligeiramente menor, custo um pouco menor, desempenho estrutural plenamente preservado.
 
-## Estrutura: Perfil T 30×30×3 mm
+Cada painel contém estrutura, isolamento e sistemas elétricos integrados. Um tamanho. Quatro variantes.
 
-![Perfil T](svg/02-tbar-profile.svg)
+> **Escalabilidade:** A altura de 2,5 m é adequada para pés-direitos residenciais padrão no mundo todo. O sistema se adapta a qualquer altura — 3,0 m para pés-direitos altos, 2,7 m para espaços comerciais, 2,0 m para divisórias. Apenas as cantoneiras L verticais e as tiras de bambu mudam de comprimento. O gabarito da estrutura, o sistema de fixação, o processo de argamassa e o layout elétrico permanecem idênticos.
 
-A estrutura do painel é de aço galvanizado a quente, perfil T:
+## Estrutura: Cantoneira L 40×40×4 mm
 
-- **Aba:** 30 mm de largura × 3 mm de espessura — voltada para fora, nivelada com a superfície de argamassa
-- **Alma:** 3 mm de espessura — se estende para dentro, proporciona profundidade estrutural e superfície de fixação
-- **Perfis T superior/inferior:** Alma de 85 mm de altura (proporciona profundidade estrutural horizontal)
-- **Perfis T laterais:** Alma de 30 mm de altura
-- **Cantos:** Soldados em gabarito — todas as estruturas são idênticas
-- **Furos de fixação:** Perfurados a cada ~70 mm ao longo das almas superior e inferior (um furo por cada duas tiras de bambu)
+> _Diagrama do perfil da estrutura pendente — regeneração do SVG para L 40×40×4 ainda não disponível. Veja `SVG-STATUS.md`._
+
+A estrutura do painel é uma cantoneira L comercial (perfil angular de abas iguais laminado a quente, ASTM A36 / equivalente ICONTEC, galvanizado a quente):
+
+- **Perfil:** L 40×40×4 mm (ambas as abas com 40 mm de largura, 4 mm de espessura)
+- **Uma aba (mesa):** 40 mm × 4 mm — voltada para fora, nivelada com a superfície de argamassa
+- **Outra aba (alma):** 40 mm × 4 mm — projeta-se para dentro, proporciona profundidade estrutural e superfície de fixação para tiras de bambu e tela
+- **Espessura da parede:** ~85 mm (a alma da cantoneira L fica no núcleo de argamassa, a argamassa preenche ~41 mm de cada lado do plano da alma)
+- **Cantos:** Cortados em meia-esquadria a 45° e soldados em gabarito — todas as estruturas idênticas. Cartelas de canto opcionais para rigidez adicional
+- **Furos de fixação:** Perfurados a cada ~70 mm ao longo das almas superior e inferior (um furo por cada duas tiras de bambu). Tiras de fixação de bambu (chato 40×3) são parafusadas nesses furos
+- **Disponibilidade:** Item comercial, disponível mundialmente em qualquer grande revendedor de aço. Na Colômbia: Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa, Colmena/Sidenal. Estoque em barras de 6 m, corte na medida com serra-tronco. Sem fabricação especial, sem alma assimétrica
+- **Por que cantoneira L em vez de cantoneira L:** Estruturalmente equivalente para a estrutura permanentemente embebida na argamassa (veja [Desempenho Estrutural](05-desempenho-estrutural.md)), peso de aço significativamente menor (~22 kg/painel contra ~45 kg para T 60×60×7), custo menor, emissões de CO₂ incorporado menores e — decisivo — disponível como estoque comum em vez de fabricação assimétrica sob medida
 
 A estrutura é a espinha dorsal do painel. Tudo mais se fixa nela.
 
 ## Blocos Espaçadores de PEAD
 
 - **Tamanho:** Seção transversal de 30 × 30 mm, largura total de 1 m
-- **Posição:** Montados nas almas dos perfis T superior e inferior (2 por painel)
+- **Posição:** Montados nas almas dos cantoneiras L superior e inferior (2 por painel)
 - **Função:** Espaçam as tiras de bambu 30 mm da alma nas bordas superior e inferior
 - **Entalhes nos cantos:** Recortes de 10 × 10 mm em cada canto ancoram as tiras diagonais no nível da alma
 - **Material:** PEAD reciclado (de chapa ou tubo). Zero apodrecimento, zero corrosão, dimensionalmente estável
@@ -37,7 +46,7 @@ A estrutura é a espinha dorsal do painel. Tudo mais se fixa nela.
 - **Dimensões:** ~20 mm de largura × 2.500 mm de comprimento
 - **Espaçamento:** ~20 mm de espaço entre tiras (penetração da argamassa)
 - **Quantidade:** ~27 tiras por lado, ~54 no total por painel
-- **Fixação:** Fixadas por parafusos à alma do perfil T nas partes superior e inferior via tiras de fixação
+- **Fixação:** Fixadas por parafusos à alma do cantoneira L nas partes superior e inferior via tiras de fixação
 
 ![Contraventamento Diagonal](svg/10-panel-face-view.svg)
 
@@ -116,11 +125,12 @@ Todas as variantes compartilham a mesma estrutura, mesmo preenchimento de bambu,
 
 | Componente | Peso |
 |------------|------|
-| Estrutura de aço | ~18 kg |
+| Estrutura de aço (cantoneira L 40×40×4) | ~22 kg |
 | Blocos de PEAD | ~1 kg |
-| Tiras de bambu + diagonais | ~12 kg |
-| Argamassa (85 mm × 1 m × 2,5 m) | ~120 kg |
+| Tiras de bambu + diagonais (~30 % cavidade) | ~38 kg |
+| Argamassa do núcleo (cavidade ~0,147 m³, curada) | ~294 kg |
 | Arame, tela, eletroduto, cabos | ~6 kg |
-| **Total** | **~155 kg** |
+| Reboco de cal (10 mm em ambas as faces) | ~100 kg |
+| **Total painel acabado, mistura base** | **~460 kg** |
 
-Carregado por 3–4 pessoas usando um gabarito de transporte simples.
+Para a mistura bahareque otimizada (cal pozolânica + capim-estrela + reboco 5 mm): ~380 kg acabado. Peso de envio da montagem a seco (antes do despejo): ~75 kg, transportável por 2 pessoas com uma cinta simples.

@@ -2,42 +2,75 @@
 
 > **Avvertenza:** Queste sono stime dei soli costi dei materiali, basate sui prezzi 2025 in Colombia (regione dell'Eje Cafetero). La manodopera non è inclusa — il sistema è progettato per la produzione comunitaria dove il lavoro è contribuito, non acquistato. I prezzi variano significativamente per regione, valuta e catena di approvvigionamento. Usare questi dati come punto di partenza, non come budget.
 
-## Costo per Pannello (solo materiali)
+In questo progetto sono documentate due specifiche di miscela di malta: la **miscela base** (malta cemento-sabbia + 30 % di guadua + intonaco di calce 10 mm su entrambi i lati) e la **miscela bahareque ottimizzata** (calce pozzolanica + fibre pasto estrella + 30 % guadua + intonaco di calce 5 mm).
+
+## Costo per Pannello — miscela base (solo materiali)
 
 | Materiale | Specifica | Qtà per pannello | Costo unitario (USD) | Totale (USD) |
 |-----------|-----------|------------------|---------------------|-------------|
-| Acciaio profilo a T | 30×30×3 mm, zincato | 7,0 m | $2,50/m | $17,50 |
-| Zincatura | A caldo, processo a lotti | 1 telaio | $3,00 | $3,00 |
-| Barre di serraggio | Piatto acciaio 2 mm, zinc. | 4,0 m | $1,00/m | $4,00 |
+| Acciaio angolare L | L 40×40×4 mm, ASTM A36 | 7,0 m | $4,00/m | $28,00 |
+| Zincatura | A caldo, processo a lotti | 1 telaio | $2,00 | $2,00 |
+| Barre di serraggio | Piatto 40×3 mm, zinc. | 4,0 m | $1,00/m | $4,00 |
+| Cartelle d'angolo + bulloneria | Piatto + M12/M8 | 1 set | $3,00 | $3,00 |
 | Viti inox | Autoperforanti, A2 | 40 pz | $0,08 | $3,20 |
 | Distanziatori HDPE | Riciclati, 30×30 mm | 2,0 m | $1,50/m | $3,00 |
-| Listelli bambù (verticali) | Guadua trattata con borato | ~135 m totali | $0,05/m | $6,75 |
-| Listello bambù (diagonale) | 60×20 mm, trattato | 5,4 m | $0,30/m | $1,60 |
+| Listelli bambù (verticali + orizzontali, 30 % densità cavità) | Guadua trattata con borato | ~400 m totali | $0,05/m | $20,00 |
+| Listelli bambù (diagonali) | 60×20 mm, trattato | ~5,4 m | $0,30/m | $1,60 |
 | Legature in filo | Zincato | 5 m | $0,10/m | $0,50 |
 | Tubazione PVC | Elettrica 16 mm | 5 m | $0,30/m | $1,50 |
 | Cavo 12V + portalampada | Bipolare + 6× E10 | 1 set | $3,00 | $3,00 |
 | Cavo 120V + connettori | Tripolare + connettori a scatto | 1 set | $4,00 | $4,00 |
 | Rete a maglia esagonale | Zincata, 25 mm | 5,5 m² | $0,80/m² | $4,40 |
-| Cemento | Portland Tipo I | ~25 kg | $0,15/kg | $3,75 |
-| Sabbia | Sabbia di fiume pulita | ~100 kg | $0,02/kg | $2,00 |
+| Cemento | Portland Tipo I | ~54 kg | $0,15/kg | $8,10 |
+| Sabbia (malta) | Sabbia di fiume pulita | ~240 kg | $0,02/kg | $4,80 |
 | Fibra PP | Tagliata 6–12 mm | 200 g | $5,00/kg | $1,00 |
 | Aggiunta pozzolanica | Cenere vulcanica o RHA | 2 kg | $0,50/kg | $1,00 |
-| **Subtotale pannello** | | | | **$60–65** |
+| **Subtotale pannello — base** | | | | **~$93** |
 
-### Finitura in cantiere (per area di pannello)
+### Finitura in cantiere, base (per area di pannello)
 
 | Materiale | Qtà per pannello | Costo (USD) |
 |-----------|-----------------|------------|
-| Intonaco di calce (entrambe le facce) | ~15 kg calce + 40 kg sabbia | $4,00 |
+| Intonaco di calce (10 mm su ciascuna faccia) | ~25 kg calce + ~65 kg sabbia | $6,50 |
 | Latte di calce (entrambe le facce) | ~2 kg calce | $0,50 |
-| **Subtotale finitura** | | **$4,50** |
+| **Subtotale finitura — base** | | **$7,00** |
 
-### **Costo totale materiali per pannello: ~$65–70 USD**
+### **Costo totale materiali per pannello — base: ~$100 USD**
 
-### Costo per m² di parete finita
+### Costo per m² di parete finita — base
 
 - Area del pannello: 1,0 m × 2,5 m = 2,5 m²
-- Costo dei materiali per m²: **~$26–28 USD/m²**
+- Costo dei materiali per m²: **~$40 USD/m²**
+
+## Costo per Pannello — miscela bahareque ottimizzata (solo materiali)
+
+La miscela ottimizzata sostituisce la malta cemento Portland-sabbia con calce idraulica + pozzolana, sostituisce la fibra PP con pasto estrella (gratis, raccolto in loco) e usa intonaco di calce più sottile da 5 mm. Stesso telaio in angolare L, stesso contenuto di bambù, stessi componenti elettrici e strutturali.
+
+| Materiale | Specifica | Qtà per pannello | Costo unitario (USD) | Totale (USD) |
+|-----------|-----------|------------------|---------------------|-------------|
+| Acciaio angolare L + zincatura + barre di serraggio + cartelle | (come base) | | | $37,20 |
+| Viti inox, HDPE, bambù, legature, tubazione, cavi, rete | (come base) | | | $41,20 |
+| Calce idraulica (legante principale) | NHL 3.5 o NHL 5 | ~42 kg | $0,30/kg | $12,60 |
+| Cenere volante o di lolla di riso (pozzolana, 30 % equivalente cemento) | FA o RHA | ~15 kg | $0,10/kg | $1,50 |
+| Sabbia (malta) | Sabbia di fiume pulita | ~200 kg | $0,02/kg | $4,00 |
+| Fibra di pasto estrella (essiccata) | Raccolta in loco | ~3 kg | gratis | $0,00 |
+| **Subtotale pannello — ottimizzato** | | | | **~$96** |
+
+### Finitura in cantiere, ottimizzato (per area di pannello)
+
+| Materiale | Qtà per pannello | Costo (USD) |
+|-----------|-----------------|------------|
+| Intonaco di calce (5 mm su ciascuna faccia) | ~12 kg calce + ~33 kg sabbia | $3,30 |
+| Latte di calce (entrambe le facce) | ~2 kg calce | $0,50 |
+| **Subtotale finitura — ottimizzato** | | **$3,80** |
+
+### **Costo totale materiali per pannello — ottimizzato: ~$100 USD**
+
+### Costo per m² di parete finita — ottimizzato
+
+- Costo dei materiali per m²: **~$40 USD/m²**
+
+> **Le due miscele costano circa lo stesso in materiali** (~$100/pannello, ~$40/m²). La miscela ottimizzata scambia ingredienti calce/pozzolana leggermente più costosi (vs. cemento Portland più economico) per intonaco di calce meno costoso (più sottile), zero costo di fibra PP, e CO₂ incorporata sostanzialmente inferiore (vedi [Impatto Ambientale](10-impatto-ambientale.md)). La miscela ottimizzata è quindi un **chiaro vantaggio in carbonio e autenticità patrimoniale a costo praticamente uguale**.
 
 ## Confronto con l'Edilizia Convenzionale
 

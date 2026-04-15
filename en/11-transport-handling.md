@@ -5,29 +5,52 @@
 | Property | Value |
 |----------|-------|
 | Dimensions | 1.0 m × 2.5 m × 85 mm |
-| Weight | ~155 kg |
+| Dry assembly weight (as shipped to site) | **~75 kg** |
+| Finished panel weight (baseline mix, after in-situ pour + cure + plaster) | ~440 kg |
+| Finished panel weight (optimized bahareque mix) | ~360 kg |
 | Center of gravity | Center (symmetric construction) |
-| Fragile areas | Corners, edges (mortar can chip if impacted) |
-| Minimum cure before handling | 7 days |
-| Minimum cure before installation | 14 days recommended |
+| Fragile areas | Corners, edges (mortar can chip if impacted once poured) |
+| Minimum cure before handling | 7 days after in-situ pour |
+| Minimum cure before installation | 14 days recommended — but note: in the in-situ pour model, the panel is erected and mortar is poured in place, so "installation" and "pour" happen together on-site, not sequentially |
 
-## Carrying by Hand
+## Primary Production Model: In-Situ Pour
 
-A panel at 155 kg requires **3–4 people** using a carrying jig:
+**The primary production model is to ship the dry assembly (~75 kg) to the site and pour mortar in-situ against formwork.** The finished ~440 kg panel is never moved as a unit — it becomes part of the building wall directly, saving heavy-lift equipment cost and eliminating transport-cracking risk. See [Construction Process](04-construction-process.md) for the vertical in-situ pour protocol.
 
-### Simple Carrying Jig
+Cured-panel handling (sections below) applies to the alternative production model: workshop mortar-pour on a vibration table, with fully cured panels shipped to site as finished elements. This approach is retained as a documented option for builders who prefer workshop production, but adds significant lifting, transport, and rejection-rate overhead.
+
+## Carrying by Hand — Dry Assembly (~75 kg)
+
+The dry assembly (steel L-angle frame + bamboo esterilla + mesh + services, pre-mortar) is lifted and positioned by **2 people with a simple webbing strap**. No carrying jig, no crane, no forklift required — this is one of the core operational advantages of the in-situ pour production model.
+
+### Simple webbing-strap carry (dry assembly)
+
+1. Wrap a single 50 mm × 500+ kg rated webbing strap around the dry panel at mid-height (~125 cm from the bottom)
+2. Each carrier grips one end of the strap with both hands, standing on opposite long sides of the panel
+3. Lift together; the panel hangs vertically between them
+4. Walk at normal pace; panel can be carried 30–50 m before a rest is needed
+
+**Weight per person: ~38 kg** — entirely manageable for short-distance carries typical of workshop-to-truck, truck-to-site-storage, and storage-to-installation moves.
+
+## Carrying by Hand — Cured Finished Panel (alternative workshop-pour model)
+
+A finished panel at ~360–440 kg **cannot be carried by hand**. It requires mechanical lift (chain hoist, skid-steer, or small mobile crane). This is the core reason the in-situ pour model is preferred.
+
+If workshop-poured panels must be moved (e.g., pilot-phase production before the in-situ protocol is validated), use:
+
+### Simple Carrying Jig (cured panel, ~360–440 kg)
 
 Two bamboo poles (3 m long, 8–10 cm diameter) threaded through loops of heavy webbing strap wrapped around the panel at 1/4 and 3/4 height:
 
 1. Lay panel flat
-2. Wrap two webbing straps (50 mm wide, rated 500+ kg) around the panel at ~60 cm and ~190 cm from the bottom
+2. Wrap two webbing straps (50 mm wide, rated 1 000+ kg) around the panel at ~60 cm and ~190 cm from the bottom
 3. Thread a bamboo pole through both strap loops on each side
-4. Two people per pole, lift from the ends
+4. **4 people per pole, 8 carriers total** for a baseline-mix panel at ~440 kg, or 6 carriers for an optimized-mix panel at ~360 kg
 5. Panel hangs vertically between the poles
 
-**Weight per person: ~40 kg** — manageable for short distances (workshop to truck, truck to site).
+**Weight per person: ~55 kg (baseline) / ~45 kg (optimized)** — at the upper edge of safe manual handling. Long distances or stairs should use mechanical lift instead.
 
-For longer carries (>50 m), add a third pole with a center strap for 6 carriers (~26 kg each).
+For any routine production workflow, **use a forklift, skid-steer, or chain hoist rather than manual carry** for cured panels. Manual carry of cured panels is an emergency/pilot-only option.
 
 ### Lifting and Tilting
 
@@ -76,7 +99,7 @@ After curing, panels are stored **vertically (on edge)** in an A-frame rack:
 For two-story buildings, panels must be lifted to the second floor:
 
 - **Simple gin pole:** A bamboo or steel pole with a rope and pulley. Two people pull the rope, one guides the panel. Works for low volumes.
-- **Chain hoist on beam:** Attach a 500 kg chain hoist to the building's steel beam. Clip to the panel's carrying strap. One person operates, one guides. Fast and controlled.
+- **Chain hoist on beam:** Attach a **1 000 kg** chain hoist to the building's steel beam (500 kg hoists are insufficient for cured-panel lifts). Clip to the panel's carrying strap. One person operates, one guides. Fast and controlled. For dry-assembly lifts (~75 kg) a 500 kg hoist is ample.
 - **Forklift (if available):** Fork under the panel (protected with cardboard). Lift and place directly into position.
 
 **Do not throw, roll, or drag panels.** The mortar is strong in compression but can crack on point impact.

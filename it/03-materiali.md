@@ -4,10 +4,11 @@
 
 | Materiale | Specifica | Quantità | Note |
 |-----------|-----------|----------|------|
-| Acciaio profilo a T | 30×30×3 mm, zincato a caldo | 2× 1,0 m + 2× 2,5 m = 7,0 m | Una dima di saldatura per tutti i pannelli |
-| Barre di serraggio | Piatto di acciaio 2 mm, zincato, fori corrispondenti | 4× 1,0 m = 4,0 m | Superiore + inferiore, entrambi i lati |
+| Acciaio angolare L | L 40×40×4 mm, zincato a caldo (ASTM A36 / ICONTEC NTC 2542) | 2× 1,0 m + 2× 2,5 m = 7,0 m | Stock commerciale colombiano (Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa). Barre da 6 m, taglio con troncatrice |
+| Barre di serraggio | Piatto 40×3 mm, zincato, fori corrispondenti | 4× 1,0 m = 4,0 m | Superiore + inferiore, entrambi i lati |
+| Cartelle d'angolo + bulloneria | Piatto di rinforzo + bulloni M12/M8 | 1 set | Connessione d'angolo più rigida della sola saldatura |
 | Viti | Acciaio inossidabile, autoperforanti | ~28 per pannello | Attraverso barra di serraggio → bambù → HDPE → anima (ogni ~70 mm, una ogni due listelli) |
-| Distanziatori in HDPE | Sezione 30×30 mm, riciclati | 2× 1,0 m = 2,0 m | Profili a T superiore + inferiore |
+| Distanziatori in HDPE | Sezione 30×30 mm, riciclati | 2× 1,0 m = 2,0 m | Sulle anime degli angolari L superiore + inferiore |
 | Listelli di bambù (verticali) | Trattati con borato, ~20 mm di larghezza | ~54 listelli × 2,5 m | ~27 per lato |
 | Listello di bambù (diagonale) | Trattato con borato, 60×20 mm | 2× ~2,69 m | 1 per lato, angoli opposti |
 | Filo zincato | Filo per legature | ~5 m | ~16–20 legature agli incroci |
@@ -17,7 +18,8 @@
 | Portalampada E10 | A vite | 6 | 3 per lato |
 | Connettori a scatto | Bipolari (12V) + tripolari (120V) | 2 + 2 | Entrambi i bordi verticali |
 | Rete a maglia esagonale | Zincata, 25 mm | ~5,5 m² | Entrambe le facce + sovrapposizione |
-| Malta cementizia | 1:4 cemento:sabbia + additivi | ~0,21 m³ | ~120 kg peso umido |
+| Malta cementizia (base) | 1:4 cemento:sabbia + additivi | ~0,147 m³ cavità netta | ~310 kg umida / ~294 kg indurita (densità ~2 000 kg/m³) |
+| Malta di calce pozzolanica con pasto estrella (ottimizzata) | Calce idraulica + 30 % cenere volante/CCR + fibre pasto estrella | ~0,147 m³ stessa cavità | ~270 kg umida / ~257 kg indurita (densità ~1 750 kg/m³) |
 | Fibra PP | Tagliata 6–12 mm | ~200 g | Prevenzione fessurazioni in presa |
 | Aggiunta pozzolanica | Cenere vulcanica / cenere di lolla di riso / metacaolino | ~2 kg | Riduzione pH, durabilità |
 
@@ -51,13 +53,15 @@ Proprietà chiave della Guadua angustifolia:
 
 Il sistema funziona con qualsiasi bambù strutturale che possa essere spaccato in listelli. Regolare la larghezza e la spaziatura dei listelli per la specie disponibile.
 
-### Profilo a T in Acciaio
+### Telaio in Angolare L in Acciaio
 
-- **Profilo:** 30×30×3 mm (ala 30 mm, anima 30 mm o 85 mm, spessore 3 mm)
+- **Profilo:** L 40×40×4 mm angolare ad ali uguali (ASTM A36 / ICONTEC NTC 2542)
+- **Massa:** ~2,42 kg/m; telaio del pannello totale ~17 kg + ~4 kg barre di serraggio + ~1 kg cartelle/bulloneria = **~22 kg per pannello**
 - **Zincatura:** A caldo secondo ISO 1461, rivestimento minimo 85 μm di zinco
-- **Durata:** 80–100 anni in ambienti tropicali non costieri allo spessore di zinco specificato
-- **Approvvigionamento:** Qualsiasi fornitore di acciaio strutturale. Il profilo a T è un profilo standard nel mondo.
-- **Alternativa:** Se il profilo a T non è disponibile, saldare un angolare (30×30×3) a un piatto (30×3) per creare il profilo. Stessa funzione, leggermente più saldatura.
+- **Durata:** 80–100 anni in ambienti tropicali non costieri allo spessore di zinco specificato (il pannello in servizio è continuamente controventato nella matrice alcalina della malta, che auto-passiva l'acciaio esposto)
+- **Approvvigionamento:** Articolo commerciale a livello mondiale. In Colombia: Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa, Colmena/Sidenal. Stock in barre da 6 m presso praticamente ogni fornitore di acciaio strutturale. Nessun ordine speciale, nessuna fabbricazione su misura, nessuna anima asimmetrica
+- **Profili alternativi:** L 50×50×4 o L 50×50×5 (leggermente più pesanti, anch'essi stock commerciale) sono sostituti diretti. Tubo cavo quadrato (SHS) 40×40×2 funziona anche strutturalmente, ma richiede che le barre di serraggio siano saldate invece che avvitate attraverso l'anima
+- **Perché non profilo a T:** Versioni precedenti di questo documento specificavano T 60×60×7 mm (~45 kg per pannello). Il pannello in servizio continuamente controventato non richiede l'anima simmetrica del profilo a T — un'anima ad angolare L unilaterale è strutturalmente equivalente con circa metà della massa d'acciaio, metà del costo e disponibilità drammaticamente migliore. I profili a T aperti restano la scelta corretta solo dove conta la resistenza all'instabilità sull'asse debole (es. colonne indipendenti — il tubo quadrato chiuso è preferito al profilo a T in questo sistema).
 
 ### Distanziatori in HDPE
 

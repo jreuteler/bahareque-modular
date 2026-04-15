@@ -4,7 +4,7 @@
 
 Dieses Paneelsystem wurde für die Zusammenarbeit **mit einem Stahl-Stützen-Riegel-Rahmen** konzipiert — die Konfiguration, die wir für mehrstöckige Gebäude in Erdbebenzonen empfehlen. In dieser Konfiguration übernimmt der Stahlrahmen die Schwerkraft- und seismischen Lasten, während die Paneele seitliche Aussteifung, Wetterschutz, thermische Masse und integrierte Installationen liefern.
 
-Die Paneele sind jedoch **strukturell in der Lage, ohne Stahlrahmen zu funktionieren**. Mit einer konservativen axialen Tragfähigkeit von ~4.000 kg pro Paneel (zwei seitliche T-bars) kann eine Paneelreihe bequem ein Obergeschoss und Dach tragen, ohne eine unabhängige Stahlstruktur. Ein einfacher Holz- oder Bambus-Ringbalken am oberen Rand verbindet die Paneele und verteilt die Dachlast.
+Die Paneele sind jedoch **strukturell in der Lage, ohne Stahlrahmen zu funktionieren**. Mit einer Drucktragfähigkeit, die typische Wohnlasten weit übersteigt (zwei seitliche L-Winkel-Posten L 40×40×4), kann eine Paneelreihe bequem ein Obergeschoss und Dach tragen, ohne eine unabhängige Stahlstruktur. Ein einfacher Holz- oder Bambus-Ringbalken am oberen Rand verbindet die Paneele und verteilt die Dachlast.
 
 **Zwei Konfigurationen:**
 
@@ -74,33 +74,37 @@ Der dichte Mörtelkern bietet gute Schalldämmung:
 
 | Komponente | Gewicht |
 |-----------|---------|
-| Stahlrahmen (T-bar 30×30×3, 7 m total) | ~18 kg |
-| Mörtel (85 mm × 1,0 m × 2,5 m, Dichte ~2.000 kg/m³) | ~120 kg |
-| Bambusstreifen + Diagonalen | ~10 kg |
-| HDPE-Blöcke, Draht, Gitter, Leerrohr, Kabel | ~7 kg |
-| **Gesamtgewicht Paneel** | **~155 kg** |
-| **Gewicht pro m² Wand** | **~62 kg/m²** |
+| Stahl-L-Winkelrahmen (L 40×40×4, 7 m bei 2,42 kg/m + Klemmleisten + Eckbleche) | ~22 kg |
+| Mörtel-Kernfüllung (Basis: Zement-Sand, ~0,147 m³, ausgehärtete Dichte ~2 000 kg/m³) | ~294 kg |
+| Bambusstreifen + Diagonalen (~30 % Hohlraumdichte) | ~38 kg |
+| HDPE-Blöcke, Draht, Gitter, Leerrohr, Kabel | ~6 kg |
+| Kalkputz (10 mm beidseitig) | ~100 kg |
+| **Gesamtgewicht Paneel, Basismischung** | **~460 kg** |
+| **Gewicht pro m² Wand, Basis** | **~184 kg/m²** |
+| Gesamtgewicht Paneel, optimierte Bahareque-Mischung (puzzolanischer Kalk + Pasto estrella + 5 mm Putz) | ~380 kg |
+| Gewicht pro m² Wand, optimiert | ~152 kg/m² |
+| Trockenmontage-Versandgewicht (Rahmen + Bambus + Gitter + Installationen, vor dem Mörtelguss) | ~75 kg |
 
-Zum Vergleich: 150 mm Betonblockwand ≈ 180 kg/m². Das Paneelsystem wiegt ungefähr ein Drittel konventionellen Mauerwerks pro Flächeneinheit.
+Zum Vergleich: 150 mm Betonblockwand ≈ 180 kg/m². Das Paneelsystem (Basismischung) ist etwa gleich schwer wie konventionelles Mauerwerk pro Flächeneinheit, die optimierte Bahareque-Mischung etwa 15 % leichter. Entscheidend für die Logistik: das **Trockenmontage-Versandgewicht (~75 kg)** ist die Form, in der das Paneel von der Werkstatt zur Baustelle transportiert wird (Mörtel wird vor Ort gegossen).
 
 ### Axiale (vertikale) Last
 
-Jedes Paneel hat zwei vertikale seitliche T-bars, die erhebliche Drucklasten tragen können:
+Jedes Paneel hat zwei vertikale seitliche L-Winkel-Posten, die erhebliche Drucklasten tragen können:
 
 | Element | Querschnitt | Konservative axiale Tragfähigkeit |
 |---------|------------|----------------------------------|
-| Seitlicher T-bar (30×30×3 mm) | A ≈ 171 mm² | ~20 kN pro T-bar (bei σ = 120 MPa, ~50% der Fliessgrenze) |
-| Zwei seitliche T-bars pro Paneel | 2 × 171 mm² | ~40 kN pro Paneel (~4.000 kg) |
+| Seitlicher L-Winkel-Posten (L 40×40×4 mm) | A ≈ 304 mm² | ~36 kN pro Posten (bei σ = 120 MPa, ~50 % der A36-Fliessgrenze) |
+| Zwei seitliche Posten pro Paneel | 2 × 304 mm² | ~72 kN pro Paneel (~7 200 kg) |
 
-**Was 4.000 kg pro Paneel in der Praxis bedeutet:**
+**Was das in der Praxis bedeutet:**
 
-Ein typisches eingeschossiges Haus mit Galerie/Zwischengeschoss und Dachziegeldach erzeugt ungefähr 200–400 kg Last pro Laufmeter Wand (Dach + Decke + Zwischengeschossdecke + Nutzlast). Ein einzelnes 1-m-Paneel kann das **10–20-Fache** dieses Bedarfs tragen.
-
-Selbst eine konservative 10-Paneel-Wand (10 m) trägt zusammen 40.000 kg — weit mehr als jedes realistische Wohndach und Obergeschoss. **Die Paneele benötigen keinen Stahlrahmen, um ein Obergeschoss und Dach zu tragen.**
+Ein typisches eingeschossiges Haus mit Galerie/Zwischengeschoss und Dachziegeldach erzeugt ungefähr 200–400 kg Last pro Laufmeter Wand (Dach + Decke + Zwischengeschossdecke + Nutzlast). Ein einzelnes 1-m-Paneel kann das **18–36-Fache** dieses Bedarfs tragen. **Die Paneele benötigen keinen separaten Stahlrahmen, um ein Obergeschoss und Dach zu tragen.**
 
 Bei Verwendung **mit Stahlrahmen** ist diese axiale Tragfähigkeit reine Sicherheitsreserve — der Stahl trägt die Schwerkraftlasten. Bei Verwendung **ohne Stahlrahmen** sind die Paneele die tragende Struktur. In diesem Fall verteilt ein Holz- oder Bambus-Ringbalken am oberen Wandrand die Dachlast gleichmässig über alle Paneele und verbindet sie miteinander.
 
-Knicken ist bei diesen Laststufen kein Problem: Die 85 mm Mörtelwanddicke bietet dem T-bar erhebliche Seitensteifigkeit, und das Verhältnis von Paneelhöhe zu Wanddicke (~2.500/85 ≈ 29) liegt deutlich innerhalb akzeptierter Schlankheitsgrenzen für bewehrte Wände.
+Knicken ist bei diesen Laststufen kein Problem **wenn der L-Winkel im Paneelverbund eingebettet ist**: Die 85 mm Mörtelwanddicke bietet dem Winkelrahmen kontinuierliche Seitensteifigkeit, und das Verhältnis von Paneelhöhe zu Wanddicke (~2 500/85 ≈ 29) liegt deutlich innerhalb akzeptierter Schlankheitsgrenzen für bewehrte Wände.
+
+**Wichtig: Schwachachs-Limitation offener Profile.** Offene Strukturprofile — L-Winkel, T-Profile, C-Profile — haben minimale Steifigkeit um ihre Schwachachse. Ein freistehender L 40×40×4 Posten ohne Paneelabstützung (I_min ≈ 3,8 × 10⁴ mm⁴ um die Schwachachse durch die Ferse) würde unter mässiger Last knicken. Die oben angegebene Tragfähigkeit von 36 kN pro L-Winkel ist die **axiale Fliessgrenze** und ist NUR erreichbar, wenn der Winkel kontinuierlich durch die Paneelfüllung (Mörtel + Guadua) abgestützt wird. Diese Unterscheidung ist entscheidend für die Bauablauffolge — der L-Winkelrahmen darf nicht axial belastet werden, bevor die Paneele gegossen, ausgehärtet sind und die Verbundlast tragen. Für freistehende Stützen in mehrgeschossigen Gebäuden sind offene Profile nicht geeignet — verwenden Sie stattdessen quadratisches Hohlprofil (SHS).
 
 ### Laterale (horizontale / Schub-) Last
 
@@ -134,12 +138,12 @@ Dies sind sehr konservative Zahlen. Die Mörtelmatrix, das Drahtbindungsgitter u
 
 Das Paneel widersteht Druck senkrecht zur Wandfläche (Windsog/-druck, Stoss):
 
-- Der durch das )( Profil erzeugte Mörtelbogen wirkt als flaches Gewölbe zwischen den steifen oberen und unteren T-bars
+- Der durch das )( Profil erzeugte Mörtelbogen wirkt als flaches Gewölbe zwischen den steifen oberen und unteren L-Winkeln
 - Konservative Schätzung für gleichmässigen Winddruck, wobei das Paneel als einseitig eingespannte Platte behandelt wird:
 
 | Parameter | Wert |
 |-----------|------|
-| Paneelspannweite (zwischen oberer/unterer T-bar) | 2,5 m |
+| Paneelspannweite (zwischen oberem/unterem L-Winkel) | 2,5 m |
 | Paneelbreite | 1,0 m |
 | Mörteldicke (Minimum, in der Mitte) | ~55 mm |
 | Mörtelbiegezugfestigkeit (konservativ) | 1,0 MPa |
@@ -156,10 +160,10 @@ Das Bambusstreifen-Gitter und die Drahtbindungen bieten erheblichen zusätzliche
 |----------------|-------------|---------------------------|
 | Leichte Gegenstände (Bilder, Uhren, Handtuchhaken) | Mauernagel oder Schraube in Mörtel | 5–10 kg pro Anker |
 | Mittlere Gegenstände (Regale, Spiegel, kleine Schränke) | Kunststoff-Spreizdübel in Mörtel (6–8 mm) | 15–25 kg pro Anker |
-| Schwere Gegenstände (Küchenschränke, Warmwasserspeicher, TV-Halterung) | Durchgangsschraube zum T-bar-Steg | 50–100 kg pro Anker |
-| Sehr schwere Gegenstände (Bücherregal, voller Vorratsschrank) | Mehrere Durchgangsschrauben zum T-bar + Verteilplatte | 200+ kg pro Befestigungspunkt |
+| Schwere Gegenstände (Küchenschränke, Warmwasserspeicher, TV-Halterung) | Durchgangsschraube zum L-Winkel-Steg | 50–100 kg pro Anker |
+| Sehr schwere Gegenstände (Bücherregal, voller Vorratsschrank) | Mehrere Durchgangsschrauben zum L-Winkel + Verteilplatte | 200+ kg pro Befestigungspunkt |
 
-**Tipp:** Der T-bar-Steg verläuft an einer bekannten Position (Mitte der Wanddicke). Balkensucher oder Magnet lokalisieren ihn leicht. Durchgangsschrauben zum Steg bieten zuverlässige, hochbelastbare Verankerung, vergleichbar mit Stahlständer-Rahmenbau.
+**Tipp:** Der L-Winkel-Steg verläuft an einer bekannten Position (entlang einer Paneelseite, in der Wandtiefe). Balkensucher oder Magnet lokalisieren ihn leicht. Durchgangsschrauben zum Steg bieten zuverlässige, hochbelastbare Verankerung, vergleichbar mit Stahlständer-Rahmenbau.
 
 ### Zusammenfassung — Konservative Tragfähigkeit in kg pro Paneel
 
@@ -169,9 +173,9 @@ Für Bauherren und Nicht-Ingenieure hier dieselben Zahlen in Kilogramm. Dies sin
 |---------|----------|---------------------------|-------------------------------|
 | **Schub (Erdbeben/Wind)** | Horizontal, in der Wandebene | **~1.200–1.500 kg pro Paneel** | Eine horizontale Kraft von 1,2–1,5 Tonnen am oberen Rand eines einzelnen Paneels, bevor es als an der Gebrauchsgrenze betrachtet werden sollte. Ein typisches eingeschossiges Haus benötigt ~600 kg Schubwiderstand pro Laufmeter Wand — ein Paneel liefert das 2-Fache davon. |
 | **Querlast (Winddruck)** | Senkrecht zur Wandfläche | **~90 kg verteilt über die Paneelfläche** | Entspricht ~36 kg/m² gleichmässigem Druck. Eine sich stark gegen die Wand lehnende Person (~80 kg auf ~0,3 m²) liegt deutlich innerhalb der Kapazität. |
-| **Axial (vertikal)** | Abwärts, durch das Paneel | **~4.000 kg pro Paneel** | Die zwei seitlichen T-bars tragen 4 Tonnen — 10–20× mehr als ein typisches Dach + Obergeschoss pro Laufmeter Wand. Paneele können ein Obergeschoss und Dach ohne Stahlrahmen tragen. |
+| **Axial (vertikal)** | Abwärts, durch das Paneel | **Übertrifft Wohnlasten weit (~7 200 kg axiale Fliessgrenze pro Paneel im Verbund)** | Die zwei seitlichen L-Winkel tragen weit mehr als ein typisches Dach + Obergeschoss pro Laufmeter Wand. Paneele können ein Obergeschoss und Dach ohne separaten Stahlrahmen tragen. |
 | **Punktlast auf Mörtel** | Auszug / Abscheren am Anker | **~15–25 kg pro Anker** | Ein Regalbrett mit 2 Ankern hält 30–50 kg sicher. |
-| **Punktlast auf T-bar** | Durchgangsschraube | **~50–100 kg pro Schraube** | Ein Küchenschrank mit 4 Durchgangsschrauben hält 200–400 kg sicher. |
+| **Punktlast auf L-Winkel** | Durchgangsschraube | **~50–100 kg pro Schraube** | Ein Küchenschrank mit 4 Durchgangsschrauben hält 200–400 kg sicher. |
 
 > **Wichtig:** Dies sind Schätzungen, keine geprüften Werte. Sie werden durch physische Tests validiert. Verwenden Sie sie nicht für die Tragwerksplanung ohne unabhängige Überprüfung. Im Zweifelsfall schwere Gegenstände am Stahlgebäuderahmen befestigen, nicht am Paneel.
 
@@ -210,6 +214,6 @@ Geplantes Testprogramm:
 - [ ] **Verbindungstests** — Paneel-zu-Stützen-Schraubwinkel-Tragfähigkeit, Snap-Stecker-Dauerhaftigkeit
 - [ ] **Langzeit-Verwitterungstests** — beschleunigte Alterung von mörtelummantelten Bambusproben
 - [ ] **Schalldämmungstests** (ASTM E90) — STC-Messung
-- [ ] **Punktlast-Auszugstests** — Mauerwerksanker- und Durchgangsschrauben-Tragfähigkeit in Mörtel + T-bar
+- [ ] **Punktlast-Auszugstests** — Mauerwerksanker- und Durchgangsschrauben-Tragfähigkeit in Mörtel + L-Winkel
 
 Testergebnisse werden in diesem Repository veröffentlicht, sobald sie vorliegen. Wenn Sie Zugang zu Prüfeinrichtungen haben und beitragen möchten, melden Sie sich bitte — gemeinschaftliches Testen mit verschiedenen Bambusarten und Mörtelmischungen macht dieses System für alle besser.

@@ -25,7 +25,7 @@ Der Standard-Flusssand wird durch schwerere Zuschlagstoffe in der Mörtelmischun
 | Eisenschlacke (*escoria*) | +25–30% | Oft gratis | In der Nähe von Stahlwerken, Giessereien |
 | Magnetitsand (*arena negra*) | +40% | Gering | Vulkanische Flussbetten (Anden, Zentralamerika) |
 
-- **Paneelgewicht:** ~175–190 kg (vs. ~155 kg Standard)
+- **Paneelgewicht:** fertig ~490–530 kg Basismischung (vs. ~440 kg Standard-Basis) / ~405–440 kg optimierte Mischung (vs. ~360 kg Standard-optimiert). Trockenmontage-Gewicht unverändert bei ~75 kg (dichter Zuschlagstoff wird beim Vor-Ort-Guss zugegeben, nicht in der Werkstattmontage)
 - **Mehrkosten:** ~$1–2 pro Paneel
 - **STC:** ~43–48
 - **Produktionsänderung:** Keine — nur den Zuschlagstoff austauschen. Mischverhältnis bleibt 1:4 Zement:Zuschlag.

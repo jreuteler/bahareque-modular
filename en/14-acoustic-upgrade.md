@@ -25,7 +25,7 @@ Replace standard river sand with heavier aggregates in the mortar mix. Same prod
 | Iron slag (*escoria*) | +25–30% | Often free | Near steel mills, foundries |
 | Magnetite sand (*arena negra*) | +40% | Low | Volcanic river beds (Andes, Central America) |
 
-- **Panel weight:** ~175–190 kg (vs ~155 kg standard)
+- **Panel weight:** finished ~490–530 kg baseline mix (vs ~440 kg standard baseline) / ~405–440 kg optimized mix (vs ~360 kg standard optimized). Dry assembly weight unchanged at ~75 kg (dense aggregate added at in-situ pour, not at workshop assembly)
 - **Extra cost:** ~$1–2 per panel
 - **STC:** ~43–48
 - **Production change:** None — just substitute the aggregate. Mix ratio remains 1:4 cement:aggregate.

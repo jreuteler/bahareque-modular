@@ -1,0 +1,201 @@
+{
+  "_meta": {
+    "version": "0.1.0",
+    "description": "UI translations for BaharequeModular viewers. Used by all building viewers via language selector. Keys are used in HTML elements, values are per-language strings."
+  },
+
+  "viewer_ui": {
+    "time_label": {
+      "en": "Time",
+      "es": "Hora",
+      "de": "Tageszeit",
+      "fr": "Heure",
+      "pt": "Hora",
+      "it": "Ora"
+    },
+    "show_panel_joints": {
+      "en": "Show panel joints",
+      "es": "Mostrar juntas de panel",
+      "de": "Paneelfugen anzeigen",
+      "fr": "Afficher joints de panneaux",
+      "pt": "Mostrar juntas de painel",
+      "it": "Mostra giunti pannello"
+    },
+    "solid_connector_zone": {
+      "en": "Solid connector zone",
+      "es": "Zona conectora sólida",
+      "de": "Massiver Verbindungsbereich",
+      "fr": "Zone connecteur solide",
+      "pt": "Zona de conector sólida",
+      "it": "Zona connettore solida"
+    },
+    "click_door": {
+      "en": "Click any door to open/close",
+      "es": "Haga clic en una puerta para abrir/cerrar",
+      "de": "Auf Tür klicken zum Öffnen/Schliessen",
+      "fr": "Cliquez sur une porte pour ouvrir/fermer",
+      "pt": "Clique em uma porta para abrir/fechar",
+      "it": "Clicca su una porta per aprire/chiudere"
+    },
+    "orbit_hint": {
+      "en": "Orbit to explore",
+      "es": "Orbite para explorar",
+      "de": "Drehen zum Erkunden",
+      "fr": "Orbiter pour explorer",
+      "pt": "Orbitar para explorar",
+      "it": "Orbita per esplorare"
+    }
+  },
+
+  "building_labels": {
+    "north": { "en": "N", "es": "N", "de": "N", "fr": "N", "pt": "N", "it": "N" },
+    "south": { "en": "S", "es": "S", "de": "S", "fr": "S", "pt": "S", "it": "S" },
+    "east":  { "en": "E", "es": "E", "de": "O", "fr": "E", "pt": "L", "it": "E" },
+    "west":  { "en": "W", "es": "O", "de": "W", "fr": "O", "pt": "O", "it": "O" }
+  },
+
+  "materials": {
+    "lime": {
+      "en": "Lime plaster",
+      "es": "Enlucido de cal",
+      "de": "Kalkputz",
+      "fr": "Enduit à la chaux",
+      "pt": "Reboco de cal",
+      "it": "Intonaco a calce"
+    },
+    "teak": {
+      "en": "Teak wood",
+      "es": "Madera de teca",
+      "de": "Teakholz",
+      "fr": "Bois de teck",
+      "pt": "Madeira de teca",
+      "it": "Legno di teak"
+    },
+    "guadua": {
+      "en": "Guadua bamboo",
+      "es": "Guadua angustifolia",
+      "de": "Guadua-Bambus",
+      "fr": "Bambou guadua",
+      "pt": "Bambu guadua",
+      "it": "Bambù guadua"
+    },
+    "terracotta": {
+      "en": "Terracotta tiles",
+      "es": "Baldosa de barro",
+      "de": "Terrakotta-Fliesen",
+      "fr": "Carreaux de terre cuite",
+      "pt": "Telhas de terracota",
+      "it": "Piastrelle in terracotta"
+    },
+    "glass": {
+      "en": "Tempered glass",
+      "es": "Vidrio templado",
+      "de": "Sicherheitsglas",
+      "fr": "Verre trempé",
+      "pt": "Vidro temperado",
+      "it": "Vetro temperato"
+    },
+    "steel": {
+      "en": "Galvanized steel T-bar",
+      "es": "Perfil T de acero galvanizado",
+      "de": "Verzinkter Stahl-T-Profil",
+      "fr": "Profilé T en acier galvanisé",
+      "pt": "Perfil T de aço galvanizado",
+      "it": "Profilato T in acciaio zincato"
+    }
+  },
+
+  "elements": {
+    "wall_panel": {
+      "en": "Wall panel",
+      "es": "Panel de muro",
+      "de": "Wandpaneel",
+      "fr": "Panneau de mur",
+      "pt": "Painel de parede",
+      "it": "Pannello murale"
+    },
+    "window_panel": {
+      "en": "Window panel",
+      "es": "Panel de ventana",
+      "de": "Fensterpaneel",
+      "fr": "Panneau de fenêtre",
+      "pt": "Painel de janela",
+      "it": "Pannello finestra"
+    },
+    "door_panel": {
+      "en": "Door panel",
+      "es": "Panel de puerta",
+      "de": "Türpaneel",
+      "fr": "Panneau de porte",
+      "pt": "Painel de porta",
+      "it": "Pannello porta"
+    },
+    "clerestory": {
+      "en": "Clerestory panel",
+      "es": "Panel de claristorio",
+      "de": "Oberlichtpaneel",
+      "fr": "Panneau de claire-voie",
+      "pt": "Painel de claraboia",
+      "it": "Pannello lucernario"
+    },
+    "corner_piece": {
+      "en": "Round corner piece",
+      "es": "Pieza de esquina redondeada",
+      "de": "Rundes Eckstück",
+      "fr": "Pièce d'angle arrondie",
+      "pt": "Peça de canto arredondada",
+      "it": "Pezzo d'angolo arrotondato"
+    },
+    "mezzanine": {
+      "en": "Mezzanine floor",
+      "es": "Entrepiso",
+      "de": "Zwischengeschoss",
+      "fr": "Mezzanine",
+      "pt": "Mezanino",
+      "it": "Soppalco"
+    },
+    "glass_railing": {
+      "en": "Glass railing",
+      "es": "Baranda de vidrio",
+      "de": "Glasgeländer",
+      "fr": "Garde-corps en verre",
+      "pt": "Guarda-corpo de vidro",
+      "it": "Ringhiera in vetro"
+    },
+    "hip_roof": {
+      "en": "Hip roof",
+      "es": "Techo a cuatro aguas",
+      "de": "Walmdach",
+      "fr": "Toit en croupe",
+      "pt": "Telhado de quatro águas",
+      "it": "Tetto a padiglione"
+    }
+  },
+
+  "viewer_titles": {
+    "casita": {
+      "en": "BaharequeModular — Casita (6×9m)",
+      "es": "BaharequeModular — Casita (6×9m)",
+      "de": "BaharequeModular — Casita (6×9m)",
+      "fr": "BaharequeModular — Casita (6×9m)",
+      "pt": "BaharequeModular — Casita (6×9m)",
+      "it": "BaharequeModular — Casita (6×9m)"
+    },
+    "multifamily": {
+      "en": "BaharequeModular — Multi-family building (30×9m)",
+      "es": "BaharequeModular — Edificio multifamiliar (30×9m)",
+      "de": "BaharequeModular — Mehrfamilienhaus (30×9m)",
+      "fr": "BaharequeModular — Immeuble collectif (30×9m)",
+      "pt": "BaharequeModular — Edifício multifamiliar (30×9m)",
+      "it": "BaharequeModular — Edificio plurifamiliare (30×9m)"
+    },
+    "corner_detail": {
+      "en": "BaharequeModular — 156mm Corner Detail",
+      "es": "BaharequeModular — Detalle de esquina 156mm",
+      "de": "BaharequeModular — 156mm Eckdetail",
+      "fr": "BaharequeModular — Détail d'angle 156mm",
+      "pt": "BaharequeModular — Detalhe de canto 156mm",
+      "it": "BaharequeModular — Dettaglio angolo 156mm"
+    }
+  }
+}

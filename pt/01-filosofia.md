@@ -83,7 +83,7 @@ Este sistema de painéis resolve a troca entre construção tradicional e modern
 
 **Tradicional onde se vê.** A superfície exterior é reboco de cal sobre bambu e argamassa — os mesmos materiais usados no bahareque, quincha, pau-a-pique e tsuchikabe há séculos. A textura é artesanal. A superfície respira. A edificação pertence ao seu lugar.
 
-**Moderno onde importa.** Dentro de cada painel há uma estrutura de perfil T de aço galvanizado a quente, projetada para cargas sísmicas. Esta estrutura é invisível depois que o painel é acabado. Ela carrega a realidade estrutural enquanto os materiais tradicionais carregam a experiência humana.
+**Moderno onde importa.** Dentro de cada painel há uma estrutura de cantoneira L de aço galvanizado a quente, projetada para cargas sísmicas. Esta estrutura é invisível depois que o painel é acabado. Ela carrega a realidade estrutural enquanto os materiais tradicionais carregam a experiência humana.
 
 ## Integração com Permacultura
 
@@ -143,13 +143,13 @@ Este projeto não existe no vácuo. Vários sistemas exploraram construção pr�
 
 O trabalho acadêmico mais citado sobre bahareque moderno. O [Guia de Projeto para Habitação de Bahareque Engenheirado](https://www.researchgate.net/publication/311583390_Design_Guide_for_Engineered_Bahareque_Housing) de Kaminski (publicado com INBAR e Fundación Redes) fornece a base de engenharia estrutural para paredes de bahareque cimentado — estruturas de guadua com preenchimento de esteiras de bambu, reforço de tela metálica e revestimento de argamassa de cimento. Seu trabalho fundamenta o código de construção colombiano NSR-10 para bahareque encementado (Capítulo G-1). Mais de 4.000 casas construídas na Colômbia, Costa Rica, Nepal, Equador, Peru, México, El Salvador e Filipinas.
 
-**Como este sistema difere:** A abordagem de Kaminski é construção in-situ — as paredes são construídas no local por artesãos qualificados, uma camada de cada vez. O acabamento depende fortemente da mão de obra. Nosso sistema industrializa isso em painéis pré-fabricados padronizados: estrutura de perfil T de aço (não madeira/bambu), tiras fixadas por parafusos (não esteiras pregadas), preenchimento de argamassa em mesa vibratória (não aplicado com desempenadeira no local), e sistema elétrico integrado com conexão rápida. O objetivo é qualidade consistente na velocidade de produção comunitária, com uma superfície de parede acabada adequada para edificações residenciais e comerciais.
+**Como este sistema difere:** A abordagem de Kaminski é construção in-situ — as paredes são construídas no local por artesãos qualificados, uma camada de cada vez. O acabamento depende fortemente da mão de obra. Nosso sistema industrializa isso em painéis pré-fabricados padronizados: estrutura de cantoneira L de aço (não madeira/bambu), tiras fixadas por parafusos (não esteiras pregadas), vertido vertical de argamassa in-situ contra fôrma (não aplicado com desempenadeira no local), e sistema elétrico integrado com conexão rápida. O objetivo é qualidade consistente na velocidade de produção comunitária, com uma superfície de parede acabada adequada para edificações residenciais e comerciais.
 
 ### Tecnologia de Estrutura de Bambu Cimentado (CBFT) — BASE Bahay / Fundação Hilti
 
 O sistema de construção em bambu mais disseminado no mundo: mais de 2.400 unidades habitacionais construídas nas Filipinas, Nepal, Índia e Sri Lanka. O CBFT usa estruturas de bambu tratado com conexões metálicas, preenchimento de bambu achatado (esterilla), tela metálica e argamassa de cimento. Os painéis são pré-fabricados em oficinas. Projetado para ventos de tufão até 300 km/h e terremotos até magnitude 7–8. Vida útil projetada: ~60 anos. Treinamento fornecido pela Bamboo Academy.
 
-**Como este sistema difere:** O CBFT usa bambu/madeira como estrutura. Nosso sistema usa perfil T de aço galvanizado — proporcionando maior capacidade axial, vida útil com proteção contra corrosão mais longa (80–100 anos vs. 60), e uma superfície de fixação consistente para o sistema de parafusos. O CBFT não inclui sistema elétrico integrado. O CBFT é proprietário (acesso via treinamento); nosso sistema é hardware aberto.
+**Como este sistema difere:** O CBFT usa bambu/madeira como estrutura. Nosso sistema usa cantoneira L de aço galvanizado — proporcionando maior capacidade axial, vida útil com proteção contra corrosão mais longa (80–100 anos vs. 60), e uma superfície de fixação consistente para o sistema de parafusos. O CBFT não inclui sistema elétrico integrado. O CBFT é proprietário (acesso via treinamento); nosso sistema é hardware aberto.
 
 - [BASE Bahay — Fundação Hilti](https://www.hiltifoundation.org/basebahaybamboo)
 - [BASE Builds](https://base-builds.com/tag/cement-bamboo-frame-technology-2/)
@@ -158,7 +158,7 @@ O sistema de construção em bambu mais disseminado no mundo: mais de 2.400 unid
 
 Pesquisas recentes de universidades chinesas testaram paredes de argamassa compósita pulverizada com montantes de bambu originais e **contraventamento diagonal de bambu** — estruturalmente a correspondência mais próxima do conceito de contraventamento diagonal deste painel. Testes de carregamento cíclico quase estático mostraram boa dissipação de energia e comportamento de falha dúctil com tiras diagonais. A argamassa é pulverizada em vez de vertida em mesa vibratória, e não há estrutura de aço.
 
-**Como este sistema difere:** Nosso preenchimento por mesa vibratória alcança preenchimento de argamassa mais completo (zero vazios) sem equipamento de pulverização. A estrutura de perfil T de aço adiciona capacidade de carga axial e fornece uma superfície de fixação padronizada. No entanto, a pesquisa chinesa fornece a melhor validação publicada de que o contraventamento diagonal de bambu em compósito de argamassa funciona estruturalmente — construímos sobre essa evidência.
+**Como este sistema difere:** Nosso vertido vertical in-situ (ou, alternativamente, preenchimento em mesa vibratória na oficina) alcança preenchimento de argamassa mais completo (zero vazios) sem equipamento de pulverização. A estrutura de cantoneira L de aço adiciona capacidade de carga axial e fornece uma superfície de fixação padronizada. No entanto, a pesquisa chinesa fornece a melhor validação publicada de que o contraventamento diagonal de bambu em compósito de argamassa funciona estruturalmente — construímos sobre essa evidência.
 
 - [Estudo sísmico de tiras diagonais de bambu (ScienceDirect)](https://www.sciencedirect.com/science/article/abs/pii/S2352710223020090)
 
@@ -202,7 +202,7 @@ Para clareza, as seguintes características **não possuem equivalente documenta
 
 | Característica | Status |
 |----------------|--------|
-| Estrutura de perfil T de aço galvanizado para painéis de bambu | Inédito |
+| Estrutura de cantoneira L de aço galvanizado para painéis de bambu (perfil comercial de estoque) | Inédito |
 | Sistema de fixação por parafusos (autoajustável para variação de espessura) | Inédito |
 | Preenchimento de argamassa em mesa vibratória sobre leito de areia | Inédito |
 | Sistema elétrico integrado 12V + 120V com conexão rápida | Inédito |

@@ -1,0 +1,756 @@
+{
+  "_meta": {
+    "version": "0.3.0",
+    "status": "DEPRECATED — uses T60×60 profile. For T2\" (50×50mm) specs see room-spec.json and panel-schema.json",
+    "description": "Legacy spec file. Retained for reference and backward compatibility with older SVG/cost generators.",
+    "units": {
+      "dimensions": "mm",
+      "weight": "kg/m or kg/piece",
+      "strength": "MPa",
+      "cost": "USD"
+    }
+  },
+
+  "elements": {
+
+    "tbar_frame": {
+      "name": "T-bar profile — universal panel frame",
+      "name_es": "Perfil T — marco universal de panel",
+      "material": "ASTM A36 hot-dip galvanized steel",
+      "profile": "T 60×60",
+      "flange_width": 60,
+      "flange_thickness": 7,
+      "web_height": 53,
+      "web_thickness": 7,
+      "total_height": 60,
+      "weight_per_m": 6.48,
+      "yield_strength": 250,
+      "frame": {
+        "description": "One universal frame for all panel types (wall, floor, window, door, clerestory). Only infill varies.",
+        "long_side_tbar": {
+          "name": "Side T-bar",
+          "cut_length": 3000,
+          "quantity": 2,
+          "web_flush": true,
+          "notes": "Webs sit flush against adjacent panel webs when installed side by side. Continuous 3000mm structural spine. All cuts 90 degrees."
+        },
+        "short_side_tbar": {
+          "name": "Top/Bottom T-bar",
+          "cut_length": 1120,
+          "panel_width": 1000,
+          "protrusion_per_end": 60,
+          "quantity": 2,
+          "notes": "1000mm panel width + 60mm protrusion each end = 1120mm. Protrusion exposes full web (53mm height) for M12 bolt connections to connector ring. All cuts 90 degrees."
+        },
+        "all_welds_90_degrees": true,
+        "symmetrical": true,
+        "notes": "Panel is symmetric top/bottom — no 'this end up'. Same frame works as wall (vertical), floor (horizontal), or knee wall. One welding jig for all panels."
+      },
+      "panel_to_panel_joint": {
+        "type": "flush web contact",
+        "contact_length": 3000,
+        "steel_thickness": "2 × 7mm = 14mm",
+        "notes": "Adjacent panels' long-side webs press face-to-face along full 3000mm height. Massive shear plane. Clamped by connector rings above/below. Optional horizontal bolts for additional rigidity."
+      },
+      "color": {
+        "fill": "#c0392b",
+        "stroke": "#922b20",
+        "opacity": 0.7,
+        "label": "#c0392b"
+      },
+      "notes": "Standard Colombian T-bar (Gerdau Diaco, Aceros Arequipa). ONE frame design for ALL panel types. 6m standard stock: yields 2 side bars (3000mm each) with zero waste. Short bars: 6m stock yields 5 bars (1120mm each) with 400mm waste."
+    },
+
+    "parametric_wall_system": {
+      "name": "Parametric wall thickness system",
+      "name_es": "Sistema parametrico de espesor de muro",
+      "description": "Wall thickness is dynamic, defined by the T-bar profile selection. All other system rules (frame geometry, bolt connections, connector ring, bamboo infill, mortar pour) remain identical regardless of profile size.",
+      "thickness_formula": "frame_depth = flange_width (e.g. 60mm for T60). finished_wall = frame_depth + 2 × (mortar_cover + lime). For T60: 60 + 2×13 = 86mm.",
+      "key_insight": "Frame depth equals flange width. Finished wall thickness for T60 is 86mm (60mm frame + 13mm mortar+lime per side). Larger profiles scale proportionally: T100 → 126mm, T150 → 176mm.",
+      "profile_definition": {
+        "description": "Any standard T-profile can be used. The system derives all geometry from these 4 input values. No hardcoded profile list — if the steel exists, the system works.",
+        "inputs": {
+          "flange_width_mm": "Width of the T flange (e.g. 60, 80, 100, 150, 200)",
+          "flange_thickness_mm": "Thickness of the flange",
+          "web_height_mm": "Height of the web (total_height - flange_thickness)",
+          "web_thickness_mm": "Thickness of the web"
+        },
+        "derived": {
+          "total_height_mm": "flange_width (for symmetric T) or flange_thickness + web_height",
+          "weight_per_m": "calculated from cross-section area × 7850 kg/m³ steel density",
+          "protrusion_mm": "= flange_width (short T-bars extend by 1× flange width each end)",
+          "short_tbar_cut_length": "panel_width + 2 × flange_width",
+          "bolt_length": "2 × web_thickness + washers + nut (M12 for web ≤ 12mm, M16 for web > 12mm)",
+          "connection_area_per_point": "protrusion × web_height mm²",
+          "panel_to_panel_contact": "2 × web_thickness × panel_height mm of steel"
+        },
+        "examples": {
+          "casita_residential": { "profile": "T 60×60", "flange": 60, "web_h": 53, "web_t": 7, "frame_depth": 60, "finished_wall": 86 },
+          "multi_family_3_story": { "profile": "T 80×80", "flange": 80, "web_h": 73, "web_t": 7, "frame_depth": 80, "finished_wall": 106 },
+          "commercial_5_story": { "profile": "T 100×100", "flange": 100, "web_h": 90, "web_t": 10, "frame_depth": 100, "finished_wall": 126 },
+          "high_rise_8_story": { "profile": "T 150×150", "flange": 150, "web_h": 135, "web_t": 15, "frame_depth": 150, "finished_wall": 176 },
+          "institutional": { "profile": "T 200×200", "flange": 200, "web_h": 178, "web_t": 22, "frame_depth": 200, "finished_wall": 226 }
+        },
+        "bolt_selection": {
+          "web_thickness_up_to_12mm": "M12 bolts (standard)",
+          "web_thickness_13_to_20mm": "M16 bolts",
+          "web_thickness_above_20mm": "M20 bolts",
+          "notes": "Bolt diameter scales with web thickness. Connection principle stays identical."
+        },
+        "scaling_notes": "The system scales from a garden shed (T 40×40, 66mm walls) to an 8-story building (T 200×200, 226mm walls). Frame depth = flange width. Finished wall = frame + 2×13mm mortar+lime. The panel frame geometry, connection logic, and assembly sequence are identical at every scale. Only the steel profile and bolt size change."
+      },
+      "default_profile": "T_60x60",
+      "thickness_options_with_T60x60": {
+        "86mm": {
+          "mortar_cover_per_side": 10,
+          "lime_per_side": 3,
+          "mortar_volume_per_m2": 0.020,
+          "target": "standard residential — uniform panel, minimum cost",
+          "additional_cost_vs_baseline": 0
+        },
+        "110mm": {
+          "mortar_cover_per_side": 22,
+          "lime_per_side": 3,
+          "mortar_volume_per_m2": 0.050,
+          "target": "improved thermal/acoustic performance",
+          "additional_cost_vs_baseline": 4
+        },
+        "150mm": {
+          "mortar_cover_per_side": 42,
+          "lime_per_side": 3,
+          "mortar_volume_per_m2": 0.090,
+          "target": "prestige residential/commercial",
+          "additional_cost_vs_baseline": 10
+        },
+        "200mm": {
+          "mortar_cover_per_side": 70,
+          "mortar_volume_per_m2": 0.140,
+          "target": "maximum thermal mass, commercial/institutional",
+          "additional_cost_vs_baseline": 18
+        }
+      },
+      "what_stays_the_same": [
+        "Frame geometry: 4 T-bars, 90 degree cuts, 90 degree welds",
+        "Protrusion: short T-bars extend 1 × flange_width beyond side T-bars on each end",
+        "Bolt: M12 through protruding webs (bolt length adjusts to web thickness)",
+        "Connector ring: same profile as panels, turned 90 degrees",
+        "Bamboo strips: same width/thickness, spacing adjusts to web height",
+        "Mortar: same recipe, volume scales with wall thickness",
+        "Panel dimensions: always 1000mm × 3000mm × wall_thickness",
+        "Assembly: identical process regardless of profile size"
+      ],
+      "what_changes": [
+        "T-bar profile size and weight",
+        "Mortar volume per panel",
+        "Total panel weight",
+        "Thermal mass (proportional to mortar volume)",
+        "Cost per panel (proportional to steel + mortar)",
+        "M12 bolt length (adjusts to web thickness: 2 × web_thickness + washer)",
+        "Connector ring segment dimensions"
+      ],
+      "face_orientation": {
+        "description": "Every panel has two faces. Orientation (interior/exterior) is assigned at placement time, not fabrication. The frame is symmetric — any panel can face either way.",
+        "exterior_face": {
+          "plaster": "lime plaster, 15mm, weather-resistant finish",
+          "treatment": "lime wash or mineral paint",
+          "corner_attachment": "rounded guadua quarter-culm wire-tied to protruding webs"
+        },
+        "interior_face": {
+          "plaster": "lime plaster, 10mm, fine finish for paint",
+          "treatment": "breathable interior paint or bare plaster",
+          "electrical": "PVC conduits against web, accessible from interior side"
+        },
+        "partition_panel": {
+          "both_faces": "interior treatment",
+          "notes": "Interior walls have no exterior face. Both sides get fine plaster."
+        },
+        "floor_panel": {
+          "top_face": "walkable surface — terracotta tiles, teak flooring, or sealed mortar",
+          "bottom_face": "visible ceiling — teak plank finish or exposed mortar with lime wash"
+        },
+        "bathroom_panel": {
+          "interior_face": "waterproof membrane + tile",
+          "exterior_face": "standard lime plaster"
+        }
+      },
+      "notes": "The parametric system means a single specs.json + profile selection generates the complete building specification. A hotel project selects T 120×120 (150mm walls) and gets the same documentation, drawings, and assembly process as a casita with T 60×60 (85mm walls). Cost scales linearly. Stigma disappears at 150mm — indistinguishable from conventional masonry by feel and appearance."
+    },
+
+    "bamboo_vertical_strip": {
+      "name": "Bamboo vertical strip",
+      "name_es": "Tira vertical de bambú",
+      "material": "Borate-treated Guadua angustifolia",
+      "width": 20,
+      "thickness": 20,
+      "length": 2500,
+      "length_3m_panel": 3000,
+      "spacing": 20,
+      "count_per_side": 27,
+      "count_per_panel": 54,
+      "density": 700,
+      "compressive_strength": 45,
+      "tensile_strength": 25,
+      "shear_strength": 7,
+      "color": {
+        "fill": "#5a7a3a",
+        "stroke": "#3a5a2a",
+        "opacity": 0.4,
+        "label": "#5a7a3a"
+      },
+      "notes": "Split guadua strips running vertically in wall panels. Screw-clamped at top and bottom every ~70 mm (every 2nd strip)."
+    },
+
+    "bamboo_diagonal_strip": {
+      "name": "Bamboo diagonal strip",
+      "name_es": "Tira diagonal de bambú",
+      "material": "Borate-treated Guadua angustifolia",
+      "width": 60,
+      "thickness": 20,
+      "length": 2690,
+      "count_per_side": 1,
+      "count_per_panel": 2,
+      "color": {
+        "fill": "#c47a2a",
+        "stroke": "#a45a1a",
+        "opacity": 0.4,
+        "opacity_rear": 0.15,
+        "label": "#c47a2a"
+      },
+      "notes": "Corner-to-corner diagonal, threaded through HDPE block notches at web level. Pre-tensioned. Forms X pattern (one per side, opposing corners). Wire-tied at every vertical crossing."
+    },
+
+    "hdpe_block": {
+      "name": "HDPE spacer block",
+      "name_es": "Bloque espaciador HDPE",
+      "material": "Recycled HDPE",
+      "width": 30,
+      "height": 30,
+      "length": 1000,
+      "notch_width": 40,
+      "notch_depth": 14,
+      "compressive_strength": 22,
+      "elastic_modulus": 1000,
+      "color": {
+        "fill": "#4a90a8",
+        "stroke": "#2a7088",
+        "opacity": 0.45,
+        "label": "#4a90a8"
+      },
+      "notes": "Spaces bamboo strips 30 mm from web at top/bottom of wall panels. Corner notches for diagonal entry. NOT suitable for floor panel support zones (creep under sustained load). Use in mid-span spacing only."
+    },
+
+    "hdpe_notch": {
+      "name": "HDPE block corner notch",
+      "name_es": "Muesca de esquina del bloque HDPE",
+      "width": 40,
+      "depth": 14,
+      "color": {
+        "fill": "#1a3a6a",
+        "stroke": "#0d1f3c",
+        "opacity": 0.6,
+        "label": "#1a3a6a"
+      },
+      "notes": "Cutout on web-facing side of HDPE block. Anchors diagonal strip at web level."
+    },
+
+    "bamboo_arch_strip": {
+      "name": "Bamboo arch strip (floor panel)",
+      "name_es": "Tira de arco de bambú (panel de piso)",
+      "material": "Borate-treated Guadua angustifolia",
+      "width": 20,
+      "thickness": 20,
+      "layers": 2,
+      "count_per_layer": 27,
+      "compressive_strength": 45,
+      "color": {
+        "fill": "#6b8e3a",
+        "stroke": "#4a6a2a",
+        "opacity": 0.5,
+        "label": "#6b8e3a"
+      },
+      "notes": "Forced into parabolic curve by graduated cross-pieces. 2 layers, wire-tied at crossings. Carries compression in the bowstring mechanism."
+    },
+
+    "bamboo_tie_strip": {
+      "name": "Bamboo tie strip (floor panel)",
+      "name_es": "Tira de tirante de bambú (panel de piso)",
+      "material": "Borate-treated Guadua angustifolia",
+      "width": 30,
+      "thickness": 35,
+      "count": 26,
+      "count_per_side": 13,
+      "tensile_strength": 25,
+      "utilization_factor": 0.30,
+      "total_capacity_kn": 205,
+      "color": {
+        "fill": "#8B6914",
+        "stroke": "#6B4F10",
+        "opacity": 0.5,
+        "label": "#8B6914"
+      },
+      "notes": "Single layer, screw-clamped to bottom flange. 13 strips per side of longitudinal spine. Carries tension in the bowstring mechanism. Clamped with V-profile strips at support ends."
+    },
+
+    "bamboo_cross_piece": {
+      "name": "Bamboo cross-piece (floor panel)",
+      "name_es": "Pieza transversal de bambú (panel de piso)",
+      "material": "Borate-treated Guadua angustifolia",
+      "width": 30,
+      "height_min": 0,
+      "height_max": 40,
+      "length": 1000,
+      "color": {
+        "fill": "#7a9a4a",
+        "stroke": "#5a7a2a",
+        "opacity": 0.4,
+        "label": "#7a9a4a"
+      },
+      "notes": "Perpendicular to span, sitting on T-bar web. Graduated height (0 at supports to 40 mm at midspan) forces arch into parabolic shape."
+    },
+
+    "v_profile_clamp": {
+      "name": "V-profile clamping strip",
+      "name_es": "Tira de sujeción con perfil en V",
+      "material": "3 mm galvanized steel flat bar",
+      "width": 100,
+      "thickness": 3,
+      "length": 1000,
+      "tooth_pitch": 6,
+      "tooth_depth": 2,
+      "screws": "M5 every 2nd strip (13 per end)",
+      "count_per_panel": 4,
+      "cost_per_panel": 5,
+      "color": {
+        "fill": "#d44a3a",
+        "stroke": "#a03028",
+        "opacity": 0.8,
+        "label": "#d44a3a"
+      },
+      "notes": "Stamped V-tooth profile. Two strips sandwich the bamboo tie at each support end (teeth offset half pitch). Provides mechanical interlock, not just friction."
+    },
+
+    "teak_end_block": {
+      "name": "Teak end block (floor panel)",
+      "name_es": "Bloque de teca (panel de piso)",
+      "material": "Tectona grandis (teak)",
+      "width": 60,
+      "height": 60,
+      "length": 1000,
+      "grain_direction": "parallel to thrust (along span)",
+      "density": 670,
+      "compressive_strength_parallel": 58,
+      "compressive_strength_perpendicular": 11,
+      "elastic_modulus": 13000,
+      "durability_class": 1,
+      "weight_per_block": 2.4,
+      "count_per_panel": 2,
+      "cost_per_block": 3.50,
+      "color": {
+        "fill": "#8B6914",
+        "stroke": "#6B4F10",
+        "opacity": 0.6,
+        "label": "#8B6914"
+      },
+      "notes": "Structural node at each support end. B-grade pieces and offcuts from structural teak — hidden inside mortar. Serves as arch bearing, V-strip mounting, bolt passage, and geometry anchor. No treatment needed (Class 1 natural durability)."
+    },
+
+    "mortar": {
+      "name": "Mortar",
+      "name_es": "Mortero",
+      "material": "1:4 Portland cement : clean river sand",
+      "additives": ["polypropylene fiber (6-12 mm)", "pozzolanic admixture"],
+      "density": 2100,
+      "compressive_strength": 25,
+      "color": {
+        "fill": "#d4c4a8",
+        "stroke": "#b4a488",
+        "opacity": 0.35,
+        "opacity_solid": 0.6,
+        "label": "#a89060"
+      },
+      "notes": "Poured on vibration table (wall panels) or in place (floor panels). Pozzolan reduces pH, slowing bamboo degradation."
+    },
+
+    "mortar_fiber": {
+      "name": "Fiber-rich mortar (upper zone, floor panel)",
+      "name_es": "Mortero con fibra (zona superior, panel de piso)",
+      "material": "Mortar + pasto estrella fiber (3-5% by volume)",
+      "density": 1600,
+      "color": {
+        "fill": "#c4b498",
+        "stroke": "#a49478",
+        "opacity": 0.4,
+        "label": "#a49478"
+      },
+      "notes": "Used in upper zone of floor panels for acoustic damping (IIC improvement). Free invasive grass, millions of fiber-mortar interfaces absorb vibration."
+    },
+
+    "rounded_corner": {
+      "name": "Rounded exterior corner",
+      "name_es": "Esquina exterior redondeada",
+      "material": "Quarter-split borate-treated Guadua angustifolia (⌀85mm)",
+      "radius": 42,
+      "culm_diameter": 85,
+      "pieces_per_culm": 4,
+      "attachment": "wire-tied to protruding webs at corner",
+      "mesh": "chicken wire wraps continuously around the curve",
+      "finish": "lime plaster hand-troweled + lime wash",
+      "applies_to": "all exterior building corners at all levels",
+      "color": {
+        "fill": "#f5f0e8",
+        "stroke": "#d8d0c0",
+        "opacity": 0.5,
+        "label": "#d8d0c0"
+      },
+      "notes": "Quarter culm provides geometry, chicken wire provides plaster key, hand-troweled lime creates organic curve. No two corners identical. Traditional bahareque aesthetic. Cost: ~$0 (offcuts + existing materials)."
+    },
+
+    "dense_bamboo_end_zone": {
+      "name": "Dense bamboo end zone (floor panel)",
+      "name_es": "Zona de extremo con bambú denso (panel de piso)",
+      "material": "Borate-treated Guadua angustifolia, tightly packed",
+      "strip_width": 20,
+      "strip_thickness": 30,
+      "zone_length": 750,
+      "bamboo_fill_ratio": 0.60,
+      "mortar_fill_ratio": 0.40,
+      "weight_saving_both_ends": 139,
+      "color": {
+        "fill": "#5a7a3a",
+        "stroke": "#3a5a2a",
+        "opacity": 0.6,
+        "label": "#5a7a3a"
+      },
+      "notes": "Pre-assembled bamboo block, wire-tied, cut ~10 mm oversize, press-fit into end zone above arch. Self-clamping. Replaces unnecessary mortar where shear is at only 5% utilization."
+    },
+
+    "wire_tie": {
+      "name": "Galvanized wire tie",
+      "name_es": "Amarre de alambre galvanizado",
+      "material": "Galvanized steel wire",
+      "count_per_side": 10,
+      "color": {
+        "fill": "#888888",
+        "stroke": "#666666",
+        "opacity": 0.6,
+        "label": "#888888"
+      },
+      "notes": "At every diagonal-vertical crossing. Locks strips into rigid grid, distributes point loads, creates ductile failure mode."
+    },
+
+    "pvc_conduit": {
+      "name": "PVC electrical conduit",
+      "name_es": "Conducto eléctrico PVC",
+      "material": "Standard PVC",
+      "outer_diameter": 16,
+      "color": {
+        "fill": "#e0e0e0",
+        "stroke": "#b0b0b0",
+        "opacity": 0.5,
+        "label": "#b0b0b0"
+      },
+      "notes": "Between bamboo strips, against web. Protects 12V and 120V cables. Allows cable replacement without opening panel."
+    },
+
+    "clamping_strip": {
+      "name": "Bamboo clamping strip (wall panel)",
+      "name_es": "Tira de sujeción de bambú (panel de muro)",
+      "material": "Guadua angustifolia or steel flat bar",
+      "width": 20,
+      "thickness": 10,
+      "length": 1000,
+      "screw_spacing": 70,
+      "screws_per_strip": 14,
+      "color": {
+        "fill": "#7a5a2a",
+        "stroke": "#5a3a1a",
+        "opacity": 0.6,
+        "label": "#7a5a2a"
+      },
+      "notes": "Holds vertical bamboo strips against web via M5 screws every ~70 mm (every 2nd strip). One clamping strip at top, one at bottom."
+    },
+
+    "connector_tbar": {
+      "name": "Connector T-bar (floor level)",
+      "name_es": "Perfil T conector (nivel de piso)",
+      "material": "ASTM A36 hot-dip galvanized steel",
+      "profile": "T 60×60, turned 90° (flange vertical, web horizontal)",
+      "orientation": "flange vertical (wall face), web horizontal (shelf into room)",
+      "weight_per_m": 6.48,
+      "function": ["Ring beam", "Floor panel shelf", "Lower-to-upper wall splice", "Wall panel joint bridging"],
+      "color": {
+        "fill": "#3a7db8",
+        "stroke": "#2a6088",
+        "opacity": 0.85,
+        "label": "#3a7db8"
+      },
+      "notes": "Same T 60×60 stock, turned 90°. Runs full wall length at each floor level. Blue in SVGs to distinguish from wall (red) and floor (dark red) T-bars."
+    },
+
+    "bolt_m12_connection": {
+      "name": "M12 connection bolt (universal)",
+      "name_es": "Perno M12 de conexión (universal)",
+      "material": "Grade 8.8 galvanized steel",
+      "diameter": 12,
+      "length": 30,
+      "through_thickness": 14,
+      "cost_per_assembly": 1.50,
+      "color": {
+        "fill": "#555555",
+        "stroke": "#333333",
+        "opacity": 0.8,
+        "label": "#555555"
+      },
+      "notes": "M12 × 30 mm through 14 mm of steel (two 7mm layers). One bolt size for all connections in the building."
+    },
+
+    "bolt_spacing": {
+      "name": "Standard bolt spacing patterns",
+      "name_es": "Patrones estándar de espaciado de pernos",
+      "wall_to_connector": {
+        "bolts_per_panel": 2,
+        "orientation": "horizontal, through exposed protruding web",
+        "position_1_mm": 100,
+        "position_2_mm": 900,
+        "notes": "100mm and 900mm from left edge of 1m panel. Bolt through protruding web (never encased in mortar) into connector flange."
+      },
+      "floor_to_connector": {
+        "bolts_per_panel_end": 2,
+        "orientation": "vertical, from below (room ceiling)",
+        "position_1_mm": 250,
+        "position_2_mm": 750,
+        "notes": "250mm and 750mm from left edge of 1m panel. Bolt up through connector shelf into floor flange. Always accessible from room below."
+      },
+      "protruding_web": {
+        "protrusion_mm": 60,
+        "location": "top and bottom short T-bars, both ends",
+        "web_area_exposed": "60mm × 53mm = 3180 mm² per connection point",
+        "notes": "Short T-bars (top/bottom) extend 60mm beyond side T-bars on each end. This exposes the full web face for bolting to the connector ring. The side T-bars (long) are flush — their webs contact adjacent panel webs directly."
+      },
+      "connector_splice": {
+        "bolts_per_joint": 2,
+        "orientation": "horizontal, matching wall bolts",
+        "position_1_mm": -50,
+        "position_2_mm": 50,
+        "notes": "50mm each side of panel joint line"
+      },
+      "bolt_hole_pattern": {
+        "description": "Universal bolt hole pattern for protruding webs. Parametric — scales with profile size. Drilled in the welding jig so every panel is identical.",
+        "location": "protruding web of short T-bars (top and bottom of panel), both ends",
+        "available_area": {
+          "width": "= flange_width (protrusion length)",
+          "height": "= web_height"
+        },
+        "rules": {
+          "bolt_diameter": {
+            "M12": "for web_thickness ≤ 12mm",
+            "M16": "for web_thickness 13-20mm",
+            "M20": "for web_thickness > 20mm"
+          },
+          "hole_diameter": "bolt_diameter + 2mm (clearance)",
+          "edge_distance_min": "1.5 × bolt_diameter from any edge of the web",
+          "hole_positions": {
+            "description": "Holes positioned as a grid within the available area, respecting edge distance. Centered vertically on the web height.",
+            "vertical_position": "web_height / 2 (centered — single row for small profiles, double row for large)",
+            "horizontal_positions": {
+              "rule": "evenly spaced within protrusion, starting at edge_distance from inner face (mortar boundary)",
+              "small_profile_1_bolt": "1 hole at protrusion / 2 from inner face. When flange_width < 3 × bolt_diameter × 2.",
+              "medium_profile_2_bolts": "2 holes at 1/3 and 2/3 of protrusion. When flange_width ≥ 3 × bolt_diameter × 2 and < 5 × bolt_diameter × 2.",
+              "large_profile_3_or_4": "3-4 holes evenly spaced. When flange_width ≥ 5 × bolt_diameter × 2. Also allows double vertical row."
+            }
+          },
+          "vertical_rows": {
+            "single_row": "when web_height < 4 × bolt_diameter (e.g. T 60×60: 53mm < 48mm = false → still single row because 53mm allows only 1 centered hole with 18mm edge distance each side = 53-36 = 17mm usable, tight for 1 hole)",
+            "double_row": "when web_height ≥ 6 × bolt_diameter (e.g. T 150×150: 135mm ≥ 72mm → double row at 1/3 and 2/3 of web_height)"
+          }
+        },
+        "spacing_rule": {
+          "description": "Single horizontal row, centered vertically on web. Outermost bolts at edge_distance from panel face. Inner bolts evenly spaced between.",
+          "edge_distance": "1.5 × bolt_diameter",
+          "v_position": "web_height / 2 (always centered, single row, no vertical pairs)",
+          "2_bolts": ["edge_distance", "protrusion - edge_distance"],
+          "4_bolts": ["edge_distance", "edge_distance + span/3", "edge_distance + 2×span/3", "protrusion - edge_distance"],
+          "span": "protrusion - 2 × edge_distance"
+        },
+        "standard_pattern": {
+          "bolts_per_protrusion": 2,
+          "protrusions_per_panel": 4,
+          "total_per_panel": 8,
+          "notes": "Default for all applications."
+        },
+        "heavy_pattern": {
+          "bolts_per_protrusion": 4,
+          "protrusions_per_panel": 4,
+          "total_per_panel": 16,
+          "when": "multi-story (4+), high seismic, or engineer requires it"
+        },
+        "examples": {
+          "T_60x60_M12": {
+            "protrusion": 60, "web_height": 53, "edge_dist": 18,
+            "v": 26.5,
+            "2_bolts_h": [18, 42],
+            "per_panel": 8
+          },
+          "T_100x100_M12": {
+            "protrusion": 100, "web_height": 90, "edge_dist": 18,
+            "v": 45,
+            "2_bolts_h": [18, 82],
+            "per_panel": 8
+          },
+          "T_150x150_M16": {
+            "protrusion": 150, "web_height": 135, "edge_dist": 24,
+            "v": 67.5,
+            "2_bolts_h": [24, 126],
+            "4_bolts_h": [24, 58, 92, 126],
+            "per_panel_standard": 8,
+            "per_panel_heavy": 16
+          }
+        },
+        "jig_drilling": {
+          "description": "All holes drilled in the welding jig BEFORE mortar pour. Jig has hardened drill bushings at the parametric positions. Same jig drills every panel identically.",
+          "tolerance": "±0.5mm (drill bushing guided)",
+          "notes": "Drilling after mortar pour is not possible — mortar encases the inner portion of the web. All holes must be pre-drilled. The jig guarantees alignment."
+        },
+        "connector_ring_holes": {
+          "description": "Connector ring segments have matching holes at the same parametric positions. Drilled with the same jig bushings.",
+          "alignment": "Panel holes and connector holes align automatically because both use the same parametric rule."
+        }
+      },
+
+      "foundation": {
+        "method": "flat slab → cure → saw-cut channels → DPC → drop panels → mortar fill",
+        "panel_channel_width": "= wall_thickness (parametric)",
+        "panel_channel_depth": 40,
+        "drainage_channel_depth": "80-100 (same position, deeper cut)",
+        "cut_tool": "concrete diamond saw, adjustable depth",
+        "dpc": "polyethylene membrane, laid in channel before panel",
+        "fill": "self-leveling mortar after panel positioned and plumbed",
+        "notes": "No teak liners, no formwork, no precision during pour. Flat slab is the simplest possible foundation. Channels cut after curing with panel-as-template marking. Same saw cuts both panel channels and drainage channels. Any wall thickness."
+      }
+    },
+
+    "bolt_m12": {
+      "name": "M12 overlength bolt",
+      "name_es": "Perno M12 de longitud extra",
+      "material": "Grade 8.8 galvanized steel",
+      "diameter": 12,
+      "length": 110,
+      "cost_per_assembly": 0.95,
+      "color": {
+        "fill": "#555555",
+        "stroke": "#333333",
+        "opacity": 0.8,
+        "label": "#555555"
+      },
+      "notes": "M12 × 110 mm. Legacy spec — see bolt_m12_connection for the universal connection bolt."
+    },
+
+    "screw_m5": {
+      "name": "M5 clamping screw",
+      "name_es": "Tornillo de sujeción M5",
+      "material": "Galvanized steel",
+      "diameter": 5,
+      "color": {
+        "fill": "#444444",
+        "stroke": "#222222",
+        "opacity": 0.7,
+        "label": "#444444"
+      },
+      "notes": "Self-tapping in 7 mm steel (T 60×60). Every 2nd bamboo strip (~70 mm spacing, ~14 per clamping strip)."
+    },
+
+    "chicken_wire": {
+      "name": "Chicken wire mesh",
+      "name_es": "Malla de gallinero",
+      "material": "Galvanized hexagonal mesh",
+      "opening": 25,
+      "color": {
+        "fill": "#cccccc",
+        "stroke": "#aaaaaa",
+        "opacity": 0.3,
+        "label": "#aaaaaa"
+      },
+      "notes": "Stapled to both panel faces on-site. Provides mechanical key for lime plaster adhesion."
+    },
+
+    "lime_plaster": {
+      "name": "Lime plaster finish",
+      "name_es": "Pañete de cal",
+      "material": "Lime + sand, hand-troweled",
+      "thickness_min": 3,
+      "thickness_max": 5,
+      "color": {
+        "fill": "#f5f0e8",
+        "stroke": "#d8d0c0",
+        "opacity": 0.5,
+        "label": "#d8d0c0"
+      },
+      "notes": "Breathable, antifungal, self-healing. Optional: chopped dried grass fiber for crack resistance. Topped with lime wash."
+    },
+
+    "cork_underlay": {
+      "name": "Cork underlay (floor panel)",
+      "name_es": "Subcapa de corcho (panel de piso)",
+      "material": "Cork sheet",
+      "thickness": 3,
+      "cost_per_m2": 4,
+      "iic_improvement": "+15 to +20",
+      "color": {
+        "fill": "#c8a870",
+        "stroke": "#a88850",
+        "opacity": 0.5,
+        "label": "#a88850"
+      },
+      "notes": "Under terracotta tiles on floor panel top surface. Combined with pasto estrella fiber mortar achieves IIC 58-63."
+    },
+
+    "epdm_gasket": {
+      "name": "EPDM gasket",
+      "name_es": "Empaque EPDM",
+      "material": "EPDM rubber",
+      "thickness": 3,
+      "color": {
+        "fill": "#333333",
+        "stroke": "#111111",
+        "opacity": 0.8,
+        "label": "#333333"
+      },
+      "notes": "Used with M12 overlength bolts for waterproof seal at wall-floor connections."
+    }
+  },
+
+  "panels": {
+    "wall": {
+      "name": "Wall panel",
+      "name_es": "Panel de muro",
+      "width": 1000,
+      "height": 2500,
+      "height_3m_panel": 3000,
+      "thickness": 85,
+      "weight": 155,
+      "variants": ["P (pass-through)", "O (outlet)", "S (switch+outlet)", "W (water+outlet)"]
+    },
+    "floor": {
+      "name": "Floor panel (bowstring beam)",
+      "name_es": "Panel de piso (viga arco atirantado)",
+      "width": 1000,
+      "span_options": [4000, 5000],
+      "depth": 180,
+      "arch_rise": 127,
+      "design_load": 4.5,
+      "dead_load": 2.5,
+      "live_load": 2.0
+    }
+  },
+
+  "background": {
+    "color": "#ffffff"
+  },
+
+  "labels": {
+    "font_family": "Helvetica,Arial,sans-serif",
+    "font_size_normal": 7,
+    "font_size_title": 11,
+    "font_size_legend": 6
+  }
+}

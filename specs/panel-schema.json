@@ -1,0 +1,831 @@
+{
+  "_meta": {
+    "version": "0.1.0",
+    "description": "Parametric panel interior definition schema. Any panel variant is described by dividing the universal frame into zones. From this schema, all outputs generate: SVG, Three.js, STL, cut lists, cost.",
+    "frame": "universal — 1000mm wide × height mm tall, T-profile. Short T-bar webs protrude outward (up at top, down at bottom) for bolt connections."
+  },
+
+  "frame_orientation_rules": {
+    "description": "CRITICAL — these rules define how T-bars are oriented in the panel frame. Reference this before generating ANY view.",
+    "side_tbars": {
+      "quantity": 2,
+      "cut_length": "panel_height (e.g. 3000mm)",
+      "orientation": "vertical (along panel height)",
+      "flange": "faces OUTWARD (panel exterior face, contacts adjacent panel)",
+      "web": "points INWARD (into panel interior)",
+      "protrusion": "NONE — flush at top and bottom, no web extends beyond panel height"
+    },
+    "short_tbars": {
+      "quantity": 2,
+      "cut_length": "panel_width (e.g. 1000mm)",
+      "orientation": "horizontal (across panel width)",
+      "flange": "spans panel width (1000mm), centered on frame depth (60mm = flange width). Sits INSIDE the panel at the top/bottom edge.",
+      "web": "spans 990mm (10mm less than panel width), centered (5mm gap each side). Points OUTWARD from the panel. Top web UP, bottom web DOWN. The 5mm gap at each side allows the connector T-bar web to drop through at inline panel junctions.",
+      "web_width": 990,
+      "web_gap_per_side": 5,
+      "protrusion": "The WEB extending outside the panel body. Top: web goes UP. Bottom: web goes DOWN. Protrusion height = web_height (e.g. 53mm for T60×60)."
+    },
+    "protrusion_direction": {
+      "CORRECT": "Webs point OUTWARD: top T-bar web extends UP above panel, bottom T-bar web extends DOWN below panel. Web is 990mm wide, centered (5mm gap each side).",
+      "WRONG_1": "Protrusions do NOT extend left/right beyond the panel width",
+      "WRONG_2": "The web is NOT 1000mm — it is 990mm, leaving a 10mm gap at each panel junction for the connector T-bar web",
+      "WRONG_3": "The web does NOT point inward into the panel — it points outward",
+      "view_from_face": "Top: flange at panel top edge, web extending upward (990mm). Bottom: flange at panel bottom edge, web extending downward (990mm). 5mm visible gap at each side.",
+      "view_from_top": "Flange visible (60mm wide, centered on wall depth). Web thin line at center of flange going up/down (into page).",
+      "view_from_side": "T cross-section visible: flange (horizontal, 60mm) with web (vertical, 53mm) extending outward from panel."
+    },
+    "vertical_wall_connection_A": {
+      "short_name": "VWC-A",
+      "description": "Vertical Wall Connection A — double T-bar connector (I-shape). Two T-bars with flanges connected (wide parts facing each other), webs pointing outward. Always mounted on the OUTSIDE (exterior) surface of the wall web.",
+      "use_case": "All OUTSIDE walls (exterior + corner walls). NOT used on interior walls (separate solution TBD). NOT used where junction cube is present.",
+      "rule": "If the wall is an outside wall AND not at a multi-directional junction (cube), use VWC-A. Always on the exterior face.",
+      "profile": "Same T-bar profile as frame (e.g. T60×60)",
+      "length": "150mm (75mm overlap onto each panel web)",
+      "assembly": {
+        "lower_web": "Sits against outside face of both panel webs. Bolted through with 2-4 M12 bolts per side.",
+        "flanges_connected": "Two T-bar flanges (wide parts) face each other. Welded or screwed together (TBD). The flanges are in the CENTER of the I-shape.",
+        "upper_web_ridge": "Extends outward (up for top, down for bottom). Creates a RIDGE — connection point for upper floor wall panels. The next floor's wall panel bottom web bolts to this ridge."
+      },
+      "dimensions_T60": {
+        "total_height": "120mm (53mm lower web + 7mm lower flange + 7mm upper flange + 53mm upper web)",
+        "flange_width": "60mm (wide parts, connected in center)",
+        "web_thickness": "7mm each",
+        "length": "150mm"
+      },
+      "bolt_holes": "Both webs have bolt holes with the same spacing pattern. Lower web: bolts through to panel web. Upper web (ridge): bolts for upper floor wall panel bottom web.",
+      "structural_function": "1) Lower web transfers shear across inline panel joint. 2) Upper web (ridge) provides bolt interface for next floor's wall panels — continuous vertical load path through floors.",
+      "post_assembly_infill": {
+        "description": "After VWC-A bolts are installed and upper panels placed, the connector zone is filled with poured borate mortar. This transforms the steel-only connection into a composite steel-masonry ring beam (viga de amarre).",
+        "benefit": "4.2× vertical capacity, continuous seismic shear transfer, monolithic building behavior",
+        "same_for": "VWC-A, VWC-I90, VWC-C, TWC-A, TWC-I90, TWC-C — all connector types get infill"
+      }
+    },
+
+    "top_wall_connection_A": {
+      "short_name": "TWC-A",
+      "description": "Top Wall Connection A — single T-bar connector. Used at the TOPMOST panel ring only (roof level). Lower web bolts to panel web (same as VWC-A lower half). Flange provides a flat bearing surface for the roof plate/eave beam. No upper web/ridge — no next floor above.",
+      "use_case": "Top ring of ALL exterior walls. Replaces VWC-A where there is no upper floor. Also TWC-I90 and TWC-C variants for T-junctions and corners at the top ring.",
+      "rule": "If this is the topmost panel ring AND exterior wall, use TWC instead of VWC.",
+      "profile": "Same T-bar profile as frame",
+      "length": "150mm (75mm overlap onto each panel web)",
+      "assembly": {
+        "web": "Sits against outside face of both panel webs. Bolted through with 2-4 M12 bolts per side.",
+        "flange": "Wide part faces UP. Creates a flat bearing surface for roof plate beam."
+      },
+      "dimensions_T2": {
+        "total_height": "50mm (43.6mm web + 6.4mm flange)",
+        "flange_width": "50mm",
+        "web_thickness": "6.4mm",
+        "length": "150mm"
+      },
+      "bolt_holes": "Web has bolt holes matching panel web pattern.",
+      "structural_function": "1) Web transfers shear across inline panel joint at roof level. 2) Flange provides flat bearing for roof plate beam — clean eave line.",
+      "post_assembly_infill": {
+        "description": "After VWC-A bolts are installed and upper panels placed, the connector zone is filled with poured borate mortar. This transforms the steel-only connection into a composite steel-masonry ring beam (viga de amarre).",
+        "benefit": "4.2× vertical capacity, continuous seismic shear transfer, monolithic building behavior",
+        "same_for": "VWC-A, VWC-I90, VWC-C, TWC-A, TWC-I90, TWC-C — all connector types get infill"
+      },
+      "variants": {
+        "TWC-A": "inline (same as VWC-A but single T-bar)",
+        "TWC-I90": "T-junction (same as VWC-I90 but single T-bar)",
+        "TWC-C": "corner (same as VWC-C but single T-bar)"
+      }
+    },
+
+    "inside_wall_connection_A": {
+      "short_name": "IWC-A",
+      "description": "Inside Wall Connection A — single T-bar piece, flange (wide part) on top, web bolted to panel web face. Simpler than VWC-A: no ridge needed since interior walls don't carry floor loads from above.",
+      "use_case": "All INTERIOR wall inline joints.",
+      "profile": "Same T-bar profile as frame (e.g. T60×60)",
+      "length": "150mm (75mm overlap onto each panel web)",
+      "assembly": {
+        "web": "Sits against outside face of both panel webs at junction. Bolted through with 2-4 M12 bolts per side.",
+        "flange": "Wide part faces outward (up for top, down for bottom). Caps the junction."
+      },
+      "dimensions_T60": {
+        "total_height": "60mm (53mm web + 7mm flange)",
+        "flange_width": "60mm",
+        "web_thickness": "7mm",
+        "length": "150mm"
+      },
+      "bolt_holes": "Same spacing pattern as panel web bolt holes.",
+      "structural_function": "Transfers shear across inline interior wall panel joint. No vertical load path needed (floor loads carried by exterior walls)."
+    }
+  },
+
+  "panel_parameters": {
+    "width": { "default": 1000, "unit": "mm", "note": "always 1000" },
+    "height": { "default": 3000, "unit": "mm", "note": "parametric, default 3000" },
+    "profile": { "default": "T_60x60", "note": "any T-profile, defines frame dimensions" },
+    "frame_depth": { "default": 60, "unit": "mm", "note": "= flange width of T-profile (T60→60mm, T100→100mm)" },
+    "finished_wall_thickness": { "default": 86, "unit": "mm", "note": "frame_depth + 2×13mm mortar+lime. For T60: 60 + 26 = 86mm" },
+    "orientation": { "values": ["wall", "floor"], "note": "wall=vertical, floor=horizontal" },
+    "exterior_face": { "values": ["front", "back", "none"], "default": "none", "note": "assigned at placement" }
+  },
+
+  "zone_types": {
+
+    "solid": {
+      "description": "Standard bamboo + mortar infill",
+      "parameters": {
+        "strip_width": { "default": 20, "unit": "mm" },
+        "strip_thickness": { "default": 20, "unit": "mm" },
+        "strip_spacing": { "default": 20, "unit": "mm" },
+        "strip_direction": { "values": ["vertical", "horizontal", "diagonal"], "default": "vertical" },
+        "diagonal_bracing": { "default": true, "note": "X-pattern diagonal braces — one per side of web, opposing directions" },
+        "diagonal_width": { "default": 60, "unit": "mm", "note": "matches profile flange width" },
+        "diagonal_thickness": { "default": 20, "unit": "mm", "note": "sits flat against web, vertical strips bow over it" },
+        "mortar_type": { "values": ["standard", "fiber", "lightweight"], "default": "standard" }
+      },
+      "generates": ["bamboo cut list", "mortar volume", "SVG cross-section"]
+    },
+
+    "opening": {
+      "description": "Empty opening (door, window frame without glass)",
+      "parameters": {
+        "x": { "unit": "mm", "note": "offset from left edge of panel" },
+        "y": { "unit": "mm", "note": "offset from bottom edge" },
+        "w": { "unit": "mm", "note": "opening width" },
+        "h": { "unit": "mm", "note": "opening height" }
+      },
+      "constraints": {
+        "min_solid_border": 60,
+        "note": "minimum 60mm (one flange width) of solid material around any opening"
+      }
+    },
+
+    "glass": {
+      "description": "Glass pane in sub-frame",
+      "parameters": {
+        "x": { "unit": "mm" },
+        "y": { "unit": "mm" },
+        "w": { "unit": "mm" },
+        "h": { "unit": "mm" },
+        "glass_thickness": { "default": 6, "unit": "mm" },
+        "frame_material": { "values": ["teak", "steel", "aluminum"], "default": "teak" },
+        "frame_width": { "default": 40, "unit": "mm" },
+        "operable": { "default": false, "note": "fixed or openable" }
+      }
+    },
+
+    "door": {
+      "description": "Door opening with slab",
+      "parameters": {
+        "x": { "default": 0, "unit": "mm", "note": "typically 0 (full width)" },
+        "y": { "default": 0, "unit": "mm", "note": "typically 0 (from floor)" },
+        "w": { "default": 1000, "unit": "mm" },
+        "h": { "unit": "mm", "note": "door height, e.g. 2400" },
+        "slab_material": { "values": ["teak", "glass", "steel"], "default": "teak" },
+        "slab_thickness": { "default": 30, "unit": "mm" },
+        "hinge_side": { "values": ["left", "right"], "default": "left" },
+        "swing": { "values": ["inward", "outward"], "default": "inward" }
+      }
+    },
+
+    "lattice": {
+      "description": "Slats (teak or bamboo) with gaps — ventilation, light filtering, privacy",
+      "parameters": {
+        "x": { "unit": "mm" },
+        "y": { "unit": "mm" },
+        "w": { "unit": "mm" },
+        "h": { "unit": "mm" },
+        "slat_width": { "default": 30, "unit": "mm" },
+        "slat_count": { "note": "derived from zone width and slat spacing" },
+        "slat_direction": { "values": ["vertical", "horizontal"], "default": "vertical" },
+        "slat_material": { "values": ["teak", "bamboo", "steel"], "default": "teak" }
+      }
+    },
+
+    "curve": {
+      "description": "Curved bamboo surface freely placed and rotated within the panel. Defined by start point, end point, and bezier control points in panel-local coordinates (origin = bottom-left of panel). Multiple curves can overlap, intersect, or stack.",
+      "parameters": {
+        "start": { "x": "mm", "y": "mm", "note": "curve start point in panel coordinates" },
+        "end": { "x": "mm", "y": "mm", "note": "curve end point in panel coordinates" },
+        "rotation": { "default": 0, "unit": "degrees", "note": "rotation around curve midpoint. 0=as defined, 90=vertical arch, 45=diagonal" },
+        "anchor_start": { "values": ["frame", "divider", "free"], "default": "frame", "note": "what the start point connects to. frame=panel T-bar, divider=internal T-bar, free=floating in mortar" },
+        "anchor_end": { "values": ["frame", "divider", "free"], "default": "frame" },
+        "control_points": {
+          "type": "array",
+          "items": { "x": "mm", "y": "mm" },
+          "note": "1 point = simple arc (quadratic bezier), 2 points = S-curve or asymmetric (cubic bezier), 0 points = straight line",
+          "examples": {
+            "symmetric_arch": { "start": [0, 0], "end": [2500, 0], "control": [[1250, 300]] },
+            "asymmetric_arch": { "start": [0, 0], "end": [2500, 100], "control": [[800, 350]] },
+            "s_curve": { "start": [0, 0], "end": [2500, 0], "control": [[800, 200], [1700, -200]] },
+            "vault": { "start": [0, 0], "end": [1000, 0], "control": [[500, 500]] },
+            "flat": { "start": [0, 0], "end": [2500, 0], "control": [] }
+          }
+        },
+        "bamboo": {
+          "layers": { "default": 2 },
+          "strips_per_layer": { "default": 27 },
+          "strip_width": { "default": 20, "unit": "mm" },
+          "strip_thickness": { "default": 20, "unit": "mm" }
+        },
+        "ties": {
+          "count": { "default": 10 },
+          "width": { "default": 30, "unit": "mm" },
+          "thickness": { "default": 35, "unit": "mm" },
+          "note": "tension members connecting curve endpoints. Only needed when curve creates thrust (arch). Not needed for S-curves or decorative curves."
+        },
+        "cross_pieces": {
+          "count": { "default": 10 },
+          "note": "perpendicular supports that force bamboo into the defined curve shape. Heights derived from the bezier curve at evenly spaced positions."
+        },
+        "surfaces": {
+          "top": { "values": ["mortar", "tile", "teak_plank", "none"], "default": "mortar" },
+          "bottom": { "values": ["exposed", "plaster", "teak_plank", "none"], "default": "exposed" }
+        }
+      },
+    "node": {
+      "description": "Structural point element where curves meet frame, dividers, or each other. Transfers forces between elements. Typically a solid block (teak, hardwood, concrete, steel).",
+      "parameters": {
+        "position": { "x": "mm", "y": "mm", "note": "location in panel coordinates" },
+        "material": { "values": ["teak", "guadua", "hardwood", "steel", "concrete"], "default": "teak" },
+        "width": { "unit": "mm", "note": "along panel width (perpendicular to curve)" },
+        "height": { "unit": "mm", "note": "along panel height (parallel to curve)" },
+        "depth": { "unit": "mm", "note": "through panel thickness" },
+        "connects": {
+          "type": "array",
+          "items": "curve_id or frame_element_id",
+          "note": "list of elements that meet at this node — curves, ties, frame T-bars, dividers"
+        },
+        "functions": {
+          "type": "array",
+          "values": ["arch_bearing", "tie_anchor", "clamp_mount", "bolt_passage", "geometry_anchor", "strip_spacer", "conduit_passage"],
+          "note": "what this node does structurally or functionally"
+        },
+        "faces": {
+          "description": "Each face of the node block can have holes, notches, or channels. Defined per face for full parametric control.",
+          "top": { "features": [] },
+          "bottom": { "features": [] },
+          "left": { "features": [] },
+          "right": { "features": [] },
+          "front": { "features": [] },
+          "back": { "features": [] },
+          "feature_types": {
+            "hole": {
+              "diameter": "mm",
+              "depth": "mm (full = through-hole)",
+              "x": "mm (from face left edge)",
+              "y": "mm (from face bottom edge)",
+              "shape": { "values": ["round", "square"], "default": "round" },
+              "purpose": "bolt, dowel, conduit, drainage"
+            },
+            "notch": {
+              "width": "mm",
+              "height": "mm",
+              "depth": "mm (into the block face)",
+              "x": "mm (from face left edge)",
+              "y": "mm (from face bottom edge)",
+              "shape": { "values": ["rectangular", "v_shaped", "rounded", "dovetail"], "default": "rectangular" },
+              "through": { "type": "boolean", "default": false, "note": "true = notch goes all the way through the block" },
+              "angle": { "default": 0, "unit": "degrees", "note": "rotation of the notch profile, e.g. 45° for diagonal strip entry" },
+              "purpose": "diagonal strip entry, strip seating, web engagement, cross-piece bearing"
+            },
+            "channel": {
+              "width": "mm",
+              "depth": "mm",
+              "length": "mm (along the face)",
+              "x_start": "mm",
+              "y_start": "mm",
+              "x_end": "mm",
+              "y_end": "mm",
+              "profile": { "values": ["rectangular", "semicircular", "v_shaped"], "default": "rectangular" },
+              "purpose": "conduit routing, strip guide, drainage, mortar flow"
+            },
+            "slot": {
+              "width": "mm",
+              "depth": "mm (into block, or 'through')",
+              "length": "mm (along face)",
+              "x": "mm",
+              "y": "mm",
+              "purpose": "strip passage, web engagement, clamping strip seating"
+            }
+          }
+        }
+      },
+      "examples": {
+        "arch_support_block": {
+          "position": [0, 0],
+          "material": "teak",
+          "width": 60, "height": 60, "depth": 1000,
+          "connects": ["arch_curve_1", "tie_1", "frame_bottom_tbar"],
+          "functions": ["arch_bearing", "tie_anchor", "clamp_mount"]
+        },
+        "divider_node": {
+          "position": [2500, 0],
+          "material": "teak",
+          "width": 60, "height": 60, "depth": 1000,
+          "connects": ["arch_curve_1", "arch_curve_2", "divider_tbar_1"],
+          "functions": ["arch_bearing", "geometry_anchor"],
+          "note": "where two arches meet at an internal divider — receives thrust from both sides (cancels)"
+        },
+        "hdpe_spacer_block": {
+          "position": [500, 0],
+          "material": "hdpe",
+          "width": 30, "height": 30, "depth": 1000,
+          "functions": ["strip_spacer", "conduit_passage"],
+          "faces": {
+            "top": { "features": [
+              { "type": "slot", "width": 20, "depth": 10, "length": 1000, "x": 5, "y": 0, "purpose": "bamboo strip seating — strips rest in slots" }
+            ]},
+            "bottom": { "features": [
+              { "type": "slot", "width": 20, "depth": 10, "length": 1000, "x": 5, "y": 0, "purpose": "bamboo strip seating" }
+            ]},
+            "left": { "features": [
+              { "type": "notch", "width": 60, "depth": 20, "x": 5, "y": 0, "extends_to": "top_surface", "purpose": "diagonal brace entry (60×20mm) — notch reaches from web-facing side to top/bottom surface of block" }
+            ]},
+            "right": { "features": [
+              { "type": "notch", "width": 60, "depth": 20, "x": 5, "y": 0, "extends_to": "top_surface", "purpose": "diagonal brace entry (60×20mm) — notch reaches from web-facing side to top/bottom surface of block" }
+            ]},
+            "front": { "features": [
+              { "type": "hole", "diameter": 16, "depth": 30, "x": 15, "y": 15, "purpose": "PVC conduit passage" }
+            ]},
+            "back": { "features": [
+              { "type": "hole", "diameter": 16, "depth": 30, "x": 15, "y": 15, "purpose": "PVC conduit passage" }
+            ]},
+            "outer": { "description": "face away from web, where clamp strip sits",
+              "features": [
+                { "type": "hole", "diameter": 5, "depth": "through", "spacing": 70, "count": 14, "y": 15, "purpose": "M5 clamping screws — pass through clamp strip → bamboo strips → HDPE → into flange. Spaced every 70mm along the 1000mm panel width (every 2nd bamboo strip)." }
+              ]
+            },
+            "inner": { "description": "face against web/flange",
+              "features": [],
+              "note": "no features — flat bearing surface against flange"
+            }
+          },
+          "strip_anchor_y": 15,
+          "strip_anchor_y_note": "mm from top of block — where the clamping screw holds bamboo strips. This is the start/end point of the bowed vertical strips. Must match outer face screw hole y position.",
+          "note": "material interchangeable: hdpe, teak, hardwood, recycled plastic. Same geometry, different material properties. Screw holes on outer face for clamping strip attachment."
+        },
+        "teak_end_block_with_features": {
+          "position": [0, 0],
+          "material": "teak",
+          "width": 60, "height": 60, "depth": 1000,
+          "connects": ["arch_curve_1", "tie_1", "frame_bottom_tbar"],
+          "functions": ["arch_bearing", "tie_anchor", "clamp_mount", "bolt_passage"],
+          "faces": {
+            "top": { "features": [
+              { "type": "channel", "width": 20, "depth": 10, "path": "straight", "purpose": "arch strip bearing surface" }
+            ]},
+            "bottom": { "features": [
+              { "type": "slot", "width": 1000, "depth": 3, "length": 60, "x": 0, "y": 0, "purpose": "V-profile clamp mounting surface" }
+            ]},
+            "left": { "features": [
+              { "type": "hole", "diameter": 14, "depth": 60, "x": 30, "y": 30, "purpose": "M12 bolt passage to frame" }
+            ]},
+            "right": { "features": [
+              { "type": "hole", "diameter": 14, "depth": 60, "x": 30, "y": 30, "purpose": "M12 bolt passage to frame" }
+            ]}
+          }
+        }
+      }
+    },
+
+      "structural_properties": {
+        "derives_from_curve": [
+          "thrust = f(load, span, rise) — calculated from curve geometry",
+          "tie_capacity = f(tie_count, tie_area, bamboo_tensile_strength)",
+          "safety_factor = tie_capacity / thrust",
+          "deflection = f(curve_stiffness, load, span)"
+        ],
+        "note": "structural calculations auto-generated from curve definition"
+      }
+    }
+  },
+
+  "panel_definition": {
+    "description": "A panel is defined by its zones. Zones can be stacked vertically (wall panels) or placed side by side with internal T-bar dividers (floor panels).",
+    "structure": {
+      "zones": [
+        {
+          "type": "zone_type",
+          "y_start": "mm from bottom",
+          "y_end": "mm from bottom",
+          "note": "for wall panels: zones stack vertically within the frame"
+        }
+      ],
+      "dividers": [
+        {
+          "position": "mm from left/bottom edge",
+          "note": "internal T-bar divider (same profile as frame, same 1120mm piece)"
+        }
+      ]
+    }
+  },
+
+  "examples": {
+
+    "solid_wall": {
+      "name": "Standard solid wall panel",
+      "zones": [
+        { "type": "solid", "y_start": 0, "y_end": 3000 }
+      ]
+    },
+
+    "window_panel": {
+      "name": "Panel with centered window",
+      "zones": [
+        { "type": "solid", "y_start": 0, "y_end": 900 },
+        { "type": "glass", "y_start": 900, "y_end": 2400, "x": 100, "w": 800, "h": 1500 },
+        { "type": "solid", "y_start": 2400, "y_end": 3000 }
+      ]
+    },
+
+    "full_height_glass": {
+      "name": "Floor-to-ceiling glass (main facade)",
+      "zones": [
+        { "type": "solid", "y_start": 0, "y_end": 60 },
+        { "type": "glass", "y_start": 60, "y_end": 2940, "x": 60, "w": 880, "h": 2880 },
+        { "type": "solid", "y_start": 2940, "y_end": 3000 }
+      ]
+    },
+
+    "entrance_door": {
+      "name": "Full-height teak door",
+      "zones": [
+        { "type": "door", "y_start": 0, "y_end": 3000, "slab_material": "teak", "hinge_side": "right" }
+      ]
+    },
+
+    "clerestory": {
+      "name": "Solid below + glass above (knee wall replacement)",
+      "zones": [
+        { "type": "solid", "y_start": 0, "y_end": 2000 },
+        { "type": "glass", "y_start": 2000, "y_end": 3000, "x": 60, "w": 880, "h": 1000 }
+      ]
+    },
+
+    "bathroom_with_high_window": {
+      "name": "Solid wall with ventilation window at top",
+      "zones": [
+        { "type": "solid", "y_start": 0, "y_end": 2200 },
+        { "type": "glass", "y_start": 2200, "y_end": 2700, "x": 100, "w": 800, "h": 500, "operable": true },
+        { "type": "solid", "y_start": 2700, "y_end": 3000 }
+      ]
+    },
+
+    "stair_screen": {
+      "name": "Vertical teak slat screen (staircase)",
+      "zones": [
+        { "type": "lattice", "y_start": 0, "y_end": 3000, "x": 0, "w": 1000, "h": 3000, "slat_width": 30, "slat_direction": "vertical", "slat_material": "teak" }
+      ]
+    },
+
+    "floor_3m_single_arch": {
+      "name": "Floor panel, 3m span, single arch (mezzanine)",
+      "orientation": "floor",
+      "zones": [
+        { "type": "curve", "start": [0, 0], "end": [3000, 0], "control": [[1500, 150]] }
+      ],
+      "dividers": []
+    },
+
+    "floor_5m_double_arch": {
+      "name": "Floor panel, 5m span, double arch with central divider",
+      "orientation": "floor",
+      "zones": [
+        { "type": "curve", "start": [0, 0], "end": [2500, 0], "control": [[1250, 200]] },
+        { "type": "curve", "start": [0, 0], "end": [2500, 0], "control": [[1250, 200]] }
+      ],
+      "dividers": [
+        { "position": 2500 }
+      ]
+    },
+
+    "floor_10m_quad_arch": {
+      "name": "Floor panel, 10m span, 4 arches with 3 dividers (bridge/demonstration)",
+      "orientation": "floor",
+      "height": 10000,
+      "zones": [
+        { "type": "curve", "start": [0, 0], "end": [2500, 0], "control": [[1250, 300]] },
+        { "type": "curve", "start": [0, 0], "end": [2500, 0], "control": [[1250, 300]] },
+        { "type": "curve", "start": [0, 0], "end": [2500, 0], "control": [[1250, 300]] },
+        { "type": "curve", "start": [0, 0], "end": [2500, 0], "control": [[1250, 300]] }
+      ],
+      "dividers": [
+        { "position": 2500 },
+        { "position": 5000 },
+        { "position": 7500 }
+      ]
+    },
+
+    "vault_ceiling_panel": {
+      "name": "Wall panel with vaulted interior surface (decorative ceiling effect)",
+      "zones": [
+        { "type": "curve", "start": [0, 0], "end": [1000, 0], "control": [[500, 400]], "surfaces": { "top": "mortar", "bottom": "plaster" } }
+      ],
+      "note": "deep curve creates barrel vault look from inside. Panel is still flat on exterior."
+    },
+
+    "asymmetric_floor": {
+      "name": "Floor panel with one end higher (ramp, sloped terrace)",
+      "orientation": "floor",
+      "zones": [
+        { "type": "curve", "start": [0, 0], "end": [3000, 200], "control": [[1500, 250]] }
+      ],
+      "note": "end heights differ — creates a gentle slope while maintaining arch structure"
+    },
+
+    "mixed_curve_floor_8m": {
+      "name": "8m floor panel: deep arch center + shallow arches at supports",
+      "orientation": "floor",
+      "height": 8000,
+      "zones": [
+        { "type": "curve", "start": [0, 0], "end": [2000, 0], "control": [[1000, 100]], "note": "shallow arch near support" },
+        { "type": "curve", "start": [0, 0], "end": [4000, 0], "control": [[2000, 400]], "note": "deep central arch, maximum span" },
+        { "type": "curve", "start": [0, 0], "end": [2000, 0], "control": [[1000, 100]], "note": "shallow arch near support" }
+      ],
+      "dividers": [
+        { "position": 2000 },
+        { "position": 6000 }
+      ],
+      "note": "non-uniform segment lengths — wider center span where loads are lower, shorter spans near supports where shear is highest"
+    },
+
+    "catenary_bridge_12m": {
+      "name": "12m bridge panel: 4 segments with catenary curves for optimal compression",
+      "orientation": "floor",
+      "height": 12000,
+      "zones": [
+        { "type": "curve", "start": [0, 50], "end": [3000, 0], "control": [[1500, 250]], "note": "entry ramp, rises from abutment" },
+        { "type": "curve", "start": [0, 0], "end": [3000, 0], "control": [[1500, 350]] },
+        { "type": "curve", "start": [0, 0], "end": [3000, 0], "control": [[1500, 350]] },
+        { "type": "curve", "start": [0, 0], "end": [3000, 50], "control": [[1500, 250]], "note": "exit ramp, descends to abutment" }
+      ],
+      "dividers": [
+        { "position": 3000 },
+        { "position": 6000 },
+        { "position": 9000 }
+      ],
+      "note": "outer segments are asymmetric (ramped), inner segments are symmetric (maximum span). Each segment has independent curve parameters."
+    },
+
+    "compound_wall_panel": {
+      "name": "Wall panel with curved niche (built-in shelf or arch detail)",
+      "zones": [
+        { "type": "solid", "y_start": 0, "y_end": 1000 },
+        { "type": "curve", "start": [100, 0], "end": [900, 0], "control": [[500, 300]], "note": "arch-shaped niche in wall, decorative or functional shelf" },
+        { "type": "solid", "y_start": 1600, "y_end": 3000 }
+      ],
+      "note": "solid below, curved niche in the middle, solid above. The curve creates an arched recess in the wall surface."
+    },
+
+    "mixed_solid_and_lattice": {
+      "name": "Solid lower half + ventilation lattice upper (tropical climate)",
+      "zones": [
+        { "type": "solid", "y_start": 0, "y_end": 1500 },
+        { "type": "lattice", "y_start": 1500, "y_end": 3000, "x": 60, "w": 880, "h": 1500, "slat_direction": "horizontal", "slat_material": "bamboo" }
+      ]
+    }
+  },
+
+    "clamp": {
+      "description": "Clamping strip that holds bamboo strips against the frame web. Runs along T-bar length.",
+      "parameters": {
+        "position": { "x": "mm", "y": "mm", "note": "start position along the T-bar" },
+        "length": { "unit": "mm", "note": "typically = panel width (1000mm)" },
+        "attaches_to": { "note": "which T-bar (top, bottom, divider)" },
+        "profile": {
+          "type": { "values": ["v_tooth", "flat", "angle"], "default": "v_tooth" },
+          "width": { "default": 100, "unit": "mm" },
+          "thickness": { "default": 3, "unit": "mm" },
+          "material": { "values": ["galvanized_steel", "stainless", "aluminum"], "default": "galvanized_steel" },
+          "tooth_pitch": { "default": 6, "unit": "mm", "note": "for v_tooth type — teeth interlock with bamboo strips" },
+          "tooth_depth": { "default": 2, "unit": "mm" }
+        }
+      }
+    },
+
+    "fastener": {
+      "description": "Screws, bolts, dowels — any discrete fastening element. Parametric size and type.",
+      "parameters": {
+        "position": { "x": "mm", "y": "mm", "z": "mm", "note": "in panel coordinates" },
+        "type": { "values": ["screw", "bolt", "dowel", "pin", "nail"], "default": "screw" },
+        "diameter": { "unit": "mm", "note": "M5, M8, M12, M16, M20 etc." },
+        "length": { "unit": "mm" },
+        "material": { "values": ["galvanized_steel", "stainless", "brass", "teak_dowel", "guadua_dowel"], "default": "galvanized_steel" },
+        "grade": { "note": "e.g. 8.8 for structural bolts, 4.8 for general, n/a for dowels" },
+        "head": { "values": ["hex", "countersunk", "pan", "none"], "default": "hex" },
+        "drives_into": { "note": "what material the fastener goes into — steel, teak, hdpe, mortar" },
+        "function": { "values": ["clamp_strip", "frame_connection", "panel_connection", "kigumi_pin", "conduit_clip"], "note": "what this fastener does" }
+      },
+      "spacing_rule": {
+        "description": "When fasteners repeat along a line (e.g. screws holding a clamp strip), define by spacing rather than individual positions",
+        "start": { "unit": "mm" },
+        "end": { "unit": "mm" },
+        "spacing": { "unit": "mm" },
+        "count": { "note": "derived from (end-start)/spacing + 1" }
+      },
+      "examples": {
+        "clamp_screw_M5": {
+          "type": "screw", "diameter": 5, "length": 20, "material": "galvanized_steel",
+          "head": "pan", "drives_into": "steel_web", "function": "clamp_strip",
+          "spacing_rule": { "start": 35, "end": 965, "spacing": 70 },
+          "note": "M5 every 70mm (every 2nd bamboo strip), holds V-profile clamp to web"
+        },
+        "frame_bolt_M12": {
+          "type": "bolt", "diameter": 12, "length": 30, "material": "galvanized_steel", "grade": "8.8",
+          "head": "hex", "drives_into": "steel_web", "function": "panel_connection",
+          "hole_diameter": 14,
+          "pattern": {
+            "per_protrusion": 4,
+            "layout": "2 bolts per side edge, horizontally spaced near left and right panel edges",
+            "edge_distance": 18, "unit": "mm", "note": "1.5 × bolt diameter from panel side edge",
+            "bolt_spacing": 36, "spacing_note": "3 × bolt diameter between bolt centers in each pair",
+            "y_position": "centered on web height (WEB_H / 2)",
+            "x_positions_mm": [18, 54, 946, 982]
+          },
+          "note": "standard panel-to-connector-ring bolt — 4 per protrusion (2 pairs near side edges)"
+        },
+        "frame_bolt_M16": {
+          "type": "bolt", "diameter": 16, "length": 45, "material": "galvanized_steel", "grade": "8.8",
+          "head": "hex", "drives_into": "steel_web", "function": "panel_connection",
+          "note": "heavy-duty bolt for large profiles (T100+)"
+        },
+        "kigumi_pin_teak": {
+          "type": "dowel", "diameter": 12, "length": 80, "material": "teak_dowel",
+          "head": "none", "drives_into": "teak_beam", "function": "kigumi_pin",
+          "note": "komisen — wooden pin securing Japanese timber joint"
+        },
+        "kigumi_pin_guadua": {
+          "type": "dowel", "diameter": 12, "length": 80, "material": "guadua_dowel",
+          "head": "none", "drives_into": "teak_beam", "function": "kigumi_pin",
+          "note": "guadua dowel shrinks slightly after insertion — tightens over time"
+        }
+      }
+    },
+
+    "connector": {
+      "description": "The connector is a parametric layer stack between panel webs. Replaces the fixed T-bar connector ring. Any combination of materials, fastened with a single through-bolt/screw. Both visible faces can be finished materials (teak, guadua).",
+      "definition": {
+        "layers": {
+          "type": "array",
+          "items": {
+            "material": "teak | guadua | steel_tbar | hdpe | hardwood | concrete",
+            "thickness": "mm",
+            "width": "mm",
+            "length": "mm (typically 1000 = panel width)",
+            "role": "exterior_face | wall_web | connector_body | floor_web | interior_face | bearing_plate",
+            "visible": "boolean — is this layer an exposed finish surface?",
+            "source": "panel_protrusion (for web layers) or cut_piece (for boards)"
+          }
+        },
+        "fastener": {
+          "type": "screw | bolt",
+          "diameter": "mm",
+          "length": "through_all (calculated from sum of layer thicknesses)",
+          "head": "hex | countersunk | washer_head",
+          "nut": "standard | nyloc | flanged",
+          "positions": "same parametric bolt hole rule as panels"
+        },
+        "total_thickness": "sum of all layer thicknesses"
+      },
+      "examples": {
+        "steel_tbar_connector": {
+          "description": "Original design — steel T-bar turned 90 degrees",
+          "layers": [
+            { "material": "steel_web", "role": "wall_web", "source": "wall_panel_protrusion" },
+            { "material": "steel_tbar", "role": "connector_body", "thickness": 7, "width": 60 },
+            { "material": "steel_web", "role": "floor_web", "source": "floor_panel_protrusion" }
+          ],
+          "fastener": { "type": "bolt", "diameter": 12 }
+        },
+        "v1_teak_plus_steel_connector": {
+          "description": "V1 default — steel T-bar connector PLUS teak boards for bearing and finish. Belt and suspenders.",
+          "layers": [
+            { "material": "teak", "role": "exterior_face", "thickness": 30, "width": 60, "visible": true },
+            { "material": "steel_web", "role": "wall_web", "source": "wall_panel_protrusion" },
+            { "material": "steel_tbar", "role": "connector_body", "thickness": 7, "width": 60, "note": "T-bar turned 90deg, same as original design" },
+            { "material": "teak", "role": "bearing_plate", "thickness": 30, "width": 100, "note": "sits on wall flange, distributes floor load" },
+            { "material": "steel_web", "role": "floor_web", "source": "floor_panel_protrusion" },
+            { "material": "teak", "role": "interior_face", "thickness": 30, "width": 100, "visible": true, "note": "visible as ceiling from room below" }
+          ],
+          "fastener": { "type": "screw", "diameter": 8, "head": "countersunk" },
+          "notes": "V1 overengineered: steel T-bar handles structure, teak boards add bearing surface + finished faces. Future option: drop the T-bar once testing proves teak alone is sufficient."
+        },
+        "future_all_wood_connector": {
+          "description": "Future option — teak boards only, no steel T-bar. Pending structural validation.",
+          "layers": [
+            { "material": "teak", "role": "exterior_face", "thickness": 30, "width": 60, "visible": true },
+            { "material": "steel_web", "role": "wall_web", "source": "wall_panel_protrusion" },
+            { "material": "teak", "role": "connector_body", "thickness": 30, "width": 100 },
+            { "material": "steel_web", "role": "floor_web", "source": "floor_panel_protrusion" },
+            { "material": "teak", "role": "interior_face", "thickness": 30, "width": 100, "visible": true }
+          ],
+          "fastener": { "type": "screw", "diameter": 8, "head": "countersunk" },
+          "status": "future — requires testing to validate without steel T-bar"
+        },
+        "guadua_connector": {
+          "description": "Low-cost — guadua culm with routed channel",
+          "layers": [
+            { "material": "steel_web", "role": "wall_web", "source": "wall_panel_protrusion" },
+            { "material": "guadua", "role": "connector_body", "note": "routed channel receives webs" },
+            { "material": "steel_web", "role": "floor_web", "source": "floor_panel_protrusion" }
+          ],
+          "fastener": { "type": "bolt", "diameter": 12 }
+        },
+        "bearing_plate_connector": {
+          "description": "Heavy floor loads — wide bearing plate distributes load",
+          "layers": [
+            { "material": "teak", "role": "bearing_plate", "thickness": 40, "width": 150, "note": "overhangs wall flange for maximum bearing area" },
+            { "material": "steel_web", "role": "wall_web", "source": "wall_panel_protrusion" },
+            { "material": "steel_tbar", "role": "connector_body", "thickness": 7, "width": 60 },
+            { "material": "steel_web", "role": "floor_web", "source": "floor_panel_protrusion" },
+            { "material": "teak", "role": "interior_face", "thickness": 30, "width": 100, "visible": true }
+          ],
+          "fastener": { "type": "bolt", "diameter": 12 },
+          "bearing_area": "150 × 1000 = 150,000 mm² per panel end"
+        }
+      },
+      "structural_note": "For the 10m bridge panel (1360 kg): bearing stress on a 60mm teak board = 0.11 MPa. Teak perpendicular compressive strength = 11 MPa. Safety factor = 100×. Even a 30mm board is vastly overengineered for floor loads."
+    },
+
+    "junction_cube": {
+      "description": "Universal multi-directional junction node. Handles any junction where 3+ panels meet from different directions (L-corners, T-junctions, floor-wall intersections). The layer-stack connector handles inline 2-panel joints; the junction cube handles everything else.",
+      "problem_solved": "Where two outer wall panels, an inner wall at 90°, and a floor panel all meet — the layer-stack connector cannot receive webs from 3+ directions.",
+      "geometry": {
+        "shape": "cube",
+        "size": "web_height × web_height × web_height (e.g. 53×53×53mm for T60×60)",
+        "faces": 6,
+        "bolt_pattern_per_face": {
+          "bolts": 2,
+          "layout": "vertically stacked, centered on face",
+          "edge_distance": "18mm (1.5 × bolt diameter) from cube edges",
+          "bolt_spacing": "17mm between bolt centers (53 - 2×18)",
+          "hole_diameter": "14mm (for M12 bolts) or 12mm (for dowel pins)"
+        },
+        "note": "Each face independently receives one panel web. Unused faces stay empty. Any combination of faces can be active."
+      },
+      "materials": {
+        "steel": {
+          "description": "Solid or hollow steel cube, drill and tap all 6 faces",
+          "weight_solid": "~1.1 kg (T60, 7850 kg/m³)",
+          "weight_hollow": "~0.4 kg (10mm wall thickness)",
+          "fastener": "M12 bolt grade 8.8",
+          "use_case": "Structural junctions, multi-story, high-load floor intersections"
+        },
+        "teak": {
+          "description": "Solid teak block, pre-drilled for dowel pins",
+          "weight": "~0.1 kg (T60, 650 kg/m³)",
+          "fastener": "12mm guadua dowel pin",
+          "use_case": "Exposed junctions, single-story, aesthetic preference",
+          "note": "Dowel pins shrink after insertion — self-tightening joint"
+        },
+        "concrete": {
+          "description": "Cast concrete cube with embedded threaded inserts",
+          "use_case": "Foundation-level junctions, wet environments",
+          "note": "Future option — requires insert placement during casting"
+        }
+      },
+      "junction_types": {
+        "L_corner": {
+          "description": "Two walls meeting at 90° (building corner)",
+          "faces_used": 2,
+          "example": "Exterior wall end meets perpendicular exterior wall"
+        },
+        "T_junction": {
+          "description": "Interior wall meets exterior wall",
+          "faces_used": 3,
+          "example": "Two co-planar outer wall panels + one interior wall at 90°"
+        },
+        "T_junction_with_floor": {
+          "description": "The unsolved case — T-wall junction at floor level",
+          "faces_used": 4,
+          "example": "Two outer wall panels + inner wall at 90° + floor panel from below",
+          "face_assignment": {
+            "face_1": "outer wall panel 1 (bottom web bolts to cube top or side)",
+            "face_2": "outer wall panel 2 (bottom web bolts to adjacent face)",
+            "face_3": "inner wall panel (bottom web bolts to perpendicular face)",
+            "face_4": "floor panel (side web bolts to remaining face)"
+          }
+        },
+        "X_cross": {
+          "description": "Four walls meeting (two perpendicular corridors)",
+          "faces_used": 4
+        },
+        "floor_wall_simple": {
+          "description": "Single wall panel sitting on floor panel",
+          "faces_used": 2,
+          "note": "Could also use layer-stack connector, but cube works if other panels join later"
+        }
+      },
+      "design_philosophy": "One cube fits all junctions — same as one frame fits all panels. A workshop batch-produces cubes and ships to site. No junction-specific fabrication. Only the bolt/dowel count per face changes based on load.",
+      "parametric": "Cube scales with profile: T60→53mm, T100→93mm, T150→143mm. Bolt pattern scales proportionally."
+    },
+
+  "generation_outputs": {
+    "from_panel_definition": [
+      "SVG cross-section drawing (with dimensions, materials labeled)",
+      "SVG elevation view (as placed in building)",
+      "Three.js geometry (for interactive viewer)",
+      "STL mesh (for 3D printing)",
+      "Material cut list (steel lengths, bamboo strip count, mortar volume)",
+      "Cost estimate (materials + labor hours)",
+      "Weight calculation",
+      "Structural capacity (for floor panels: load per m²)"
+    ],
+    "note": "One JSON panel definition → all outputs generated automatically. No manual drawing needed."
+  }
+}

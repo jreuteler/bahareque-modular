@@ -4,7 +4,7 @@
 
 Ce systeme de panneaux a ete concu pour fonctionner **avec une ossature en acier poteaux-poutres** -- la configuration que nous recommandons pour les batiments a plusieurs etages en zones sismiques. Dans cette configuration, l'ossature en acier supporte les charges gravitaires et sismiques tandis que les panneaux assurent le contreventement lateral, l'enveloppe climatique, la masse thermique et les equipements integres.
 
-Cependant, les panneaux sont **structurellement capables de fonctionner sans ossature en acier**. Avec une capacite axiale prudente de ~4 000 kg par panneau (deux profiles en T lateraux), une rangee de panneaux peut aisement porter un deuxieme etage et une toiture sans structure en acier independante. Une simple lisse haute en bois ou en bambou relie les panneaux en tete et repartit la charge de toiture.
+Cependant, les panneaux sont **structurellement capables de fonctionner sans ossature en acier**. Avec une capacite de compression depassant largement les charges residentielles typiques (deux montants lateraux en corniere L L 40x40x4), une rangee de panneaux peut aisement porter un deuxieme etage et une toiture sans structure en acier independante. Une simple lisse haute en bois ou en bambou relie les panneaux en tete et repartit la charge de toiture.
 
 **Deux configurations :**
 
@@ -74,33 +74,37 @@ Le noyau dense en mortier offre une bonne attenuation sonore :
 
 | Composant | Poids |
 |-----------|-------|
-| Ossature en acier (profile en T 30x30x3, 7 m au total) | ~18 kg |
-| Mortier (85 mm x 1,0 m x 2,5 m, masse volumique ~2 000 kg/m3) | ~120 kg |
-| Lattes de bambou + diagonales | ~10 kg |
-| Blocs PEHD, fil, grillage, gaine, cables | ~7 kg |
-| **Poids total du panneau** | **~155 kg** |
-| **Poids par m2 de mur** | **~62 kg/m2** |
+| Cadre en corniere L en acier (L 40x40x4, 7 m a 2,42 kg/m + bandes de serrage + goussets) | ~22 kg |
+| Mortier de noyau (de base : ciment-sable, ~0,147 m3, densite durcie ~2 000 kg/m3) | ~294 kg |
+| Lattes de bambou + diagonales (~30 % densite de cavite) | ~38 kg |
+| Blocs PEHD, fil, grillage, gaine, cables | ~6 kg |
+| Enduit a la chaux (10 mm les deux faces) | ~100 kg |
+| **Poids total du panneau, melange de base** | **~460 kg** |
+| **Poids par m2 de mur, base** | **~184 kg/m2** |
+| Poids total du panneau, melange bahareque optimise (chaux pouzzolanique + pasto estrella + enduit 5 mm) | ~380 kg |
+| Poids par m2 de mur, optimise | ~152 kg/m2 |
+| Poids d'expedition de l'assemblage a sec (cadre + bambou + grillage + equipements, avant coulage) | ~75 kg |
 
-Pour comparaison : un mur en bloc de beton de 150 mm pese environ 180 kg/m2. Le systeme de panneaux represente environ un tiers du poids de la maconnerie conventionnelle par unite de surface.
+Pour comparaison : un mur en bloc de beton de 150 mm pese environ 180 kg/m2. Le systeme de panneaux (melange de base) pese a peu pres autant que la maconnerie conventionnelle par unite de surface ; le melange bahareque optimise est ~15 % plus leger. Critique pour la logistique : le **poids d'expedition de l'assemblage a sec (~75 kg)** est la forme sous laquelle le panneau est transporte de l'atelier au chantier (le mortier est coule sur place).
 
 ### Charge axiale (verticale)
 
-Chaque panneau possede deux profiles en T lateraux verticaux capables de supporter des charges de compression significatives :
+Chaque panneau possede deux montants lateraux verticaux en corniere L capables de supporter des charges de compression significatives :
 
 | Element | Section | Capacite axiale prudente |
 |---------|---------|--------------------------|
-| Profile en T lateral (30x30x3 mm) | A = 171 mm2 | ~20 kN par profile en T (a sigma = 120 MPa, ~50% de la limite elastique) |
-| Deux profiles en T lateraux par panneau | 2 x 171 mm2 | ~40 kN par panneau (~4 000 kg) |
+| Montant lateral en corniere L (L 40x40x4 mm) | A = 304 mm2 | ~36 kN par montant (a sigma = 120 MPa, ~50 % de la limite elastique A36) |
+| Deux montants lateraux par panneau | 2 x 304 mm2 | ~72 kN par panneau (~7 200 kg) |
 
-**Ce que 4 000 kg par panneau signifie en pratique :**
+**Ce que cela signifie en pratique :**
 
-Une maison typique a un etage avec mezzanine et toiture en tuiles terre cuite impose environ 200-400 kg de charge par metre lineaire de mur (toiture + plafond + plancher de mezzanine + charge d'exploitation). Un seul panneau de 1 m peut supporter **10 a 20 fois cette exigence**.
-
-Meme un mur prudent de 10 panneaux (10 m) supporte un total combine de 40 000 kg -- bien plus que toute toiture et tout plancher superieur residentiels realistes. **Les panneaux n'ont pas besoin d'une ossature en acier pour porter un deuxieme etage et une toiture.**
+Une maison typique a un etage avec mezzanine et toiture en tuiles terre cuite impose environ 200-400 kg de charge par metre lineaire de mur (toiture + plafond + plancher de mezzanine + charge d'exploitation). Un seul panneau de 1 m peut supporter **18 a 36 fois cette exigence**. **Les panneaux n'ont pas besoin d'une ossature en acier separee pour porter un deuxieme etage et une toiture.**
 
 Utilises **avec une ossature en acier**, cette capacite axiale est une pure marge de reserve -- l'acier supporte les charges gravitaires. Utilises **sans ossature en acier**, les panneaux sont la structure porteuse. Dans ce cas, une lisse haute en bois ou en bambou en tete du mur repartit la charge de toiture uniformement sur tous les panneaux et les relie entre eux.
 
-Le flambage n'est pas une preoccupation a ces niveaux de charge : l'epaisseur de mur en mortier de 85 mm fournit une rigidite laterale substantielle au profile en T, et le rapport hauteur/epaisseur du panneau (~2 500/85 = 29) est bien en deca des limites d'elancement acceptees pour les murs armes.
+Le flambage n'est pas une preoccupation a ces niveaux de charge **lorsque la corniere L est noyee dans le composite du panneau** : l'epaisseur de mur en mortier de 85 mm fournit au cadre angulaire une rigidite laterale continue, et le rapport hauteur/epaisseur du panneau (~2 500/85 = 29) est bien en deca des limites d'elancement acceptees pour les murs armes.
+
+**Important : limitation des profiles ouverts sur l'axe faible.** Les profiles structurels ouverts -- cornieres L, profiles T, profiles C -- ont une rigidite minimale autour de leur axe faible. Un montant L 40x40x4 autoportant sans contreventement par le panneau (I_min = 3,8 x 10⁴ mm⁴ autour de l'axe faible passant par le talon) flamberait sous une charge modeste. La capacite de 36 kN par corniere L indiquee ci-dessus est la **capacite de limite elastique axiale** et n'est atteignable QUE lorsque la corniere est continument contreventee par le remplissage du panneau (mortier + guadua). Cette distinction est cruciale pour le sequencage de la construction -- le cadre en corniere L ne doit pas etre charge axialement avant que les panneaux soient coules, durcis et travaillent en composite. Pour les colonnes autoportantes dans les batiments a plusieurs etages, les profiles ouverts ne conviennent pas -- utiliser un tube carre (SHS) a la place.
 
 ### Charge laterale (dans le plan / contreventement)
 
@@ -156,10 +160,10 @@ La grille de lattes de bambou et les ligatures fournissent une resistance hors p
 |-----------------|-------------------|-------------------|
 | Elements legers (cadres, horloges, pateres) | Clou de maconnerie ou vis dans le mortier | 5-10 kg par ancrage |
 | Elements moyens (etageres, miroirs, petits placards) | Cheville a expansion plastique dans le mortier (6-8 mm) | 15-25 kg par ancrage |
-| Elements lourds (placards de cuisine, chauffe-eau, support TV) | Boulon traversant vers l'ame du profile en T | 50-100 kg par ancrage |
-| Elements tres lourds (bibliotheque, garde-manger plein) | Boulons traversants multiples vers le profile en T + plaque de repartition | 200+ kg par point de fixation |
+| Elements lourds (placards de cuisine, chauffe-eau, support TV) | Boulon traversant vers l'ame de la corniere L | 50-100 kg par ancrage |
+| Elements tres lourds (bibliotheque, garde-manger plein) | Boulons traversants multiples vers la corniere L + plaque de repartition | 200+ kg par point de fixation |
 
-**Conseil :** L'ame du profile en T se trouve a une position connue (centre de l'epaisseur du mur). Un detecteur de montant ou un aimant la localise facilement. Le boulonnage traversant vers l'ame fournit un ancrage fiable et de haute capacite comparable a une ossature a montants metalliques.
+**Conseil :** L'ame de la corniere L se trouve a une position connue (centre de l'epaisseur du mur). Un detecteur de montant ou un aimant la localise facilement. Le boulonnage traversant vers l'ame fournit un ancrage fiable et de haute capacite comparable a une ossature a montants metalliques.
 
 ### Resume -- Capacite prudente en kg par panneau
 
@@ -169,9 +173,9 @@ Pour les constructeurs et non-ingenieurs, voici les memes chiffres exprimes en k
 |----------------|-----------|------------------------------|----------------------------------|
 | **Contreventement (sismique/vent)** | Horizontale, dans le plan du mur | **~1 200-1 500 kg par panneau** | Une force horizontale de 1,2-1,5 tonnes appliquee en tete d'un seul panneau avant qu'il atteigne sa limite de service. Une maison typique a un etage necessite ~600 kg de resistance au contreventement par metre de mur -- un panneau en fournit le double. |
 | **Hors plan (pression du vent)** | Perpendiculaire a la face du mur | **~90 kg repartis sur la surface du panneau** | Equivalent a ~36 kg/m2 de pression uniforme. Une personne s'appuyant fortement contre le mur (~80 kg sur ~0,3 m2) est bien en deca de la capacite. |
-| **Axiale (verticale)** | Vers le bas, a travers le panneau | **~4 000 kg par panneau** | Les deux profiles en T lateraux supportent 4 tonnes -- 10 a 20 fois plus que la charge typique d'une toiture + etage superieur par metre de mur. Les panneaux peuvent porter un deuxieme etage et une toiture sans ossature en acier. |
+| **Axiale (verticale)** | Vers le bas, a travers le panneau | **Depasse largement les charges residentielles (~7 200 kg de limite elastique axiale par panneau en composite)** | Les deux montants en corniere L supportent bien plus que la charge typique d'une toiture + etage superieur par metre de mur. Les panneaux peuvent porter un deuxieme etage et une toiture sans ossature en acier separee. |
 | **Charge ponctuelle dans le mortier** | Arrachement / cisaillement a l'ancrage | **~15-25 kg par ancrage** | Une equerre d'etagere avec 2 ancrages supporte 30-50 kg en toute securite. |
-| **Charge ponctuelle sur le profile en T** | Boulon traversant | **~50-100 kg par boulon** | Un placard de cuisine avec 4 boulons traversants supporte 200-400 kg en toute securite. |
+| **Charge ponctuelle sur la corniere L** | Boulon traversant | **~50-100 kg par boulon** | Un placard de cuisine avec 4 boulons traversants supporte 200-400 kg en toute securite. |
 
 > **Important :** Ce sont des estimations, pas des valeurs testees. Elles seront validees par des essais physiques. Ne pas utiliser pour l'ingenierie structurelle sans verification independante. En cas de doute, fixer les elements lourds a l'ossature metallique du batiment, pas au panneau.
 
@@ -210,6 +214,6 @@ Programme d'essais prevu :
 - [ ] **Essais d'assemblage** -- capacite des pattes de boulonnage panneau-poteau, durabilite des connecteurs rapides
 - [ ] **Essais de vieillissement accelere** -- vieillissement accelere d'echantillons de bambou enrobe de mortier
 - [ ] **Essais de transmission acoustique** (ASTM E90) -- mesure du STC
-- [ ] **Essais d'arrachement de charges ponctuelles** -- capacite des chevilles de maconnerie et des boulons traversants dans le mortier + profile en T
+- [ ] **Essais d'arrachement de charges ponctuelles** -- capacite des chevilles de maconnerie et des boulons traversants dans le mortier + corniere L
 
 Les resultats des essais seront publies dans ce depot au fur et a mesure de leur disponibilite. Si vous avez acces a des installations d'essai et souhaitez contribuer, contactez-nous -- des essais collaboratifs sur differentes especes de bambou et differents dosages de mortier rendront ce systeme plus robuste pour tous.

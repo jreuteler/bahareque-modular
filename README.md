@@ -23,7 +23,7 @@ Billions of people live in housing that fails — in earthquakes, floods, or sim
 This system bridges both:
 
 - **Traditional where it's seen** — lime plaster, guadua bamboo, natural textures
-- **Modern where it matters** — galvanized steel T-bar frame carries seismic loads
+- **Modern where it matters** — galvanized steel L-angle frame carries seismic loads
 - **80–100 year lifespan** — you build once, not every generation
 - **Community-producible** — screw-clamping needs no welding, no specialized tools
 - **Permaculture-integrated** — uses local bamboo, turns invasive grass into fiber reinforcement
@@ -34,17 +34,21 @@ This system bridges both:
 | | |
 |---|---|
 | **Panel size** | 1.0 m × 2.5 m (vertical, scalable to any height) |
-| **Weight** | ~155 kg (3–4 people) |
-| **Frame** | T-bar 30×30×3 mm, hot-dip galvanized steel |
-| **Infill** | Structural bamboo strips, screw-clamped |
+| **Dry-assembly weight** | ~75 kg (2 people — shipped to site before in-situ mortar pour) |
+| **Finished weight (baseline mix)** | ~440 kg (≈ 176 kg/m²) |
+| **Finished weight (optimized bahareque mix)** | ~360 kg (≈ 144 kg/m²) |
+| **Frame** | L 40×40×4 mm, hot-dip galvanized steel (ASTM A36 / ICONTEC NTC 2542) |
+| **Infill** | Structural bamboo strips, screw-clamped (30 % cavity density at baseline spec) |
 | **Bracing** | Diagonal bamboo strips (3–5× seismic improvement) |
-| **Mortar** | 1:4 cement:sand + pozzolanic admixture, vibration-table poured |
+| **Mortar (baseline)** | 1:4 cement:sand + pozzolanic admixture |
+| **Mortar (optimized)** | Pozzolanic lime + fly ash/RHA + pasto estrella fiber |
+| **Pour method** | In-situ vertical pour (preferred) or workshop vibration-table pour |
 | **Finish** | Lime plaster + lime wash |
 | **Wall thickness** | ~85 mm |
 | **Variants** | P (pass-through), O (outlet), S (switch), W (water) |
 | **Integrated electrical** | 12V lighting + 120V mains, snap-connect between panels |
 
-![Panel Construction — Side Profile and Face View](svg/11-combined-profile-face.svg)
+> _Combined-profile diagram pending — the previous SVG (`svg/11-combined-profile-face.svg`) shows T-bar geometry and is not representative of the current L 40×40×4 angle frame. See [`SVG-STATUS.md`](SVG-STATUS.md) for the full SVG regeneration task list._
 
 ## Repository Structure
 
@@ -60,7 +64,6 @@ bahareque-modular/
 │   ├── 04-construction-process.md
 │   ├── 05-structural-performance.md
 │   ├── 06-corrosion-prevention.md
-│   ├── 07-building-integration.md
 │   ├── 08-contributing.md
 │   ├── 09-cost-estimate.md
 │   ├── 10-environmental-impact.md
@@ -162,13 +165,18 @@ Dieses System vereint beides:
 | | |
 |---|---|
 | **Paneelgrösse** | 1,0 m × 2,5 m (vertikal, skalierbar auf jede Höhe) |
-| **Gewicht** | ~155 kg (3–4 Personen) |
-| **Rahmen** | T-Profil 30×30×3 mm, feuerverzinkter Stahl |
-| **Füllung** | Bambus-Strukturstreifen, schraubgeklemmt |
+| **Gewicht — Trockenmontage** | ~75 kg (2 Personen, vor Ort-Mörtelguss) |
+| **Gewicht — fertig (Standardmischung)** | ~440 kg (≈ 176 kg/m²) |
+| **Gewicht — fertig (optimierte Bahareque-Mischung)** | ~360 kg (≈ 144 kg/m²) |
+| **Rahmen** | L-Winkel 40×40×4 mm, feuerverzinkter Stahl (ASTM A36) |
+| **Füllung** | Bambus-Strukturstreifen, schraubgeklemmt (30 % Hohlraumdichte) |
 | **Aussteifung** | Diagonale Bambus-Aussteifung (3–5× Erdbebenverbesserung) |
-| **Mörtel** | 1:4 Zement:Sand + puzzolanisches Zusatzmittel, Rütteltisch-Guss |
+| **Mörtel** | 1:4 Zement:Sand + puzzolanisches Zusatzmittel (Standard), oder hydraulischer Kalk + Flugasche/RHA + Pasto-Estrella-Fasern (optimiert) |
+| **Gussverfahren** | Vor-Ort-Vertikalguss (bevorzugt) oder Werkstatt-Rütteltisch |
 | **Oberfläche** | Kalkputz + Kalkanstrich |
 | **Wandstärke** | ~85 mm |
+
+> _Hinweis: Die Übersetzungen (DE/ES/FR/IT/PT) außerhalb dieser Schnellspezifikation spiegeln noch die vorherige T-Profil-Spezifikation wider und werden in einem nachfolgenden Update angeglichen._
 
 ## Lizenzierung
 
@@ -237,12 +245,17 @@ Este sistema une ambos mundos:
 | | |
 |---|---|
 | **Tamaño del panel** | 1,0 m × 2,5 m (vertical, escalable a cualquier altura) |
-| **Peso** | ~155 kg (3–4 personas) |
-| **Marco** | Perfil T 30×30×3 mm, acero galvanizado en caliente |
-| **Relleno** | Tiras de bambú estructural, sujetadas con tornillos |
+| **Peso — ensamble en seco** | ~75 kg (2 personas, antes del vertido in-situ del mortero) |
+| **Peso — terminado (mezcla base)** | ~440 kg (≈ 176 kg/m²) |
+| **Peso — terminado (mezcla bahareque optimizada)** | ~360 kg (≈ 144 kg/m²) |
+| **Marco** | Ángulo L 40×40×4 mm, acero galvanizado en caliente (ASTM A36 / ICONTEC NTC 2542) |
+| **Relleno** | Tiras de bambú estructural, sujetadas con tornillos (30 % de densidad de cavidad) |
 | **Arriostramiento** | Tiras diagonales de bambú (mejora sísmica 3–5×) |
-| **Mortero** | 1:4 cemento:arena + adición puzolánica, vertido en mesa vibratoria |
+| **Mortero** | 1:4 cemento:arena + adición puzolánica (base), o cal hidráulica + ceniza volante/RHA + fibras de pasto estrella (optimizado) |
+| **Método de vertido** | Vertido vertical in-situ (preferido) o mesa vibratoria en taller |
 | **Acabado** | Pañete de cal + lechada de cal |
+
+> _Nota: Las traducciones (DE/ES/FR/IT/PT) fuera de esta especificación rápida aún reflejan la especificación anterior de perfil T y se actualizarán en una revisión posterior._
 | **Espesor de muro** | ~85 mm |
 
 ## Licenciamiento

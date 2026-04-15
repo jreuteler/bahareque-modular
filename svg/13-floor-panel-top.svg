@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background:#ffffff">
   <rect width="100%" height="100%" fill="white"/>
   <text x="400" y="18" text-anchor="middle" font-size="12" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Floor Panel — Top View (before tiles)</text>
-  <text x="400" y="32" text-anchor="middle" font-size="7" fill="#999" font-family="Helvetica,Arial,sans-serif">1.0 m wide × 5.0 m span · Bamboo bowstring beam — arch + tie + cross-pieces</text>
+  <text x="400" y="32" text-anchor="middle" font-size="7" fill="#999" font-family="Helvetica,Arial,sans-serif">1.0 m wide × 5.0 m span · T 60×60 frame + central spine · double arch with central T-bar · teak end blocks · NOT TO SCALE</text>
 
   <!-- Panel: x=100 to x=700 (5m span), y=80 to y=280 (1m width = 200px) -->
 
   <!-- Top T-bar frame outline -->
-  <rect x="100" y="80" width="600" height="200" fill="#e8d8b0" opacity="0.3" stroke="#c0392b" stroke-width="3"/>
+  <rect x="100" y="80" width="600" height="200" fill="#e8d8b0" opacity="0.3" stroke="#8b1a1a" stroke-width="3"/>
 
   <!-- T-bar flanges (visible from top as red edges) -->
-  <rect x="100" y="80" width="600" height="4" fill="#c0392b" opacity="0.6"/>
-  <rect x="100" y="276" width="600" height="4" fill="#c0392b" opacity="0.6"/>
-  <rect x="100" y="80" width="4" height="200" fill="#c0392b" opacity="0.6"/>
-  <rect x="696" y="80" width="4" height="200" fill="#c0392b" opacity="0.6"/>
+  <rect x="100" y="80" width="600" height="4" fill="#8b1a1a" opacity="0.6"/>
+  <rect x="100" y="276" width="600" height="4" fill="#8b1a1a" opacity="0.6"/>
+  <rect x="100" y="80" width="4" height="200" fill="#8b1a1a" opacity="0.6"/>
+  <rect x="696" y="80" width="4" height="200" fill="#8b1a1a" opacity="0.6"/>
 
   <!-- Bamboo strips (running along span = horizontal, green-brown) -->
   <g fill="#5a7a3a" opacity="0.3" stroke="#3a5a2a" stroke-width="0.3">
@@ -83,9 +83,20 @@
     <line x1="108" y1="261" x2="692" y2="261"/><line x1="108" y1="268" x2="692" y2="268"/>
   </g>
 
-  <!-- HDPE blocks at short edges -->
-  <rect x="104" y="84" width="16" height="192" fill="#4a90a8" opacity="0.2" stroke="#2a7088" stroke-width="0.5"/>
-  <rect x="680" y="84" width="16" height="192" fill="#4a90a8" opacity="0.2" stroke="#2a7088" stroke-width="0.5"/>
+  <!-- TEAK END BLOCKS at short edges (60mm along span × 60mm tall, full 1m width) -->
+  <!-- From top view: 60mm along span = 36px wide, full panel width -->
+  <rect x="100" y="84" width="36" height="192" fill="#8B6914" opacity="0.25" stroke="#6B4F10" stroke-width="0.8"/>
+  <rect x="664" y="84" width="36" height="192" fill="#8B6914" opacity="0.25" stroke="#6B4F10" stroke-width="0.8"/>
+  <text x="118" y="183" text-anchor="middle" font-size="6" fill="#6B4F10" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,118,183)">teak 60×60</text>
+  <text x="682" y="183" text-anchor="middle" font-size="6" fill="#6B4F10" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90,682,183)">teak 60×60</text>
+
+  <!-- LONGITUDINAL T-BAR SPINE (center, running full span) -->
+  <line x1="100" y1="180" x2="700" y2="180" stroke="#8b1a1a" stroke-width="3" opacity="0.5"/>
+  <text x="400" y="175" text-anchor="middle" font-size="6" fill="#8b1a1a" font-family="Helvetica,Arial,sans-serif">T 60×60 spine</text>
+
+  <!-- CENTRAL T-BAR (at midpoint x=400, running across panel width) -->
+  <line x1="400" y1="80" x2="400" y2="280" stroke="#3a7db8" stroke-width="3" opacity="0.6"/>
+  <text x="410" y="95" font-size="6" fill="#3a7db8" font-family="Helvetica,Arial,sans-serif">central T-bar</text>
 
   <!-- Overlength bolt positions (at short edges, on wall below) -->
   <g fill="none" stroke="#333" stroke-width="1.2">
@@ -124,9 +135,9 @@
   <!-- Legend -->
   <g transform="translate(50, 340)" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#555">
     <rect x="0" y="0" width="700" height="30" fill="white" stroke="#ddd" stroke-width="0.5" rx="4"/>
-    <rect x="15" y="8" width="10" height="4" fill="#c0392b" opacity="0.6"/><text x="30" y="13">T-bar frame</text>
+    <rect x="15" y="8" width="10" height="4" fill="#8b1a1a" opacity="0.6"/><text x="30" y="13">T-bar frame</text>
     <rect x="100" y="8" width="10" height="4" fill="#5a7a3a" opacity="0.3"/><text x="115" y="13">Bamboo strips</text>
-    <rect x="195" y="8" width="10" height="4" fill="#4a90a8" opacity="0.2"/><text x="210" y="13">HDPE</text>
+    <rect x="195" y="8" width="10" height="4" fill="#8B6914" opacity="0.3"/><text x="210" y="13">Teak end block</text>
     <rect x="245" y="8" width="10" height="4" fill="#555" opacity="0.5"/><text x="260" y="13">Clamp</text>
     <circle cx="310" cy="10" r="2" fill="#333"/><text x="318" y="13">Screw</text>
     <circle cx="355" cy="10" r="4" fill="none" stroke="#333" stroke-width="1"/><text x="365" y="13">Bolt</text>
@@ -134,5 +145,6 @@
     <circle cx="470" cy="10" r="3" fill="#ccc" stroke="#888" stroke-width="0.3"/><text x="480" y="13">Conduit</text>
     <rect x="520" y="8" width="14" height="4" fill="#5a7a3a" opacity="0.15"/><text x="540" y="13">Tie bundle</text>
     <circle cx="590" cy="10" r="5" fill="none" stroke="#d4a017" stroke-width="0.8" stroke-dasharray="2,1"/><text x="600" y="13">Light (below)</text>
+    <line x1="655" y1="7" x2="655" y2="14" stroke="#3a7db8" stroke-width="2.5" opacity="0.6"/><text x="662" y="13">Central T-bar</text>
   </g>
 </svg>

@@ -2,31 +2,40 @@
 
 ![Vista Explosionada del Panel](svg/01-panel-exploded.svg)
 
+> **Actualización de SVG pendiente:** algunos diagramas en este capítulo están pasando de la especificación anterior de perfil T a la especificación actual de **ángulo L 40×40×4 mm**. Algunos SVG específicos del perfil T fueron temporalmente eliminados hasta su regeneración. Ver [`SVG-STATUS.md`](../SVG-STATUS.md) en la raíz del repositorio para la lista completa de regeneración de SVG.
+
 ## Resumen
 
-Cada panel de muro es de **1,0 m de ancho × 2,5 m de alto** (orientación vertical), pesa aproximadamente **155 kg**, y contiene sistemas integrados de estructura, aislamiento e instalación eléctrica. Un solo tamaño. Cuatro variantes. Completamente prefabricado en un taller, transportado a obra, empernado a un marco de acero.
+Cada panel de muro es de **1,0 m de ancho × 2,5 m de alto** (orientación vertical). El peso del panel depende de la fase de producción: un **montaje en seco** (marco + bambú + malla + instalaciones, antes del vertido del mortero) pesa aproximadamente **~75 kg** y es la forma que se entrega del taller a la obra para verter el mortero in situ. Una vez vertido el mortero, curado y aplicados los acabados in situ (pañete, lechada de cal):
 
-> **Escalabilidad:** La altura de 2,5 m se adapta a alturas de techo residenciales estándar en todo el mundo. El sistema se escala a cualquier altura — 3,0 m para techos altos, 2,7 m para espacios comerciales, 2,0 m para divisiones. Solo cambian la longitud de los perfiles T verticales y las tiras de bambú. La plantilla del marco, el sistema de sujeción, el proceso de mortero y la distribución eléctrica permanecen idénticos.
+- **Peso base del muro terminado:** aproximadamente **~440 kg** por panel (≈ 176 kg/m²) con la mezcla estándar documentada (30 % de contenido de guadua en la cavidad + mortero de cemento-arena + 10 mm de pañete de cal en ambas caras).
+- **Mezcla bahareque optimizada:** aproximadamente **~360 kg** por panel (≈ 144 kg/m²) con mortero de cal puzolánica con fibras de pasto estrella + 30 % de guadua + 5 mm de pañete de cal en ambas caras. Práctica tradicional de bahareque colombiano transferida al sistema modular; carbono incorporado ligeramente menor, costo algo menor, desempeño estructural pleno.
 
-## Marco: Perfil T 30×30×3 mm
+Cada panel contiene estructura, aislamiento e instalación eléctrica integrados. Un solo tamaño. Cuatro variantes.
 
-![Perfil del Perfil T](svg/02-tbar-profile.svg)
+> **Escalabilidad:** La altura de 2,5 m se adapta a alturas de techo residenciales estándar en todo el mundo. El sistema se escala a cualquier altura — 3,0 m para techos altos, 2,7 m para espacios comerciales, 2,0 m para divisiones. Solo cambian la longitud de los ángulos L verticales y las tiras de bambú. La plantilla del marco, el sistema de sujeción, el proceso de mortero y la distribución eléctrica permanecen idénticos.
 
-El marco del panel es de perfil T de acero galvanizado en caliente:
+## Marco: Ángulo L 40×40×4 mm
 
-- **Ala:** 30 mm de ancho × 3 mm de espesor — mira hacia afuera, a ras con la superficie de mortero
-- **Alma:** 3 mm de espesor — se extiende hacia adentro, proporciona profundidad estructural y superficie de sujeción
-- **Perfiles T superior/inferior:** 85 mm de altura de alma (proporciona profundidad estructural horizontal)
-- **Perfiles T laterales:** 30 mm de altura de alma
-- **Esquinas:** Soldadas en una plantilla — todos los marcos son idénticos
-- **Agujeros de sujeción:** Perforados cada ~70 mm a lo largo de las almas superior e inferior (un agujero por cada dos tiras de bambú)
+> _Diagrama del perfil del marco pendiente — la regeneración del SVG para L 40×40×4 aún no está disponible. Ver `SVG-STATUS.md`._
+
+El marco del panel es un ángulo L comercial (perfil angular de alas iguales laminado en caliente, ASTM A36 / equivalente ICONTEC, galvanizado en caliente):
+
+- **Perfil:** L 40×40×4 mm (ambas alas de 40 mm de ancho, 4 mm de espesor)
+- **Un ala (patín):** 40 mm × 4 mm — mira hacia afuera, a ras con la superficie de mortero
+- **Otra ala (alma):** 40 mm × 4 mm — se proyecta hacia adentro, proporciona profundidad estructural y superficie de sujeción para tiras de bambú y malla
+- **Espesor del muro:** ~85 mm (el alma del ángulo L queda en el núcleo de mortero, el mortero llena ~41 mm a cada lado del plano del alma)
+- **Esquinas:** Cortadas a inglete a 45° y soldadas en una plantilla — todos los marcos son idénticos. Cartelas de esquina opcionales para rigidez adicional
+- **Agujeros de sujeción:** Perforados cada ~70 mm a lo largo de las almas superior e inferior (un agujero por cada dos tiras de bambú). Tiras de sujeción de bambú (platina 40×3) se atornillan en estos agujeros
+- **Disponibilidad:** Producto comercial, disponible mundialmente en cualquier proveedor importante de acero. En Colombia: Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa, Colmena/Sidenal. Stock en barras de 6 m, corte a medida con tronzadora. Sin fabricación a medida, sin almas asimétricas
+- **¿Por qué ángulo L y no perfil T?:** Estructuralmente equivalente para el marco permanentemente embebido en mortero (ver [Desempeño Estructural](05-desempeno-estructural.md)), peso de acero significativamente menor (~22 kg/panel frente a ~45 kg con T 60×60×7), menor costo, menor CO₂ incorporado y — crítico — disponible como stock comercial en lugar de fabricación asimétrica a medida
 
 El marco es la columna vertebral estructural. Todo lo demás se fija a él.
 
 ## Separadores de HDPE
 
 - **Tamaño:** Sección transversal de 30 × 30 mm, ancho completo de 1 m
-- **Posición:** Montados sobre las almas de los perfiles T superior e inferior (2 por panel)
+- **Posición:** Montados sobre las almas del ángulo L superior e inferior (2 por panel)
 - **Función:** Separan las tiras de bambú 30 mm del alma en los bordes superior e inferior
 - **Muescas en esquinas:** Cortes de 10 × 10 mm en cada esquina anclan las tiras diagonales a nivel del alma
 - **Material:** HDPE reciclado (de lámina o tubería). Cero pudrición, cero corrosión, dimensionalmente estable
@@ -37,7 +46,7 @@ El marco es la columna vertebral estructural. Todo lo demás se fija a él.
 - **Dimensiones:** ~20 mm de ancho × 2.500 mm de largo
 - **Separación:** ~20 mm de espacio entre tiras (penetración del mortero)
 - **Cantidad:** ~27 tiras por lado, ~54 en total por panel
-- **Fijación:** Sujetas con tornillos al alma del perfil T en la parte superior e inferior mediante tiras de sujeción
+- **Fijación:** Sujetas con tornillos al alma del ángulo L superior e inferior mediante tiras de sujeción
 
 ![Arriostramiento Diagonal](svg/10-panel-face-view.svg)
 
@@ -123,4 +132,4 @@ Todas las variantes comparten el mismo marco, el mismo relleno de bambú, el mis
 | Alambre, malla, conducto, cables | ~6 kg |
 | **Total** | **~155 kg** |
 
-Transportado por 3–4 personas usando una plantilla de carga sencilla.
+Transportable por 3–4 personas con una plantilla de carga sencilla.

@@ -4,7 +4,7 @@
 
 This panel system was designed to work **with a steel column-and-beam frame** — the configuration we recommend for multi-story buildings in seismic zones. In that configuration, the steel frame carries gravity and seismic loads while the panels provide lateral bracing, weather enclosure, thermal mass, and integrated services.
 
-However, the panels are **structurally capable of working without a steel frame**. With a conservative axial capacity of ~4,000 kg per panel (two side T-bars), a row of panels can comfortably carry a second floor and roof without an independent steel structure. A simple timber or bamboo ring beam at the top connects the panels and distributes the roof load.
+However, the panels are **structurally capable of working without a steel building frame**. With compression capacity far exceeding typical residential loads (two side L-angle posts at L 40×40×4), a row of panels can comfortably carry a second floor and roof without an independent steel structure. A simple timber or bamboo ring beam at the top connects the panels and distributes the roof load.
 
 **Two configurations:**
 
@@ -88,33 +88,38 @@ The dense mortar core provides good sound attenuation:
 
 | Component | Weight |
 |-----------|--------|
-| Steel frame (T-bar 30×30×3, 7 m total) | ~18 kg |
-| Mortar (85 mm × 1.0 m × 2.5 m, density ~2,000 kg/m³) | ~120 kg |
-| Bamboo strips + diagonals | ~10 kg |
-| HDPE blocks, wire, mesh, conduit, cables | ~7 kg |
-| **Total panel weight** | **~155 kg** |
-| **Weight per m² of wall** | **~62 kg/m²** |
+| Steel L-angle frame (L 40×40×4, 7 m at 2.42 kg/m + clamping strips + gussets) | ~22 kg |
+| Mortar, cement-sand, baseline (0.147 m³ net × ~2 000 kg/m³) | ~294 kg |
+| Bamboo strips + diagonals (30 % cavity density) | ~42 kg |
+| Lime plaster (10 mm each face × 1 800 kg/m³) | ~90 kg |
+| HDPE blocks, wire, mesh, conduit, cables, lime wash, misc | ~12 kg |
+| **Total panel weight, baseline mix** | **~460 kg** |
+| **Weight per m² of wall, baseline** | **~184 kg/m²** |
+| Total panel weight, optimized bahareque mix (pozzolanic lime + pasto estrella + 5 mm plaster) | ~380 kg |
+| Weight per m² of wall, optimized | ~152 kg/m² |
 
-For comparison: 150 mm concrete block wall ≈ 180 kg/m². The panel system is roughly one-third the weight of conventional masonry per unit area.
+For comparison: 150 mm concrete block wall ≈ 180 kg/m². The panel system at baseline is roughly equivalent to conventional masonry in weight per unit area; the optimized bahareque mix is ~15 % lighter. Both specs are dramatically lighter than reinforced concrete (~300 kg/m² for a 125 mm poured wall) and carry far lower embodied CO₂ per unit area.
 
 ### Axial (Vertical) Load
 
-Each panel has two vertical side T-bars that can carry significant compressive loads:
+Each panel has two vertical L-angle side posts that can carry significant compressive loads:
 
 | Element | Cross-section | Conservative axial capacity |
 |---------|--------------|---------------------------|
-| Side T-bar (30×30×3 mm) | A ≈ 171 mm² | ~20 kN per T-bar (at σ = 120 MPa, ~50% of yield) |
-| Two side T-bars per panel | 2 × 171 mm² | ~40 kN per panel (~4,000 kg) |
+| Side L-angle post (L 40×40×4 mm) | A ≈ 304 mm² | ~36 kN per post (at σ = 120 MPa, ~50 % of A36 yield) |
+| Two side L-angle posts per panel | 2 × 304 mm² | ~72 kN per panel |
 
-**What 4,000 kg per panel means in practice:**
+**What this means in practice:**
 
-A typical single-story house with a loft/mezzanine and terracotta tile roof imposes roughly 200–400 kg of load per linear meter of wall (roof + ceiling + mezzanine floor + live load). A single 1 m panel can carry **10–20× this requirement**.
+A typical single-story house with a loft/mezzanine and terracotta tile roof imposes roughly 200–400 kg of load per linear meter of wall (roof + ceiling + mezzanine floor + live load), i.e. ~2–4 kN/m. A single 1 m panel with ~72 kN of steel-alone axial capacity provides **roughly 18–36× the typical residential demand** — and the mortar and bamboo contribute additional capacity that has not yet been quantified through testing.
 
-Even a conservative 10-panel wall (10 m) carries a combined 40,000 kg — far more than any realistic residential roof and upper floor. **The panels do not need a steel frame to carry a second floor and roof.**
+**The panels carry a second floor and roof comfortably.** The analytical estimate of steel-alone capacity is already many times above typical residential loads, but exact composite capacity requires lab validation.
 
-When used **with a steel frame**, this axial capacity is pure reserve margin — the steel carries the gravity loads. When used **without a steel frame**, the panels are the load-bearing structure. In that case, a timber or bamboo ring beam at the top of the wall distributes the roof load evenly across all panels and ties them together.
+When used **with a separate steel building frame** (steel columns between panels), this panel axial capacity is pure reserve margin — the columns carry the gravity loads. When used **without a separate building frame**, the panels are the load-bearing structure. In that case, a timber or bamboo ring beam at the top of the wall distributes the roof load evenly across all panels and ties them together.
 
-Buckling is not a concern at these load levels: the 85 mm mortar wall thickness provides substantial lateral stiffness to the T-bar, and the panel height-to-thickness ratio (~2,500/85 ≈ 29) is well within accepted slenderness limits for reinforced walls. Additionally, the diagonal bracing holds bamboo strips at 20 mm from the web (instead of ~5 mm with natural flex), which increases the bamboo's contribution to the moment of inertia by ~7× — improving the critical buckling load by approximately 10%. The diagonal therefore improves both racking resistance and buckling resistance simultaneously.
+Buckling is not a concern at these load levels **when the L-angle is embedded in the panel composite**: the 85 mm mortar wall thickness provides continuous lateral stiffness to the angle frame, and the panel height-to-thickness ratio (~2,500/85 ≈ 29) is well within accepted slenderness limits for reinforced walls. The diagonal bamboo bracing adds racking and out-of-plane stiffness to the composite.
+
+**Important: open-profile weak-axis limitation.** Open structural profiles — L-angles, T-bars, C-channels — have minimal stiffness about their weak axis. A freestanding L 40×40×4 post without panel bracing (I_min ≈ 3.8 × 10⁴ mm⁴ about the weak axis through the heel) would buckle under modest load. The 36 kN per L-angle capacity stated above is the **axial yield capacity** and is ONLY achievable when the angle is continuously braced by the panel infill (mortar + guadua). This distinction is critical for construction sequencing — the L-angle frame must not be axially loaded before panels are poured, cured, and carrying composite load. For freestanding columns in multi-story buildings, open profiles are not appropriate — use square hollow section (SHS) instead.
 
 ### Lateral (In-Plane / Racking) Load
 
@@ -148,12 +153,12 @@ These are very conservative numbers. The mortar matrix, wire tie grid, and )( pr
 
 The panel resists pressure perpendicular to the wall face (wind suction/pressure, impact):
 
-- The mortar arch created by the )( profile acts as a shallow vault between the rigid top and bottom T-bars
+- The mortar arch created by the )( profile acts as a shallow vault between the rigid top and bottom L-angle members
 - Conservative estimate for uniform wind pressure, treating the panel as a simply supported slab:
 
 | Parameter | Value |
 |-----------|-------|
-| Panel span (between top/bottom T-bars) | 2.5 m |
+| Panel span (between top/bottom L-angles) | 2.5 m |
 | Panel width | 1.0 m |
 | Mortar thickness (minimum, at center) | ~55 mm |
 | Mortar flexural strength (conservative) | 1.0 MPa |
@@ -170,10 +175,10 @@ The bamboo strip grid and wire ties provide significant additional out-of-plane 
 |-------------|--------------|----------------------|
 | Light items (pictures, clocks, towel hooks) | Masonry nail or screw into mortar | 5–10 kg per anchor |
 | Medium items (shelves, mirrors, small cabinets) | Plastic expansion anchor in mortar (6–8 mm) | 15–25 kg per anchor |
-| Heavy items (kitchen cabinets, water heater, TV mount) | Through-bolt to steel T-bar web | 50–100 kg per anchor |
-| Very heavy items (bookshelf, full pantry) | Multiple through-bolts to T-bar + distribution plate | 200+ kg per mounting point |
+| Heavy items (kitchen cabinets, water heater, TV mount) | Through-bolt to steel L-angle web | 50–100 kg per anchor |
+| Very heavy items (bookshelf, full pantry) | Multiple through-bolts to L-angle + distribution plate | 200+ kg per mounting point |
 
-**Tip:** The T-bar web runs at a known position (center of wall thickness). Stud-finder or magnet locates it easily. Through-bolting to the web provides reliable, high-capacity anchorage comparable to steel stud framing.
+**Tip:** The L-angle frame runs along the panel perimeter at a known position (flush with the panel face, web extending inward). A stud-finder or magnet locates the vertical posts easily. Through-bolting to the angle web provides reliable, high-capacity anchorage comparable to steel stud framing.
 
 ### Summary — Conservative Capacity in kg per Panel
 
@@ -181,11 +186,11 @@ For builders and non-engineers, here are the same numbers expressed in kilograms
 
 | Load type | Direction | Conservative working capacity | What this means in practice |
 |-----------|-----------|-------------------------------|---------------------------|
-| **Racking (seismic/wind)** | Horizontal, in the wall plane | **~1,200–1,500 kg per panel** | A horizontal force of 1.2–1.5 tonnes applied at the top of a single panel before it should be considered at its working limit. A typical single-story house needs ~600 kg of racking resistance per meter of wall — one panel provides 2× that. |
+| **Racking (seismic/wind)** | Horizontal, in the wall plane | **~1,200–1,500 kg per panel** | A typical single-story house needs ~600 kg of racking resistance per meter of wall — one panel provides 2× that. |
 | **Out-of-plane (wind pressure)** | Perpendicular to wall face | **~90 kg spread over the panel face** | Equivalent to ~36 kg/m² uniform pressure. A person leaning hard against the wall (~80 kg on ~0.3 m²) is well within capacity. |
-| **Axial (vertical)** | Downward, through the panel | **~4,000 kg per panel** | The two side T-bars carry 4 tonnes — 10–20× more than a typical roof + upper floor per meter of wall. Panels can carry a second story and roof without a steel frame. |
+| **Axial (vertical)** | Downward, through the panel | **Far exceeds residential loads** | The two side L-angle posts alone carry many times a typical roof + upper floor per meter of wall. Panels can carry a second story and roof without a separate steel building frame. Exact capacity to be validated through testing. |
 | **Point load to mortar** | Pull-out / shear at anchor | **~15–25 kg per anchor** | A shelf bracket with 2 anchors holds 30–50 kg safely. |
-| **Point load to T-bar** | Through-bolt | **~50–100 kg per bolt** | A kitchen cabinet with 4 through-bolts holds 200–400 kg safely. |
+| **Point load to L-angle** | Through-bolt | **~50–100 kg per bolt** | A kitchen cabinet with 4 through-bolts holds 200–400 kg safely. |
 
 > **Important:** These are estimates, not tested values. They will be validated through physical testing. Do not use for structural engineering without independent verification. When in doubt, attach heavy items to the steel building frame, not to the panel.
 
@@ -224,6 +229,6 @@ Planned testing program:
 - [ ] **Connection tests** — panel-to-column bolt tab capacity, snap connector durability
 - [ ] **Long-term weathering tests** — accelerated aging of mortar-encased bamboo samples
 - [ ] **Acoustic transmission tests** (ASTM E90) — STC measurement
-- [ ] **Point load pull-out tests** — masonry anchor and through-bolt capacity in mortar + T-bar
+- [ ] **Point load pull-out tests** — masonry anchor and through-bolt capacity in mortar + L-angle frame
 
 Test results will be published in this repository as they become available. If you have access to testing facilities and want to contribute, please get in touch — collaborative testing across different bamboo species and mortar mixes will make this system stronger for everyone.

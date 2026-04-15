@@ -83,7 +83,7 @@ Dieses Paneelsystem löst den Zielkonflikt zwischen traditioneller und moderner 
 
 **Traditionell, wo es sichtbar ist.** Die Aussenfläche ist Kalkputz über Bambus und Mörtel — dieselben Materialien, die seit Jahrhunderten in Bahareque, Quincha, Flechtwerk und Tsuchikabe verwendet werden. Die Textur ist handgefertigt. Die Oberfläche atmet. Das Gebäude gehört zu seinem Ort.
 
-**Modern, wo es zählt.** Im Inneren jedes Paneels befindet sich ein feuerverzinkter T-bar-Stahlrahmen, der für seismische Lasten ausgelegt ist. Dieser Rahmen ist unsichtbar, sobald das Paneel fertiggestellt ist. Er trägt die strukturelle Realität, während die traditionellen Materialien die menschliche Erfahrung tragen.
+**Modern, wo es zählt.** Im Inneren jedes Paneels befindet sich ein feuerverzinkter L-Winkel-Stahlrahmen, der für seismische Lasten ausgelegt ist. Dieser Rahmen ist unsichtbar, sobald das Paneel fertiggestellt ist. Er trägt die strukturelle Realität, während die traditionellen Materialien die menschliche Erfahrung tragen.
 
 ## Permakultur-Integration
 
@@ -149,7 +149,7 @@ Die meistzitierte akademische Arbeit zum modernen Bahareque. Kaminskis [Design G
 
 Das weltweit am stärksten skalierte Bambus-Bausystem: über 2.400 Wohneinheiten auf den Philippinen, in Nepal, Indien und Sri Lanka gebaut. CBFT verwendet behandelte Bambusrahmen mit Metallverbindungen, geflachten Bambus (Esterilla) als Ausfachung, Drahtgitter und Zementmörtel. Paneele werden in Werkstätten vorgefertigt. Ausgelegt für Taifunwinde bis 300 km/h und Erdbeben bis Magnitude 7–8. Angestrebte Lebensdauer: ~60 Jahre. Schulung über die Bamboo Academy.
 
-**Wie sich dieses System unterscheidet:** CBFT verwendet Bambus/Holz als Rahmenstruktur. Unser System verwendet verzinkten T-bar-Stahl — mit höherer axialer Tragfähigkeit, längerer korrosionsgeschützter Lebensdauer (80–100 Jahre vs. 60) und einer gleichmässigen Klemmfläche für das Schraubsystem. CBFT enthält keine integrierte Elektrik. CBFT ist proprietär (schulungsbasierter Zugang); unser System ist Open Hardware.
+**Wie sich dieses System unterscheidet:** CBFT verwendet Bambus/Holz als Rahmenstruktur. Unser System verwendet verzinkten L-Winkel-Stahl — mit höherer axialer Tragfähigkeit, längerer korrosionsgeschützter Lebensdauer (80–100 Jahre vs. 60) und einer gleichmässigen Klemmfläche für das Schraubsystem. CBFT enthält keine integrierte Elektrik. CBFT ist proprietär (schulungsbasierter Zugang); unser System ist Open Hardware.
 
 - [BASE Bahay — Hilti Foundation](https://www.hiltifoundation.org/basebahaybamboo)
 - [BASE Builds](https://base-builds.com/tag/cement-bamboo-frame-technology-2/)
@@ -158,7 +158,7 @@ Das weltweit am stärksten skalierte Bambus-Bausystem: über 2.400 Wohneinheiten
 
 Neuere Forschung chinesischer Universitäten hat gesprühte Komposit-Mörtelwände mit originalen Bambusständern und **diagonaler Bambusverebung** getestet — strukturell die engste Übereinstimmung mit dem diagonalen Verstrebungskonzept unseres Paneels. Quasi-statische zyklische Belastungstests zeigten gute Energiedissipation und duktiles Versagensverhalten mit diagonalen Streifen. Der Mörtel wird gesprüht statt rüttelvergossen, und es gibt keinen Stahlrahmen.
 
-**Wie sich dieses System unterscheidet:** Unser Rütteltisch-Verguss erreicht eine vollständigere Mörtelfüllung (keine Hohlräume) ohne Sprühausrüstung. Der T-bar-Stahlrahmen fügt axiale Tragfähigkeit hinzu und bietet eine standardisierte Klemmfläche. Die chinesische Forschung liefert jedoch die beste veröffentlichte Validierung, dass diagonale Bambusverstrebung im Mörtelverbund strukturell funktioniert — wir bauen auf dieser Evidenz auf.
+**Wie sich dieses System unterscheidet:** Unser Vor-Ort-Vertikalguss (oder alternativer Werkstatt-Rütteltisch-Verguss) erreicht eine vollständigere Mörtelfüllung (keine Hohlräume) ohne Sprühausrüstung. Der L-Winkel-Stahlrahmen fügt axiale Tragfähigkeit hinzu und bietet eine standardisierte Klemmfläche. Die chinesische Forschung liefert jedoch die beste veröffentlichte Validierung, dass diagonale Bambusverstrebung im Mörtelverbund strukturell funktioniert — wir bauen auf dieser Evidenz auf.
 
 - [Diagonal bamboo strips seismic study (ScienceDirect)](https://www.sciencedirect.com/science/article/abs/pii/S2352710223020090)
 
@@ -202,7 +202,7 @@ Zur Klarstellung: Die folgenden Merkmale haben **kein dokumentiertes Äquivalent
 
 | Merkmal | Status |
 |---------|--------|
-| Verzinkter T-bar-Stahlrahmen für Bambuspaneele | Neuartig |
+| Verzinkter L-Winkel-Stahlrahmen für Bambuspaneele (Standard-Lagerprofil) | Neuartig |
 | Schraubklemmsystem (selbstjustierend bei Dickenvariation) | Neuartig |
 | Rütteltisch-Mörtelverguss auf Sandbett | Neuartig |
 | Integrierte 12V + 120V Snap-Connect-Elektrik | Neuartig |

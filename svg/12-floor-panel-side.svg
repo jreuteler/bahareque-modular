@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660" style="background:#ffffff">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="400" y="18" text-anchor="middle" font-size="12" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Floor Panel — Side View Variants</text>
+  <text x="400" y="32" text-anchor="middle" font-size="7" fill="#999" font-family="Helvetica,Arial,sans-serif">T 60×60 frame · bamboo bowstring · teak end blocks · NOT TO SCALE</text>
+
+  <!-- ============================================================ -->
+  <!-- A. 4m SINGLE ARCH (x=50 to x=650, width=600) -->
+  <!-- ============================================================ -->
+  <text x="350" y="52" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">A. 4m Span — Single Arch (150mm rise)</text>
+
+  <!-- TERRACOTTA TILES -->
+  <rect x="50" y="65" width="600" height="12" fill="#c67a3c" opacity="0.5" stroke="#a05a10" stroke-width="0.5"/>
+  <!-- CORK -->
+  <rect x="50" y="77" width="600" height="6" fill="#d4a050" opacity="0.4" stroke="#b08030" stroke-width="0.3"/>
+
+  <!-- MORTAR UPPER ZONE -->
+  <rect x="50" y="83" width="600" height="95" fill="#e8d8b0" opacity="0.45" stroke="#bbb" stroke-width="0.5"/>
+  <g fill="#a89060" opacity="0.25">
+    <circle cx="100" cy="103" r="1"/><circle cx="170" cy="118" r="1.2"/>
+    <circle cx="260" cy="98" r="0.8"/><circle cx="350" cy="123" r="1"/>
+    <circle cx="430" cy="108" r="1.1"/><circle cx="510" cy="128" r="0.9"/>
+    <circle cx="590" cy="113" r="1"/><circle cx="130" cy="138" r="1.2"/>
+  </g>
+
+  <!-- T-BAR WEB ZONE -->
+  <rect x="50" y="178" width="600" height="85" fill="#d4c4a8" opacity="0.4" stroke="#bbb" stroke-width="0.5"/>
+  <!-- Steel edges -->
+  <rect x="50" y="178" width="4" height="85" fill="#c0392b" opacity="0.6"/>
+  <rect x="646" y="178" width="4" height="85" fill="#c0392b" opacity="0.6"/>
+  <!-- Top of web -->
+  <rect x="50" y="178" width="600" height="3" fill="#c0392b" opacity="0.4"/>
+  <!-- Bottom flange -->
+  <rect x="50" y="260" width="600" height="3" fill="#c0392b" opacity="0.5"/>
+
+  <!-- TEAK END BLOCKS (60×60) -->
+  <rect x="54" y="183" width="30" height="38" fill="#8B6914" opacity="0.4" stroke="#6B4F10" stroke-width="0.8"/>
+  <rect x="616" y="183" width="30" height="38" fill="#8B6914" opacity="0.4" stroke="#6B4F10" stroke-width="0.8"/>
+
+  <!-- SINGLE BAMBOO ARCH (parabola, 150mm rise) -->
+  <path d="M 84,220 Q 350,88 616,220" fill="none" stroke="#5a7a3a" stroke-width="2.5" opacity="0.6"/>
+  <path d="M 84,223 Q 350,94 616,223" fill="none" stroke="#5a7a3a" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- BAMBOO TIE BUNDLE -->
+  <rect x="54" y="223" width="592" height="35" fill="#5a7a3a" opacity="0.35" stroke="#3a5a2a" stroke-width="0.8"/>
+  <g stroke="#3a5a2a" stroke-width="0.3" opacity="0.3">
+    <line x1="54" y1="230" x2="646" y2="230"/>
+    <line x1="54" y1="237" x2="646" y2="237"/>
+    <line x1="54" y1="244" x2="646" y2="244"/>
+    <line x1="54" y1="251" x2="646" y2="251"/>
+  </g>
+
+  <!-- LIME PLASTER ceiling -->
+  <rect x="50" y="263" width="600" height="5" fill="#f5f0e0" stroke="#ddd" stroke-width="0.5"/>
+
+  <!-- Wall supports -->
+  <rect x="20" y="83" width="30" height="180" fill="#d4c4a8" opacity="0.2" stroke="#888" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <rect x="650" y="83" width="30" height="180" fill="#d4c4a8" opacity="0.2" stroke="#888" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Labels (variant A) -->
+  <text x="670" y="103" font-size="7" fill="#a89060" font-family="Helvetica,Arial,sans-serif">mortar + pasto estrella</text>
+  <text x="670" y="195" font-size="6" fill="#8B6914" font-family="Helvetica,Arial,sans-serif">teak end block 60×60</text>
+  <text x="670" y="145" font-size="7" fill="#5a7a3a" font-family="Helvetica,Arial,sans-serif">bamboo arch (150mm rise)</text>
+  <text x="670" y="240" font-size="7" fill="#5a7a3a" font-family="Helvetica,Arial,sans-serif">bamboo tie (10 × 30×35)</text>
+  <text x="670" y="220" font-size="6" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">T 60×60 frame</text>
+  <text x="670" y="265" font-size="6" fill="#aaa" font-family="Helvetica,Arial,sans-serif">lime plaster ceiling</text>
+
+  <!-- Dimension -->
+  <line x1="50" y1="280" x2="650" y2="280" stroke="#333" stroke-width="0.5"/>
+  <line x1="50" y1="276" x2="50" y2="284" stroke="#333" stroke-width="0.5"/>
+  <line x1="650" y1="276" x2="650" y2="284" stroke="#333" stroke-width="0.5"/>
+  <text x="350" y="292" text-anchor="middle" font-size="7" fill="#333" font-family="Helvetica,Arial,sans-serif">4.0 m span</text>
+
+  <!-- Performance -->
+  <rect x="50" y="296" width="320" height="18" fill="#e8f0e6" stroke="#2d5a27" stroke-width="0.5" rx="3"/>
+  <text x="60" y="308" font-size="6" fill="#2d5a27" font-family="Helvetica,Arial,sans-serif">Thrust: 35 kN · Tie SF: 7.5 ultimate (10 strips) · No spine needed · All pieces ≤ 4m</text>
+
+  <!-- ============================================================ -->
+  <!-- B. 5m DOUBLE ARCH (x=50 to x=750, width=700) -->
+  <!-- ============================================================ -->
+  <text x="400" y="335" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">B. 5m Span — Double Arch with Central T-Bar (150mm rise each)</text>
+
+  <!-- TERRACOTTA TILES -->
+  <rect x="50" y="348" width="700" height="12" fill="#c67a3c" opacity="0.5" stroke="#a05a10" stroke-width="0.5"/>
+  <!-- CORK -->
+  <rect x="50" y="360" width="700" height="6" fill="#d4a050" opacity="0.4" stroke="#b08030" stroke-width="0.3"/>
+
+  <!-- MORTAR UPPER ZONE -->
+  <rect x="50" y="366" width="700" height="95" fill="#e8d8b0" opacity="0.45" stroke="#bbb" stroke-width="0.5"/>
+  <g fill="#a89060" opacity="0.25">
+    <circle cx="100" cy="386" r="1"/><circle cx="190" cy="401" r="1.2"/>
+    <circle cx="280" cy="381" r="0.8"/><circle cx="500" cy="406" r="1"/>
+    <circle cx="580" cy="391" r="1.1"/><circle cx="660" cy="411" r="0.9"/>
+    <circle cx="400" cy="396" r="1"/><circle cx="150" cy="421" r="1.2"/>
+  </g>
+
+  <!-- T-BAR WEB ZONE -->
+  <rect x="50" y="461" width="700" height="85" fill="#d4c4a8" opacity="0.4" stroke="#bbb" stroke-width="0.5"/>
+  <!-- Steel edges -->
+  <rect x="50" y="461" width="4" height="85" fill="#c0392b" opacity="0.6"/>
+  <rect x="746" y="461" width="4" height="85" fill="#c0392b" opacity="0.6"/>
+  <!-- Top of web -->
+  <rect x="50" y="461" width="700" height="3" fill="#c0392b" opacity="0.4"/>
+  <!-- Bottom flange -->
+  <rect x="50" y="543" width="700" height="3" fill="#c0392b" opacity="0.5"/>
+
+  <!-- CENTRAL T-BAR (blue) -->
+  <rect x="396" y="461" width="8" height="85" fill="#3a7db8" opacity="0.7" stroke="#2a6088" stroke-width="0.8"/>
+  <text x="400" y="360" text-anchor="middle" font-size="6" fill="#3a7db8" font-family="Helvetica,Arial,sans-serif">central T 60×60</text>
+
+  <!-- TEAK END BLOCKS (60×60) -->
+  <rect x="54" y="466" width="30" height="38" fill="#8B6914" opacity="0.4" stroke="#6B4F10" stroke-width="0.8"/>
+  <rect x="716" y="466" width="30" height="38" fill="#8B6914" opacity="0.4" stroke="#6B4F10" stroke-width="0.8"/>
+
+  <!-- LEFT ARCH (teak to center, 150mm rise) -->
+  <path d="M 84,503 Q 225,371 396,503" fill="none" stroke="#5a7a3a" stroke-width="2.5" opacity="0.6"/>
+  <path d="M 84,506 Q 225,377 396,506" fill="none" stroke="#5a7a3a" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- RIGHT ARCH (center to teak, 150mm rise) -->
+  <path d="M 404,503 Q 575,371 716,503" fill="none" stroke="#5a7a3a" stroke-width="2.5" opacity="0.6"/>
+  <path d="M 404,506 Q 575,377 716,506" fill="none" stroke="#5a7a3a" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- BAMBOO TIE BUNDLE -->
+  <rect x="54" y="506" width="692" height="35" fill="#5a7a3a" opacity="0.35" stroke="#3a5a2a" stroke-width="0.8"/>
+  <g stroke="#3a5a2a" stroke-width="0.3" opacity="0.3">
+    <line x1="54" y1="513" x2="746" y2="513"/>
+    <line x1="54" y1="520" x2="746" y2="520"/>
+    <line x1="54" y1="527" x2="746" y2="527"/>
+    <line x1="54" y1="534" x2="746" y2="534"/>
+  </g>
+
+  <!-- Cross-strips removed — mortar confinement sufficient for short 2.5m arch spans -->
+
+  <!-- LIME PLASTER ceiling -->
+  <rect x="50" y="546" width="700" height="5" fill="#f5f0e0" stroke="#ddd" stroke-width="0.5"/>
+
+  <!-- Wall supports -->
+  <rect x="20" y="366" width="30" height="180" fill="#d4c4a8" opacity="0.2" stroke="#888" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <rect x="750" y="366" width="30" height="180" fill="#d4c4a8" opacity="0.2" stroke="#888" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Labels (variant B) -->
+  <text x="770" y="386" font-size="7" fill="#a89060" font-family="Helvetica,Arial,sans-serif">mortar + pasto</text>
+  <text x="770" y="396" font-size="7" fill="#a89060" font-family="Helvetica,Arial,sans-serif">estrella</text>
+  <text x="770" y="478" font-size="6" fill="#8B6914" font-family="Helvetica,Arial,sans-serif">teak end block</text>
+  <text x="770" y="488" font-size="6" fill="#8B6914" font-family="Helvetica,Arial,sans-serif">60×60</text>
+  <text x="770" y="430" font-size="7" fill="#5a7a3a" font-family="Helvetica,Arial,sans-serif">bamboo arches</text>
+  <text x="770" y="440" font-size="6" fill="#5a7a3a" font-family="Helvetica,Arial,sans-serif">(150mm rise each)</text>
+  <text x="770" y="523" font-size="7" fill="#5a7a3a" font-family="Helvetica,Arial,sans-serif">bamboo tie</text>
+  <text x="770" y="533" font-size="6" fill="#5a7a3a" font-family="Helvetica,Arial,sans-serif">(10 × 30×35)</text>
+  <text x="770" y="503" font-size="6" fill="#c0392b" font-family="Helvetica,Arial,sans-serif">T 60×60 frame</text>
+  <text x="770" y="548" font-size="6" fill="#aaa" font-family="Helvetica,Arial,sans-serif">lime plaster ceiling</text>
+
+  <!-- Dimension: full span -->
+  <line x1="50" y1="563" x2="750" y2="563" stroke="#333" stroke-width="0.5"/>
+  <line x1="50" y1="559" x2="50" y2="567" stroke="#333" stroke-width="0.5"/>
+  <line x1="750" y1="559" x2="750" y2="567" stroke="#333" stroke-width="0.5"/>
+  <text x="400" y="575" text-anchor="middle" font-size="7" fill="#333" font-family="Helvetica,Arial,sans-serif">5.0 m span</text>
+
+  <!-- Dimension: half spans -->
+  <line x1="50" y1="555" x2="400" y2="555" stroke="#3a7db8" stroke-width="0.3"/>
+  <line x1="400" y1="555" x2="750" y2="555" stroke="#3a7db8" stroke-width="0.3"/>
+  <line x1="400" y1="551" x2="400" y2="559" stroke="#3a7db8" stroke-width="0.5"/>
+  <text x="225" y="554" text-anchor="middle" font-size="5" fill="#3a7db8" font-family="Helvetica,Arial,sans-serif">2.5m arch</text>
+  <text x="575" y="554" text-anchor="middle" font-size="5" fill="#3a7db8" font-family="Helvetica,Arial,sans-serif">2.5m arch</text>
+
+  <!-- Performance -->
+  <rect x="50" y="580" width="380" height="18" fill="#e8f0e6" stroke="#2d5a27" stroke-width="0.5" rx="3"/>
+  <text x="60" y="592" font-size="6" fill="#2d5a27" font-family="Helvetica,Arial,sans-serif">Thrust per arch: 55 kN · Tie SF: 4.8 ultimate (10 strips) · No spine · All pieces ≤ 2.5m · 75% less thrust</text>
+
+  <!-- ============================================================ -->
+  <!-- LEGEND -->
+  <!-- ============================================================ -->
+  <g transform="translate(50,608)" font-family="Helvetica,Arial,sans-serif" font-size="6" fill="#555">
+    <rect x="0" y="0" width="800" height="30" fill="white" stroke="#ddd" stroke-width="0.5" rx="3"/>
+    <rect x="10" y="5" width="8" height="4" fill="#c0392b" opacity="0.6"/><text x="22" y="10">T 60×60 frame</text>
+    <rect x="105" y="5" width="8" height="4" fill="#3a7db8" opacity="0.7"/><text x="117" y="10">Central T-bar</text>
+    <rect x="195" y="5" width="8" height="4" fill="#8B6914" opacity="0.4"/><text x="207" y="10">Teak 60×60</text>
+    <line x1="280" y1="7" x2="295" y2="7" stroke="#5a7a3a" stroke-width="2.5" opacity="0.5"/><text x="300" y="10">Bamboo arch</text>
+    <rect x="375" y="5" width="8" height="4" fill="#5a7a3a" opacity="0.35"/><text x="387" y="10">Bamboo tie</text>
+    <rect x="540" y="5" width="8" height="4" fill="#e8d8b0" opacity="0.45"/><text x="552" y="10">Mortar + fiber</text>
+    <rect x="630" y="5" width="8" height="4" fill="#c67a3c" opacity="0.5"/><text x="642" y="10">Tiles</text>
+    <rect x="10" y="18" width="8" height="4" fill="#d4a050" opacity="0.4"/><text x="22" y="23">Cork</text>
+    <rect x="70" y="18" width="8" height="4" fill="#f5f0e0"/><text x="82" y="23">Lime plaster</text>
+    <rect x="155" y="18" width="8" height="4" fill="#d4c4a8" opacity="0.4"/><text x="167" y="23">Web zone (mortar)</text>
+  </g>
+</svg>

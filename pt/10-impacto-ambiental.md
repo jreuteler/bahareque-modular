@@ -1,36 +1,57 @@
 # Impacto Ambiental
 
-## Pegada de Carbono por Painel
+## Pegada de Carbono por Painel — mistura base
+
+Os valores abaixo refletem a especificação base atual: estrutura de aço L 40×40×4 + 30 % de guadua na cavidade + argamassa cimento-areia (base) + reboco de cal de 10 mm em ambas as faces. Veja [Anatomia do Painel](02-anatomia-do-painel.md) e [Materiais](03-materiais.md) para detalhes.
 
 | Material | Qtd por painel | CO₂ incorporado (kg) | Fonte da emissão |
 |----------|----------------|---------------------|------------------|
-| Cimento Portland | 25 kg | 20,0 | Calcinação + combustível do forno (~0,8 kg CO₂/kg cimento) |
-| Perfil T de aço + tiras de fixação | ~8 kg aço | 14,4 | Siderurgia (~1,8 kg CO₂/kg aço) |
-| Galvanização (zinco) | ~0,3 kg zinco | 1,2 | Fundição de zinco (~4 kg CO₂/kg zinco) |
-| Areia | 100 kg | 0,5 | Extração + transporte |
-| Tela de galinheiro | ~1,5 kg | 2,7 | Produção de arame de aço |
+| Cimento Portland (~18 % da massa de argamassa) | ~54 kg | 43,2 | Calcinação + combustível do forno (~0,8 kg CO₂/kg cimento) |
+| Estrutura de aço cantoneira L + tiras de fixação | ~22 kg aço | 39,6 | Siderurgia (~1,8 kg CO₂/kg aço) |
+| Galvanização (zinco) | ~0,7 kg zinco | 2,8 | Fundição de zinco (~4 kg CO₂/kg zinco) |
+| Areia (~82 % da massa de argamassa) | ~240 kg | 1,2 | Extração + transporte |
+| Tela de galinheiro + tela de alumínio | ~2 kg | 3,6 | Produção de arame de aço |
 | Eletroduto de PVC | ~0,3 kg | 0,6 | Fabricação de PVC (~2 kg CO₂/kg) |
 | Cabos + conectores | ~0,5 kg | 1,5 | Cobre + plástico |
 | Blocos de PEAD | ~0,5 kg | 0,5 | Se reciclado: ~1 kg CO₂/kg (vs 3 para virgem) |
-| **Subtotal de emissões** | | **~41 kg CO₂** | |
-| Bambu (carbono sequestrado durante o crescimento) | ~10 kg peso seco | **−15 a −20 kg CO₂** | Bambu sequestra ~1,5–2 kg CO₂ por kg de massa seca |
-| Reboco de cal (reabsorve CO₂ durante carbonatação) | ~15 kg cal | **−5 a −8 kg CO₂** | Carbonatação da cal recaptura ~30–50% do CO₂ da calcinação |
-| **CO₂ líquido por painel** | | **~15–25 kg CO₂** | |
-| **CO₂ líquido por m² de parede** | | **~6–10 kg CO₂/m²** | |
+| Cal (no reboco, calcinação) | ~22 kg cal | 18,0 | Calcinação de calcário (~0,8 kg CO₂/kg cal) |
+| Fibra de PP (aditivo da argamassa) | ~0,2 kg | 0,4 | Produção de polipropileno |
+| **Subtotal de emissões** | | **~111 kg CO₂** | |
+| Bambu (carbono sequestrado durante o crescimento) | ~38 kg peso seco (30 % cavidade) | **−60 a −75 kg CO₂** | Bambu sequestra ~1,6–2,0 kg CO₂ por kg de massa seca |
+| Reboco de cal (reabsorve CO₂ durante carbonatação) | ~22 kg cal | **−6 a −9 kg CO₂** | Carbonatação da cal recaptura ~30–50 % do CO₂ da calcinação ao longo de décadas |
+| **CO₂ líquido por painel, mistura base** | | **~30–45 kg CO₂** | |
+| **CO₂ líquido por m² de parede, base** | | **~12–18 kg CO₂/m²** | |
+
+## Pegada de Carbono por Painel — mistura bahareque otimizada
+
+A mistura otimizada (cal pozolânica + capim-estrela + 30 % guadua + reboco 5 mm) reduz o carbono incorporado por meio de várias alavancas cumulativas:
+
+| Alavanca | Delta CO₂ por painel vs base |
+|---|---|
+| Substituir 30 % do cimento por cinzas volantes ou CCA | −10 a −13 kg |
+| Substituir argamassa de cimento Portland por cal hidráulica + pozolana | −8 a −12 kg |
+| Substituir fibra de PP por capim-estrela | −0,5 kg |
+| Reboco de cal de 5 mm em ambas as faces (−50 % volume de cal) | −9 kg de calcinação, +4 kg de menor recuperação por carbonatação = **−5 kg líquido** |
+| **Redução total** | **−24 a −30 kg CO₂ por painel** |
+| **CO₂ líquido por painel, mistura otimizada** | **~6 a 20 kg CO₂** |
+| **CO₂ líquido por m² de parede, otimizada** | **~3 a 8 kg CO₂/m²** |
+
+Com pozolanas disponíveis localmente (cinza vulcânica na região cafeeira colombiana, cinza de casca de arroz de Tolima/Valle del Cauca) e fibra de capim-estrela da própria propriedade, a mistura bahareque otimizada se aproxima de **carbono-neutra** por painel. Se o bambual for manejado como sumidouro de carbono (rotação com permanência da biomassa), o sistema se torna **carbono-negativo**: a parede absorve mais CO₂ ao longo da vida do que foi emitido para construí-la.
 
 ## Comparação com Sistemas de Parede Convencionais
 
-| Sistema de parede | kg CO₂ por m² | Proporção vs este sistema |
+| Sistema de parede | kg CO₂ por m² | Proporção vs painel base |
 |-------------------|---------------|--------------------------|
-| **Este sistema de painéis** | **6–10** | **1× (base)** |
-| Bloco de concreto (15 cm, rebocado) | 40–60 | 5–7× |
-| Tijolo cerâmico (rebocado) | 50–80 | 6–10× |
-| Parede de concreto armado (15 cm) | 70–100 | 8–12× |
-| Drywall sobre montantes de aço | 15–25 | 2–3× |
-| Bahareque convencional (reboco de barro) | 3–8 | 0,5–1× |
-| Bloco de adobe | 5–10 | 0,7–1× |
+| **Este sistema de painéis — mistura base** | **12–18** | **1× (base)** |
+| **Este sistema de painéis — mistura bahareque otimizada** | **3–8** | **~0,4× base** |
+| Bloco de concreto (15 cm, rebocado) | 40–60 | 3–4× base |
+| Tijolo cerâmico (rebocado) | 50–80 | 3–5× base |
+| Parede de concreto armado (15 cm) | 70–100 | 5–7× base |
+| Drywall sobre montantes de aço | 15–25 | 1–1,5× base |
+| Bahareque convencional (reboco de barro, sem estrutura de aço) | 3–8 | 0,3–0,5× base |
+| Bloco de adobe | 5–10 | 0,4–0,7× base |
 
-O sistema de painéis produz **5–10× menos CO₂ que bloco de concreto ou tijolo** — os dois materiais de parede mais comuns no mundo em desenvolvimento. É comparável à construção tradicional de terra, mas com desempenho estrutural e vida útil vastamente superiores.
+A mistura base do sistema de painéis produz **~3× menos CO₂ que bloco de concreto ou tijolo** — os dois materiais de parede mais comuns no mundo em desenvolvimento. A mistura bahareque otimizada se aproxima dos níveis da construção tradicional de terra, fornecendo desempenho estrutural e vida útil vastamente superiores.
 
 ## Carbono por Ano de Serviço
 

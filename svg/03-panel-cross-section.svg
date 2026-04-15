@@ -3,7 +3,7 @@
   <text x="350" y="22" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" font-family="Helvetica,Arial,sans-serif">Panel Cross Section — Horizontal Cut at Top/Bottom T-bar</text>
   <text x="350" y="38" text-anchor="middle" font-size="9" fill="#888" font-family="Helvetica,Arial,sans-serif">Looking down · Shows full wall assembly · Exterior left, interior right</text>
 
-  <!-- Same scale as 02 context: 2px/mm. 85mm=170px. 30mm flange=60px. 3mm=6px -->
+  <!-- Scale: 2px/mm. 85mm wall=170px. T 60×60: 60mm flange=120px, 7mm=14px, 53mm web=106px -->
   <!-- Add lime plaster (5mm=10px) + chicken wire (2mm=4px) on each side -->
   <!-- Total: 10 + 4 + 170 + 4 + 10 = 198px -->
   <!-- Center at x=250. Ext plaster x=151, Int plaster end x=349 -->
@@ -24,7 +24,7 @@
     <!-- Flange (30mm=60px wide, 3mm=6px thick, at exterior face) -->
     <rect x="180" y="0" width="140" height="6" fill="#c0392b" stroke="#911" stroke-width="0.8"/>
 
-    <!-- Web (3mm=6px wide, extends 85mm inward) -->
+    <!-- Web (7mm=14px wide, extends 53mm inward) -->
     <rect x="247" y="6" width="6" height="204" fill="#c0392b" stroke="#911" stroke-width="0.5"/>
 
     <!-- HDPE blocks (against web, full height, both sides) -->
@@ -112,8 +112,8 @@
   <g font-family="Helvetica,Arial,sans-serif">
     <text x="390" y="73" font-size="7" fill="#f0e0c0" stroke="#999" stroke-width="0.3">← lime plaster (3–5 mm)</text>
     <text x="390" y="87" font-size="7" fill="#888">← chicken wire</text>
-    <text x="390" y="101" font-size="7" fill="#c0392b">← flange (30 mm)</text>
-    <text x="390" y="115" font-size="7" fill="#c0392b">← web (3 mm, 85 mm deep)</text>
+    <text x="390" y="101" font-size="7" fill="#c0392b">← flange (60 mm)</text>
+    <text x="390" y="115" font-size="7" fill="#c0392b">← web (7 mm, 53 mm deep)</text>
     <text x="390" y="133" font-size="7" fill="#4a90a8">← HDPE (full height, against web)</text>
     <text x="390" y="147" font-size="7" fill="#1a3a6a">← notch for diagonal (corners only)</text>
     <text x="390" y="165" font-size="7" fill="#8B5A2B">← bamboo strips (cross-section)</text>

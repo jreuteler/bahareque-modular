@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" style="background:#fff">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20.0" y="22.0" font-size="14" fill="#333" text-anchor="start" font-family="Helvetica,sans-serif" font-weight="bold">Universal Panel — Parametric Drawing</text>
+<text x="20.0" y="38.0" font-size="8" fill="#888" text-anchor="start" font-family="Helvetica,sans-serif">T 60x60 | Wall 150mm | Panel 1000x3000mm | Protrusion 60mm | M12 bolts</text>
+<text x="50.0" y="62.0" font-size="10" fill="#333" text-anchor="start" font-family="Helvetica,sans-serif" font-weight="bold">T-bar Profile (5:1)</text>
+<rect x="50.0" y="75.0" width="300.0" height="35.0" fill="#c0392b" opacity="0.75" stroke="#922b20" stroke-width="1.2"/>
+<rect x="182.5" y="110.0" width="35.0" height="265.0" fill="#c0392b" opacity="0.75" stroke="#922b20" stroke-width="1.2"/>
+<line x1="50.0" y1="63.0" x2="350.0" y2="63.0" stroke="#555" stroke-width="0.5"/>
+<line x1="50.0" y1="60.0" x2="50.0" y2="66.0" stroke="#555" stroke-width="0.5"/>
+<line x1="350.0" y1="60.0" x2="350.0" y2="66.0" stroke="#555" stroke-width="0.5"/>
+<text x="200.0" y="75.0" font-size="6" fill="#555" text-anchor="middle" font-family="Helvetica,sans-serif">60mm</text>
+<line x1="362.0" y1="75.0" x2="362.0" y2="375.0" stroke="#555" stroke-width="0.5"/>
+<line x1="359.0" y1="75.0" x2="365.0" y2="75.0" stroke="#555" stroke-width="0.5"/>
+<line x1="359.0" y1="375.0" x2="365.0" y2="375.0" stroke="#555" stroke-width="0.5"/>
+<text x="370.0" y="228.0" font-size="6" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">60mm</text>
+<text x="45.0" y="94.5" font-size="5" fill="#555" text-anchor="end" font-family="Helvetica,sans-serif">7</text>
+<text x="177.5" y="244.5" font-size="5" fill="#555" text-anchor="end" font-family="Helvetica,sans-serif">53</text>
+<text x="221.5" y="244.5" font-size="5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">7</text>
+<text x="450.0" y="62.0" font-size="10" fill="#333" text-anchor="start" font-family="Helvetica,sans-serif" font-weight="bold">Side View (3:1 horiz, 1:1 vert)</text>
+<text x="517.5" y="72.0" font-size="7" fill="#555" text-anchor="middle" font-family="Helvetica,sans-serif">EXT</text>
+<text x="832.5" y="72.0" font-size="7" fill="#555" text-anchor="middle" font-family="Helvetica,sans-serif">INT</text>
+<rect x="664.5" y="80.0" width="21.0" height="60.0" fill="#c0392b" opacity="0.5" stroke="#922b20" stroke-width="0.8"/>
+<circle cx="675.0" cy="98.0" r="7.0" fill="white" stroke="#333" stroke-width="0.8"/>
+<circle cx="675.0" cy="122.0" r="7.0" fill="white" stroke="#333" stroke-width="0.8"/>
+<rect x="585.0" y="77.0" width="180.0" height="66.0" fill="#3a7db8" opacity="0.1" stroke="#3a7db8" stroke-width="0.5" stroke-dasharray="3,2"/>
+<rect x="450.0" y="140.0" width="450.0" height="350.0" fill="#d4c4a8" opacity="0.2"/>
+<rect x="585.0" y="140.0" width="180.0" height="7.0" fill="#c0392b" opacity="0.7" stroke="#922b20" stroke-width="0.8"/>
+<rect x="664.5" y="147.0" width="21.0" height="343.0" fill="#c0392b" opacity="0.4" stroke="#922b20" stroke-width="0.5"/>
+<rect x="585.0" y="147.0" width="90.0" height="30.0" fill="#4a90a8" opacity="0.4" stroke="#2a7088" stroke-width="0.8"/>
+<rect x="685.5" y="147.0" width="90.0" height="30.0" fill="#4a90a8" opacity="0.4" stroke="#2a7088" stroke-width="0.8"/>
+<rect x="555.0" y="155.0" width="120.0" height="14.0" fill="#1a3a6a" opacity="0.5"/>
+<rect x="685.5" y="155.0" width="120.0" height="14.0" fill="#1a3a6a" opacity="0.5"/>
+<rect x="585.0" y="177.0" width="180.0" height="3.0" fill="#7a5a2a" opacity="0.6" stroke="#5a3a1a" stroke-width="0.5"/>
+<rect x="604.5" y="182.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="685.5" y="182.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="604.5" y="222.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="685.5" y="222.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="604.5" y="262.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="685.5" y="262.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="604.5" y="302.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="685.5" y="302.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="604.5" y="342.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="685.5" y="342.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="604.5" y="382.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="685.5" y="382.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<line x1="450.0" y1="180.0" x2="585.0" y2="180.0" stroke="#999" stroke-width="0.4"/>
+<text x="517.5" y="177.0" font-size="5" fill="#999" text-anchor="middle" font-family="Helvetica,sans-serif">45.0mm</text>
+<line x1="450.0" y1="495.0" x2="900.0" y2="515.0" stroke="#aaa" stroke-width="0.8" stroke-dasharray="6,3"/>
+<line x1="450.0" y1="515.0" x2="900.0" y2="495.0" stroke="#aaa" stroke-width="0.8" stroke-dasharray="6,3"/>
+<text x="675.0" y="509.0" font-size="6" fill="#aaa" text-anchor="middle" font-family="Helvetica,sans-serif">~2300mm repeating</text>
+<rect x="450.0" y="525.0" width="450.0" height="350.0" fill="#d4c4a8" opacity="0.2"/>
+<rect x="664.5" y="525.0" width="21.0" height="343.0" fill="#c0392b" opacity="0.4" stroke="#922b20" stroke-width="0.5"/>
+<rect x="604.5" y="545.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="685.5" y="545.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="604.5" y="585.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="685.5" y="585.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="604.5" y="625.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="685.5" y="625.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="604.5" y="665.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="685.5" y="665.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="604.5" y="705.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="685.5" y="705.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="604.5" y="745.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="685.5" y="745.0" width="60.0" height="20.0" fill="#5a7a3a" opacity="0.4" stroke="#3a5a2a" stroke-width="0.5"/>
+<rect x="585.0" y="835.0" width="180.0" height="3.0" fill="#7a5a2a" opacity="0.6" stroke="#5a3a1a" stroke-width="0.5"/>
+<rect x="585.0" y="838.0" width="90.0" height="30.0" fill="#4a90a8" opacity="0.4" stroke="#2a7088" stroke-width="0.8"/>
+<rect x="685.5" y="838.0" width="90.0" height="30.0" fill="#4a90a8" opacity="0.4" stroke="#2a7088" stroke-width="0.8"/>
+<rect x="585.0" y="868.0" width="180.0" height="7.0" fill="#c0392b" opacity="0.7" stroke="#922b20" stroke-width="0.8"/>
+<rect x="664.5" y="875.0" width="21.0" height="60.0" fill="#c0392b" opacity="0.5" stroke="#922b20" stroke-width="0.8"/>
+<circle cx="675.0" cy="893.0" r="7.0" fill="white" stroke="#333" stroke-width="0.8"/>
+<circle cx="675.0" cy="917.0" r="7.0" fill="white" stroke="#333" stroke-width="0.8"/>
+<line x1="450.0" y1="950.0" x2="900.0" y2="950.0" stroke="#555" stroke-width="0.5"/>
+<line x1="450.0" y1="947.0" x2="450.0" y2="953.0" stroke="#555" stroke-width="0.5"/>
+<line x1="900.0" y1="947.0" x2="900.0" y2="953.0" stroke="#555" stroke-width="0.5"/>
+<text x="675.0" y="962.0" font-size="6" fill="#555" text-anchor="middle" font-family="Helvetica,sans-serif">150mm</text>
+<text x="915.0" y="110.0" font-size="6" fill="#c0392b" text-anchor="start" font-family="Helvetica,sans-serif">protrusion 60mm + M12</text>
+<text x="915.0" y="145.5" font-size="6" fill="#c0392b" text-anchor="start" font-family="Helvetica,sans-serif">flange 60x7</text>
+<text x="915.0" y="164.0" font-size="6" fill="#2a7088" text-anchor="start" font-family="Helvetica,sans-serif">HDPE 30x30</text>
+<text x="915.0" y="179.0" font-size="6" fill="#7a5a2a" text-anchor="start" font-family="Helvetica,sans-serif">V-clamp</text>
+<text x="915.0" y="192.0" font-size="6" fill="#5a7a3a" text-anchor="start" font-family="Helvetica,sans-serif">bamboo 20x20@20</text>
+<text x="50.0" y="462.0" font-size="10" fill="#333" text-anchor="start" font-family="Helvetica,sans-serif" font-weight="bold">Top View (1:3)</text>
+<rect x="50.0" y="470.0" width="300.0" height="45.0" fill="#d4c4a8" opacity="0.2" stroke="#333" stroke-width="1"/>
+<rect x="32.0" y="491.4" width="18.0" height="2.1" fill="#c0392b" opacity="0.6" stroke="#922b20" stroke-width="0.8"/>
+<rect x="350.0" y="491.4" width="18.0" height="2.1" fill="#c0392b" opacity="0.6" stroke="#922b20" stroke-width="0.8"/>
+<rect x="32.0" y="483.5" width="336.0" height="18.0" fill="#c0392b" opacity="0.3" stroke="#922b20" stroke-width="0.5"/>
+<rect x="50.0" y="483.5" width="2.1" height="18.0" fill="#c0392b" opacity="0.5" stroke="#922b20" stroke-width="0.5"/>
+<rect x="347.9" y="483.5" width="2.1" height="18.0" fill="#c0392b" opacity="0.5" stroke="#922b20" stroke-width="0.5"/>
+<rect x="50.0" y="491.4" width="300.0" height="2.1" fill="#c0392b" opacity="0.4" stroke="#922b20" stroke-width="0.3"/>
+<circle cx="37.4" cy="492.5" r="2.1" fill="white" stroke="#333" stroke-width="0.5"/>
+<circle cx="44.6" cy="492.5" r="2.1" fill="white" stroke="#333" stroke-width="0.5"/>
+<circle cx="355.4" cy="492.5" r="2.1" fill="white" stroke="#333" stroke-width="0.5"/>
+<circle cx="362.6" cy="492.5" r="2.1" fill="white" stroke="#333" stroke-width="0.5"/>
+<line x1="50.0" y1="527.0" x2="350.0" y2="527.0" stroke="#555" stroke-width="0.5"/>
+<line x1="50.0" y1="524.0" x2="50.0" y2="530.0" stroke="#555" stroke-width="0.5"/>
+<line x1="350.0" y1="524.0" x2="350.0" y2="530.0" stroke="#555" stroke-width="0.5"/>
+<text x="200.0" y="539.0" font-size="6" fill="#555" text-anchor="middle" font-family="Helvetica,sans-serif">1000mm</text>
+<line x1="17.0" y1="470.0" x2="17.0" y2="515.0" stroke="#555" stroke-width="0.5"/>
+<line x1="14.0" y1="470.0" x2="20.0" y2="470.0" stroke="#555" stroke-width="0.5"/>
+<line x1="14.0" y1="515.0" x2="20.0" y2="515.0" stroke="#555" stroke-width="0.5"/>
+<text x="25.0" y="495.5" font-size="6" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">150mm</text>
+<text x="200.0" y="481.2" font-size="6" fill="#555" text-anchor="middle" font-family="Helvetica,sans-serif">EXT</text>
+<text x="200.0" y="503.8" font-size="6" fill="#555" text-anchor="middle" font-family="Helvetica,sans-serif">INT</text>
+<text x="450.0" y="462.0" font-size="10" fill="#333" text-anchor="start" font-family="Helvetica,sans-serif" font-weight="bold">Face View — Exterior (1:3)</text>
+<rect x="450.0" y="470.0" width="300.0" height="900.0" fill="#d4c4a8" opacity="0.15" stroke="#333" stroke-width="1.5"/>
+<rect x="432.0" y="470.0" width="336.0" height="2.1" fill="#c0392b" opacity="0.7" stroke="#922b20" stroke-width="0.8"/>
+<rect x="432.0" y="1367.9" width="336.0" height="2.1" fill="#c0392b" opacity="0.7" stroke="#922b20" stroke-width="0.8"/>
+<rect x="450.0" y="470.0" width="2.1" height="900.0" fill="#c0392b" opacity="0.5" stroke="#922b20" stroke-width="0.5"/>
+<rect x="747.9" y="470.0" width="2.1" height="900.0" fill="#c0392b" opacity="0.5" stroke="#922b20" stroke-width="0.5"/>
+<circle cx="437.4" cy="471.1" r="2.1" fill="white" stroke="#333" stroke-width="0.5"/>
+<circle cx="444.6" cy="471.1" r="2.1" fill="white" stroke="#333" stroke-width="0.5"/>
+<circle cx="755.4" cy="471.1" r="2.1" fill="white" stroke="#333" stroke-width="0.5"/>
+<circle cx="762.6" cy="471.1" r="2.1" fill="white" stroke="#333" stroke-width="0.5"/>
+<circle cx="437.4" cy="1369.0" r="2.1" fill="white" stroke="#333" stroke-width="0.5"/>
+<circle cx="444.6" cy="1369.0" r="2.1" fill="white" stroke="#333" stroke-width="0.5"/>
+<circle cx="755.4" cy="1369.0" r="2.1" fill="white" stroke="#333" stroke-width="0.5"/>
+<circle cx="762.6" cy="1369.0" r="2.1" fill="white" stroke="#333" stroke-width="0.5"/>
+<rect x="452.1" y="472.1" width="295.8" height="9.0" fill="#4a90a8" opacity="0.15" stroke="#2a7088" stroke-width="0.5"/>
+<rect x="452.1" y="1358.9" width="295.8" height="9.0" fill="#4a90a8" opacity="0.15" stroke="#2a7088" stroke-width="0.5"/>
+<rect x="452.1" y="483.1" width="295.8" height="2.0" fill="#7a5a2a" opacity="0.5"/>
+<rect x="452.1" y="1356.9" width="295.8" height="2.0" fill="#7a5a2a" opacity="0.5"/>
+<rect x="455.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="467.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="479.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="491.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="503.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="515.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="527.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="539.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="551.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="563.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="575.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="587.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="599.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="611.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="623.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="635.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="647.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="659.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="671.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="683.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="695.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="707.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="719.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<rect x="731.1" y="486.1" width="6.0" height="867.8" fill="#5a7a3a" opacity="0.2" stroke="#3a5a2a" stroke-width="0.3"/>
+<line x1="457.5" y1="483.1" x2="742.5" y2="1356.9" stroke="#c47a2a" stroke-width="1.5"/>
+<line x1="742.5" y1="483.1" x2="457.5" y2="1356.9" stroke="#c47a2a" stroke-width="1.5"/>
+<line x1="450.0" y1="1385.0" x2="750.0" y2="1385.0" stroke="#555" stroke-width="0.5"/>
+<line x1="450.0" y1="1382.0" x2="450.0" y2="1388.0" stroke="#555" stroke-width="0.5"/>
+<line x1="750.0" y1="1382.0" x2="750.0" y2="1388.0" stroke="#555" stroke-width="0.5"/>
+<text x="600.0" y="1397.0" font-size="6" fill="#555" text-anchor="middle" font-family="Helvetica,sans-serif">1000mm</text>
+<line x1="432.0" y1="1400.0" x2="768.0" y2="1400.0" stroke="#555" stroke-width="0.5"/>
+<line x1="432.0" y1="1397.0" x2="432.0" y2="1403.0" stroke="#555" stroke-width="0.5"/>
+<line x1="768.0" y1="1397.0" x2="768.0" y2="1403.0" stroke="#555" stroke-width="0.5"/>
+<text x="600.0" y="1412.0" font-size="6" fill="#555" text-anchor="middle" font-family="Helvetica,sans-serif">1120mm (incl. protrusions)</text>
+<line x1="765.0" y1="470.0" x2="765.0" y2="1370.0" stroke="#555" stroke-width="0.5"/>
+<line x1="762.0" y1="470.0" x2="768.0" y2="470.0" stroke="#555" stroke-width="0.5"/>
+<line x1="762.0" y1="1370.0" x2="768.0" y2="1370.0" stroke="#555" stroke-width="0.5"/>
+<text x="773.0" y="923.0" font-size="6" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">3000mm</text>
+<text x="441.0" y="466.0" font-size="5" fill="#c0392b" text-anchor="middle" font-family="Helvetica,sans-serif">60</text>
+<text x="759.0" y="466.0" font-size="5" fill="#c0392b" text-anchor="middle" font-family="Helvetica,sans-serif">60</text>
+<text x="600.0" y="920.0" font-size="8" fill="#aaa" text-anchor="middle" font-family="Helvetica,sans-serif">EXTERIOR</text>
+<text x="900.0" y="70.0" font-size="9" fill="#333" text-anchor="start" font-family="Helvetica,sans-serif" font-weight="bold">Legend</text>
+<rect x="900.0" y="78.0" width="12.0" height="10.0" fill="#c0392b" opacity="0.7" stroke="#888" stroke-width="0.3"/>
+<text x="916.0" y="86.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">Steel T 60x60 frame</text>
+<rect x="900.0" y="93.0" width="12.0" height="10.0" fill="#5a7a3a" opacity="0.35" stroke="#888" stroke-width="0.3"/>
+<text x="916.0" y="101.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">Guadua strips 20x20mm</text>
+<rect x="900.0" y="108.0" width="12.0" height="10.0" fill="#c47a2a" opacity="0.4" stroke="#888" stroke-width="0.3"/>
+<text x="916.0" y="116.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">Diagonal X-bracing</text>
+<rect x="900.0" y="123.0" width="12.0" height="10.0" fill="#4a90a8" opacity="0.4" stroke="#888" stroke-width="0.3"/>
+<text x="916.0" y="131.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">HDPE block 30x30mm</text>
+<rect x="900.0" y="138.0" width="12.0" height="10.0" fill="#1a3a6a" opacity="0.5" stroke="#888" stroke-width="0.3"/>
+<text x="916.0" y="146.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">Notch 40x14mm</text>
+<rect x="900.0" y="153.0" width="12.0" height="10.0" fill="#d4c4a8" opacity="0.35" stroke="#888" stroke-width="0.3"/>
+<text x="916.0" y="161.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">Mortar (45.0mm/side)</text>
+<rect x="900.0" y="168.0" width="12.0" height="10.0" fill="#7a5a2a" opacity="0.6" stroke="#888" stroke-width="0.3"/>
+<text x="916.0" y="176.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">V-tooth clamping strip</text>
+<rect x="900.0" y="183.0" width="12.0" height="10.0" fill="white" opacity="1.0" stroke="#888" stroke-width="0.3"/>
+<text x="916.0" y="191.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">Bolt M12 (hole dia 14mm)</text>
+<rect x="900.0" y="198.0" width="12.0" height="10.0" fill="#3a7db8" opacity="0.2" stroke="#888" stroke-width="0.3"/>
+<text x="916.0" y="206.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">Connector ring</text>
+<text x="900.0" y="230.0" font-size="9" fill="#333" text-anchor="start" font-family="Helvetica,sans-serif" font-weight="bold">6 Rules</text>
+<text x="900.0" y="244.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">1. One frame: 4 T-bars, 90 deg, 1000x3000mm</text>
+<text x="900.0" y="257.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">2. Short sides protrude 60mm each end</text>
+<text x="900.0" y="270.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">3. Long sides flush (panel-to-panel shear)</text>
+<text x="900.0" y="283.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">4. Bolts: 2x M12/protrusion, edge 18mm</text>
+<text x="900.0" y="296.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">5. Symmetric — no this-end-up</text>
+<text x="900.0" y="309.0" font-size="6.5" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">6. Infill defines function</text>
+<text x="900.0" y="340.0" font-size="9" fill="#333" text-anchor="start" font-family="Helvetica,sans-serif" font-weight="bold">Cut List (per panel)</text>
+<text x="900.0" y="354.0" font-size="6" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">2x side T-bar: 3000mm (flush)</text>
+<text x="900.0" y="366.0" font-size="6" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">2x top/bot T-bar: 1120mm (protrudes 60mm/end)</text>
+<text x="900.0" y="378.0" font-size="6" fill="#555" text-anchor="start" font-family="Helvetica,sans-serif">Total steel: 8.2m @ 0.37 kg/m</text>
+</svg>

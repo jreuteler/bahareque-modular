@@ -2,31 +2,40 @@
 
 ![Vue eclatee du panneau](svg/01-panel-exploded.svg)
 
+> **Mise a jour SVG en attente :** certains diagrammes de ce chapitre passent de l'ancienne specification de profile en T a la specification actuelle de **corniere L 40x40x4 mm**. Certains SVG specifiques au profile en T ont ete temporairement supprimes en attendant leur regeneration. Voir [`SVG-STATUS.md`](../SVG-STATUS.md) a la racine du depot pour la liste complete de regeneration des SVG.
+
 ## Vue d'ensemble
 
-Chaque panneau mural mesure **1,0 m de large x 2,5 m de haut** (orientation verticale), pese environ **155 kg**, et contient une structure integree, une isolation et des systemes electriques. Une seule taille. Quatre variantes. Entierement prefabrique en atelier, transporte sur site, boulonne dans une ossature metallique de batiment.
+Chaque panneau mural mesure **1,0 m de large x 2,5 m de haut** (orientation verticale). Le poids du panneau depend de la phase de production : un **assemblage a sec** (cadre + bambou + grillage + equipements, avant coulage du mortier) pese environ **~75 kg** et c'est la forme livree de l'atelier au chantier pour le coulage du mortier in situ. Une fois le mortier coule, durci et les finitions appliquees sur place (enduit, badigeon de chaux) :
 
-> **Evolutivite :** La hauteur de 2,5 m convient aux hauteurs de plafond residentielles standard dans le monde entier. Le systeme s'adapte a toute hauteur -- 3,0 m pour les hauts plafonds, 2,7 m pour les espaces commerciaux, 2,0 m pour les cloisons. Seuls les profiles en T verticaux et les lattes de bambou changent de longueur. Le gabarit de cadre, le systeme de serrage, le procede de mortier et la disposition electrique restent identiques.
+- **Poids de base du mur fini :** environ **~440 kg** par panneau (~ 176 kg/m²) avec le melange standard documente (30 % de teneur en guadua dans la cavite + mortier ciment-sable + 10 mm d'enduit a la chaux sur les deux faces).
+- **Melange bahareque optimise :** environ **~360 kg** par panneau (~ 144 kg/m²) avec mortier a la chaux pouzzolanique et fibres de pasto estrella + 30 % de guadua + 5 mm d'enduit a la chaux sur les deux faces. Pratique traditionnelle du bahareque colombien transposee au systeme modulaire ; energie grise legerement moindre, cout un peu plus bas, performance structurelle integralement preservee.
 
-## Cadre : profile en T 30x30x3 mm
+Chaque panneau contient une structure portante, une isolation et des systemes electriques integres. Une seule taille. Quatre variantes.
 
-![Profil en T](svg/02-tbar-profile.svg)
+> **Evolutivite :** La hauteur de 2,5 m convient aux hauteurs de plafond residentielles standard dans le monde entier. Le systeme s'adapte a toute hauteur -- 3,0 m pour les hauts plafonds, 2,7 m pour les espaces commerciaux, 2,0 m pour les cloisons. Seuls les cornieres L verticales et les lattes de bambou changent de longueur. Le gabarit de cadre, le systeme de serrage, le procede de mortier et la disposition electrique restent identiques.
 
-Le cadre du panneau est un profile en T en acier galvanise a chaud :
+## Cadre : corniere L 40x40x4 mm
 
-- **Aile :** 30 mm de large x 3 mm d'epaisseur -- orientee vers l'exterieur, affleurant la surface du mortier
-- **Ame :** 3 mm d'epaisseur -- s'etend vers l'interieur, fournit la profondeur structurelle et la surface de serrage
-- **Profiles en T haut/bas :** ame de 85 mm de hauteur (profondeur structurelle horizontale)
-- **Profiles en T lateraux :** ame de 30 mm de hauteur
-- **Angles :** Soudes dans un gabarit -- tous les cadres sont identiques
-- **Trous de serrage :** Perces tous les ~70 mm le long des ames superieure et inferieure (un trou pour deux lattes de bambou)
+> _Diagramme du profile du cadre en attente -- regeneration du SVG pour L 40x40x4 pas encore disponible. Voir `SVG-STATUS.md`._
+
+Le cadre du panneau est une corniere L commerciale (profile angulaire a ailes egales lamine a chaud, ASTM A36 / equivalent ICONTEC, galvanise a chaud) :
+
+- **Profile :** L 40x40x4 mm (deux ailes de 40 mm de large, 4 mm d'epaisseur)
+- **Une aile (semelle) :** 40 mm x 4 mm -- orientee vers l'exterieur, affleurant la surface du mortier
+- **Autre aile (ame) :** 40 mm x 4 mm -- s'etend vers l'interieur, fournit la profondeur structurelle et la surface de serrage des lattes de bambou et du grillage
+- **Epaisseur du mur :** ~85 mm (l'ame de la corniere L se trouve dans le noyau de mortier, le mortier remplit ~41 mm de chaque cote du plan de l'ame)
+- **Angles :** Coupes en onglet a 45° et soudes dans un gabarit -- tous les cadres identiques. Goussets d'angle optionnels pour rigidite supplementaire
+- **Trous de serrage :** Perces tous les ~70 mm le long des ailes superieure et inferieure (un trou pour deux lattes de bambou). Bandes de serrage de bambou (plat 40x3) vissees dans ces trous
+- **Disponibilite :** Article courant, disponible mondialement chez tout marchand d'acier majeur. En Colombie : Gerdau Diaco, Aceros Arequipa, Acesco, Ferrasa, Colmena/Sidenal. Stock en barres de 6 m, decoupe a la longueur a la tronconneuse. Pas de fabrication speciale, pas d'ame asymetrique
+- **Pourquoi corniere L plutot que profile en T :** Structurellement equivalent pour le cadre noye en permanence dans le mortier (voir [Performance structurelle](05-performance-structurelle.md)), poids d'acier nettement inferieur (~22 kg/panneau contre ~45 kg pour T 60×60×7), cout inferieur, emissions de CO₂ grises inferieures et -- decisif -- disponible comme stock courant au lieu d'une fabrication asymetrique sur mesure
 
 Le cadre est l'epine dorsale structurelle. Tout le reste s'y fixe.
 
 ## Blocs d'espacement en PEHD
 
 - **Dimensions :** section de 30 x 30 mm, sur toute la largeur de 1 m
-- **Position :** Montes sur les ames des profiles en T superieur et inferieur (2 par panneau)
+- **Position :** Montes sur les ames des cornieres L superieure et inferieure (2 par panneau)
 - **Fonction :** Espacent les lattes de bambou de 30 mm par rapport a l'ame en haut et en bas
 - **Encoches d'angle :** Decoupes de 10 x 10 mm a chaque coin pour ancrer les lattes diagonales au niveau de l'ame
 - **Materiau :** PEHD recycle (a partir de plaques ou de tubes). Zero pourriture, zero corrosion, dimensionnellement stable
@@ -37,7 +46,7 @@ Le cadre est l'epine dorsale structurelle. Tout le reste s'y fixe.
 - **Dimensions :** ~20 mm de large x 2 500 mm de long
 - **Espacement :** ~20 mm entre les lattes (penetration du mortier)
 - **Quantite :** ~27 lattes par face, ~54 au total par panneau
-- **Fixation :** Serrees par vis sur l'ame du profile en T en haut et en bas via des bandes de serrage
+- **Fixation :** Serrees par vis sur l'ame de la corniere L en haut et en bas via des bandes de serrage
 
 ![Contreventement diagonal](svg/10-panel-face-view.svg)
 
@@ -116,11 +125,12 @@ Toutes les variantes partagent le meme cadre, le meme remplissage en bambou, le 
 
 | Composant | Poids |
 |-----------|-------|
-| Ossature en acier | ~18 kg |
+| Ossature en acier | ~22 kg |
 | Blocs en PEHD | ~1 kg |
-| Lattes de bambou + diagonales | ~12 kg |
-| Mortier (85 mm x 1 m x 2,5 m) | ~120 kg |
+| Lattes de bambou + diagonales | ~38 kg |
+| Mortier (cavite ~0,147 m³, durci) | ~294 kg |
 | Fil, grillage, gaine, cables | ~6 kg |
-| **Total** | **~155 kg** |
+| Enduit a la chaux (10 mm les deux faces) | ~100 kg |
+| **Total panneau fini, melange de base** | **~460 kg** |
 
-Porte par 3 a 4 personnes a l'aide d'un simple gabarit de transport.
+Pour le melange bahareque optimise (chaux pouzzolanique + pasto estrella + enduit 5 mm) : ~380 kg fini. Poids d'expedition de l'assemblage a sec (avant coulage) : ~75 kg, portable par 2 personnes avec une simple sangle.
